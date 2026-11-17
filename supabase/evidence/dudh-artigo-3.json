@@ -1,0 +1,22 @@
+{
+  "provision_key": "DUDH/art-00003",
+  "applicable_edital_items": {
+    "CFO_2027": "9.1",
+    "CFSD_2025": "4.3"
+  },
+  "source_extract": "dudh-artigo-3.txt",
+  "source_artifact_format": "UTF-8, LF, cabeçalho e texto transcrito da tradução institucional do UNICEF",
+  "adoption_source_url": "https://digitallibrary.un.org/record/210080",
+  "version": {
+    "id": "660f5530-a16a-539d-81a7-54f6e6d9a1f9",
+    "provision_id": "15b41b6b-70ef-472c-8228-ba0cb0b8dd9f",
+    "valid_from": "1948-12-10",
+    "valid_until": null,
+    "heading": null,
+    "body": "Todo ser humano tem direito à vida, à liberdade e à segurança pessoal.",
+    "revoked": false,
+    "source_url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
+    "source_sha256": "c2f47fd54e52becc415ecfb6a932bdd1ee63acd9750768a9221c61c692a172ca",
+    "review_evidence": "Artigo 3 conferido na tradução institucional do UNICEF Brasil. A Resolução 217 A (III) foi adotada pela Assembleia Geral da ONU em 10/12/1948, conforme o registro oficial A/RES/217(III). A data do registro é a adoção da declaração, não a vigência de um tratado. SHA-256 do extrato UTF-8 versionado, não do HTML inteiro."
+  }
+}
