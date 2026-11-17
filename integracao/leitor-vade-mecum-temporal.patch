@@ -1,0 +1,172 @@
+diff --git a/src/components/app/notice-legal-reading.tsx b/src/components/app/notice-legal-reading.tsx
+new file mode 100644
+index 0000000..bcbfc96
+--- /dev/null
++++ b/src/components/app/notice-legal-reading.tsx
+@@ -0,0 +1,112 @@
++import { useQuery } from "@tanstack/react-query";
++import { untypedSupabase } from "@/lib/supabase";
++import { formatLegalReadingText } from "@/lib/legal-reading-format";
++
++interface NoticeOption {
++  id: string;
++  title: string;
++}
++
++interface NoticeVersion {
++  status: "available" | "revoked" | "pending_notice" | "pending_version" | "outside_recorded_scope";
++  cutoff_on: string | null;
++  heading: string | null;
++  body: string | null;
++  source_url: string | null;
++  edition_source_url: string | null;
++}
++
++interface Props {
++  noticeId: string;
++  setNoticeId: (value: string) => void;
++  mode: "current" | "notice" | "compare";
++  setMode: (value: "current" | "notice" | "compare") => void;
++  provisionId: string | null;
++  currentBody: string | null;
++  fontSize: number;
++  userId: string | undefined;
++}
++
++export function NoticeLegalReading({
++  noticeId, setNoticeId, mode, setMode, provisionId, currentBody, fontSize, userId,
++}: Props) {
++  const notices = useQuery({
++    queryKey: ["notice-legal-options", userId],
++    enabled: Boolean(userId),
++    queryFn: async () => {
++      const result = await untypedSupabase.from("notices").select("id,title").order("year", { ascending: false });
++      if (result.error) throw result.error;
++      return (result.data ?? []) as NoticeOption[];
++    },
++  });
++  const historical = useQuery({
++    queryKey: ["notice-legal-version", userId, noticeId, provisionId],
++    enabled: Boolean(userId && provisionId && noticeId && mode !== "current"),
++    retry: false,
++    queryFn: async () => {
++      const result = await untypedSupabase.rpc("resolve_notice_legal_provision", {
++        p_notice_id: noticeId,
++        p_provision_id: provisionId,
++      });
++      if (result.error) throw result.error;
++      return (result.data as NoticeVersion[] | null)?.[0] ?? null;
++    },
++  });
++  if (!userId) return null;
++
++  const version = historical.data;
++  const equal = version?.status === "available" && currentBody
++    ? formatLegalReadingText(version.body ?? "") === formatLegalReadingText(currentBody)
++    : null;
++  const historicalReady = Boolean(noticeId && provisionId);
++  return (
++    <section aria-label="Redação legislativa" className="space-y-3 rounded-lg border border-border p-3">
++      <label className="block text-sm font-semibold">
++        Redação legislativa
++        <select aria-label="Redação legislativa" className="mt-1 block w-full rounded-md border border-border bg-background p-2"
++          value={mode} onChange={(event) => {
++            const value = event.target.value;
++            if (value === "current" || value === "notice" || value === "compare") setMode(value);
++          }}>
++          <option value="current">Legislação atual</option>
++          <option value="notice">Legislação do edital</option>
++          <option value="compare">Comparar redações</option>
++        </select>
++      </label>
++      {mode !== "current" && <>
++        <label className="block text-sm font-semibold">
++          Edital
++          <select className="mt-1 block w-full rounded-md border border-border bg-background p-2"
++            value={noticeId} onChange={(event) => setNoticeId(event.target.value)}>
++            <option value="">Selecionar edital</option>
++            {notices.data?.map((notice) => <option key={notice.id} value={notice.id}>{notice.title}</option>)}
++          </select>
++        </label>
++        {notices.isError && <p role="alert">Não foi possível carregar os editais.</p>}
++        {!historicalReady && <p role="status">Selecione um edital e um dispositivo cadastrado para consultar a redação histórica.</p>}
++        {historicalReady && historical.isPending && <p role="status">Consultando redação do edital…</p>}
++        {historical.isError && <p role="alert">A consulta histórica está indisponível. Você pode abrir a legislação atual no seletor.</p>}
++        {version && <div className="space-y-2">
++          {version.cutoff_on && <p className="text-sm font-semibold">Data de corte do edital: {version.cutoff_on.split("-").reverse().join("/")}</p>}
++          {version.status === "outside_recorded_scope"
++            ? <p role="status">Dispositivo sem vínculo registrado com este edital.</p>
++            : (version.status === "pending_notice" || version.status === "pending_version") && <p role="status">Redação histórica pendente de certificação.</p>}
++          {version.status === "revoked" && <p role="status">Dispositivo revogado na data de corte.</p>}
++          {version.status === "available" && <>
++            {version.heading && <h3 className="font-bold">{version.heading}</h3>}
++            <p className="whitespace-pre-line break-words text-justify" lang="pt-BR" style={{ fontSize, lineHeight: 1.8 }}>
++              {formatLegalReadingText(version.body ?? "")}
++            </p>
++          </>}
++          {mode === "compare" && equal !== null && <p className="text-sm font-semibold">
++            {equal ? "As redações exibidas são iguais." : "O texto atual difere da redação do edital."}
++          </p>}
++          <div className="flex flex-wrap gap-3 text-sm">
++            {version.source_url && <a className="underline" href={version.source_url} rel="noreferrer" target="_blank">Fonte da redação</a>}
++            {version.edition_source_url && <a className="underline" href={version.edition_source_url} rel="noreferrer" target="_blank">Fonte do edital</a>}
++          </div>
++        </div>}
++      </>}
++    </section>
++  );
++}
+diff --git a/src/routes/app.ementario.tsx b/src/routes/app.ementario.tsx
+index 4b52aba..cdda5dd 100644
+--- a/src/routes/app.ementario.tsx
++++ b/src/routes/app.ementario.tsx
+@@ -1 +1,2 @@
++import { NoticeLegalReading } from "@/components/app/notice-legal-reading";
+ import { LegalArticleTree } from "@/components/app/legal-article-tree";
+@@ -41,2 +42,5 @@ function Ementario(){
+  const {fontSize,decrease,increase}=useLegalFontSize();
++ const [noticeId,setNoticeId]=useState("");
++ const [readingMode,setReadingMode]=useState<"current"|"notice"|"compare">("current");
++ const showCurrent=readingMode!=="notice"||!user;
+  const [term,setTerm]=useState("");const [law,setLaw]=useState<Law|null>(null);const [article,setArticle]=useState<Article|null>(null);
+@@ -278,7 +282,7 @@ function Ementario(){
+       </form>
+-      {remoteNumber!==null && remoteArticle.isLoading && <p role="status" className="text-xs text-muted-foreground">Consultando art. {remoteNumber} na fonte oficial…</p>}
+-      {remoteNumber!==null && remoteArticle.isSuccess && !remoteArticle.data && <p className="text-xs text-muted-foreground">O texto do art. {remoteNumber} não pôde ser obtido com segurança neste momento. Consulte a fonte oficial pelo botão acima.</p>}
++      {showCurrent && remoteNumber!==null && remoteArticle.isLoading && <p role="status" className="text-xs text-muted-foreground">Consultando art. {remoteNumber} na fonte oficial…</p>}
++      {showCurrent && remoteNumber!==null && remoteArticle.isSuccess && !remoteArticle.data && <p className="text-xs text-muted-foreground">O texto do art. {remoteNumber} não pôde ser obtido com segurança neste momento. Consulte a fonte oficial pelo botão acima.</p>}
+       {error&&!panel&&<p role="alert" className="text-xs text-destructive">{error}</p>}
+-      {law && !isStaticProvisionId(article?.id) && <div className="flex justify-end"><ReportContentError targetType={article ? "legal_provision" : "legal_document"} targetId={article?.id || law.id} targetLabel={`${law.title}${article ? " — "+article.provision_label : remoteNumber!==null ? " — Art. "+remoteNumber : ""}`} targetContext={bodyText || law.title} /></div>}
+-      {bodyText&&<div className="flex justify-end"><LegalFontControls fontSize={fontSize} decrease={decrease} increase={increase}/></div>}
++      {showCurrent && law && !isStaticProvisionId(article?.id) && <div className="flex justify-end"><ReportContentError targetType={article ? "legal_provision" : "legal_document"} targetId={article?.id || law.id} targetLabel={`${law.title}${article ? " — "+article.provision_label : remoteNumber!==null ? " — Art. "+remoteNumber : ""}`} targetContext={bodyText || law.title} /></div>}
++      {(bodyText||!showCurrent)&&<div className="flex justify-end"><LegalFontControls fontSize={fontSize} decrease={decrease} increase={increase}/></div>}
+       <nav aria-label="Navegador rápido de artigos" className="sticky top-0 z-20 -mx-1 flex min-w-0 items-center justify-between gap-2 border-y border-border/60 bg-background/95 px-2 py-2 shadow-sm backdrop-blur-sm">
+@@ -296,3 +300,8 @@ function Ementario(){
+        </nav>
+-       {bodyText?<article ref={articleCardRef} className="min-w-0 space-y-5 scroll-mt-16 border-t border-border/60 pt-5">
++       <NoticeLegalReading noticeId={noticeId} setNoticeId={setNoticeId} mode={readingMode}
++         setMode={(next)=>{if(next==="notice"){closePanel();setDesktopNotebookOpen(false);}setReadingMode(next);}}
++         provisionId={article&&!isStaticProvisionId(article.id)?article.id:null}
++         currentBody={bodyText} fontSize={fontSize} userId={user?.id}/>
++       {user&&readingMode==="compare"&&<h3 className="text-sm font-semibold">Legislação atual</h3>}
++       {showCurrent&&<>{bodyText?<article ref={articleCardRef} className="min-w-0 space-y-5 scroll-mt-16 border-t border-border/60 pt-5">
+        {article?.hierarchy_path?.length?<div aria-label="Localização na legislação" className="flex flex-wrap gap-x-1 gap-y-1 text-xs text-muted-foreground">{article.hierarchy_path.map((item,i)=><span key={i}>{i>0?" › ":""}{item}</span>)}</div>:null}
+@@ -321,6 +330,6 @@ function Ementario(){
+        </div>
+-      </details>
++      </details></>}
+     </div>}
+    </main>
+-   {law&&<aside aria-label="Caderno de estudos" className="hidden min-w-0 self-start overflow-y-auto rounded-xl border border-border bg-secondary/10 p-4 xl:sticky xl:top-6 xl:block xl:max-h-[calc(100dvh-3rem)]">
++   {showCurrent&&law&&<aside aria-label="Caderno de estudos" className="hidden min-w-0 self-start overflow-y-auto rounded-xl border border-border bg-secondary/10 p-4 xl:sticky xl:top-6 xl:block xl:max-h-[calc(100dvh-3rem)]">
+      <DesktopLegalNotebook key={law.id+":"+(article?.id||remoteNumber||"lei")} law={law} article={article} remoteNumber={remoteNumber} notes={visibleNotes} userId={user?.id??null}
+@@ -330,3 +339,3 @@ function Ementario(){
+   </div>
+-  <Sheet open={desktopNotebookOpen&&Boolean(law)} onOpenChange={setDesktopNotebookOpen}>
++  <Sheet open={showCurrent&&desktopNotebookOpen&&Boolean(law)} onOpenChange={setDesktopNotebookOpen}>
+     <SheetContent side="right" className="hidden w-[min(440px,90vw)] overflow-y-auto lg:block xl:hidden">
+@@ -337,3 +346,3 @@ function Ementario(){
+   </Sheet>
+-  {law&&bodyText&&<div className="fixed bottom-[calc(6rem+env(safe-area-inset-bottom))] right-4 z-40 flex items-center gap-2 sm:bottom-6 sm:right-6 xl:right-[388px] 2xl:right-[448px]" aria-label="Ferramentas de marcação do Vade Mecum">
++  {showCurrent&&law&&bodyText&&<div className="fixed bottom-[calc(6rem+env(safe-area-inset-bottom))] right-4 z-40 flex items-center gap-2 sm:bottom-6 sm:right-6 xl:right-[388px] 2xl:right-[448px]" aria-label="Ferramentas de marcação do Vade Mecum">
+      {captured&&<button type="button" onClick={discardCapture} aria-label="Descartar seleção" className="flex h-10 w-10 items-center justify-center rounded-full border border-border bg-background/95 text-muted-foreground shadow-lg backdrop-blur-sm"><X className="h-4 w-4"/></button>}
