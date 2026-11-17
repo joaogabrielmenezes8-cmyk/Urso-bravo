@@ -1,9 +1,78 @@
+diff --git a/src/components/app/notice-legal-reading.test.tsx b/src/components/app/notice-legal-reading.test.tsx
+new file mode 100644
+index 0000000..4c5ba98
+--- /dev/null
++++ b/src/components/app/notice-legal-reading.test.tsx
+@@ -0,0 +1,63 @@
++import { renderToStaticMarkup } from "react-dom/server";
++import { beforeEach, describe, expect, it, vi } from "vitest";
++import { NoticeLegalReading } from "./notice-legal-reading";
++
++const queries = vi.hoisted(() => ({
++  notices: [{ id: "fixture-notice", title: "CFO de teste" }],
++  version: {
++    status: "available",
++    cutoff_on: "2026-09-03",
++    heading: null,
++    body: "Redação anterior.",
++    source_url: "https://example.test/anterior",
++    edition_source_url: "https://example.test/edital",
++  },
++  keys: [] as unknown[][],
++}));
++vi.mock("@tanstack/react-query", () => ({
++  useQuery: ({ queryKey, enabled }: { queryKey: unknown[]; enabled: boolean }) => {
++    queries.keys.push(queryKey);
++    return {
++      data: !enabled ? undefined : queryKey[0] === "notice-legal-options" ? queries.notices : queries.version,
++      isPending: false, isError: false,
++    };
++  },
++}));
++vi.mock("@/lib/supabase", () => ({ untypedSupabase: {} }));
++
++function markup(mode: "current" | "notice" | "compare", text = "Redação posterior.") {
++  return renderToStaticMarkup(<NoticeLegalReading
++    noticeId="fixture-notice" revisionId="fixture-revision" mode={mode} setMode={() => {}}
++    setNoticeId={() => {}} provisionId="fixture-provision" currentBody={text} fontSize={16} userId="fixture-user"
++  />);
++}
++
++describe("redação por edital no leitor", () => {
++  beforeEach(() => {
++    queries.keys.length = 0;
++    queries.version.status = "available";
++  });
++
++  it("mantém a consulta da redação anterior vinculada à edição e à revisão", () => {
++    const html = markup("notice");
++    expect(html).toContain("Redação anterior.");
++    expect(html).not.toContain("Redação posterior.");
++    expect(html).toContain("03/09/2026");
++    expect(queries.keys[1]).toEqual([
++      "notice-legal-version", "fixture-user", "fixture-notice", "fixture-provision", "fixture-revision",
++    ]);
++  });
++
++  it("identifica diferença e igualdade em comparação", () => {
++    expect(markup("compare")).toContain("O texto atual difere");
++    expect(markup("compare", "Redação anterior.")).toContain("As redações exibidas são iguais.");
++    expect(markup("compare", "Artigo 3\nRedação anterior.")).toContain("As redações exibidas são iguais.");
++  });
++
++  it("sinaliza ausência de certificação e mantém o modo atual independente", () => {
++    queries.version.status = "pending_version";
++    expect(markup("notice")).toContain("Redação histórica pendente de certificação.");
++    expect(markup("notice")).not.toContain("Redação posterior.");
++    expect(markup("current")).not.toContain("pendente de certificação");
++  });
++});
 diff --git a/src/components/app/notice-legal-reading.tsx b/src/components/app/notice-legal-reading.tsx
 new file mode 100644
-index 0000000..bcbfc96
+index 0000000..5790512
 --- /dev/null
 +++ b/src/components/app/notice-legal-reading.tsx
-@@ -0,0 +1,112 @@
+@@ -0,0 +1,121 @@
 +import { useQuery } from "@tanstack/react-query";
 +import { untypedSupabase } from "@/lib/supabase";
 +import { formatLegalReadingText } from "@/lib/legal-reading-format";
@@ -24,6 +93,7 @@ index 0000000..bcbfc96
 +
 +interface Props {
 +  noticeId: string;
++  revisionId: string | undefined;
 +  setNoticeId: (value: string) => void;
 +  mode: "current" | "notice" | "compare";
 +  setMode: (value: "current" | "notice" | "compare") => void;
@@ -33,8 +103,15 @@ index 0000000..bcbfc96
 +  userId: string | undefined;
 +}
 +
++function comparableBody(text: string): string {
++  return formatLegalReadingText(text)
++    .replace(/^(?:artigo\s+|art\.\s*)\d+(?:-[a-z])?[º°]?(?:[.\s]+|\s*[–—:]\s*)/iu, "")
++    .replace(/\s+/gu, " ")
++    .trim();
++}
++
 +export function NoticeLegalReading({
-+  noticeId, setNoticeId, mode, setMode, provisionId, currentBody, fontSize, userId,
++  noticeId, revisionId, setNoticeId, mode, setMode, provisionId, currentBody, fontSize, userId,
 +}: Props) {
 +  const notices = useQuery({
 +    queryKey: ["notice-legal-options", userId],
@@ -46,13 +123,14 @@ index 0000000..bcbfc96
 +    },
 +  });
 +  const historical = useQuery({
-+    queryKey: ["notice-legal-version", userId, noticeId, provisionId],
++    queryKey: ["notice-legal-version", userId, noticeId, provisionId, revisionId],
 +    enabled: Boolean(userId && provisionId && noticeId && mode !== "current"),
 +    retry: false,
 +    queryFn: async () => {
 +      const result = await untypedSupabase.rpc("resolve_notice_legal_provision", {
 +        p_notice_id: noticeId,
 +        p_provision_id: provisionId,
++        ...(revisionId ? {p_revision_id: revisionId} : {}),
 +      });
 +      if (result.error) throw result.error;
 +      return (result.data as NoticeVersion[] | null)?.[0] ?? null;
@@ -62,7 +140,7 @@ index 0000000..bcbfc96
 +
 +  const version = historical.data;
 +  const equal = version?.status === "available" && currentBody
-+    ? formatLegalReadingText(version.body ?? "") === formatLegalReadingText(currentBody)
++    ? comparableBody(version.body ?? "") === comparableBody(currentBody)
 +    : null;
 +  const historicalReady = Boolean(noticeId && provisionId);
 +  return (
@@ -116,20 +194,284 @@ index 0000000..bcbfc96
 +    </section>
 +  );
 +}
+diff --git a/src/components/app/question-notice-reading.tsx b/src/components/app/question-notice-reading.tsx
+new file mode 100644
+index 0000000..660314b
+--- /dev/null
++++ b/src/components/app/question-notice-reading.tsx
+@@ -0,0 +1,45 @@
++import { Link } from "@tanstack/react-router";
++import { useQuery } from "@tanstack/react-query";
++import { untypedSupabase } from "@/lib/supabase";
++import { useAuth } from "@/lib/auth";
++import type { QuestionNoticeContext } from "@/lib/question-notice-context";
++
++export function useQuestionNoticeContext(questionId: string, attemptId?: string) {
++  const { user } = useAuth();
++  return useQuery({
++    queryKey: ["question-notice-context", user?.id, questionId, attemptId],
++    enabled: Boolean(user),
++    retry: false,
++    queryFn: async () => {
++      const result = await untypedSupabase.rpc("resolve_question_notice_legal_context", {
++        p_question_id: questionId, ...(attemptId ? { p_attempt_id: attemptId } : {}),
++      });
++      if (result.error) throw result.error;
++      return result.data as QuestionNoticeContext;
++    },
++  });
++}
++
++export function QuestionNoticeReading({ questionId, attemptId }: { questionId: string; attemptId?: string }) {
++  const { user } = useAuth();
++  const query = useQuestionNoticeContext(questionId, attemptId);
++  const context = query.data;
++  return (
++    <section aria-label="Legislação do edital" className="space-y-2 rounded-lg border border-border p-3 text-sm">
++      <h2 className="font-semibold">Legislação do edital</h2>
++      {user && query.isPending && <p role="status">Consultando a redação do edital…</p>}
++      {(!user || query.isError || (context && context.status !== "available")) &&
++        <p role="status">Fundamentação legislativa do edital pendente de certificação ou indisponível.</p>}
++      {context?.cutoff_on && <p>Data de corte: {context.cutoff_on.split("-").reverse().join("/")}</p>}
++      {context?.references?.map((ref, index) => (
++        <details key={ref.version_id + ":" + index}>
++          <summary>{ref.title} {ref.label}</summary>
++          <p className="whitespace-pre-line">{ref.body}</p>
++          <a href={ref.source_url} target="_blank" rel="noreferrer" className="mr-3 underline">Fonte da redação</a>
++          <Link to="/app/ementario" search={{law: ref.law_code, article: ref.article_key,
++            edital: context.notice_id, revisao: context.revision_id}} target="_blank" rel="noopener noreferrer" className="underline">Abrir no Vade Mecum</Link>
++        </details>
++      ))}
++    </section>
++  );
++}
+diff --git a/src/components/app/question-tutor.tsx b/src/components/app/question-tutor.tsx
+index 9a87d19..e4f7d9c 100644
+--- a/src/components/app/question-tutor.tsx
++++ b/src/components/app/question-tutor.tsx
+@@ -2,3 +2,3 @@ import { useState } from "react";
+ import { supabase } from "@/lib/supabase";
+-import { FunctionsHttpError } from "@supabase/supabase-js";
++import { useQuestionNoticeContext } from "./question-notice-reading";
+ import { useAuth } from "@/lib/auth";
+@@ -9,4 +9,6 @@ type Msg = { role: "user" | "assistant"; content: string };
+ 
+-export function QuestionTutor({ questionId, explanation, legalBasis }: { questionId: string; explanation: string | null; legalBasis: string | null }) {
++export function QuestionTutor({ questionId }: { questionId: string; explanation?: string | null; legalBasis?: string | null }) {
+   const { user } = useAuth();
++  const { data: context } = useQuestionNoticeContext(questionId);
++  const revisionId = context?.status === "available" ? context.revision_id : undefined;
+   const [level, setLevel] = useState<Level>("iniciante");
+@@ -18,3 +20,3 @@ export function QuestionTutor({ questionId, explanation, legalBasis }: { questio
+   async function ask(text: string) {
+-    if (!user || !text.trim() || loading) return;
++    if (!user || !revisionId || !text.trim() || loading) return;
+     setError("");
+@@ -27,3 +29,3 @@ export function QuestionTutor({ questionId, explanation, legalBasis }: { questio
+       if (!accessToken) throw new Error("Entre novamente na sua conta para usar o tutor.");
+-      const data = await askQuestionTutor({ data: { accessToken, questionId, level, message: newMessage.content, history: previous } });
++      const data = await askQuestionTutor({ data: { accessToken, questionId, revisionId, level, message: newMessage.content, history: previous } });
+       if (!data.ok) throw new Error(data.error);
+@@ -33,19 +35,3 @@ export function QuestionTutor({ questionId, explanation, legalBasis }: { questio
+       const reason = cause instanceof Error ? cause.message : "Não foi possível obter uma resposta.";
+-      // A provider outage must not make the explain action useless.
+-      // This is labelled editorial content, never an invented AI answer.
+-      if (explanation?.trim()) {
+-        const introduction = level === "iniciante"
+-          ? "Explicação básica a partir do comentário editorial:"
+-          : level === "intermediario"
+-            ? "Fundamentação resumida a partir do comentário editorial:"
+-            : "Comentário jurídico disponível (sem análise adicional de IA):";
+-        setMessages((before) => [...before, newMessage, {
+-          role: "assistant",
+-          content: introduction + "\\n" + explanation.trim() +
+-            (legalBasis?.trim() ? "\\nBase legal citada: " + legalBasis.trim() : "") +
+-            "\\nA explicação personalizada está temporariamente indisponível. Este texto é editorial e não foi gerado por IA.",
+-        }]);
+-        setDraft("");
+-      }
+-      setError(reason.includes("non-2xx status code") ? "IA indisponível. Foi exibido o comentário editorial como alternativa." : reason);
++      setError(reason);
+     } finally {
+@@ -70,6 +56,4 @@ export function QuestionTutor({ questionId, explanation, legalBasis }: { questio
+       </div>
+-      {explanation && <div><p className="text-xs font-semibold">Comentário editorial</p><p className="whitespace-pre-line text-sm text-muted-foreground">{explanation}</p></div>}
+-      {legalBasis && <p className="text-xs text-muted-foreground"><strong>Base legal:</strong> {legalBasis}</p>}
+       <button type="button" onClick={() => void ask("Explique a alternativa correta, os erros das demais e a norma aplicável neste nível.")}
+-        disabled={!user || loading} className="rounded-lg border border-primary px-3 py-2 text-sm font-semibold text-primary disabled:opacity-50">
++        disabled={!user || !revisionId || loading} className="rounded-lg border border-primary px-3 py-2 text-sm font-semibold text-primary disabled:opacity-50">
+         Explicar no nível {level}
+@@ -84,3 +68,3 @@ export function QuestionTutor({ questionId, explanation, legalBasis }: { questio
+           className="min-w-0 flex-1 rounded-lg border border-input bg-background px-3 py-2 text-sm" />
+-        <button type="submit" disabled={!user || loading || !draft.trim()}
++        <button type="submit" disabled={!user || !revisionId || loading || !draft.trim()}
+           className="rounded-lg bg-primary px-4 py-2 text-sm font-bold text-primary-foreground disabled:opacity-50">
+@@ -89,2 +73,3 @@ export function QuestionTutor({ questionId, explanation, legalBasis }: { questio
+       </form>
++      {user && !revisionId && <p role="status" className="text-xs text-muted-foreground">Tutor disponível após certificação da fundamentação do edital.</p>}
+       {!user && <p className="text-xs text-muted-foreground">Entre na sua conta para conversar com o tutor.</p>}
+diff --git a/src/lib/question-notice-context.test.ts b/src/lib/question-notice-context.test.ts
+new file mode 100644
+index 0000000..147b741
+--- /dev/null
++++ b/src/lib/question-notice-context.test.ts
+@@ -0,0 +1,37 @@
++import { describe, expect, it } from "vitest";
++import { tutorNoticeEvidence, type QuestionNoticeContext } from "./question-notice-context";
++
++const reference = {
++  title: "Norma de teste",
++  label: "Art. 1",
++  law_code: "TESTE",
++  article_key: "art-00001",
++  version_id: "fixture-version",
++  body: "Redação aplicável ao edital",
++  source_url: "https://example.test/ato",
++};
++
++describe("contexto temporal do tutor", () => {
++  it("recusa fundamentação parcial mesmo quando há um dispositivo conferido", () => {
++    const context: QuestionNoticeContext = {
++      status: "pending_references", cutoff_on: "2024-05-09", references: [reference],
++    };
++    expect(tutorNoticeEvidence(context)).toBeNull();
++  });
++
++  it("usa o texto e a fonte da revisão selecionada", () => {
++    const context: QuestionNoticeContext = {
++      status: "available", cutoff_on: "2024-05-09", references: [reference],
++    };
++    expect(tutorNoticeEvidence(context)).toBe(
++      ["Data de corte: 2024-05-09", [
++        reference.title, reference.label, reference.body, reference.source_url,
++      ].join("\n")].join("\n\n"),
++    );
++  });
++
++  it("não monta contexto sem data de corte nem sem texto certificado", () => {
++    expect(tutorNoticeEvidence({ status: "available", references: [reference] })).toBeNull();
++    expect(tutorNoticeEvidence({ status: "available", cutoff_on: "2024-05-09", references: [] })).toBeNull();
++  });
++});
+diff --git a/src/lib/question-notice-context.ts b/src/lib/question-notice-context.ts
+new file mode 100644
+index 0000000..890fbbe
+--- /dev/null
++++ b/src/lib/question-notice-context.ts
+@@ -0,0 +1,23 @@
++export interface QuestionNoticeContext {
++  status: "available" | "pending_question" | "pending_attempt" | "pending_notice" | "pending_references";
++  notice_id?: string;
++  revision_id?: string;
++  cutoff_on?: string;
++  references?: Array<{
++    title: string;
++    label: string | null;
++    law_code: string;
++    article_key: string;
++    version_id: string;
++    body: string;
++    source_url: string;
++  }>;
++}
++
++export function tutorNoticeEvidence(context: QuestionNoticeContext): string | null {
++  if (context.status !== "available" || !context.cutoff_on || !context.references?.length) return null;
++  const citations = context.references.map(
++    (ref) => [ref.title, ref.label, ref.body, ref.source_url].filter(Boolean).join("\n"),
++  );
++  return ["Data de corte: " + context.cutoff_on, ...citations].join("\n\n");
++}
+diff --git a/src/lib/question-tutor.functions.ts b/src/lib/question-tutor.functions.ts
+index f2f6524..29dcdb6 100644
+--- a/src/lib/question-tutor.functions.ts
++++ b/src/lib/question-tutor.functions.ts
+@@ -2,2 +2,3 @@ import { createServerFn } from "@tanstack/react-start";
+ import { z } from "zod";
++import { tutorNoticeEvidence, type QuestionNoticeContext } from "./question-notice-context";
+ import { authUrl, authPublicKey } from "./auth-config";
+@@ -16,2 +17,3 @@ export const askQuestionTutor = createServerFn({ method: "POST" })
+     questionId: z.string().uuid(),
++    revisionId: z.string().uuid(),
+     level: z.enum(["iniciante", "intermediario", "avancado"]),
+@@ -25,3 +27,3 @@ export const askQuestionTutor = createServerFn({ method: "POST" })
+ 
+-    const select = "statement,official_answer_key,current_answer_key,explanation,legal_basis,question_options(label,content,is_currently_correct,sort_order),question_sources(title,citation)";
++    const select = "statement,origin,official_answer_key,current_answer_key,question_options(label,content,is_currently_correct,sort_order)";
+     const qRes = await fetch(`${authUrl}/rest/v1/questions?id=eq.${data.questionId}&select=${encodeURIComponent(select)}`, { headers });
+@@ -31,2 +33,11 @@ export const askQuestionTutor = createServerFn({ method: "POST" })
+ 
++    const contextRes = await fetch(`${authUrl}/rest/v1/rpc/resolve_question_notice_legal_context`, {
++      method: "POST", headers: {...headers, "Content-Type": "application/json"},
++      body: JSON.stringify({p_question_id: data.questionId, p_revision_id: data.revisionId}),
++    });
++    const evidence = contextRes.ok
++      ? tutorNoticeEvidence((await contextRes.json()) as QuestionNoticeContext)
++      : null;
++    if (!evidence) return { ok: false as const, error: "Fundamentação legislativa do edital pendente de certificação." };
++
+     const apiKey = process.env["LOVABLE_API_KEY"];
+@@ -36,4 +47,5 @@ export const askQuestionTutor = createServerFn({ method: "POST" })
+       .map((o: any) => `${o.label}) ${o.content}`).join("\n");
+-    const key = q.question_options?.find((o: any) => o.is_currently_correct)?.label ?? q.current_answer_key ?? q.official_answer_key ?? "indisponível";
+-    const sources = (q.question_sources ?? []).map((s: any) => `- ${s.title}${s.citation ? `: ${s.citation}` : ""}`).join("\n");
++    const key = q.origin === "official" ? q.official_answer_key
++      : q.question_options?.find((o: any) => o.is_currently_correct)?.label ?? q.current_answer_key;
++    if (!key) return { ok: false as const, error: "Gabarito indisponível para o contexto do edital." };
+     const instructions = `Você é o Tutor URSO BRAVO, professor para concursos policiais. Responda em português do Brasil, no nível ${levelText[data.level]}.
+@@ -48,6 +60,4 @@ ${options}
+ GABARITO: ${key}
+-COMENTÁRIO EDITORIAL: ${q.explanation ?? "não há"}
+-BASE LEGAL: ${q.legal_basis ?? "não informada"}
+-FONTES:
+-${sources || "nenhuma"}`;
++REDAÇÕES CERTIFICADAS PARA O EDITAL:
++${evidence}`;
+ 
+@@ -64,3 +74,3 @@ ${sources || "nenhuma"}`;
+         system: instructions,
+-        messages: [...data.history, { role: "user" as const, content: data.message }],
++        messages: [...data.history.filter((item) => item.role === "user"), { role: "user" as const, content: data.message }],
+         maxRetries: 0,
 diff --git a/src/routes/app.ementario.tsx b/src/routes/app.ementario.tsx
-index 4b52aba..cdda5dd 100644
+index 4b52aba..9b631fc 100644
 --- a/src/routes/app.ementario.tsx
 +++ b/src/routes/app.ementario.tsx
 @@ -1 +1,2 @@
 +import { NoticeLegalReading } from "@/components/app/notice-legal-reading";
  import { LegalArticleTree } from "@/components/app/legal-article-tree";
-@@ -41,2 +42,5 @@ function Ementario(){
+@@ -32,8 +33,10 @@ type Note={id:string;target_id:string;target_type:string;body:string;selected_te
+ const shades:Record<string,string>={yellow:"bg-yellow-300 text-black",green:"bg-lime-300 text-black",blue:"bg-sky-300 text-black",pink:"bg-pink-300 text-black"};
+-export const Route=createFileRoute("/app/ementario")({staticData:{sitemap:false},validateSearch:(search:Record<string,unknown>):{law?:string|undefined;article?:string|undefined}=>({
++export const Route=createFileRoute("/app/ementario")({staticData:{sitemap:false},validateSearch:(search:Record<string,unknown>):{law?:string|undefined;article?:string|undefined;edital?:string|undefined;revisao?:string|undefined}=>({
+   law:typeof search["law"]==="string"?search["law"]:undefined,
+-  article:legalArticleFromSearch(search["article"])
++  article:legalArticleFromSearch(search["article"]),
++  edital:typeof search["edital"]==="string"?search["edital"]:undefined,
++  revisao:typeof search["revisao"]==="string"?search["revisao"]:undefined
+ }),head: () => pageMeta("Vade Mecum Digital", "Consulte legislação, destaque artigos e organize suas anotações no URSO BRAVO."),component:Ementario});
+ function Ementario(){
+- const {law:requestedLaw,article:requestedArticle}=Route.useSearch();
++ const {law:requestedLaw,article:requestedArticle,edital:requestedNotice,revisao:requestedRevision}=Route.useSearch();
+  const navigate=Route.useNavigate();
+@@ -41,2 +44,11 @@ function Ementario(){
   const {fontSize,decrease,increase}=useLegalFontSize();
-+ const [noticeId,setNoticeId]=useState("");
-+ const [readingMode,setReadingMode]=useState<"current"|"notice"|"compare">("current");
-+ const showCurrent=readingMode!=="notice"||!user;
++ const [noticeId,setNoticeId]=useState(requestedNotice??"");
++ const [revisionId,setRevisionId]=useState(requestedRevision);
++ const [readingMode,setReadingMode]=useState<"current"|"notice"|"compare">(requestedNotice?"notice":"current");
++ const showCurrent=readingMode!=="notice";
++ useEffect(()=>{
++   setNoticeId(requestedNotice??"");
++   setRevisionId(requestedRevision);
++   setReadingMode(requestedNotice?"notice":"current");
++ },[requestedNotice,requestedRevision]);
   const [term,setTerm]=useState("");const [law,setLaw]=useState<Law|null>(null);const [article,setArticle]=useState<Article|null>(null);
-@@ -278,7 +282,7 @@ function Ementario(){
+@@ -116,3 +128,3 @@ function Ementario(){
+    // Persist the current article in the link; no user data goes in the URL.
+-   void navigate({to:"/app/ementario",search:next,replace:true,resetScroll:false});
++   void navigate({to:"/app/ementario",search:{...next,edital:requestedNotice,revisao:requestedRevision},replace:true,resetScroll:false});
+  }
+@@ -278,7 +290,7 @@ function Ementario(){
        </form>
 -      {remoteNumber!==null && remoteArticle.isLoading && <p role="status" className="text-xs text-muted-foreground">Consultando art. {remoteNumber} na fonte oficial…</p>}
 -      {remoteNumber!==null && remoteArticle.isSuccess && !remoteArticle.data && <p className="text-xs text-muted-foreground">O texto do art. {remoteNumber} não pôde ser obtido com segurança neste momento. Consulte a fonte oficial pelo botão acima.</p>}
@@ -141,17 +483,18 @@ index 4b52aba..cdda5dd 100644
 +      {showCurrent && law && !isStaticProvisionId(article?.id) && <div className="flex justify-end"><ReportContentError targetType={article ? "legal_provision" : "legal_document"} targetId={article?.id || law.id} targetLabel={`${law.title}${article ? " — "+article.provision_label : remoteNumber!==null ? " — Art. "+remoteNumber : ""}`} targetContext={bodyText || law.title} /></div>}
 +      {(bodyText||!showCurrent)&&<div className="flex justify-end"><LegalFontControls fontSize={fontSize} decrease={decrease} increase={increase}/></div>}
        <nav aria-label="Navegador rápido de artigos" className="sticky top-0 z-20 -mx-1 flex min-w-0 items-center justify-between gap-2 border-y border-border/60 bg-background/95 px-2 py-2 shadow-sm backdrop-blur-sm">
-@@ -296,3 +300,8 @@ function Ementario(){
+@@ -296,3 +308,9 @@ function Ementario(){
         </nav>
 -       {bodyText?<article ref={articleCardRef} className="min-w-0 space-y-5 scroll-mt-16 border-t border-border/60 pt-5">
-+       <NoticeLegalReading noticeId={noticeId} setNoticeId={setNoticeId} mode={readingMode}
++       {!user&&!showCurrent&&<p role="status">Entre na sua conta para consultar a legislação do edital.</p>}
++       <NoticeLegalReading noticeId={noticeId} setNoticeId={(next)=>{setNoticeId(next);setRevisionId(undefined);}} revisionId={revisionId} mode={readingMode}
 +         setMode={(next)=>{if(next==="notice"){closePanel();setDesktopNotebookOpen(false);}setReadingMode(next);}}
 +         provisionId={article&&!isStaticProvisionId(article.id)?article.id:null}
 +         currentBody={bodyText} fontSize={fontSize} userId={user?.id}/>
 +       {user&&readingMode==="compare"&&<h3 className="text-sm font-semibold">Legislação atual</h3>}
 +       {showCurrent&&<>{bodyText?<article ref={articleCardRef} className="min-w-0 space-y-5 scroll-mt-16 border-t border-border/60 pt-5">
         {article?.hierarchy_path?.length?<div aria-label="Localização na legislação" className="flex flex-wrap gap-x-1 gap-y-1 text-xs text-muted-foreground">{article.hierarchy_path.map((item,i)=><span key={i}>{i>0?" › ":""}{item}</span>)}</div>:null}
-@@ -321,6 +330,6 @@ function Ementario(){
+@@ -321,6 +339,6 @@ function Ementario(){
         </div>
 -      </details>
 +      </details></>}
@@ -160,13 +503,65 @@ index 4b52aba..cdda5dd 100644
 -   {law&&<aside aria-label="Caderno de estudos" className="hidden min-w-0 self-start overflow-y-auto rounded-xl border border-border bg-secondary/10 p-4 xl:sticky xl:top-6 xl:block xl:max-h-[calc(100dvh-3rem)]">
 +   {showCurrent&&law&&<aside aria-label="Caderno de estudos" className="hidden min-w-0 self-start overflow-y-auto rounded-xl border border-border bg-secondary/10 p-4 xl:sticky xl:top-6 xl:block xl:max-h-[calc(100dvh-3rem)]">
       <DesktopLegalNotebook key={law.id+":"+(article?.id||remoteNumber||"lei")} law={law} article={article} remoteNumber={remoteNumber} notes={visibleNotes} userId={user?.id??null}
-@@ -330,3 +339,3 @@ function Ementario(){
+@@ -330,3 +348,3 @@ function Ementario(){
    </div>
 -  <Sheet open={desktopNotebookOpen&&Boolean(law)} onOpenChange={setDesktopNotebookOpen}>
 +  <Sheet open={showCurrent&&desktopNotebookOpen&&Boolean(law)} onOpenChange={setDesktopNotebookOpen}>
      <SheetContent side="right" className="hidden w-[min(440px,90vw)] overflow-y-auto lg:block xl:hidden">
-@@ -337,3 +346,3 @@ function Ementario(){
+@@ -337,3 +355,3 @@ function Ementario(){
    </Sheet>
 -  {law&&bodyText&&<div className="fixed bottom-[calc(6rem+env(safe-area-inset-bottom))] right-4 z-40 flex items-center gap-2 sm:bottom-6 sm:right-6 xl:right-[388px] 2xl:right-[448px]" aria-label="Ferramentas de marcação do Vade Mecum">
 +  {showCurrent&&law&&bodyText&&<div className="fixed bottom-[calc(6rem+env(safe-area-inset-bottom))] right-4 z-40 flex items-center gap-2 sm:bottom-6 sm:right-6 xl:right-[388px] 2xl:right-[448px]" aria-label="Ferramentas de marcação do Vade Mecum">
       {captured&&<button type="button" onClick={discardCapture} aria-label="Descartar seleção" className="flex h-10 w-10 items-center justify-center rounded-full border border-border bg-background/95 text-muted-foreground shadow-lg backdrop-blur-sm"><X className="h-4 w-4"/></button>}
+diff --git a/src/routes/app.resolver.tsx b/src/routes/app.resolver.tsx
+index f5a5b39..7479a33 100644
+--- a/src/routes/app.resolver.tsx
++++ b/src/routes/app.resolver.tsx
+@@ -14,3 +14,3 @@ import { QuestionTutor } from "@/components/app/question-tutor";
+ import { PrivateExplanationNotes } from "@/components/app/private-explanation-notes";
+-import { LegalReferenceViewer } from "@/components/app/legal-reference-viewer";
++import { QuestionNoticeReading } from "@/components/app/question-notice-reading";
+ 
+@@ -72,3 +72,6 @@ function Resolver() {
+   const responded = answerState?.responded ?? false;
+-  const correctOption = q?.options.find((option) => option.isCurrentlyCorrect === true) ?? q?.options.find((option) => option.label === (q.currentAnswerKey ?? q.officialAnswerKey)) ?? null;
++  const correctOption = (q?.origin === "official"
++    ? q.options.find((option) => option.label === q.officialAnswerKey)
++    : q?.options.find((option) => option.isCurrentlyCorrect === true)
++      ?? q?.options.find((option) => option.label === q.currentAnswerKey)) ?? null;
+   const selected = q?.options.find((option) => option.id === selectedId) ?? null;
+@@ -89,3 +92,3 @@ function Resolver() {
+     setResultVisible(true);
+-    if (user) attempt.mutate({ questionId: q.id, selectedId, correct: isCorrect, started });
++    if (user && correctOption) attempt.mutate({ questionId: q.id, selectedId, correct: isCorrect, started });
+     window.scrollTo({ top: 0, behavior: "instant" });
+@@ -130,10 +133,6 @@ function Resolver() {
+       <Panel className={cn("mb-3", isCorrect ? "border-primary/30 bg-primary/5" : "border-destructive/30 bg-destructive/5")}>
+-        <div className="mb-4 flex items-center gap-3"><span className={cn("grid h-11 w-11 shrink-0 place-items-center rounded-full", isCorrect ? "bg-primary text-primary-foreground" : "bg-destructive text-destructive-foreground")}>{isCorrect ? <Check /> : <X />}</span><div><h2 className={cn("text-base", isCorrect ? "text-primary" : "text-destructive")}>{isCorrect ? "Resposta correta!" : "Resposta incorreta."}</h2><p className="mt-1 text-xs text-text-secondary">{correctOption ? `A alternativa ${displayedLabel(correctOption.id)} está correta nesta tentativa.` : "Gabarito indisponível."}</p></div></div>
++        <div className="mb-4 flex items-center gap-3"><span className={cn("grid h-11 w-11 shrink-0 place-items-center rounded-full", isCorrect ? "bg-primary text-primary-foreground" : "bg-destructive text-destructive-foreground")}>{isCorrect ? <Check /> : <X />}</span><div><h2 className={cn("text-base", isCorrect ? "text-primary" : "text-destructive")}>{correctOption ? (isCorrect ? "Resposta correta!" : "Resposta incorreta.") : "Gabarito indisponível"}</h2><p className="mt-1 text-xs text-text-secondary">{correctOption ? `A alternativa ${displayedLabel(correctOption.id)} está correta nesta tentativa.` : "Gabarito indisponível."}</p></div></div>
+         {correctOption && <div className="flex items-start gap-3 rounded-lg border border-primary/20 p-3 text-sm"><span className="grid h-6 w-6 shrink-0 place-items-center rounded-full bg-primary font-bold text-primary-foreground">{displayedLabel(correctOption.id)}</span><span className="text-text-secondary">{normalizeQuestionText(correctOption.content)}</span></div>}
+       </Panel>
+-      {q.explanation && <Panel className="mb-3"><h2 className="mb-2 text-sm">Explicação</h2><p className="whitespace-pre-line text-sm leading-relaxed text-text-secondary">{normalizeQuestionText(q.explanation)}</p></Panel>}
+-      {(q.legalBasis || q.sources.length > 0) && <Panel className="mb-3"><h2 className="mb-3 text-sm">Fundamentação legal</h2><div className="space-y-2">
+-        {q.sources.map((source) => <LegalReferenceViewer key={source.id} questionId={q.id} reference={{ ...source, text: q.legalBasis }} />)}
+-        {q.sources.length === 0 && q.legalBasis && <LegalReferenceViewer questionId={q.id} reference={{ id: q.id, title: "Fundamento da questão", text: q.legalBasis }} />}
+-      </div></Panel>}
++      <QuestionNoticeReading questionId={q.id} />
+       {!user && <p className="my-4 text-xs text-muted-foreground">Entre na sua conta para registrar este resultado no seu desempenho.</p>}
+@@ -145,3 +144,3 @@ function Resolver() {
+       <p className="mb-4 text-xs text-muted-foreground">As letras podem mudar ao refazer. O gabarito é conferido pelo conteúdo original da alternativa. Cada resposta é registrada como uma nova tentativa.</p>
+-      <details className="mt-3 border-t border-border pt-4"><summary className="flex cursor-pointer items-center justify-between text-sm font-semibold">Tutor URSO BRAVO<ChevronDown className="h-4 w-4" /></summary><div className="mt-4"><QuestionTutor key={q.id} questionId={q.id} explanation={q.explanation} legalBasis={q.legalBasis} /></div></details>
++      <details className="mt-3 border-t border-border pt-4"><summary className="flex cursor-pointer items-center justify-between text-sm font-semibold">Tutor URSO BRAVO<ChevronDown className="h-4 w-4" /></summary><div className="mt-4"><QuestionTutor key={q.id} questionId={q.id} /></div></details>
+     </>}
+diff --git a/src/routes/app.simulados.tsx b/src/routes/app.simulados.tsx
+index ac7f220..0073c3d 100644
+--- a/src/routes/app.simulados.tsx
++++ b/src/routes/app.simulados.tsx
+@@ -1 +1,2 @@
++import { QuestionNoticeReading } from "@/components/app/question-notice-reading";
+ import {createFileRoute,Link} from "@tanstack/react-router";
+@@ -120,3 +121,3 @@ function PremiumSimulados(){
+   </li>)}</ol>
+- </div>}<div className="space-y-1 text-xs text-muted-foreground">{options.data?.filter(o=>o.question_id===q.id).map(o=><p key={o.label} className={o.label===r?.correct_answer?"font-semibold text-foreground":""}>{o.label}. {o.content}</p>)}</div><p className="text-sm">{r?.explanation}</p><p className="text-xs text-muted-foreground">{r?.legal_basis}</p></article>})}
++ </div>}<div className="space-y-1 text-xs text-muted-foreground">{options.data?.filter(o=>o.question_id===q.id).map(o=><p key={o.label} className={o.label===r?.correct_answer?"font-semibold text-foreground":""}>{o.label}. {o.content}</p>)}</div><QuestionNoticeReading questionId={q.id} attemptId={attempt} /></article>})}
+     </div>:<div className="space-y-4">
