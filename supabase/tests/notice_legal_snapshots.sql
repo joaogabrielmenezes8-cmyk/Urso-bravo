@@ -167,6 +167,27 @@ begin
 
   perform public.ingest_notice_legal_revision(revision, versions, scope);
   perform public.ingest_notice_legal_revision(revision, versions, scope);
+  -- Regression: exact retries must compare nullable columns using
+  -- IS NOT DISTINCT FROM, including valid_until and body of a revocation.
+  select to_jsonb(r) into revision from public.notice_legal_revisions r
+    where id = '30000000-0000-0000-0000-000000000003';
+  select jsonb_agg(v) into versions from public.legal_provision_versions v
+    where id = '40000000-0000-0000-0000-000000000003';
+  select jsonb_agg(s) into scope from public.notice_legal_scope s
+    where revision_id = '30000000-0000-0000-0000-000000000003';
+  if versions->0->>'valid_until' is not null
+     or versions->0->>'body' is not null then
+    raise exception 'nullable regression fixture is invalid';
+  end if;
+  perform public.ingest_notice_legal_revision(revision, versions, scope);
+  perform public.ingest_notice_legal_revision(revision, versions, scope);
+  -- Restore the original fixture for the divergent-payload assertions.
+  select to_jsonb(r) into revision from public.notice_legal_revisions r
+    where id = '30000000-0000-0000-0000-000000000001';
+  select jsonb_agg(v) into versions from public.legal_provision_versions v
+    where id = '40000000-0000-0000-0000-000000000001';
+  select jsonb_agg(s) into scope from public.notice_legal_scope s
+    where revision_id = '30000000-0000-0000-0000-000000000001';
   begin
     perform public.ingest_notice_legal_revision(revision, versions, '[]');
     raise exception 'accepted an incomplete retry';
