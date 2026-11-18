@@ -224,7 +224,7 @@ begin
   incoming_revision := jsonb_populate_record(null::public.notice_legal_revisions, p_revision);
   insert into public.notice_legal_revisions select (incoming_revision).*
     on conflict do nothing;
-  if not exists (select from public.notice_legal_revisions r where r = incoming_revision) then
+  if not exists (select from public.notice_legal_revisions r where r is not distinct from incoming_revision) then
     raise exception 'Revisão divergente da revisão armazenada' using errcode = '23505';
   end if;
 
@@ -233,7 +233,7 @@ begin
   loop
     insert into public.legal_provision_versions select (version).*
       on conflict do nothing;
-    if not exists (select from public.legal_provision_versions v where v = version) then
+    if not exists (select from public.legal_provision_versions v where v is not distinct from version) then
       raise exception 'Redação divergente da versão armazenada' using errcode = '23505';
     end if;
   end loop;
@@ -246,7 +246,7 @@ begin
     end if;
     insert into public.notice_legal_scope select (scope).*
       on conflict do nothing;
-    if not exists (select from public.notice_legal_scope s where s = scope) then
+    if not exists (select from public.notice_legal_scope s where s is not distinct from scope) then
       raise exception 'Escopo divergente do escopo armazenado' using errcode = '23505';
     end if;
   end loop;
