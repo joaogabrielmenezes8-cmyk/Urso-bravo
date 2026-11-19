@@ -231,6 +231,13 @@ begin
   for version in
     select * from jsonb_populate_recordset(null::public.legal_provision_versions, p_versions)
   loop
+    -- jsonb_populate_record does not apply column DEFAULT expressions.
+    -- Normalize the optional boolean before INSERT and replay comparison.
+    version.revoked := coalesce(version.revoked, false);
+    if version.id is null then
+      raise exception 'Informe um ID estável para cada redação'
+        using errcode = '22023';
+    end if;
     insert into public.legal_provision_versions select (version).*
       on conflict do nothing;
     if not exists (select from public.legal_provision_versions v where v is not distinct from version) then
