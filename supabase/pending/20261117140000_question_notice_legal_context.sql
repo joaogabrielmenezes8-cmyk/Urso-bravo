@@ -33,7 +33,9 @@ declare
   notice uuid;
 begin
   if tg_op = 'UPDATE' then
-    if new.notice_legal_revision_id is distinct from old.notice_legal_revision_id then
+    if new.notice_legal_revision_id is distinct from old.notice_legal_revision_id
+       or new.contest_id is distinct from old.contest_id
+       or new.created_at is distinct from old.created_at then
       raise exception 'A revisão legislativa da tentativa é imutável' using errcode = '55000';
     end if;
     return new;
@@ -53,7 +55,7 @@ $$;
 
 revoke all on function private.bind_mock_notice_legal_revision() from public, anon, authenticated;
 create trigger bind_mock_notice_legal_revision
-before insert or update of notice_legal_revision_id on public.mock_exam_attempts
+before insert or update of notice_legal_revision_id, contest_id, created_at on public.mock_exam_attempts
 for each row execute function private.bind_mock_notice_legal_revision();
 
 -- Use the caller's question, attempt, notice and legal-text policies.
