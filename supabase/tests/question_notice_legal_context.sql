@@ -22,7 +22,7 @@ do $$
 begin
   begin
     update public.mock_exam_attempts
-      set notice_legal_revision_id='30000000-0000-0000-0000-000000000001'
+      set notice_legal_revision_id='30000000-0000-0000-0000-000000000002'
       where id='90000000-0000-0000-0000-000000000003';
     raise exception 'a mock attempt revision was rewritten';
   exception when object_not_in_prerequisite_state then null;
