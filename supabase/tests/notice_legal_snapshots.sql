@@ -193,6 +193,20 @@ begin
   end if;
   perform public.ingest_notice_legal_revision(revision, versions, scope);
   perform public.ingest_notice_legal_revision(revision, versions, scope);
+  -- Regression: a replay omitting the optional revoked flag must normalize
+  -- to false, matching the persisted non-revoked version exactly.
+  select to_jsonb(r) into revision from public.notice_legal_revisions r
+    where id = '30000000-0000-0000-0000-000000000001';
+  select jsonb_agg(to_jsonb(v) - 'revoked') into versions
+    from public.legal_provision_versions v
+    where id = '40000000-0000-0000-0000-000000000001';
+  select jsonb_agg(s) into scope from public.notice_legal_scope s
+    where revision_id = '30000000-0000-0000-0000-000000000001';
+  if versions->0 ? 'revoked' then
+    raise exception 'omitted revoked regression fixture is invalid';
+  end if;
+  perform public.ingest_notice_legal_revision(revision, versions, scope);
+  perform public.ingest_notice_legal_revision(revision, versions, scope);
   -- Restore the original fixture for the divergent-payload assertions.
   select to_jsonb(r) into revision from public.notice_legal_revisions r
     where id = '30000000-0000-0000-0000-000000000001';
