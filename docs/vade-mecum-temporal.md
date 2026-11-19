@@ -47,3 +47,19 @@ O RPC `resolve_notice_legal_provision` usa as permissões do chamador. A omissã
 - Apliquei o patch em uma cópia limpa dos arquivos reais e transpilei os 10 arquivos alterados. Rodei testes de comparação do leitor, entrada do tutor e regressões existentes de anotações, progresso e URLs em ambiente isolado.
 - `supabase/evidence/dudh-artigo-3.json` contém uma redação conferida, reutilizável no item 9.1 do CFO 2027 e 4.3 do CFSD 2025. Os respectivos escopos foram ensaiados em dois editais de teste, com reprocessamento e apenas uma versão gravada. O artefato não contém um selo editorial oficial dos editais. Os demais dispositivos continuam pendentes de conferência individual.
 - O rascunho do Lovable continua no commit-base publicado antes desta integração. Seu editor privado exige sessão com acesso e a operação disponível no conector não endereça o rascunho. O preview remoto ainda não contém a integração. Não houve alteração no Supabase canônico.
+
+
+## Reconciliação com o repositório operacional — 19/11/2026
+
+Consulta direta ao repositório privado `joaogabrielmenezes8-cmyk/screenshot-exact-match` (branch `main`) confirmou `package.json` com `name: urso-bravo`, Vite, React 19, TanStack Router/Start, Supabase e Vitest. Os seguintes caminhos foram abertos e conferidos, não apenas presumidos:
+
+| Fluxo | Arquivo existente no aplicativo | Integração prevista no patch |
+| --- | --- | --- |
+| Leitor e anotações | `src/routes/app.ementario.tsx` | `NoticeLegalReading`, mantendo marcações atuais isoladas da redação histórica |
+| Resolução de questões | `src/routes/app.resolver.tsx` | `QuestionNoticeReading` e contexto por revisão |
+| Simulados | `src/routes/app.simulados.tsx` | fixação da revisão da tentativa, preservando gabarito original |
+| Tutor IA | `src/components/app/question-tutor.tsx` | contexto temporal certificado e referências da edição |
+
+O repositório operacional também contém `src/lib/supabase.ts` e `src/lib/legal-reading-format.ts`. **A existência desses arquivos não comprova que o patch foi aplicado nem que o app publicado corresponde ao HEAD do GitHub.** A busca de código no repositório privado não retornou resultados; os caminhos acima foram confirmados por leitura direta. Não inferir ausência de componentes a partir da busca vazia.
+
+Próxima entrega de código: aplicar o patch em branch isolada do repositório operacional após confirmar a revisão base, executar `npm run build` e `npm test`, e validar RPCs com dados sintéticos e sessão autenticada em banco descartável. Não migrar produção nem preencher versões históricas sem fonte oficial e certificação.
