@@ -207,6 +207,18 @@ begin
   end if;
   perform public.ingest_notice_legal_revision(revision, versions, scope);
   perform public.ingest_notice_legal_revision(revision, versions, scope);
+  -- Regression: a new legislative version without a stable UUID must be rejected.
+  -- The existing revision is sealed, so use a distinct version payload and
+  -- require invalid_parameter_value before any INSERT can occur.
+  begin
+    perform public.ingest_notice_legal_revision(
+      revision,
+      jsonb_build_array((versions->0) - 'id'),
+      scope
+    );
+    raise exception 'accepted a legislative version without stable UUID';
+  exception when invalid_parameter_value then null;
+  end;
   -- Restore the original fixture for the divergent-payload assertions.
   select to_jsonb(r) into revision from public.notice_legal_revisions r
     where id = '30000000-0000-0000-0000-000000000001';
