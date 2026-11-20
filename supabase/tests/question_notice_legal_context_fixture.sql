@@ -3,10 +3,11 @@ create schema auth;
 create function auth.uid() returns uuid language sql stable
   as $$ select nullif(current_setting('test.uid',true),'')::uuid $$;
 grant usage on schema auth to authenticated;
-alter table public.notices add column contest_id uuid, add column year integer, add column active boolean;
+alter table public.notices add column contest_id uuid, add column year integer, add column active boolean, add column title text;
 update public.notices set contest_id='50000000-0000-0000-0000-000000000001',
  year=case when id='10000000-0000-0000-0000-000000000001' then 2025 else 2027 end,
- active=id='10000000-0000-0000-0000-000000000002';
+ active=id='10000000-0000-0000-0000-000000000002',
+ title=case when id='10000000-0000-0000-0000-000000000001' then 'CFO 2025 (sintético)' else 'CFO 2027 (sintético)' end;
 alter table public.notices enable row level security;
 create policy active_notices on public.notices for select to authenticated using(active);
 create table public.exams (id uuid primary key, contest_id uuid, year integer);
