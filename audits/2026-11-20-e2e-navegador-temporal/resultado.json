@@ -16,6 +16,7 @@
   "enunciado": true,
   "questao_oficial_corte_2024": true,
   "questao_texto_da_edicao": true,
+  "questao_oficial_sem_rotulo_editorial": true,
   "comentario_editorial_rotulado": true,
   "questao_sem_texto_atual": true,
   "console_errors": [],
@@ -27,6 +28,7 @@
   "comentario_rotulado": true,
   "sem_texto_legal_gratis": true,
   "aviso_pendente": true,
+  "gabarito_editorial_rotulado": true,
   "console_errors": [],
   "unexpected_network": []
  },
