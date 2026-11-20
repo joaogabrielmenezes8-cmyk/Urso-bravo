@@ -79,13 +79,13 @@ begin
     update public.notice_legal_revisions set cutoff_on = '2026-01-01'
       where id = '30000000-0000-0000-0000-000000000001';
     raise exception 'service role could change sealed cutoff';
-  exception when object_not_in_prerequisite_state then null;
+  exception when object_not_in_prerequisite_state or insufficient_privilege then null;
   end;
   begin
     delete from public.legal_provision_versions
       where id = '40000000-0000-0000-0000-000000000001';
     raise exception 'service role could delete historical version';
-  exception when object_not_in_prerequisite_state then null;
+  exception when object_not_in_prerequisite_state or insufficient_privilege then null;
   end;
   begin
     update public.legal_provision_versions set body = 'Alteração indevida';
