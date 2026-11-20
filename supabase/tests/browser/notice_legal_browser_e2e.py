@@ -97,6 +97,7 @@ async def question(page,res):
     res["questao_oficial_corte_2024"]=await sec.get_by_text("Data de corte: 09/05/2024").count()>0
     await sec.locator("summary").first.click()
     res["questao_texto_da_edicao"]=await sec.get_by_text("Texto anterior").count()>0
+    res["questao_oficial_sem_rotulo_editorial"]=await page.get_by_role("note",name="Gabarito editorial").count()==0
     res["comentario_editorial_rotulado"]=await page.get_by_role("region",name="Comentário editorial").count()==1
     res["questao_sem_texto_atual"]=await sec.get_by_text("Texto posterior").count()==0
     await sec.scroll_into_view_if_needed(); await page.screenshot(path=str(SHOTS/"4_questao_oficial.png"))
@@ -114,6 +115,7 @@ async def treino(page,res):
     res["comentario_rotulado"]=await page.get_by_role("region",name="Comentário editorial").count()==2
     res["sem_texto_legal_gratis"]=("Texto posterior" not in body) and ("Texto anterior" not in body) and ("Data de corte" not in body)
     res["aviso_pendente"]="pendente de certificação ou indisponível" in body
+    res["gabarito_editorial_rotulado"]=await page.get_by_role("note",name="Gabarito editorial").count()==2
     await page.get_by_text("Correção comentada").scroll_into_view_if_needed(); await page.screenshot(path=str(SHOTS/"5_treino_gratis_correcao.png"))
 async def main():
     async with async_playwright() as pw:
