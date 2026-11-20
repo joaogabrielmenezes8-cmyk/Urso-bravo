@@ -1,6 +1,59 @@
+diff --git a/src/components/app/editorial-commentary.test.tsx b/src/components/app/editorial-commentary.test.tsx
+new file mode 100644
+--- /dev/null
++++ b/src/components/app/editorial-commentary.test.tsx
+@@ -0,0 +1,20 @@
++import { renderToStaticMarkup } from "react-dom/server";
++import { describe, expect, it, vi } from "vitest";
++vi.mock("./question-notice-reading", () => ({ useQuestionNoticeContext: () => ({ data: undefined }) }));
++import { EditorialCommentaryView } from "./editorial-commentary";
++
++describe("comentário editorial", () => {
++  it("rotula como editorial e avisa contexto temporal não certificado", () => {
++    const html = renderToStaticMarkup(<EditorialCommentaryView explanation="Explicação da banca" legalBasis="Art. 5º" certified={false} />);
++    expect(html).toContain("Comentário editorial");
++    expect(html).toContain("Contexto temporal ainda não certificado para o edital.");
++    expect(html).toContain("Base legal citada no comentário:");
++  });
++  it("omite o aviso quando a redação do edital está certificada", () => {
++    const html = renderToStaticMarkup(<EditorialCommentaryView explanation="Explicação" legalBasis={null} certified />);
++    expect(html).not.toContain("ainda não certificado");
++  });
++  it("não renderiza nada sem conteúdo editorial", () => {
++    expect(renderToStaticMarkup(<EditorialCommentaryView explanation=" " legalBasis={null} certified={false} />)).toBe("");
++  });
++});
+diff --git a/src/components/app/editorial-commentary.tsx b/src/components/app/editorial-commentary.tsx
+new file mode 100644
+--- /dev/null
++++ b/src/components/app/editorial-commentary.tsx
+@@ -0,0 +1,24 @@
++import { normalizeQuestionText } from "@/lib/normalize-question-text";
++import { useQuestionNoticeContext } from "./question-notice-reading";
++
++/** Editorial notes kept apart from resolved legal text; never sent to the tutor as evidence. */
++export function EditorialCommentaryView({ explanation, legalBasis, certified }: {
++  explanation: string | null | undefined; legalBasis: string | null | undefined; certified: boolean;
++}) {
++  if (!explanation?.trim() && !legalBasis?.trim()) return null;
++  return (
++    <section aria-label="Comentário editorial" className="mb-3 space-y-2 rounded-lg border border-dashed border-border p-3 text-sm">
++      <h2 className="font-semibold">Comentário editorial</h2>
++      {!certified && <p role="note" className="text-xs text-muted-foreground">Contexto temporal ainda não certificado para o edital. Este comentário é editorial e não substitui a redação legal do edital.</p>}
++      {explanation?.trim() && <p className="whitespace-pre-line leading-relaxed text-muted-foreground">{normalizeQuestionText(explanation)}</p>}
++      {legalBasis?.trim() && <p className="text-xs text-muted-foreground"><strong>Base legal citada no comentário:</strong> {legalBasis}</p>}
++    </section>
++  );
++}
++
++export function EditorialCommentary({ questionId, attemptId, explanation, legalBasis }: {
++  questionId: string; attemptId?: string | undefined; explanation: string | null | undefined; legalBasis: string | null | undefined;
++}) {
++  const { data } = useQuestionNoticeContext(questionId, attemptId);
++  return <EditorialCommentaryView explanation={explanation} legalBasis={legalBasis} certified={data?.status === "available"} />;
++}
 diff --git a/src/components/app/notice-legal-reading.test.tsx b/src/components/app/notice-legal-reading.test.tsx
 new file mode 100644
-index 0000000..4c5ba98
 --- /dev/null
 +++ b/src/components/app/notice-legal-reading.test.tsx
 @@ -0,0 +1,63 @@
@@ -69,10 +122,9 @@ index 0000000..4c5ba98
 +});
 diff --git a/src/components/app/notice-legal-reading.tsx b/src/components/app/notice-legal-reading.tsx
 new file mode 100644
-index 0000000..5790512
 --- /dev/null
 +++ b/src/components/app/notice-legal-reading.tsx
-@@ -0,0 +1,121 @@
+@@ -0,0 +1,122 @@
 +import { useQuery } from "@tanstack/react-query";
 +import { untypedSupabase } from "@/lib/supabase";
 +import { formatLegalReadingText } from "@/lib/legal-reading-format";
@@ -117,7 +169,8 @@ index 0000000..5790512
 +    queryKey: ["notice-legal-options", userId],
 +    enabled: Boolean(userId),
 +    queryFn: async () => {
-+      const result = await untypedSupabase.from("notices").select("id,title").order("year", { ascending: false });
++      // Active notices plus sealed historical ones for premium; notices RLS stays unchanged.
++      const result = await untypedSupabase.rpc("list_reader_notices");
 +      if (result.error) throw result.error;
 +      return (result.data ?? []) as NoticeOption[];
 +    },
@@ -196,7 +249,6 @@ index 0000000..5790512
 +}
 diff --git a/src/components/app/question-notice-reading.tsx b/src/components/app/question-notice-reading.tsx
 new file mode 100644
-index 0000000..660314b
 --- /dev/null
 +++ b/src/components/app/question-notice-reading.tsx
 @@ -0,0 +1,45 @@
@@ -246,15 +298,18 @@ index 0000000..660314b
 +  );
 +}
 diff --git a/src/components/app/question-tutor.tsx b/src/components/app/question-tutor.tsx
-index 9a87d19..e4f7d9c 100644
 --- a/src/components/app/question-tutor.tsx
 +++ b/src/components/app/question-tutor.tsx
-@@ -2,3 +2,3 @@ import { useState } from "react";
+@@ -1,14 +1,16 @@
+ import { useState } from "react";
  import { supabase } from "@/lib/supabase";
 -import { FunctionsHttpError } from "@supabase/supabase-js";
 +import { useQuestionNoticeContext } from "./question-notice-reading";
  import { useAuth } from "@/lib/auth";
-@@ -9,4 +9,6 @@ type Msg = { role: "user" | "assistant"; content: string };
+ import { askQuestionTutor } from "@/lib/question-tutor.functions";
+ 
+ type Level = "iniciante" | "intermediario" | "avancado";
+ type Msg = { role: "user" | "assistant"; content: string };
  
 -export function QuestionTutor({ questionId, explanation, legalBasis }: { questionId: string; explanation: string | null; legalBasis: string | null }) {
 +export function QuestionTutor({ questionId }: { questionId: string; explanation?: string | null; legalBasis?: string | null }) {
@@ -262,17 +317,27 @@ index 9a87d19..e4f7d9c 100644
 +  const { data: context } = useQuestionNoticeContext(questionId);
 +  const revisionId = context?.status === "available" ? context.revision_id : undefined;
    const [level, setLevel] = useState<Level>("iniciante");
-@@ -18,3 +20,3 @@ export function QuestionTutor({ questionId, explanation, legalBasis }: { questio
+   const [messages, setMessages] = useState<Msg[]>([]);
+   const [draft, setDraft] = useState("");
+@@ -16,7 +18,7 @@
+   const [error, setError] = useState("");
+ 
    async function ask(text: string) {
 -    if (!user || !text.trim() || loading) return;
 +    if (!user || !revisionId || !text.trim() || loading) return;
      setError("");
-@@ -27,3 +29,3 @@ export function QuestionTutor({ questionId, explanation, legalBasis }: { questio
+     setLoading(true);
+     const newMessage: Msg = { role: "user", content: text.trim() };
+@@ -25,29 +27,13 @@
+       const { data: session } = await supabase.auth.getSession();
+       const accessToken = session.session?.access_token;
        if (!accessToken) throw new Error("Entre novamente na sua conta para usar o tutor.");
 -      const data = await askQuestionTutor({ data: { accessToken, questionId, level, message: newMessage.content, history: previous } });
 +      const data = await askQuestionTutor({ data: { accessToken, questionId, revisionId, level, message: newMessage.content, history: previous } });
        if (!data.ok) throw new Error(data.error);
-@@ -33,19 +35,3 @@ export function QuestionTutor({ questionId, explanation, legalBasis }: { questio
+       setMessages((before) => [...before, newMessage, { role: "assistant", content: data.answer }]);
+       setDraft("");
+     } catch (cause) {
        const reason = cause instanceof Error ? cause.message : "Não foi possível obter uma resposta.";
 -      // A provider outage must not make the explain action useless.
 -      // This is labelled editorial content, never an invented AI answer.
@@ -293,7 +358,11 @@ index 9a87d19..e4f7d9c 100644
 -      setError(reason.includes("non-2xx status code") ? "IA indisponível. Foi exibido o comentário editorial como alternativa." : reason);
 +      setError(reason);
      } finally {
-@@ -70,6 +56,4 @@ export function QuestionTutor({ questionId, explanation, legalBasis }: { questio
+       setLoading(false);
+     }
+@@ -68,10 +54,8 @@
+           </button>
+         ))}
        </div>
 -      {explanation && <div><p className="text-xs font-semibold">Comentário editorial</p><p className="whitespace-pre-line text-sm text-muted-foreground">{explanation}</p></div>}
 -      {legalBasis && <p className="text-xs text-muted-foreground"><strong>Base legal:</strong> {legalBasis}</p>}
@@ -301,18 +370,24 @@ index 9a87d19..e4f7d9c 100644
 -        disabled={!user || loading} className="rounded-lg border border-primary px-3 py-2 text-sm font-semibold text-primary disabled:opacity-50">
 +        disabled={!user || !revisionId || loading} className="rounded-lg border border-primary px-3 py-2 text-sm font-semibold text-primary disabled:opacity-50">
          Explicar no nível {level}
-@@ -84,3 +68,3 @@ export function QuestionTutor({ questionId, explanation, legalBasis }: { questio
+       </button>
+       {messages.length > 0 && <div className="max-h-96 space-y-3 overflow-y-auto rounded-lg border border-border p-3" aria-live="polite">
+@@ -82,11 +66,12 @@
+         <input id="question-tutor-input" value={draft} onChange={(e) => setDraft(e.target.value)}
+           placeholder="O que você não entendeu?" maxLength={1000}
            className="min-w-0 flex-1 rounded-lg border border-input bg-background px-3 py-2 text-sm" />
 -        <button type="submit" disabled={!user || loading || !draft.trim()}
 +        <button type="submit" disabled={!user || !revisionId || loading || !draft.trim()}
            className="rounded-lg bg-primary px-4 py-2 text-sm font-bold text-primary-foreground disabled:opacity-50">
-@@ -89,2 +73,3 @@ export function QuestionTutor({ questionId, explanation, legalBasis }: { questio
+           {loading ? "..." : "Enviar"}
+         </button>
        </form>
 +      {user && !revisionId && <p role="status" className="text-xs text-muted-foreground">Tutor disponível após certificação da fundamentação do edital.</p>}
        {!user && <p className="text-xs text-muted-foreground">Entre na sua conta para conversar com o tutor.</p>}
+       {error && <p className="text-xs text-destructive" role="alert">{error}</p>}
+       <p className="text-[11px] text-muted-foreground">O tutor pode errar. Havendo divergência, prevalecem as fontes jurídicas verificadas, não uma resposta gerada.</p>
 diff --git a/src/lib/question-notice-context.test.ts b/src/lib/question-notice-context.test.ts
 new file mode 100644
-index 0000000..147b741
 --- /dev/null
 +++ b/src/lib/question-notice-context.test.ts
 @@ -0,0 +1,37 @@
@@ -355,7 +430,6 @@ index 0000000..147b741
 +});
 diff --git a/src/lib/question-notice-context.ts b/src/lib/question-notice-context.ts
 new file mode 100644
-index 0000000..890fbbe
 --- /dev/null
 +++ b/src/lib/question-notice-context.ts
 @@ -0,0 +1,23 @@
@@ -383,23 +457,33 @@ index 0000000..890fbbe
 +  return ["Data de corte: " + context.cutoff_on, ...citations].join("\n\n");
 +}
 diff --git a/src/lib/question-tutor.functions.ts b/src/lib/question-tutor.functions.ts
-index f2f6524..29dcdb6 100644
 --- a/src/lib/question-tutor.functions.ts
 +++ b/src/lib/question-tutor.functions.ts
-@@ -2,2 +2,3 @@ import { createServerFn } from "@tanstack/react-start";
+@@ -1,5 +1,6 @@
+ import { createServerFn } from "@tanstack/react-start";
  import { z } from "zod";
 +import { tutorNoticeEvidence, type QuestionNoticeContext } from "./question-notice-context";
  import { authUrl, authPublicKey } from "./auth-config";
-@@ -16,2 +17,3 @@ export const askQuestionTutor = createServerFn({ method: "POST" })
+ 
+ const levelText = {
+@@ -14,6 +15,7 @@
+   .inputValidator(z.object({
+     accessToken: z.string().min(10).max(4096),
      questionId: z.string().uuid(),
 +    revisionId: z.string().uuid(),
      level: z.enum(["iniciante", "intermediario", "avancado"]),
-@@ -25,3 +27,3 @@ export const askQuestionTutor = createServerFn({ method: "POST" })
+     message: z.string().min(1).max(1000),
+     history: z.array(z.object({ role: z.enum(["user", "assistant"]), content: z.string().max(6000) })).max(10),
+@@ -23,19 +25,29 @@
+     const userRes = await fetch(`${authUrl}/auth/v1/user`, { headers });
+     if (!userRes.ok) return { ok: false as const, error: "Entre novamente na sua conta para usar o tutor." };
  
 -    const select = "statement,official_answer_key,current_answer_key,explanation,legal_basis,question_options(label,content,is_currently_correct,sort_order),question_sources(title,citation)";
 +    const select = "statement,origin,official_answer_key,current_answer_key,question_options(label,content,is_currently_correct,sort_order)";
      const qRes = await fetch(`${authUrl}/rest/v1/questions?id=eq.${data.questionId}&select=${encodeURIComponent(select)}`, { headers });
-@@ -31,2 +33,11 @@ export const askQuestionTutor = createServerFn({ method: "POST" })
+     const rows = qRes.ok ? ((await qRes.json()) as any[]) : [];
+     const q = rows[0];
+     if (!q) return { ok: false as const, error: "Questão indisponível para o tutor." };
  
 +    const contextRes = await fetch(`${authUrl}/rest/v1/rpc/resolve_question_notice_legal_context`, {
 +      method: "POST", headers: {...headers, "Content-Type": "application/json"},
@@ -411,7 +495,9 @@ index f2f6524..29dcdb6 100644
 +    if (!evidence) return { ok: false as const, error: "Fundamentação legislativa do edital pendente de certificação." };
 +
      const apiKey = process.env["LOVABLE_API_KEY"];
-@@ -36,4 +47,5 @@ export const askQuestionTutor = createServerFn({ method: "POST" })
+     if (!apiKey) return { ok: false as const, error: "Tutor temporariamente indisponível." };
+ 
+     const options = [...(q.question_options ?? [])].sort((a, b) => a.sort_order - b.sort_order)
        .map((o: any) => `${o.label}) ${o.content}`).join("\n");
 -    const key = q.question_options?.find((o: any) => o.is_currently_correct)?.label ?? q.current_answer_key ?? q.official_answer_key ?? "indisponível";
 -    const sources = (q.question_sources ?? []).map((s: any) => `- ${s.title}${s.citation ? `: ${s.citation}` : ""}`).join("\n");
@@ -419,7 +505,11 @@ index f2f6524..29dcdb6 100644
 +      : q.question_options?.find((o: any) => o.is_currently_correct)?.label ?? q.current_answer_key;
 +    if (!key) return { ok: false as const, error: "Gabarito indisponível para o contexto do edital." };
      const instructions = `Você é o Tutor URSO BRAVO, professor para concursos policiais. Responda em português do Brasil, no nível ${levelText[data.level]}.
-@@ -48,6 +60,4 @@ ${options}
+ Use SOMENTE os dados da questão abaixo. Nunca invente artigos de lei, súmulas ou jurisprudência; se a fonte não estiver nos dados, diga que não há fundamento verificado. Seja objetivo, sem markdown pesado.
+ 
+@@ -46,10 +58,8 @@
+ ${options}
+ 
  GABARITO: ${key}
 -COMENTÁRIO EDITORIAL: ${q.explanation ?? "não há"}
 -BASE LEGAL: ${q.legal_basis ?? "não informada"}
@@ -428,19 +518,28 @@ index f2f6524..29dcdb6 100644
 +REDAÇÕES CERTIFICADAS PARA O EDITAL:
 +${evidence}`;
  
-@@ -64,3 +74,3 @@ ${sources || "nenhuma"}`;
+     try {
+       const { createOpenAI } = await import("@ai-sdk/openai");
+@@ -62,7 +72,7 @@
+       const result = streamText({
+         model: openai.responses("openai/gpt-6-astra"),
          system: instructions,
 -        messages: [...data.history, { role: "user" as const, content: data.message }],
 +        messages: [...data.history.filter((item) => item.role === "user"), { role: "user" as const, content: data.message }],
          maxRetries: 0,
+         providerOptions: { openai: { forceReasoning: true, reasoningEffort: "low", reasoningSummary: "auto", store: false, include: ["reasoning.encrypted_content"] } },
+       });
 diff --git a/src/routes/app.ementario.tsx b/src/routes/app.ementario.tsx
-index 4b52aba..9b631fc 100644
 --- a/src/routes/app.ementario.tsx
 +++ b/src/routes/app.ementario.tsx
-@@ -1 +1,2 @@
+@@ -1,3 +1,4 @@
 +import { NoticeLegalReading } from "@/components/app/notice-legal-reading";
  import { LegalArticleTree } from "@/components/app/legal-article-tree";
-@@ -32,8 +33,10 @@ type Note={id:string;target_id:string;target_type:string;body:string;selected_te
+ import { LegalPrecedentsPanel } from "@/components/app/legal-precedents-panel";
+ import { LegalHighlightedText, findLegalQuoteRange } from "@/components/app/legal-highlighted-text";
+@@ -30,15 +31,26 @@
+ type Article={id:string;document_id:string;provision_label:string;provision_key:string;heading:string|null;text_body:string|null;official_anchor_url:string|null;verified_at:string|null;hierarchy_path:string[];display_order:number|null;completeness:"full"|"excerpt"|"under_review"};
+ type Note={id:string;target_id:string;target_type:string;body:string;selected_text:string|null;highlight_color:string|null;anchor_data:{provision_key?:string}|null};
  const shades:Record<string,string>={yellow:"bg-yellow-300 text-black",green:"bg-lime-300 text-black",blue:"bg-sky-300 text-black",pink:"bg-pink-300 text-black"};
 -export const Route=createFileRoute("/app/ementario")({staticData:{sitemap:false},validateSearch:(search:Record<string,unknown>):{law?:string|undefined;article?:string|undefined}=>({
 +export const Route=createFileRoute("/app/ementario")({staticData:{sitemap:false},validateSearch:(search:Record<string,unknown>):{law?:string|undefined;article?:string|undefined;edital?:string|undefined;revisao?:string|undefined}=>({
@@ -454,7 +553,7 @@ index 4b52aba..9b631fc 100644
 - const {law:requestedLaw,article:requestedArticle}=Route.useSearch();
 + const {law:requestedLaw,article:requestedArticle,edital:requestedNotice,revisao:requestedRevision}=Route.useSearch();
   const navigate=Route.useNavigate();
-@@ -41,2 +44,11 @@ function Ementario(){
+  const {user}=useAuth();const qc=useQueryClient();
   const {fontSize,decrease,increase}=useLegalFontSize();
 + const [noticeId,setNoticeId]=useState(requestedNotice??"");
 + const [revisionId,setRevisionId]=useState(requestedRevision);
@@ -466,12 +565,20 @@ index 4b52aba..9b631fc 100644
 +   setReadingMode(requestedNotice?"notice":"current");
 + },[requestedNotice,requestedRevision]);
   const [term,setTerm]=useState("");const [law,setLaw]=useState<Law|null>(null);const [article,setArticle]=useState<Article|null>(null);
-@@ -116,3 +128,3 @@ function Ementario(){
+  const [quote,setQuote]=useState("");const [note,setNote]=useState("");const [editingNoteId,setEditingNoteId]=useState<string|null>(null);const [color,setColor]=useState("yellow");
+  const [desktopNotebookOpen,setDesktopNotebookOpen]=useState(false);
+@@ -114,7 +126,7 @@
+    const next=legalReaderSearch(lawCode,articleKey);
+    if(legalReaderSearchEquals({law:requestedLaw,article:requestedArticle},next))return;
     // Persist the current article in the link; no user data goes in the URL.
 -   void navigate({to:"/app/ementario",search:next,replace:true,resetScroll:false});
 +   void navigate({to:"/app/ementario",search:{...next,edital:requestedNotice,revisao:requestedRevision},replace:true,resetScroll:false});
   }
-@@ -278,7 +290,7 @@ function Ementario(){
+  function selectArticleForReading(next:Article|null,remote:string|null=null){
+    setArticle(next);
+@@ -276,11 +288,11 @@
+         <input inputMode="numeric" type="text" aria-label="Número do artigo" placeholder="Artigo (ex.: 186 ou 121-A)" value={articleInput} onChange={e=>setArticleInput(e.target.value)} className="min-w-0 flex-1 rounded-lg border border-input bg-secondary px-3 py-2 text-sm"/>
+         <button type="submit" className="rounded-lg bg-primary px-3 py-2 text-sm font-semibold text-primary-foreground">Consultar artigo</button>
        </form>
 -      {remoteNumber!==null && remoteArticle.isLoading && <p role="status" className="text-xs text-muted-foreground">Consultando art. {remoteNumber} na fonte oficial…</p>}
 -      {remoteNumber!==null && remoteArticle.isSuccess && !remoteArticle.data && <p className="text-xs text-muted-foreground">O texto do art. {remoteNumber} não pôde ser obtido com segurança neste momento. Consulte a fonte oficial pelo botão acima.</p>}
@@ -483,7 +590,11 @@ index 4b52aba..9b631fc 100644
 +      {showCurrent && law && !isStaticProvisionId(article?.id) && <div className="flex justify-end"><ReportContentError targetType={article ? "legal_provision" : "legal_document"} targetId={article?.id || law.id} targetLabel={`${law.title}${article ? " — "+article.provision_label : remoteNumber!==null ? " — Art. "+remoteNumber : ""}`} targetContext={bodyText || law.title} /></div>}
 +      {(bodyText||!showCurrent)&&<div className="flex justify-end"><LegalFontControls fontSize={fontSize} decrease={decrease} increase={increase}/></div>}
        <nav aria-label="Navegador rápido de artigos" className="sticky top-0 z-20 -mx-1 flex min-w-0 items-center justify-between gap-2 border-y border-border/60 bg-background/95 px-2 py-2 shadow-sm backdrop-blur-sm">
-@@ -296,3 +308,9 @@ function Ementario(){
+          <button type="button" aria-label="Artigo anterior" title="Ir para o artigo anterior" disabled={!articleNavigation.previous}
+            onClick={()=>jumpToArticle(articleNavigation.previous)}
+@@ -294,7 +306,13 @@
+            <span className="hidden sm:inline">Próximo</span><ChevronRight className="h-4 w-4"/>
+          </button>
         </nav>
 -       {bodyText?<article ref={articleCardRef} className="min-w-0 space-y-5 scroll-mt-16 border-t border-border/60 pt-5">
 +       {!user&&!showCurrent&&<p role="status">Entre na sua conta para consultar a legislação do edital.</p>}
@@ -494,7 +605,11 @@ index 4b52aba..9b631fc 100644
 +       {user&&readingMode==="compare"&&<h3 className="text-sm font-semibold">Legislação atual</h3>}
 +       {showCurrent&&<>{bodyText?<article ref={articleCardRef} className="min-w-0 space-y-5 scroll-mt-16 border-t border-border/60 pt-5">
         {article?.hierarchy_path?.length?<div aria-label="Localização na legislação" className="flex flex-wrap gap-x-1 gap-y-1 text-xs text-muted-foreground">{article.hierarchy_path.map((item,i)=><span key={i}>{i>0?" › ":""}{item}</span>)}</div>:null}
-@@ -321,6 +339,6 @@ function Ementario(){
+        <div className="flex justify-between gap-3"><div><p className="text-primary text-sm font-bold">{article?.provision_label||`Art. ${remoteNumber}`}</p><h3 className="mt-1 font-bold">{article?.heading||""}</h3></div><span className="text-xs text-muted-foreground">{article?.completeness==="excerpt"?"Trecho da norma":article?.completeness==="under_review"?"Texto em revisão":article?.verified_at?"Texto conferido":"Fonte em conferência"}</span></div>
+        {article?.completeness==="excerpt"&&<p className="rounded-md border border-border p-2 text-xs text-muted-foreground">Este artigo está disponível apenas parcialmente. Consulte o texto integral na fonte oficial.</p>}
+@@ -319,23 +337,23 @@
+          <button type="button" onClick={()=>void remove(n)} className="self-start text-xs text-destructive">Excluir</button>
+         </div>)}
         </div>
 -      </details>
 +      </details></>}
@@ -503,26 +618,39 @@ index 4b52aba..9b631fc 100644
 -   {law&&<aside aria-label="Caderno de estudos" className="hidden min-w-0 self-start overflow-y-auto rounded-xl border border-border bg-secondary/10 p-4 xl:sticky xl:top-6 xl:block xl:max-h-[calc(100dvh-3rem)]">
 +   {showCurrent&&law&&<aside aria-label="Caderno de estudos" className="hidden min-w-0 self-start overflow-y-auto rounded-xl border border-border bg-secondary/10 p-4 xl:sticky xl:top-6 xl:block xl:max-h-[calc(100dvh-3rem)]">
       <DesktopLegalNotebook key={law.id+":"+(article?.id||remoteNumber||"lei")} law={law} article={article} remoteNumber={remoteNumber} notes={visibleNotes} userId={user?.id??null}
-@@ -330,3 +348,3 @@ function Ementario(){
+        onSaved={()=>qc.invalidateQueries({queryKey:["ementario-notes",user?.id,law.id,article?.id]})}
+        onDelete={remove}/>
+    </aside>}
    </div>
 -  <Sheet open={desktopNotebookOpen&&Boolean(law)} onOpenChange={setDesktopNotebookOpen}>
 +  <Sheet open={showCurrent&&desktopNotebookOpen&&Boolean(law)} onOpenChange={setDesktopNotebookOpen}>
      <SheetContent side="right" className="hidden w-[min(440px,90vw)] overflow-y-auto lg:block xl:hidden">
-@@ -337,3 +355,3 @@ function Ementario(){
+       {law&&<DesktopLegalNotebook key={law.id+":"+(article?.id||remoteNumber||"lei")} law={law} article={article} remoteNumber={remoteNumber} notes={visibleNotes} userId={user?.id??null}
+         onSaved={()=>qc.invalidateQueries({queryKey:["ementario-notes",user?.id,law.id,article?.id]})}
+         onDelete={remove}/>}
+     </SheetContent>
    </Sheet>
 -  {law&&bodyText&&<div className="fixed bottom-[calc(6rem+env(safe-area-inset-bottom))] right-4 z-40 flex items-center gap-2 sm:bottom-6 sm:right-6 xl:right-[388px] 2xl:right-[448px]" aria-label="Ferramentas de marcação do Vade Mecum">
 +  {showCurrent&&law&&bodyText&&<div className="fixed bottom-[calc(6rem+env(safe-area-inset-bottom))] right-4 z-40 flex items-center gap-2 sm:bottom-6 sm:right-6 xl:right-[388px] 2xl:right-[448px]" aria-label="Ferramentas de marcação do Vade Mecum">
       {captured&&<button type="button" onClick={discardCapture} aria-label="Descartar seleção" className="flex h-10 w-10 items-center justify-center rounded-full border border-border bg-background/95 text-muted-foreground shadow-lg backdrop-blur-sm"><X className="h-4 w-4"/></button>}
+      <button type="button" aria-label={captured?"Destacar trecho selecionado":"Abrir marcações e anotações"} title={captured?"Trecho capturado — destacar ou anotar":"Destacar ou anotar"}
+        onPointerDownCapture={rememberNativeSelection} onClick={openFabEditor}
 diff --git a/src/routes/app.resolver.tsx b/src/routes/app.resolver.tsx
-index f5a5b39..7479a33 100644
 --- a/src/routes/app.resolver.tsx
 +++ b/src/routes/app.resolver.tsx
-@@ -14,3 +14,3 @@ import { QuestionTutor } from "@/components/app/question-tutor";
+@@ -12,7 +12,8 @@
+ import { cn } from "@/lib/utils";
+ import { QuestionTutor } from "@/components/app/question-tutor";
  import { PrivateExplanationNotes } from "@/components/app/private-explanation-notes";
 -import { LegalReferenceViewer } from "@/components/app/legal-reference-viewer";
 +import { QuestionNoticeReading } from "@/components/app/question-notice-reading";
++import { EditorialCommentary } from "@/components/app/editorial-commentary";
  
-@@ -72,3 +72,6 @@ function Resolver() {
+ export const Route = createFileRoute("/app/resolver")({
+   staticData: { sitemap: false },
+@@ -70,7 +71,10 @@
+   const answerState = q ? answers[q.id] : undefined;
+   const selectedId = answerState?.selectedId ?? null;
    const responded = answerState?.responded ?? false;
 -  const correctOption = q?.options.find((option) => option.isCurrentlyCorrect === true) ?? q?.options.find((option) => option.label === (q.currentAnswerKey ?? q.officialAnswerKey)) ?? null;
 +  const correctOption = (q?.origin === "official"
@@ -530,12 +658,20 @@ index f5a5b39..7479a33 100644
 +    : q?.options.find((option) => option.isCurrentlyCorrect === true)
 +      ?? q?.options.find((option) => option.label === q.currentAnswerKey)) ?? null;
    const selected = q?.options.find((option) => option.id === selectedId) ?? null;
-@@ -89,3 +92,3 @@ function Resolver() {
+   const isCorrect = Boolean(selected && correctOption && selected.id === correctOption.id);
+   const isSaved = Boolean(q && saved.data?.has(q.id));
+@@ -87,7 +91,7 @@
+     const started = answerState?.startedAt ?? startedAt.current;
+     setAnswers((old) => ({ ...old, [q.id]: { selectedId, responded: true, startedAt: started } }));
      setResultVisible(true);
 -    if (user) attempt.mutate({ questionId: q.id, selectedId, correct: isCorrect, started });
 +    if (user && correctOption) attempt.mutate({ questionId: q.id, selectedId, correct: isCorrect, started });
      window.scrollTo({ top: 0, behavior: "instant" });
-@@ -130,10 +133,6 @@ function Resolver() {
+   }
+   function retry() {
+@@ -128,14 +132,11 @@
+       <div className="mt-9 grid grid-cols-[minmax(0,1fr)_minmax(0,1fr)] gap-3"><Button variant="outline" className="h-12 rounded-lg" disabled={i === 0} onClick={() => { setI((value) => Math.max(0, value - 1)); window.scrollTo(0, 0); }}><ArrowLeft />Anterior</Button><Button className="h-12 rounded-lg font-bold" disabled={!selectedId} onClick={responded ? () => setResultVisible(true) : answer}>{responded ? "Ver resultado" : "Responder"}<ArrowRight /></Button></div>
+     </> : <>
        <Panel className={cn("mb-3", isCorrect ? "border-primary/30 bg-primary/5" : "border-destructive/30 bg-destructive/5")}>
 -        <div className="mb-4 flex items-center gap-3"><span className={cn("grid h-11 w-11 shrink-0 place-items-center rounded-full", isCorrect ? "bg-primary text-primary-foreground" : "bg-destructive text-destructive-foreground")}>{isCorrect ? <Check /> : <X />}</span><div><h2 className={cn("text-base", isCorrect ? "text-primary" : "text-destructive")}>{isCorrect ? "Resposta correta!" : "Resposta incorreta."}</h2><p className="mt-1 text-xs text-text-secondary">{correctOption ? `A alternativa ${displayedLabel(correctOption.id)} está correta nesta tentativa.` : "Gabarito indisponível."}</p></div></div>
 +        <div className="mb-4 flex items-center gap-3"><span className={cn("grid h-11 w-11 shrink-0 place-items-center rounded-full", isCorrect ? "bg-primary text-primary-foreground" : "bg-destructive text-destructive-foreground")}>{isCorrect ? <Check /> : <X />}</span><div><h2 className={cn("text-base", isCorrect ? "text-primary" : "text-destructive")}>{correctOption ? (isCorrect ? "Resposta correta!" : "Resposta incorreta.") : "Gabarito indisponível"}</h2><p className="mt-1 text-xs text-text-secondary">{correctOption ? `A alternativa ${displayedLabel(correctOption.id)} está correta nesta tentativa.` : "Gabarito indisponível."}</p></div></div>
@@ -547,21 +683,213 @@ index f5a5b39..7479a33 100644
 -        {q.sources.length === 0 && q.legalBasis && <LegalReferenceViewer questionId={q.id} reference={{ id: q.id, title: "Fundamento da questão", text: q.legalBasis }} />}
 -      </div></Panel>}
 +      <QuestionNoticeReading questionId={q.id} />
++      <EditorialCommentary questionId={q.id} explanation={q.explanation} legalBasis={q.legalBasis} />
        {!user && <p className="my-4 text-xs text-muted-foreground">Entre na sua conta para registrar este resultado no seu desempenho.</p>}
-@@ -145,3 +144,3 @@ function Resolver() {
+       {attempt.isError && <p role="alert" className="my-4 text-xs text-destructive">A resposta foi exibida, mas não foi possível salvar o progresso.</p>}
+       <div className="my-5 grid grid-cols-1 gap-2 sm:grid-cols-2">
+@@ -143,7 +144,7 @@
+         <Button className="h-12 w-full font-bold" onClick={next}>Próxima questão<ArrowRight /></Button>
+       </div>
        <p className="mb-4 text-xs text-muted-foreground">As letras podem mudar ao refazer. O gabarito é conferido pelo conteúdo original da alternativa. Cada resposta é registrada como uma nova tentativa.</p>
 -      <details className="mt-3 border-t border-border pt-4"><summary className="flex cursor-pointer items-center justify-between text-sm font-semibold">Tutor URSO BRAVO<ChevronDown className="h-4 w-4" /></summary><div className="mt-4"><QuestionTutor key={q.id} questionId={q.id} explanation={q.explanation} legalBasis={q.legalBasis} /></div></details>
 +      <details className="mt-3 border-t border-border pt-4"><summary className="flex cursor-pointer items-center justify-between text-sm font-semibold">Tutor URSO BRAVO<ChevronDown className="h-4 w-4" /></summary><div className="mt-4"><QuestionTutor key={q.id} questionId={q.id} /></div></details>
      </>}
+     {save.isError && <p role="alert" className="mt-4 text-xs text-destructive">Não foi possível atualizar a questão salva.</p>}
+   </>;
 diff --git a/src/routes/app.simulados.tsx b/src/routes/app.simulados.tsx
-index ac7f220..0073c3d 100644
 --- a/src/routes/app.simulados.tsx
 +++ b/src/routes/app.simulados.tsx
-@@ -1 +1,2 @@
+@@ -1,3 +1,5 @@
 +import { QuestionNoticeReading } from "@/components/app/question-notice-reading";
++import { EditorialCommentary } from "@/components/app/editorial-commentary";
  import {createFileRoute,Link} from "@tanstack/react-router";
-@@ -120,3 +121,3 @@ function PremiumSimulados(){
+ import {useEffect,useMemo,useState} from "react";
+ import {useQuery} from "@tanstack/react-query";
+@@ -118,7 +120,7 @@
+   <ol className="mt-2 space-y-1">{previousByQuestion.get(q.id)!.slice(0,5).map((entry,j)=><li key={entry.resolved_at+"-"+j}>
+     {new Date(entry.resolved_at).toLocaleDateString("pt-BR")} · {entry.attempt_type==="simulado"?"Simulado":"Questão avulsa"} · <strong className={entry.is_correct?"text-primary":"text-amber-500"}>{entry.is_correct?"Acertou":"Errou"}</strong>
    </li>)}</ol>
 - </div>}<div className="space-y-1 text-xs text-muted-foreground">{options.data?.filter(o=>o.question_id===q.id).map(o=><p key={o.label} className={o.label===r?.correct_answer?"font-semibold text-foreground":""}>{o.label}. {o.content}</p>)}</div><p className="text-sm">{r?.explanation}</p><p className="text-xs text-muted-foreground">{r?.legal_basis}</p></article>})}
-+ </div>}<div className="space-y-1 text-xs text-muted-foreground">{options.data?.filter(o=>o.question_id===q.id).map(o=><p key={o.label} className={o.label===r?.correct_answer?"font-semibold text-foreground":""}>{o.label}. {o.content}</p>)}</div><QuestionNoticeReading questionId={q.id} attemptId={attempt} /></article>})}
++ </div>}<div className="space-y-1 text-xs text-muted-foreground">{options.data?.filter(o=>o.question_id===q.id).map(o=><p key={o.label} className={o.label===r?.correct_answer?"font-semibold text-foreground":""}>{o.label}. {o.content}</p>)}</div><QuestionNoticeReading questionId={q.id} attemptId={attempt} /><EditorialCommentary questionId={q.id} attemptId={attempt} explanation={r?.explanation} legalBasis={r?.legal_basis} /></article>})}
      </div>:<div className="space-y-4">
+     <div className="flex items-center justify-between text-sm"><span>Questão {position+1} de {questionIds.length}</span><span>{Math.floor(elapsed/60)}:{String(elapsed%60).padStart(2,"0")}</span></div>
+     <div className="h-2 overflow-hidden rounded-full bg-secondary"><div className="h-full bg-primary" style={{width:`${Math.round((position+1)/Math.max(1,questionIds.length)*100)}%`}}/></div>
+diff --git a/src/test/notice-legal.integration.test.tsx b/src/test/notice-legal.integration.test.tsx
+new file mode 100644
+--- /dev/null
++++ b/src/test/notice-legal.integration.test.tsx
+@@ -0,0 +1,174 @@
++// Local integration against a throwaway Postgres started by
++// supabase/tests/notice_legal_integration.sh. Skipped in the normal suite.
++import { execFileSync } from "node:child_process";
++import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
++import { render, screen, fireEvent, waitFor } from "@testing-library/react";
++import { describe, expect, it, vi } from "vitest";
++
++const HOST = process.env["NOTICE_IT_PGHOST"];
++const PORT = process.env["NOTICE_IT_PGPORT"];
++const STUDENT = "70000000-0000-0000-0000-000000000001";
++const PROVISION = "20000000-0000-0000-0000-000000000001";
++const OFFICIAL = "80000000-0000-0000-0000-000000000001";
++const ORIGINAL = "80000000-0000-0000-0000-000000000002";
++const NO_REFS = "80000000-0000-0000-0000-000000000003";
++const PINNED_MOCK = "90000000-0000-0000-0000-000000000003";
++
++const session = vi.hoisted(() => ({ premium: "yes" }));
++function sql(query: string): unknown {
++  const prelude = `set role authenticated; set test.uid='${STUDENT}'; set test.premium='${session.premium}';`;
++  const out = execFileSync("psql", ["-X", "-q", "-At", "-h", HOST!, "-p", PORT!, "-U", "postgres", "-d", "postgres",
++    "-v", "ON_ERROR_STOP=1", "-c", prelude, "-c", query], { encoding: "utf8" });
++  return JSON.parse(out.trim().split("\n").pop() || "null");
++}
++const lit = (v: unknown) => (v == null ? "null" : `'${String(v).replace(/'/g, "''")}'`);
++function rpc(name: string, args: Record<string, unknown> = {}) {
++  try {
++    const named = Object.entries(args).map(([k, v]) => `${k} => ${lit(v)}`).join(", ");
++    const setReturning = sql(`select to_jsonb(proretset) from pg_proc where proname = '${name}'`) === true;
++    const rows = setReturning
++      ? sql(`select coalesce(jsonb_agg(to_jsonb(r)), '[]') from public.${name}(${named}) r`)
++      : sql(`select to_jsonb(public.${name}(${named}))`);
++    return { data: rows, error: null };
++  } catch (error) { if (process.env["NOTICE_IT_DEBUG"]) console.error("RPC", name, String((error as {stderr?: string}).stderr ?? error)); return { data: null, error }; }
++}
++vi.mock("@/lib/supabase", () => ({
++  untypedSupabase: {
++    rpc: async (name: string, args?: Record<string, unknown>) => rpc(name, args),
++  },
++  supabase: { auth: { getSession: async () => ({ data: { session: null } }) } },
++}));
++vi.mock("@/lib/auth", () => ({ useAuth: () => ({ user: { id: STUDENT } }) }));
++vi.mock("@tanstack/react-router", () => ({ Link: ({ children }: { children: unknown }) => children }));
++// AI stub: no real provider call, no cost.
++const ai = vi.hoisted(() => ({ calls: [] as string[] }));
++vi.mock("@ai-sdk/openai", () => ({ createOpenAI: () => ({ responses: () => "stub-model" }) }));
++vi.mock("ai", () => ({ streamText: (opts: { system: string }) => { ai.calls.push(opts.system); return { text: Promise.resolve("Resposta do tutor (stub).") }; } }));
++vi.mock("@tanstack/react-start", () => ({
++  createServerFn: () => { const b = { inputValidator: () => b, handler: (fn: unknown) => fn }; return b; },
++}));
++
++const run = HOST && PORT ? describe : describe.skip;
++function wrap(node: React.ReactNode) {
++  const client = new QueryClient({ defaultOptions: { queries: { retry: false } } });
++  return render(<QueryClientProvider client={client}>{node}</QueryClientProvider>);
++}
++
++run("Vade Mecum temporal — integração local com banco descartável", () => {
++  it("leitor: Atual, Edital e Comparar com dados resolvidos pelo banco", async () => {
++    const { NoticeLegalReading } = await import("@/components/app/notice-legal-reading");
++    const { useState } = await import("react");
++    function Harness({ initialNotice = "" }: { initialNotice?: string }) {
++      const [mode, setMode] = useState<"current" | "notice" | "compare">(initialNotice ? "notice" : "current");
++      const [noticeId, setNoticeId] = useState(initialNotice);
++      return <NoticeLegalReading noticeId={noticeId} setNoticeId={setNoticeId} revisionId={undefined} mode={mode}
++        setMode={setMode} provisionId={PROVISION} currentBody="Texto posterior" fontSize={16} userId={STUDENT} />;
++    }
++    const modeOf = (c: HTMLElement) => c.querySelector("select")!;
++    // Premium: edital ativo e histórico selado aparecem na lista.
++    const a = wrap(<Harness />);
++    expect(a.container.textContent).not.toContain("Texto anterior");
++    fireEvent.change(modeOf(a.container), { target: { value: "notice" } });
++    await waitFor(() => expect(a.getByText("CFO 2027 (sintético)")).toBeTruthy());
++    expect(a.getByText("CFO 2025 (sintético)")).toBeTruthy();
++    fireEvent.change(a.getByRole("combobox", { name: /Edital/ }), { target: { value: "10000000-0000-0000-0000-000000000002" } });
++    expect(await a.findByText("Texto posterior")).toBeTruthy();
++    expect(a.getByText("Data de corte do edital: 03/09/2026")).toBeTruthy();
++    fireEvent.change(modeOf(a.container), { target: { value: "compare" } });
++    expect(await a.findByText("As redações exibidas são iguais.")).toBeTruthy();
++    a.unmount();
++    // Edital histórico aberto por link da questão (edital=...): redação antiga e comparação.
++    const b = wrap(<Harness initialNotice="10000000-0000-0000-0000-000000000001" />);
++    expect(await b.findByText("Texto anterior")).toBeTruthy();
++    expect(b.getByText("Data de corte do edital: 09/05/2024")).toBeTruthy();
++    fireEvent.change(modeOf(b.container), { target: { value: "compare" } });
++    expect(await b.findByText("O texto atual difere da redação do edital.")).toBeTruthy();
++  });
++
++  it("lista do leitor: premium vê edital histórico selado e o seleciona; grátis vê só o ativo", async () => {
++    const { NoticeLegalReading } = await import("@/components/app/notice-legal-reading");
++    const view = () => wrap(<NoticeLegalReading noticeId="" setNoticeId={() => {}} revisionId={undefined} mode="notice"
++      setMode={() => {}} provisionId={PROVISION} currentBody="Texto posterior" fontSize={16} userId={STUDENT} />);
++    session.premium = "no";
++    const free = view();
++    await waitFor(() => expect(free.getByText("CFO 2027 (sintético)")).toBeTruthy());
++    expect(free.queryByText("CFO 2025 (sintético)")).toBeNull();
++    free.unmount();
++    session.premium = "yes";
++    const { useState } = await import("react");
++    function Harness() {
++      const [noticeId, setNoticeId] = useState("");
++      return <NoticeLegalReading noticeId={noticeId} setNoticeId={setNoticeId} revisionId={undefined} mode="notice"
++        setMode={() => {}} provisionId={PROVISION} currentBody="Texto posterior" fontSize={16} userId={STUDENT} />;
++    }
++    const premium = wrap(<Harness />);
++    await waitFor(() => expect(premium.getByText("CFO 2025 (sintético)")).toBeTruthy());
++    fireEvent.change(premium.getByRole("combobox", { name: /Edital/ }), { target: { value: "10000000-0000-0000-0000-000000000001" } });
++    expect(await premium.findByText("Texto anterior")).toBeTruthy();
++  });
++
++  it("comentário editorial aparece rotulado e separado do texto legal resolvido", async () => {
++    const { EditorialCommentary } = await import("@/components/app/editorial-commentary");
++    const pending = wrap(<EditorialCommentary questionId={NO_REFS} explanation="COMENTARIO_EDITORIAL" legalBasis="Art. 1" />);
++    await waitFor(() => expect(pending.getByText("COMENTARIO_EDITORIAL")).toBeTruthy());
++    await waitFor(() => expect(pending.container.textContent).toContain("Contexto temporal ainda não certificado"));
++    expect(pending.container.textContent).not.toContain("Texto anterior");
++    pending.unmount();
++    const certified = wrap(<EditorialCommentary questionId={OFFICIAL} explanation="COMENTARIO_EDITORIAL" legalBasis={null} />);
++    await waitFor(() => expect(certified.getByText("COMENTARIO_EDITORIAL")).toBeTruthy());
++    await new Promise((r) => setTimeout(r, 200));
++    expect(certified.container.textContent).not.toContain("ainda não certificado");
++    expect(certified.container.textContent).not.toContain("Texto anterior");
++  });
++
++  it("questão oficial usa a edição original; simulado usa a revisão fixada", async () => {
++    const { QuestionNoticeReading } = await import("@/components/app/question-notice-reading");
++    const a = wrap(<QuestionNoticeReading questionId={OFFICIAL} />);
++    expect(await a.findByText("Data de corte: 09/05/2024")).toBeTruthy();
++    expect(a.container.textContent).toContain("Texto anterior");
++    a.unmount();
++    const b = wrap(<QuestionNoticeReading questionId={ORIGINAL} attemptId={PINNED_MOCK} />);
++    expect(await b.findByText("Data de corte: 03/09/2026")).toBeTruthy();
++    expect(b.container.textContent).toContain("Texto posterior");
++  });
++
++  it("tutor bloqueia sem referências e responde com IA stub quando há redação certificada", async () => {
++    process.env["LOVABLE_API_KEY"] = "stub-key";
++    const realFetch = globalThis.fetch;
++    globalThis.fetch = (async (url: string, init?: RequestInit) => {
++      if (url.includes("/auth/v1/user")) return new Response("{}", { status: 200 });
++      if (url.includes("/rest/v1/questions")) return new Response(JSON.stringify([{ statement: "Enunciado", origin: "official",
++        official_answer_key: "A", explanation: "COMENTARIO_EDITORIAL", legal_basis: "BASE_EDITORIAL",
++        question_options: [{ label: "A", content: "x", is_currently_correct: false, sort_order: 1 }, { label: "B", content: "y", is_currently_correct: true, sort_order: 2 }] }]), { status: 200 });
++      if (url.includes("/rpc/resolve_question_notice_legal_context")) {
++        const body = JSON.parse(String(init?.body));
++        const res = rpc("resolve_question_notice_legal_context", body);
++        return new Response(JSON.stringify(res.data), { status: res.error ? 400 : 200 });
++      }
++      throw new Error("unexpected network call " + url);
++    }) as typeof fetch;
++    try {
++      const { askQuestionTutor } = await import("@/lib/question-tutor.functions");
++      const call = askQuestionTutor as unknown as (a: { data: unknown }) => Promise<{ ok: boolean; error?: string; answer?: string }>;
++      const base = { accessToken: "synthetic-token", level: "iniciante", message: "Explique", history: [],
++        revisionId: "30000000-0000-0000-0000-000000000001" };
++      const blocked = await call({ data: { ...base, questionId: NO_REFS } });
++      expect(blocked).toEqual({ ok: false, error: "Fundamentação legislativa do edital pendente de certificação." });
++      expect(ai.calls).toHaveLength(0);
++      const ok = await call({ data: { ...base, questionId: OFFICIAL } });
++      expect(ok.ok).toBe(true);
++      expect(ai.calls[0]).toContain("Texto anterior");
++      expect(ai.calls[0]).toContain("Data de corte: 2024-05-09");
++      expect(ai.calls[0]).toContain("GABARITO: A"); // gabarito oficial preservado
++      expect(ai.calls[0]).not.toContain("COMENTARIO_EDITORIAL");
++      expect(ai.calls[0]).not.toContain("BASE_EDITORIAL");
++    } finally { globalThis.fetch = realFetch; }
++  });
++
++  it("conta sem premium não recebe texto histórico", async () => {
++    session.premium = "no";
++    const res = rpc("resolve_question_notice_legal_context", { p_question_id: OFFICIAL });
++    expect(JSON.stringify(res.data)).not.toContain("Texto anterior");
++    session.premium = "yes";
++  });
++});
