@@ -33,71 +33,69 @@ Use um intervalo de vigência semiaberto, com início inclusivo e fim exclusivo.
 
 O RPC `resolve_notice_legal_provision` usa as permissões do chamador. A omissão de `p_revision_id` seleciona a última revisão selada, e o ID explícito preserva o contexto de consultas anteriores. Em modo histórico, trate os estados pendentes sem recorrer ao texto atual. A segunda migração resolve a revisão para questões oficiais pela edição original, fixa a revisão de novos simulados na criação da tentativa e valida a revisão informada pelo tutor.
 
-## Aplicação e testes
+## Implementação integrada — revisão final de 20/11/2026
 
-- O código do app foi encontrado no Lovable no commit `45e11d6609c6b57f5974231391f67bf389cb04e8`. O GitHub continha o README do projeto. `integracao/leitor-vade-mecum-temporal.patch` é o diff aplicável ao leitor dessa base, com os modos atual, edital e comparação. As anotações existentes continuam vinculadas ao dispositivo no modo atual. O texto histórico fica em uma área própria, sem gravar marcação na redação errada.
-- Em um banco local vazio e descartável, execute via `psql -v ON_ERROR_STOP=1` os arquivos `supabase/tests/notice_legal_snapshots_fixture.sql`, `supabase/pending/20261117130000_notice_legal_snapshots.sql` e `supabase/tests/notice_legal_snapshots.sql`, nessa ordem. A suíte passou em PostgreSQL 18.6 via PGlite.
-- A integração final foi aplicada no rascunho real do Lovable. A seção de homologação de 20/11 abaixo substitui os estados intermediários de execução.
+Código real no rascunho Lovable `drft_01m7ms02befwys2r2ra1f07e7y`, commit `c7f5495df49248816bfb200283a7b81c6a756e85`. O preview foi materializado no mesmo SHA. O rascunho não foi aceito ou publicado. O repositório operacional principal não foi atualizado. O patch deste PR é aplicável à base real `45e11d6609c6b57f5974231391f67bf389cb04e8`.
 
-## Integração e ensaio da retomada
-
-- A expansão de `integracao/leitor-vade-mecum-temporal.patch` usa os arquivos da mesma base real do Lovable. O leitor abre a redação da revisão a partir do resultado da questão em outra aba para preservar a tentativa. Marcações, comentários e progresso existentes continuam na leitura atual. A comparação ignora diferenças de cabeçalho e formatação simples.
-- O solucionador, os resultados de simulado e o tutor usam `resolve_question_notice_legal_context`. A IA recebe apenas as redações certificadas da revisão consultada. O gabarito original da banca fica separado da correção atual. O histórico legado em `historical_exam_practice` e as rotas de prática gratuita ainda precisam de homologação e vínculo com o novo serviço.
-- A migração `supabase/pending/20261117140000_question_notice_legal_context.sql` deve ser aplicada depois da primeira. Os testes adicionais estão em `supabase/tests/question_notice_legal_context*.sql`. Execute a fixture de contexto antes das duas migrações e a suíte de contexto depois das duas. As duas suítes SQL passaram no PostgreSQL 18.6 via PGlite.
-- Apliquei o patch em uma cópia limpa dos arquivos reais e transpilei os 10 arquivos alterados. Rodei testes de comparação do leitor, entrada do tutor e regressões existentes de anotações, progresso e URLs em ambiente isolado.
-- `supabase/evidence/dudh-artigo-3.json` contém uma redação conferida, reutilizável no item 9.1 do CFO 2027 e 4.3 do CFSD 2025. Os respectivos escopos foram ensaiados em dois editais de teste, com reprocessamento e apenas uma versão gravada. O artefato não contém um selo editorial oficial dos editais. Os demais dispositivos continuam pendentes de conferência individual.
-- O bloqueio de acesso ao rascunho foi resolvido. O código funcional foi aplicado e testado no rascunho, conforme homologação abaixo. Não houve alteração no Supabase canônico.
-
-
-## Reconciliação com o repositório operacional — 19/11/2026
-
-Consulta direta ao repositório privado `joaogabrielmenezes8-cmyk/screenshot-exact-match` (branch `main`) confirmou `package.json` com `name: urso-bravo`, Vite, React 19, TanStack Router/Start, Supabase e Vitest. Os seguintes caminhos foram abertos e conferidos, não apenas presumidos:
-
-| Fluxo | Arquivo existente no aplicativo | Integração prevista no patch |
+| Fluxo | Código real | Comportamento |
 | --- | --- | --- |
-| Leitor e anotações | `src/routes/app.ementario.tsx` | `NoticeLegalReading`, mantendo marcações atuais isoladas da redação histórica |
-| Resolução de questões | `src/routes/app.resolver.tsx` | `QuestionNoticeReading` e contexto por revisão |
-| Simulados | `src/routes/app.simulados.tsx` | fixação da revisão da tentativa, preservando gabarito original |
-| Tutor IA | `src/components/app/question-tutor.tsx` | contexto temporal certificado e referências da edição |
+| Leitor | `src/routes/app.ementario.tsx`, `notice-legal-reading.tsx` | Atual/Edital/Comparar, data de corte, fontes, revisão explícita no link e lacunas visíveis, sem fallback silencioso |
+| Questões | `src/routes/app.resolver.tsx`, `question-notice-reading.tsx` | Questão oficial usa a edição original; comentário editorial separado do texto legal |
+| Simulados | `src/routes/app.simulados.tsx` | Revisão, concurso e data de criação fixados na tentativa; consultas posteriores preservam a revisão |
+| Treino gratuito | `src/components/app/free-practice.tsx` | Sessão fixa revisão na criação; RPC valida dono, questão e envio; textos legais mantêm acesso premium/admin |
+| Provas anteriores | `src/routes/app.provas-anteriores.tsx` | Edição pelo ano/concurso e estado pendente quando faltam vínculos certificados |
+| Tutor | `src/lib/question-tutor.functions.ts` | Sessão validada no servidor; somente redações resolvidas são evidência; falta de referências bloqueia IA |
+| Gabaritos inéditos | `answer-key-status.ts`, `editorial-answer-key-notice.tsx` | Adequação temporal explicitamente pendente; prefixo fixo no tutor; gabarito oficial preservado |
 
-O repositório operacional também contém `src/lib/supabase.ts` e `src/lib/legal-reading-format.ts`. **A existência desses arquivos não comprova que o patch foi aplicado nem que o app publicado corresponde ao HEAD do GitHub.** A busca de código no repositório privado não retornou resultados; os caminhos acima foram confirmados por leitura direta. Não inferir ausência de componentes a partir da busca vazia.
+Não existe certificação do gabarito inédito por revisão. A disponibilidade do texto legal não certifica a alternativa editorial. Resultados anteriores não foram regravados. Treino grátis e provas anteriores não possuíam tutor e não receberam um novo tutor.
 
-Esse registro descreve a inspeção anterior à integração. A implementação posterior está no rascunho Lovable e no patch sincronizado deste PR. O repositório operacional principal não foi atualizado nem publicado.
+Marcações, comentários e progresso atuais preservam os mesmos IDs. As ferramentas aparecem em Atual/Comparar e ficam ocultas em Edital para evitar gravação em âncoras incorretas. Edição de marcações históricas por versão ainda não foi implementada.
 
-## Contratos operacionais confirmados — 19/11/2026 (leitura de código)
+## Migrações pendentes
 
-Inspeção direta de `screenshot-exact-match/main`, sem alteração na aplicação:
+Aplicar em ordem somente depois de homologação/autorização para o destino:
 
-- `src/routes/app.ementario.tsx`: `validateSearch` aceita somente `law` e `article`; o leitor carrega `legal_provisions` e mescla `STATIC_LAW_FILES`, inclusive entradas sintéticas `STATIC_ID_PREFIX` com `completeness: under_review`. **Não resolver versão histórica a partir de IDs sintéticos**; associar exclusivamente IDs canônicos e sinalizar lacunas. Novos parâmetros `notice` e `revision` precisam de validação explícita e query keys separadas. O progresso e as anotações atuais devem permanecer isolados do modo histórico.
-- `src/routes/app.resolver.tsx`: o alvo `target` é `search.contest || profile.target_contest_id`; `correctOption` prioriza `isCurrentlyCorrect` e `currentAnswerKey` antes de `officialAnswerKey`. **Esse gabarito atual não pode ser apresentado como resposta oficial histórica**. Separar contexto temporal e correção sem regravar a tentativa nem mudar `recordAttempt` silenciosamente.
-- `src/routes/app.simulados.tsx`: o premium cria tentativas por `start_mock_exam` ou `generate_mock_exam`, lê `mock_exam_attempts.question_ids` e conclui com `submit_mock_exam`. O fluxo gratuito usa `FreePractice`, que exige integração independente. A revisão deve ser fixada no servidor ao criar a tentativa, não inferida apenas do estado React.
-- `src/components/app/question-tutor.tsx`: `askQuestionTutor` envia `accessToken, questionId, level, message, history`, sem edição/revisão; o fallback reutiliza `explanation` e `legalBasis` atuais. Em modo histórico, impedir que esse fallback seja rotulado como fundamento da edição sem certificação. Estender o contrato do serviço no servidor antes de transmitir qualquer afirmação de conformidade temporal.
+1. `20261117130000_notice_legal_snapshots.sql`: versões, escopo selado, RLS e ingestão idempotente.
+2. `20261117140000_question_notice_legal_context.sql`: contexto de questões e revisão imutável dos simulados.
+3. `20261119150000_list_reader_notices.sql`: lista mínima de editais ativos e históricos selados conforme acesso, sem ampliar a RLS global de notices.
+4. `20261120150000_practice_notice_legal_context.sql`: contexto de treino gratuito e provas anteriores.
 
-**Ordem de integração segura:** (1) contrato RPC e resolução por revisão, (2) leitor histórico sem gravação de anotações, (3) resolver com distinção entre gabaritos, (4) criação/finalização de simulados e fluxo gratuito, (5) tutor e fallback certificado, (6) testes autenticados. Esses são achados de leitura de código, **não** testes executados ou funcionalidade implantada.
+As quatro permanecem em `supabase/pending`. A última também depende da estrutura já existente de treino gratuito. Os nomes/tipos das colunas de sessões e provas anteriores e os códigos `PMMG_CFO`/`PMMG_SOLDADO` foram conferidos por SELECT no Supabase canônico.
 
+A revisão de segurança detectou e corrigiu uma elevação indevida no wrapper SECURITY DEFINER do treino gratuito: depois de validar dono/sessão/envio, ele verifica premium/admin com `coalesce` antes de resolver texto. Conta grátis recebe `pending_access` sem redação ou data de corte, mantendo gabarito e comentário já autorizados.
 
-## Homologação integrada — 20/11/2026
+## Testes e evidências
 
-Código real aplicado no rascunho `drft_01m7ms02befwys2r2ra1f07e7y`, commit `3f18b69cda1068306fa53f894fe0c4cecadb7703`. O conector confirmou o preview materializado no mesmo SHA. O editor autenticado abriu o preview inicial nessa revisão em 20/11. Isso comprova inicialização, não um E2E autenticado dos recursos temporais.
+| Verificação | Resultado e limite |
+| --- | --- |
+| Suíte geral do app | 256 PASS no rascunho |
+| Integração | 11 PASS, PostgreSQL 17 descartável, sessão/rede sintéticas e IA stub |
+| Tipos/build | PASS no rascunho |
+| Navegador móvel | Chromium 393x852: leitor Atual/Edital/Comparar, questão oficial e treino gratuito PASS |
+| SQL independente no Work | PostgreSQL/PGlite 18.6: quatro migrações reaplicadas, três suítes e acesso grátis/premium/sessão alheia/sem login PASS |
+| Bundle DUDH | 30 hashes, ingestão/retry em dois editais sintéticos, 30 versões e 60 vínculos PASS |
+| Patch completo | Aplicação conferida contra os arquivos originais da base real, incluindo treino e provas anteriores |
 
-- Modos Atual, Edital e Comparar integrados. Histórico pendente nunca recorre silenciosamente à redação atual.
-- Questões, resultados de simulados e tutor usam o mesmo resolver temporal. Gabarito oficial preservado. Comentário editorial foi restaurado em painel separado e não é evidência para a IA.
-- Nova migração `20261119150000_list_reader_notices.sql`: lista mínima de editais ativos para autenticados e históricos selados para premium/admin, sem ampliar a RLS global de notices.
-- As três migrações são reaplicáveis e permanecem em `supabase/pending`. O histórico e as revisões seladas continuam imutáveis.
-- Scripts: `bash supabase/tests/notice_legal_local.sh` e `bash supabase/tests/notice_legal_integration.sh`, no código real do aplicativo com suas dependências. Este repositório de documentação mantém o patch completo do app e os artefatos SQL.
-- Execução no ambiente Lovable: 253 testes gerais, 6 testes de integração com PostgreSQL 17 descartável, typecheck e build passaram. Integração usa dados sintéticos, sessão/rede simuladas e IA stub, sem chamada real de IA.
-- Verificação independente no Work em 20/11: PostgreSQL/PGlite 18.6, fixtures e três migrações aplicadas duas vezes, suítes snapshots, contexto de questões e listagem de editais passaram.
-- Notas, marcações e progresso existentes permanecem associados ao texto atual. Ferramentas aparecem em Atual/Comparar e ficam ocultas em Edital para evitar gravação em âncoras incorretas. Não foi implementada edição de marcações histórica por versão.
+Evidências do navegador: [relatório](../audits/2026-11-20-e2e-navegador-temporal/RELATORIO.md) e [JSON](../audits/2026-11-20-e2e-navegador-temporal/resultado.json). As capturas estão no rascunho Lovable, na mesma pasta. O Work abriu visualmente a captura da questão com redação antiga, corte 09/05/2024 e comentário editorial separado.
 
-**Limites de homologação:** a base canônica não recebeu as migrações nem os históricos. A prévia conectada a ela não comprova a leitura histórica funcional. A cadeia oficial completa de retificações e a correspondência de todos os dispositivos ainda não estão certificadas. A presença dos diplomas no catálogo não significa cobertura histórica: a DUDH possui evidência preparada para os 30 artigos neste PR. Nenhuma edição é declarada integralmente certificada.
+Os testes do navegador interceptam o Supabase e executam RPCs temporais no banco descartável; cotas, autenticação e parte das respostas são stubs. Não houve chamada real de IA. A tela de resultado do simulado premium com revisão fixada não foi aberta no navegador; seu contrato tem teste de integração. Não se trata de E2E de produção nem de login real.
 
+Reprodução no código real do aplicativo:
 
-### Evidência DUDH ampliada e revalidação canônica
+- `bash supabase/tests/notice_legal_local.sh`
+- `bash supabase/tests/notice_legal_integration.sh`
+- Navegador: seguir o relatório acima e validar JSON com `supabase/tests/browser/check_result.py`.
 
-Em 20/11 a leitura do banco canônico confirmou novamente 30 normas, 7.466 dispositivos, 295 itens (CFO 2027: 193; CFSD 2025: 51; CFSD 2023: 51) e 30 registros formais de certificação. As tabelas temporais ainda não existem nesse banco. Consulta de inventário não equivale a certificação jurídica.
+Verificação independente em memória: `PGLITE_MODULE=/caminho/para/pglite/dist/index.js node supabase/tests/practice_notice_security_local.mjs` e `node supabase/tests/dudh_evidence_local.mjs` com a mesma variável. Versão usada: `@electric-sql/pglite@0.5.16`. Este repositório preserva o patch e os artefatos; a suíte completa deve rodar no código real com suas dependências.
 
-`supabase/evidence/dudh-artigos-1-30.json` prepara 30 versões com IDs estáveis dos dispositivos canônicos, hashes individuais e extratos em `dudh-artigos-1-30.txt`. Fonte institucional: https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos, conferida em 20/11/2026. O texto coincide com os 30 dispositivos cadastrados, normalizando apenas espaços. O ID e o hash já preparados para o art. 3 foram preservados.
+## Cobertura e pendências materiais
 
-A data 10/12/1948 representa a adoção/proclamação da declaração informada pela fonte, não a vigência de um tratado. O bundle não inclui revisões oficiais de edital nem selos. A confirmação das datas de corte e da cadeia de retificações permanece separada da conferência do texto. Ele cobre a DUDH do CFO 2027 item 9.1 e CFSD 2025 item 4.3, sem certificar as demais normas.
+SELECT de 20/11 confirmou 30 normas, 7.466 dispositivos, 295 itens (CFO 2027: 193; CFSD 2025: 51; CFSD 2023: 51) e 30 registros formais. As tabelas temporais ainda não existem no banco canônico. Esses registros não comprovam certificação material integral.
 
-Ensaio reproduzível: `PGLITE_MODULE=/caminho/para/pglite/dist/index.js node supabase/tests/dudh_evidence_local.mjs`, ou módulo `@electric-sql/pglite` instalado. PASS: 30 hashes, duas edições **sintéticas** com retry idêntico, 30 versões e 60 vínculos sem duplicação. O banco é exclusivamente em memória. Não importa nem sela qualquer edição no Supabase real.
+`supabase/evidence/dudh-artigos-1-30.json` prepara 30 versões com IDs estáveis e hashes individuais; extratos em `dudh-artigos-1-30.txt`. Fonte institucional UNICEF conferida em 20/11. Texto coincide com os 30 dispositivos cadastrados normalizando apenas espaços. ID e hash já preparados do art. 3 preservados. A data 10/12/1948 é a adoção/proclamação declarada pela fonte, não vigência de tratado. O bundle não inclui revisão oficial de edital ou selo. Cobre DUDH no CFO 2027 item 9.1 e CFSD 2025 item 4.3, sem certificar as demais normas.
+
+A cópia consolidada do CFSD 2025 também contém a Errata nº 01, de 19/06/2024, sobre coleta de amostra no exame toxicológico (página 5 do PDF de 93 páginas). As retificações nº 01 e nº 02 tratam de vagas e calendário. Essas cópias não demonstram, por si, exaustividade da cadeia oficial. A tentativa de recuperar o portal oficial do CRS em 20/11 retornou timeout.
+
+**P0 permanece aberto:** falta confirmar a cadeia oficial completa e os marcos de corte, mapear e conferir os demais dispositivos, preparar seu acervo histórico e concluir homologação autenticada contra ambiente com dados certificados. Nenhuma edição é declarada integralmente certificada. CFO 2025/2026 e CFSD 2023 seguem com as pendências documentais da tabela inicial.
+
+Merge, aceitação do rascunho, publicação, migrações e importação em produção dependem de autorização específica. Nenhuma dessas operações foi executada nesta retomada.
