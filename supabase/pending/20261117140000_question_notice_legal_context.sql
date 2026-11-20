@@ -2,7 +2,7 @@ begin;
 
 -- Older notices may be hidden by the active-only notices policy. Only expose
 -- the ID of a unique, released historical edition to a legal-text reader.
-create function public.released_historical_notice(p_contest uuid, p_exam_year integer)
+create or replace function public.released_historical_notice(p_contest uuid, p_exam_year integer)
 returns uuid
 language sql stable security definer set search_path = ''
 as $$
@@ -23,10 +23,10 @@ grant execute on function public.released_historical_notice(uuid, integer) to au
 
 -- New mock attempts remember the selected edition even if the active notice
 -- changes later. Legacy attempts without a reliable binding remain pending.
-alter table public.mock_exam_attempts add column notice_legal_revision_id uuid
+alter table public.mock_exam_attempts add column if not exists notice_legal_revision_id uuid
   references public.notice_legal_releases(revision_id);
 
-create function private.bind_mock_notice_legal_revision()
+create or replace function private.bind_mock_notice_legal_revision()
 returns trigger language plpgsql security definer set search_path = ''
 as $$
 declare
@@ -54,12 +54,12 @@ end;
 $$;
 
 revoke all on function private.bind_mock_notice_legal_revision() from public, anon, authenticated;
-create trigger bind_mock_notice_legal_revision
-before insert or update of notice_legal_revision_id, contest_id, created_at on public.mock_exam_attempts
+drop trigger if exists bind_mock_notice_legal_revision on public.mock_exam_attempts;
+create trigger bind_mock_notice_legal_revision before insert or update of notice_legal_revision_id, contest_id, created_at on public.mock_exam_attempts
 for each row execute function private.bind_mock_notice_legal_revision();
 
 -- Use the caller's question, attempt, notice and legal-text policies.
-create function public.resolve_question_notice_legal_context(
+create or replace function public.resolve_question_notice_legal_context(
   p_question_id uuid, p_attempt_id uuid default null, p_revision_id uuid default null
 )
 returns jsonb
