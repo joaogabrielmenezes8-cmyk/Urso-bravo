@@ -1,7 +1,7 @@
 begin;
 
 -- A retificação creates a new revision. Existing links keep their revision ID.
-create table public.notice_legal_revisions (
+create table if not exists public.notice_legal_revisions (
   id uuid primary key default gen_random_uuid(),
   notice_id uuid not null references public.notices(id),
   revision integer not null check (revision > 0),
@@ -13,7 +13,7 @@ create table public.notice_legal_revisions (
 );
 
 -- An explicitly sourced revocation is evidence. A missing row means unknown.
-create table public.legal_provision_versions (
+create table if not exists public.legal_provision_versions (
   id uuid primary key default gen_random_uuid(),
   provision_id uuid not null references public.legal_provisions(id),
   valid_from date not null,
@@ -34,7 +34,7 @@ create table public.legal_provision_versions (
 
 -- One row per provision explicitly included in the notice. NULL means
 -- the scope is known and the historical text is pending certification.
-create table public.notice_legal_scope (
+create table if not exists public.notice_legal_scope (
   revision_id uuid not null references public.notice_legal_revisions(id),
   provision_id uuid not null references public.legal_provisions(id),
   syllabus_locator text not null check (btrim(syllabus_locator) <> ''),
@@ -44,15 +44,15 @@ create table public.notice_legal_scope (
     references public.legal_provision_versions(provision_id, id)
 );
 
-create index notice_legal_scope_version_idx
+create index if not exists notice_legal_scope_version_idx
   on public.notice_legal_scope (version_id);
 
-create table public.notice_legal_releases (
+create table if not exists public.notice_legal_releases (
   revision_id uuid primary key references public.notice_legal_revisions(id),
   released_at timestamptz not null default now()
 );
 
-create function private.reject_notice_legal_mutation()
+create or replace function private.reject_notice_legal_mutation()
 returns trigger language plpgsql set search_path = ''
 as $$
 begin
@@ -60,7 +60,7 @@ begin
 end;
 $$;
 
-create function private.validate_notice_legal_insert()
+create or replace function private.validate_notice_legal_insert()
 returns trigger language plpgsql security definer set search_path = ''
 as $$
 declare
@@ -131,6 +131,8 @@ begin
     execute format('revoke all on public.%I from public, anon, authenticated, service_role', relation);
     execute format('grant select on public.%I to authenticated', relation);
     execute format('grant select, insert on public.%I to service_role', relation);
+    execute format('drop trigger if exists immutable_history on public.%I', relation);
+    execute format('drop trigger if exists immutable_history_truncate on public.%I', relation);
     execute format(
       'create trigger immutable_history before update or delete on public.%I
        for each row execute function private.reject_notice_legal_mutation()', relation);
@@ -141,23 +143,29 @@ begin
 end;
 $$;
 
+drop trigger if exists validate_notice_legal_scope on public.notice_legal_scope;
 create trigger validate_notice_legal_scope before insert on public.notice_legal_scope
 for each row execute function private.validate_notice_legal_insert();
+drop trigger if exists validate_notice_legal_release on public.notice_legal_releases;
 create trigger validate_notice_legal_release before insert on public.notice_legal_releases
 for each row execute function private.validate_notice_legal_insert();
 
 -- Mirror the canonical legal_provisions SELECT policy.
+drop policy if exists see_released_notices on public.notice_legal_releases;
 create policy see_released_notices on public.notice_legal_releases
 for select to authenticated using (public.my_premium_access() or (select private.is_admin()));
+drop policy if exists see_released_revisions on public.notice_legal_revisions;
 create policy see_released_revisions on public.notice_legal_revisions
 for select to authenticated using (
   exists (select from public.notice_legal_releases r where r.revision_id = notice_legal_revisions.id)
 );
+drop policy if exists see_released_scope on public.notice_legal_scope;
 create policy see_released_scope on public.notice_legal_scope
 for select to authenticated using (
   exists (select from public.notice_legal_releases r
           where r.revision_id = notice_legal_scope.revision_id)
 );
+drop policy if exists see_released_versions on public.legal_provision_versions;
 create policy see_released_versions on public.legal_provision_versions
 for select to authenticated using (
   exists (select from public.notice_legal_scope s where s.version_id = legal_provision_versions.id)
@@ -166,7 +174,7 @@ for select to authenticated using (
 
 -- Shared API contract for reader, questions and AI. An optional explicit revision
 -- pins past attempts. A mismatched revision never resolves against another notice.
-create function public.resolve_notice_legal_provision(
+create or replace function public.resolve_notice_legal_provision(
   p_notice_id uuid, p_provision_id uuid, p_revision_id uuid default null
 )
 returns table (
@@ -203,7 +211,7 @@ grant execute on function public.resolve_notice_legal_provision(uuid, uuid, uuid
 
 -- Import one complete, explicitly reviewed revision. Replays must match the
 -- persisted payload. IDs are stable across retries.
-create function public.ingest_notice_legal_revision(
+create or replace function public.ingest_notice_legal_revision(
   p_revision jsonb, p_versions jsonb, p_scope jsonb
 )
 returns uuid
