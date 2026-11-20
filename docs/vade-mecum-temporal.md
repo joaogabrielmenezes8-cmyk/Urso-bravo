@@ -37,7 +37,7 @@ O RPC `resolve_notice_legal_provision` usa as permissões do chamador. A omissã
 
 - O código do app foi encontrado no Lovable no commit `45e11d6609c6b57f5974231391f67bf389cb04e8`. O GitHub continha o README do projeto. `integracao/leitor-vade-mecum-temporal.patch` é o diff aplicável ao leitor dessa base, com os modos atual, edital e comparação. As anotações existentes continuam vinculadas ao dispositivo no modo atual. O texto histórico fica em uma área própria, sem gravar marcação na redação errada.
 - Em um banco local vazio e descartável, execute via `psql -v ON_ERROR_STOP=1` os arquivos `supabase/tests/notice_legal_snapshots_fixture.sql`, `supabase/pending/20261117130000_notice_legal_snapshots.sql` e `supabase/tests/notice_legal_snapshots.sql`, nessa ordem. A suíte passou em PostgreSQL 18.6 via PGlite.
-- O patch passou em `git diff --check` e transpilação TSX isolada. A suíte completa do app e a homologação autenticada continuam pendentes.
+- A integração final foi aplicada no rascunho real do Lovable. A seção de homologação de 20/11 abaixo substitui os estados intermediários de execução.
 
 ## Integração e ensaio da retomada
 
@@ -46,7 +46,7 @@ O RPC `resolve_notice_legal_provision` usa as permissões do chamador. A omissã
 - A migração `supabase/pending/20261117140000_question_notice_legal_context.sql` deve ser aplicada depois da primeira. Os testes adicionais estão em `supabase/tests/question_notice_legal_context*.sql`. Execute a fixture de contexto antes das duas migrações e a suíte de contexto depois das duas. As duas suítes SQL passaram no PostgreSQL 18.6 via PGlite.
 - Apliquei o patch em uma cópia limpa dos arquivos reais e transpilei os 10 arquivos alterados. Rodei testes de comparação do leitor, entrada do tutor e regressões existentes de anotações, progresso e URLs em ambiente isolado.
 - `supabase/evidence/dudh-artigo-3.json` contém uma redação conferida, reutilizável no item 9.1 do CFO 2027 e 4.3 do CFSD 2025. Os respectivos escopos foram ensaiados em dois editais de teste, com reprocessamento e apenas uma versão gravada. O artefato não contém um selo editorial oficial dos editais. Os demais dispositivos continuam pendentes de conferência individual.
-- O rascunho do Lovable continua no commit-base publicado antes desta integração. Seu editor privado exige sessão com acesso e a operação disponível no conector não endereça o rascunho. O preview remoto ainda não contém a integração. Não houve alteração no Supabase canônico.
+- O bloqueio de acesso ao rascunho foi resolvido. O código funcional foi aplicado e testado no rascunho, conforme homologação abaixo. Não houve alteração no Supabase canônico.
 
 
 ## Reconciliação com o repositório operacional — 19/11/2026
@@ -62,7 +62,7 @@ Consulta direta ao repositório privado `joaogabrielmenezes8-cmyk/screenshot-exa
 
 O repositório operacional também contém `src/lib/supabase.ts` e `src/lib/legal-reading-format.ts`. **A existência desses arquivos não comprova que o patch foi aplicado nem que o app publicado corresponde ao HEAD do GitHub.** A busca de código no repositório privado não retornou resultados; os caminhos acima foram confirmados por leitura direta. Não inferir ausência de componentes a partir da busca vazia.
 
-Próxima entrega de código: aplicar o patch em branch isolada do repositório operacional após confirmar a revisão base, executar `npm run build` e `npm test`, e validar RPCs com dados sintéticos e sessão autenticada em banco descartável. Não migrar produção nem preencher versões históricas sem fonte oficial e certificação.
+Esse registro descreve a inspeção anterior à integração. A implementação posterior está no rascunho Lovable e no patch sincronizado deste PR. O repositório operacional principal não foi atualizado nem publicado.
 
 ## Contratos operacionais confirmados — 19/11/2026 (leitura de código)
 
@@ -74,3 +74,19 @@ Inspeção direta de `screenshot-exact-match/main`, sem alteração na aplicaç�
 - `src/components/app/question-tutor.tsx`: `askQuestionTutor` envia `accessToken, questionId, level, message, history`, sem edição/revisão; o fallback reutiliza `explanation` e `legalBasis` atuais. Em modo histórico, impedir que esse fallback seja rotulado como fundamento da edição sem certificação. Estender o contrato do serviço no servidor antes de transmitir qualquer afirmação de conformidade temporal.
 
 **Ordem de integração segura:** (1) contrato RPC e resolução por revisão, (2) leitor histórico sem gravação de anotações, (3) resolver com distinção entre gabaritos, (4) criação/finalização de simulados e fluxo gratuito, (5) tutor e fallback certificado, (6) testes autenticados. Esses são achados de leitura de código, **não** testes executados ou funcionalidade implantada.
+
+
+## Homologação integrada — 20/11/2026
+
+Código real aplicado no rascunho `drft_01m7ms02befwys2r2ra1f07e7y`, commit `3f18b69cda1068306fa53f894fe0c4cecadb7703`. O conector confirmou o preview materializado no mesmo SHA. O editor autenticado abriu o preview inicial nessa revisão em 20/11. Isso comprova inicialização, não um E2E autenticado dos recursos temporais.
+
+- Modos Atual, Edital e Comparar integrados. Histórico pendente nunca recorre silenciosamente à redação atual.
+- Questões, resultados de simulados e tutor usam o mesmo resolver temporal. Gabarito oficial preservado. Comentário editorial foi restaurado em painel separado e não é evidência para a IA.
+- Nova migração `20261119150000_list_reader_notices.sql`: lista mínima de editais ativos para autenticados e históricos selados para premium/admin, sem ampliar a RLS global de notices.
+- As três migrações são reaplicáveis e permanecem em `supabase/pending`. O histórico e as revisões seladas continuam imutáveis.
+- Scripts: `bash supabase/tests/notice_legal_local.sh` e `bash supabase/tests/notice_legal_integration.sh`, no código real do aplicativo com suas dependências. Este repositório de documentação mantém o patch completo do app e os artefatos SQL.
+- Execução no ambiente Lovable: 253 testes gerais, 6 testes de integração com PostgreSQL 17 descartável, typecheck e build passaram. Integração usa dados sintéticos, sessão/rede simuladas e IA stub, sem chamada real de IA.
+- Verificação independente no Work em 20/11: PostgreSQL/PGlite 18.6, fixtures e três migrações aplicadas duas vezes, suítes snapshots, contexto de questões e listagem de editais passaram.
+- Notas, marcações e progresso existentes permanecem associados ao texto atual. Ferramentas aparecem em Atual/Comparar e ficam ocultas em Edital para evitar gravação em âncoras incorretas. Não foi implementada edição de marcações histórica por versão.
+
+**Limites de homologação:** a base canônica não recebeu as migrações nem os históricos. A prévia conectada a ela não comprova a leitura histórica funcional. A cadeia oficial completa de retificações e a correspondência de todos os dispositivos ainda não estão certificadas. A presença dos diplomas no catálogo não significa cobertura histórica: apenas o extrato DUDH art. 3 possui evidência preparada neste PR. Nenhuma edição é declarada integralmente certificada.
