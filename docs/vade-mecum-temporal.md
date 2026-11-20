@@ -99,3 +99,21 @@ A cópia consolidada do CFSD 2025 também contém a Errata nº 01, de 19/06/2024
 **P0 permanece aberto:** falta confirmar a cadeia oficial completa e os marcos de corte, mapear e conferir os demais dispositivos, preparar seu acervo histórico e concluir homologação autenticada contra ambiente com dados certificados. Nenhuma edição é declarada integralmente certificada. CFO 2025/2026 e CFSD 2023 seguem com as pendências documentais da tabela inicial.
 
 Merge, aceitação do rascunho, publicação, migrações e importação em produção dependem de autorização específica. Nenhuma dessas operações foi executada nesta retomada.
+
+
+### CADH — avanço adicional de 20/11
+
+Fonte textual: https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp; base de promulgação: https://www.planalto.gov.br/ccivil_03/decreto/d0678.htm. Foram extraídos os 82 artigos da CIDH/OEA, com hashes individuais em `cadh-artigos-1-82.json` e transcrição versionada em `cadh-artigos-1-82-oea.txt`.
+
+A comparação com os dispositivos canônicos resultou em **39 versões preparadas e 43 artigos pendentes de reconciliação**. A normalização usada é explícita (espaços/caixa, Estados-Partes e marcadores de alíneas). Diferenças de palavras não foram corrigidas automaticamente. O bundle contém os diffs e mantém `version_id=null` para os pendentes; não atribui a essas diferenças uma alteração legislativa. A página do Planalto apresentou falha de codificação na extração e sua cópia PDF não teve texto extraível pelo conector; a tentativa de download direto retornou timeout. O texto do Senado apresentou divergências de transcrição, por isso não foi usado para preencher lacunas silenciosamente.
+
+O Decreto 678/1992 declara a entrada em vigor internacional para o Brasil em 25/09/1992 e sua própria vigência na publicação, indicada no Planalto como DOU de 09/11/1992. O bundle adota a publicação do decreto como início de eficácia interna documentada e registra ambas as datas, além da declaração interpretativa brasileira sobre arts. 43 e 48(d). Nenhum selo de edital foi preparado.
+
+Teste `supabase/tests/cadh_evidence_local.mjs`: PASS para 82 hashes, 39 versões e 164 vínculos em dois editais sintéticos com retry idêntico. O resolver devolveu 39 disponíveis e 43 `pending_version`; nenhum pendente recebeu redação atual. Comandos usam a mesma variável PGLITE_MODULE documentada acima. Itens conferidos nas cópias dos editais: CFO 2027, Anexo B 9.2; CFSD 2025, Anexo B 4.4.
+
+| Fonte comum ao P0 | Versões preparadas | Pendência explícita |
+| --- | ---: | --- |
+| DUDH, artigos 1–30 | 30 | Marco/selo do edital, sem versão publicada em produção |
+| CADH, artigos 1–82 | 39 | 43 artigos a reconciliar e marco/selo do edital |
+
+Essas 69 versões preparadas não representam certificação integral de CFO 2027 ou CFSD 2025.
