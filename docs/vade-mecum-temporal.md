@@ -89,4 +89,15 @@ Código real aplicado no rascunho `drft_01m7ms02befwys2r2ra1f07e7y`, commit `3f1
 - Verificação independente no Work em 20/11: PostgreSQL/PGlite 18.6, fixtures e três migrações aplicadas duas vezes, suítes snapshots, contexto de questões e listagem de editais passaram.
 - Notas, marcações e progresso existentes permanecem associados ao texto atual. Ferramentas aparecem em Atual/Comparar e ficam ocultas em Edital para evitar gravação em âncoras incorretas. Não foi implementada edição de marcações histórica por versão.
 
-**Limites de homologação:** a base canônica não recebeu as migrações nem os históricos. A prévia conectada a ela não comprova a leitura histórica funcional. A cadeia oficial completa de retificações e a correspondência de todos os dispositivos ainda não estão certificadas. A presença dos diplomas no catálogo não significa cobertura histórica: apenas o extrato DUDH art. 3 possui evidência preparada neste PR. Nenhuma edição é declarada integralmente certificada.
+**Limites de homologação:** a base canônica não recebeu as migrações nem os históricos. A prévia conectada a ela não comprova a leitura histórica funcional. A cadeia oficial completa de retificações e a correspondência de todos os dispositivos ainda não estão certificadas. A presença dos diplomas no catálogo não significa cobertura histórica: a DUDH possui evidência preparada para os 30 artigos neste PR. Nenhuma edição é declarada integralmente certificada.
+
+
+### Evidência DUDH ampliada e revalidação canônica
+
+Em 20/11 a leitura do banco canônico confirmou novamente 30 normas, 7.466 dispositivos, 295 itens (CFO 2027: 193; CFSD 2025: 51; CFSD 2023: 51) e 30 registros formais de certificação. As tabelas temporais ainda não existem nesse banco. Consulta de inventário não equivale a certificação jurídica.
+
+`supabase/evidence/dudh-artigos-1-30.json` prepara 30 versões com IDs estáveis dos dispositivos canônicos, hashes individuais e extratos em `dudh-artigos-1-30.txt`. Fonte institucional: https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos, conferida em 20/11/2026. O texto coincide com os 30 dispositivos cadastrados, normalizando apenas espaços. O ID e o hash já preparados para o art. 3 foram preservados.
+
+A data 10/12/1948 representa a adoção/proclamação da declaração informada pela fonte, não a vigência de um tratado. O bundle não inclui revisões oficiais de edital nem selos. A confirmação das datas de corte e da cadeia de retificações permanece separada da conferência do texto. Ele cobre a DUDH do CFO 2027 item 9.1 e CFSD 2025 item 4.3, sem certificar as demais normas.
+
+Ensaio reproduzível: `PGLITE_MODULE=/caminho/para/pglite/dist/index.js node supabase/tests/dudh_evidence_local.mjs`, ou módulo `@electric-sql/pglite` instalado. PASS: 30 hashes, duas edições **sintéticas** com retry idêntico, 30 versões e 60 vínculos sem duplicação. O banco é exclusivamente em memória. Não importa nem sela qualquer edição no Supabase real.
