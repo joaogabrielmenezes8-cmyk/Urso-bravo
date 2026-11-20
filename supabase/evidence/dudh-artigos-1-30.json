@@ -1,0 +1,557 @@
+{
+  "document_code": "DUDH",
+  "reviewed_on": "2026-11-20",
+  "source_url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
+  "source_extract": "dudh-artigos-1-30.txt",
+  "source_artifact_format": "UTF-8 LF; artigos separados por uma linha vazia; hash individual inclui cabeçalho e newline final",
+  "temporal_basis": "Data de adoção declarada pela fonte institucional, não vigência de tratado.",
+  "applicable_edital_items": {
+    "CFO_2027": "9.1",
+    "CFSD_2025": "4.3"
+  },
+  "notice_release_status": "not_prepared_pending_official_cutoff_and_rectification_chain",
+  "versions": [
+    {
+      "id": "15837228-eb8f-5437-8c92-4affa59e3d54",
+      "provision_id": "70039c3f-a8c8-4f92-b7bf-3b2e2b16c166",
+      "valid_from": "1948-12-10",
+      "valid_until": null,
+      "heading": null,
+      "body": "Todos os seres humanos nascem livres e iguais em dignidade e direitos. São dotados de razão e consciência e devem agir em relação uns aos outros com espírito de fraternidade.",
+      "revoked": false,
+      "source_url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
+      "source_sha256": "a6697685b6cbf8743d1f57042e9c73e8ea0d99cf45258ef1c3d8a72cd323ce37",
+      "review_evidence": "Artigo 1 conferido no texto institucional do UNICEF Brasil em 20/11/2026. A página identifica expressamente a adoção e proclamação pela Resolução 217 A (III) em 10/12/1948. A data é a adoção da declaração, não vigência de tratado. Hash do extrato UTF-8 com LF (Artigo N, corpo, newline final), não do HTML. A confirmação do marco do edital e o selo de sua revisão são operações separadas."
+    },
+    {
+      "id": "ea6afb6c-68c6-5824-9699-0572898cd31a",
+      "provision_id": "4a776054-cfc8-483b-93c8-5e14e82850c7",
+      "valid_from": "1948-12-10",
+      "valid_until": null,
+      "heading": null,
+      "body": "1. Todo ser humano tem capacidade para gozar os direitos e as liberdades estabelecidos nesta Declaração, sem distinção de qualquer espécie, seja de raça, cor, sexo, língua, religião, opinião política ou de outra natureza, origem nacional ou social, riqueza, nascimento, ou qualquer outra condição.\n2. Não será também feita nenhuma distinção fundada na condição política, jurídica ou internacional do país ou território a que pertença uma pessoa, quer se trate de um território independente, sob tutela, sem governo próprio, quer sujeito a qualquer outra limitação de soberania.",
+      "revoked": false,
+      "source_url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
+      "source_sha256": "fe8c055a9675ea6f0b85696de5be41f79926ffad84d67baac0aafac5a65fd673",
+      "review_evidence": "Artigo 2 conferido no texto institucional do UNICEF Brasil em 20/11/2026. A página identifica expressamente a adoção e proclamação pela Resolução 217 A (III) em 10/12/1948. A data é a adoção da declaração, não vigência de tratado. Hash do extrato UTF-8 com LF (Artigo N, corpo, newline final), não do HTML. A confirmação do marco do edital e o selo de sua revisão são operações separadas."
+    },
+    {
+      "id": "660f5530-a16a-539d-81a7-54f6e6d9a1f9",
+      "provision_id": "15b41b6b-70ef-472c-8228-ba0cb0b8dd9f",
+      "valid_from": "1948-12-10",
+      "valid_until": null,
+      "heading": null,
+      "body": "Todo ser humano tem direito à vida, à liberdade e à segurança pessoal.",
+      "revoked": false,
+      "source_url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
+      "source_sha256": "c2f47fd54e52becc415ecfb6a932bdd1ee63acd9750768a9221c61c692a172ca",
+      "review_evidence": "Artigo 3 conferido na tradução institucional do UNICEF Brasil. A Resolução 217 A (III) foi adotada pela Assembleia Geral da ONU em 10/12/1948, conforme o registro oficial A/RES/217(III). A data do registro é a adoção da declaração, não a vigência de um tratado. SHA-256 do extrato UTF-8 versionado, não do HTML inteiro."
+    },
+    {
+      "id": "d73bf1e0-5487-518d-887a-75f3f7cf43f8",
+      "provision_id": "86bbc6d2-a37c-4fe5-b0eb-9e5196f811e4",
+      "valid_from": "1948-12-10",
+      "valid_until": null,
+      "heading": null,
+      "body": "Ninguém será mantido em escravidão ou servidão; a escravidão e o tráfico de escravos serão proibidos em todas as suas formas.",
+      "revoked": false,
+      "source_url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
+      "source_sha256": "b2f5f96194369ced59d42f44e51454c27d43cb3dc96de8f1ec4dbc83d84e2fad",
+      "review_evidence": "Artigo 4 conferido no texto institucional do UNICEF Brasil em 20/11/2026. A página identifica expressamente a adoção e proclamação pela Resolução 217 A (III) em 10/12/1948. A data é a adoção da declaração, não vigência de tratado. Hash do extrato UTF-8 com LF (Artigo N, corpo, newline final), não do HTML. A confirmação do marco do edital e o selo de sua revisão são operações separadas."
+    },
+    {
+      "id": "bdad657a-6f67-5ac3-9309-0e833b38429e",
+      "provision_id": "391f221b-e4b7-48c1-8f71-1a88c7a569d8",
+      "valid_from": "1948-12-10",
+      "valid_until": null,
+      "heading": null,
+      "body": "Ninguém será submetido à tortura, nem a tratamento ou castigo cruel, desumano ou degradante.",
+      "revoked": false,
+      "source_url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
+      "source_sha256": "1a21adc4e0503d3b464455ae3403a6344fd1f561a04e587019dc12a63e7a99af",
+      "review_evidence": "Artigo 5 conferido no texto institucional do UNICEF Brasil em 20/11/2026. A página identifica expressamente a adoção e proclamação pela Resolução 217 A (III) em 10/12/1948. A data é a adoção da declaração, não vigência de tratado. Hash do extrato UTF-8 com LF (Artigo N, corpo, newline final), não do HTML. A confirmação do marco do edital e o selo de sua revisão são operações separadas."
+    },
+    {
+      "id": "d773ad50-c1cd-5879-94ed-14ab141cabfe",
+      "provision_id": "9681183b-1111-4fe8-8280-535ebe047821",
+      "valid_from": "1948-12-10",
+      "valid_until": null,
+      "heading": null,
+      "body": "Todo ser humano tem o direito de ser, em todos os lugares, reconhecido como pessoa perante a lei.",
+      "revoked": false,
+      "source_url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
+      "source_sha256": "5222a1767cbb66ed2a0d47c799a4499481b2e6b61fea5ce8e7585ff685ba298f",
+      "review_evidence": "Artigo 6 conferido no texto institucional do UNICEF Brasil em 20/11/2026. A página identifica expressamente a adoção e proclamação pela Resolução 217 A (III) em 10/12/1948. A data é a adoção da declaração, não vigência de tratado. Hash do extrato UTF-8 com LF (Artigo N, corpo, newline final), não do HTML. A confirmação do marco do edital e o selo de sua revisão são operações separadas."
+    },
+    {
+      "id": "535b5665-76c1-5c55-9f38-6c2519b539d2",
+      "provision_id": "a945695d-1e75-4e1f-bc41-7eb820a4341b",
+      "valid_from": "1948-12-10",
+      "valid_until": null,
+      "heading": null,
+      "body": "Todos são iguais perante a lei e têm direito, sem qualquer distinção, a igual proteção da lei. Todos têm direito a igual proteção contra qualquer discriminação que viole a presente Declaração e contra qualquer incitamento a tal discriminação.",
+      "revoked": false,
+      "source_url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
+      "source_sha256": "95e44923f6c12d6d42f2f10a206260cfcd2982053f5ca5492caf4562cbf0c619",
+      "review_evidence": "Artigo 7 conferido no texto institucional do UNICEF Brasil em 20/11/2026. A página identifica expressamente a adoção e proclamação pela Resolução 217 A (III) em 10/12/1948. A data é a adoção da declaração, não vigência de tratado. Hash do extrato UTF-8 com LF (Artigo N, corpo, newline final), não do HTML. A confirmação do marco do edital e o selo de sua revisão são operações separadas."
+    },
+    {
+      "id": "6ade0870-0a24-53dc-a09a-851482f2fe70",
+      "provision_id": "139f33cd-cdbc-4ddc-9ab6-d41dbc209849",
+      "valid_from": "1948-12-10",
+      "valid_until": null,
+      "heading": null,
+      "body": "Todo ser humano tem direito a receber dos tribunais nacionais competentes remédio efetivo para os atos que violem os direitos fundamentais que lhe sejam reconhecidos pela constituição ou pela lei.",
+      "revoked": false,
+      "source_url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
+      "source_sha256": "dfab9943a886bce3cddd84f3282c5b41930d6d0e313b9b61c96b5b93ada950db",
+      "review_evidence": "Artigo 8 conferido no texto institucional do UNICEF Brasil em 20/11/2026. A página identifica expressamente a adoção e proclamação pela Resolução 217 A (III) em 10/12/1948. A data é a adoção da declaração, não vigência de tratado. Hash do extrato UTF-8 com LF (Artigo N, corpo, newline final), não do HTML. A confirmação do marco do edital e o selo de sua revisão são operações separadas."
+    },
+    {
+      "id": "0251cc6e-7cf1-5502-b894-f194694e025f",
+      "provision_id": "76b9f55b-4cae-4845-8679-6aef797c49eb",
+      "valid_from": "1948-12-10",
+      "valid_until": null,
+      "heading": null,
+      "body": "Ninguém será arbitrariamente preso, detido ou exilado.",
+      "revoked": false,
+      "source_url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
+      "source_sha256": "35fff37ee3d047dae20ba9e12c0d0d00d9243f6444a14958653274039049243b",
+      "review_evidence": "Artigo 9 conferido no texto institucional do UNICEF Brasil em 20/11/2026. A página identifica expressamente a adoção e proclamação pela Resolução 217 A (III) em 10/12/1948. A data é a adoção da declaração, não vigência de tratado. Hash do extrato UTF-8 com LF (Artigo N, corpo, newline final), não do HTML. A confirmação do marco do edital e o selo de sua revisão são operações separadas."
+    },
+    {
+      "id": "4332cb76-0357-5cb9-919e-d8fb36d680f9",
+      "provision_id": "93f0c3bd-2216-4f15-a58c-c7ca43280457",
+      "valid_from": "1948-12-10",
+      "valid_until": null,
+      "heading": null,
+      "body": "Todo ser humano tem direito, em plena igualdade, a uma justa e pública audiência por parte de um tribunal independente e imparcial, para decidir seus direitos e deveres ou fundamento de qualquer acusação criminal contra ele.",
+      "revoked": false,
+      "source_url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
+      "source_sha256": "8cd295e3fedb7dafa32d7119ded9df26734aa81c0b2477cced9375bd2d814e14",
+      "review_evidence": "Artigo 10 conferido no texto institucional do UNICEF Brasil em 20/11/2026. A página identifica expressamente a adoção e proclamação pela Resolução 217 A (III) em 10/12/1948. A data é a adoção da declaração, não vigência de tratado. Hash do extrato UTF-8 com LF (Artigo N, corpo, newline final), não do HTML. A confirmação do marco do edital e o selo de sua revisão são operações separadas."
+    },
+    {
+      "id": "e9c28970-f6e7-574c-ae7e-bdb77219bec7",
+      "provision_id": "07c22bd0-e460-4b71-9d29-5b65919b2813",
+      "valid_from": "1948-12-10",
+      "valid_until": null,
+      "heading": null,
+      "body": "1.Todo ser humano acusado de um ato delituoso tem o direito de ser presumido inocente até que a sua culpabilidade tenha sido provada de acordo com a lei, em julgamento público no qual lhe tenham sido asseguradas todas as garantias necessárias à sua defesa.\n2. Ninguém poderá ser culpado por qualquer ação ou omissão que, no momento, não constituíam delito perante o direito nacional ou internacional. Também não será imposta pena mais forte de que aquela que, no momento da prática, era aplicável ao ato delituoso.",
+      "revoked": false,
+      "source_url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
+      "source_sha256": "1766e1790407d803706866829590bfee4b6a1be1b659e3226a66e50cb3871cc8",
+      "review_evidence": "Artigo 11 conferido no texto institucional do UNICEF Brasil em 20/11/2026. A página identifica expressamente a adoção e proclamação pela Resolução 217 A (III) em 10/12/1948. A data é a adoção da declaração, não vigência de tratado. Hash do extrato UTF-8 com LF (Artigo N, corpo, newline final), não do HTML. A confirmação do marco do edital e o selo de sua revisão são operações separadas."
+    },
+    {
+      "id": "1309d7d0-b902-5936-bc93-afaa662a4927",
+      "provision_id": "dcd64bf8-4588-40ad-bd6d-c580954c9927",
+      "valid_from": "1948-12-10",
+      "valid_until": null,
+      "heading": null,
+      "body": "Ninguém será sujeito à interferência na sua vida privada, na sua família, no seu lar ou na sua correspondência, nem a ataque à sua honra e reputação. Todo ser humano tem direito à proteção da lei contra tais interferências ou ataques.",
+      "revoked": false,
+      "source_url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
+      "source_sha256": "85b6ace13348ac0e61ec62e3276f0186490850c2dbb921c0b9e40714cb65e0dc",
+      "review_evidence": "Artigo 12 conferido no texto institucional do UNICEF Brasil em 20/11/2026. A página identifica expressamente a adoção e proclamação pela Resolução 217 A (III) em 10/12/1948. A data é a adoção da declaração, não vigência de tratado. Hash do extrato UTF-8 com LF (Artigo N, corpo, newline final), não do HTML. A confirmação do marco do edital e o selo de sua revisão são operações separadas."
+    },
+    {
+      "id": "6269d2e2-cf64-55d8-bf84-de0d4d6e665f",
+      "provision_id": "ba06ab38-7496-4d98-a6f2-935da3cb672d",
+      "valid_from": "1948-12-10",
+      "valid_until": null,
+      "heading": null,
+      "body": "1. Todo ser humano tem direito à liberdade de locomoção e residência dentro das fronteiras de cada Estado.\n2. Todo ser humano tem o direito de deixar qualquer país, inclusive o próprio e a esse regressar.",
+      "revoked": false,
+      "source_url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
+      "source_sha256": "e473c59ce58b3e408164f5604117c2f12e82c8dfd6c4880c15eaa0a454b65523",
+      "review_evidence": "Artigo 13 conferido no texto institucional do UNICEF Brasil em 20/11/2026. A página identifica expressamente a adoção e proclamação pela Resolução 217 A (III) em 10/12/1948. A data é a adoção da declaração, não vigência de tratado. Hash do extrato UTF-8 com LF (Artigo N, corpo, newline final), não do HTML. A confirmação do marco do edital e o selo de sua revisão são operações separadas."
+    },
+    {
+      "id": "cfa78c7f-1211-511f-ab03-3918bc6b72f3",
+      "provision_id": "2f1b66dd-c5a4-4f0c-a961-8f6b5acf8370",
+      "valid_from": "1948-12-10",
+      "valid_until": null,
+      "heading": null,
+      "body": "1. Todo ser humano, vítima de perseguição, tem o direito de procurar e de gozar asilo em outros países.\n2. Esse direito não pode ser invocado em caso de perseguição legitimamente motivada por crimes de direito comum ou por atos contrários aos objetivos e princípios das Nações Unidas.",
+      "revoked": false,
+      "source_url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
+      "source_sha256": "4196151124548cc94917ca6903acf2145810ae52af576827faa6afe5e703760a",
+      "review_evidence": "Artigo 14 conferido no texto institucional do UNICEF Brasil em 20/11/2026. A página identifica expressamente a adoção e proclamação pela Resolução 217 A (III) em 10/12/1948. A data é a adoção da declaração, não vigência de tratado. Hash do extrato UTF-8 com LF (Artigo N, corpo, newline final), não do HTML. A confirmação do marco do edital e o selo de sua revisão são operações separadas."
+    },
+    {
+      "id": "53ebe358-1d44-57d9-8f90-60b9acfe19b8",
+      "provision_id": "a6955896-2e7a-4c7e-96fa-e48d1af39adf",
+      "valid_from": "1948-12-10",
+      "valid_until": null,
+      "heading": null,
+      "body": "1. Todo ser humano tem direito a uma nacionalidade.\n2. Ninguém será arbitrariamente privado de sua nacionalidade, nem do direito de mudar de nacionalidade.",
+      "revoked": false,
+      "source_url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
+      "source_sha256": "5c366b2e97e169e5b7da8bbe398e883b40cb577c0cbf6593de2204e056776871",
+      "review_evidence": "Artigo 15 conferido no texto institucional do UNICEF Brasil em 20/11/2026. A página identifica expressamente a adoção e proclamação pela Resolução 217 A (III) em 10/12/1948. A data é a adoção da declaração, não vigência de tratado. Hash do extrato UTF-8 com LF (Artigo N, corpo, newline final), não do HTML. A confirmação do marco do edital e o selo de sua revisão são operações separadas."
+    },
+    {
+      "id": "e61837ee-12ff-523e-a3e2-dc93305c6069",
+      "provision_id": "59bc9d78-0e16-4d99-9aa4-a2c211e3d6c0",
+      "valid_from": "1948-12-10",
+      "valid_until": null,
+      "heading": null,
+      "body": "1. Os homens e mulheres de maior idade, sem qualquer restrição de raça, nacionalidade ou religião, têm o direito de contrair matrimônio e fundar uma família. Gozam de iguais direitos em relação ao casamento, sua duração e sua dissolução.\n2. O casamento não será válido senão com o livre e pleno consentimento dos nubentes.\n3. A família é o núcleo natural e fundamental da sociedade e tem direito à proteção da sociedade e do Estado.",
+      "revoked": false,
+      "source_url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
+      "source_sha256": "186d91846c2f30986de0d199aa77402d77fd4af7b5adac7c04779311b28704fa",
+      "review_evidence": "Artigo 16 conferido no texto institucional do UNICEF Brasil em 20/11/2026. A página identifica expressamente a adoção e proclamação pela Resolução 217 A (III) em 10/12/1948. A data é a adoção da declaração, não vigência de tratado. Hash do extrato UTF-8 com LF (Artigo N, corpo, newline final), não do HTML. A confirmação do marco do edital e o selo de sua revisão são operações separadas."
+    },
+    {
+      "id": "9d71ecef-4451-55d5-ba22-1f80744e68fe",
+      "provision_id": "65cc3c61-dbaa-4edb-9945-147d7a15fe53",
+      "valid_from": "1948-12-10",
+      "valid_until": null,
+      "heading": null,
+      "body": "1. Todo ser humano tem direito à propriedade, só ou em sociedade com outros.\n2. Ninguém será arbitrariamente privado de sua propriedade.",
+      "revoked": false,
+      "source_url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
+      "source_sha256": "b9ac723b9f824fcf125bd2ba51caf4322aedf77a37567c0ef00537090cb1f303",
+      "review_evidence": "Artigo 17 conferido no texto institucional do UNICEF Brasil em 20/11/2026. A página identifica expressamente a adoção e proclamação pela Resolução 217 A (III) em 10/12/1948. A data é a adoção da declaração, não vigência de tratado. Hash do extrato UTF-8 com LF (Artigo N, corpo, newline final), não do HTML. A confirmação do marco do edital e o selo de sua revisão são operações separadas."
+    },
+    {
+      "id": "21bd6901-0917-5f8f-b7cd-938e35cde2e7",
+      "provision_id": "df5ddf8d-5902-406c-b8e2-72777f3fcb4e",
+      "valid_from": "1948-12-10",
+      "valid_until": null,
+      "heading": null,
+      "body": "Todo ser humano tem direito à liberdade de pensamento, consciência e religião; esse direito inclui a liberdade de mudar de religião ou crença e a liberdade de manifestar essa religião ou crença pelo ensino, pela prática, pelo culto em público ou em particular.",
+      "revoked": false,
+      "source_url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
+      "source_sha256": "580e116696138fa371dc5c7c6d3c3970ba442cf503a34b6ffd70bdb55b223361",
+      "review_evidence": "Artigo 18 conferido no texto institucional do UNICEF Brasil em 20/11/2026. A página identifica expressamente a adoção e proclamação pela Resolução 217 A (III) em 10/12/1948. A data é a adoção da declaração, não vigência de tratado. Hash do extrato UTF-8 com LF (Artigo N, corpo, newline final), não do HTML. A confirmação do marco do edital e o selo de sua revisão são operações separadas."
+    },
+    {
+      "id": "76fb2b53-168e-5af3-9954-0d1a97f6a133",
+      "provision_id": "8a1bba62-aa8a-4f1a-ad45-45ffd77b02dd",
+      "valid_from": "1948-12-10",
+      "valid_until": null,
+      "heading": null,
+      "body": "Todo ser humano tem direito à liberdade de opinião e expressão; esse direito inclui a liberdade de, sem interferência, ter opiniões e de procurar, receber e transmitir informações e idéias por quaisquer meios e independentemente de fronteiras.",
+      "revoked": false,
+      "source_url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
+      "source_sha256": "b751d41cdf2d8e2f7caa60b1b74062a9f9118252c08f1fecaac51c72fccae8ac",
+      "review_evidence": "Artigo 19 conferido no texto institucional do UNICEF Brasil em 20/11/2026. A página identifica expressamente a adoção e proclamação pela Resolução 217 A (III) em 10/12/1948. A data é a adoção da declaração, não vigência de tratado. Hash do extrato UTF-8 com LF (Artigo N, corpo, newline final), não do HTML. A confirmação do marco do edital e o selo de sua revisão são operações separadas."
+    },
+    {
+      "id": "f78963f3-054c-5f95-8c9a-4612711048ce",
+      "provision_id": "21a9bdf6-879e-4e74-9f48-9691e3a4212c",
+      "valid_from": "1948-12-10",
+      "valid_until": null,
+      "heading": null,
+      "body": "1. Todo ser humano tem direito à liberdade de reunião e associação pacífica.\n2. Ninguém pode ser obrigado a fazer parte de uma associação.",
+      "revoked": false,
+      "source_url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
+      "source_sha256": "de10619bb9996dd666f474f2f119b3acc12d4b304258ce14b462600effcdc5d4",
+      "review_evidence": "Artigo 20 conferido no texto institucional do UNICEF Brasil em 20/11/2026. A página identifica expressamente a adoção e proclamação pela Resolução 217 A (III) em 10/12/1948. A data é a adoção da declaração, não vigência de tratado. Hash do extrato UTF-8 com LF (Artigo N, corpo, newline final), não do HTML. A confirmação do marco do edital e o selo de sua revisão são operações separadas."
+    },
+    {
+      "id": "937f2145-0292-580e-a3db-2cd8e271aa2b",
+      "provision_id": "903f4d6f-5cc8-4573-b5cb-9db2feed53f9",
+      "valid_from": "1948-12-10",
+      "valid_until": null,
+      "heading": null,
+      "body": "1. Todo ser humano tem o direito de tomar parte no governo de seu país diretamente ou por intermédio de representantes livremente escolhidos.\n2. Todo ser humano tem igual direito de acesso ao serviço público do seu país.\n3. A vontade do povo será a base da autoridade do governo; essa vontade será expressa em eleições periódicas e legítimas, por sufrágio universal, por voto secreto ou processo equivalente que assegure a liberdade de voto.",
+      "revoked": false,
+      "source_url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
+      "source_sha256": "d7aecc158617a694dcfaca35843f93a7418d09505e59494b30c42d21991b44eb",
+      "review_evidence": "Artigo 21 conferido no texto institucional do UNICEF Brasil em 20/11/2026. A página identifica expressamente a adoção e proclamação pela Resolução 217 A (III) em 10/12/1948. A data é a adoção da declaração, não vigência de tratado. Hash do extrato UTF-8 com LF (Artigo N, corpo, newline final), não do HTML. A confirmação do marco do edital e o selo de sua revisão são operações separadas."
+    },
+    {
+      "id": "9847fb70-0267-5f88-b82a-339828ead3d2",
+      "provision_id": "256621ab-43eb-48a8-a291-6473d5f871b2",
+      "valid_from": "1948-12-10",
+      "valid_until": null,
+      "heading": null,
+      "body": "Todo ser humano, como membro da sociedade, tem direito à segurança social, à realização pelo esforço nacional, pela cooperação internacional e de acordo com a organização e recursos de cada Estado, dos direitos econômicos, sociais e culturais indispensáveis à sua dignidade e ao livre desenvolvimento da sua personalidade.",
+      "revoked": false,
+      "source_url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
+      "source_sha256": "3b6e1bd7757e6bbfd21e9b3b11eed7599dd64fca1af728eb1b66a0f0d84f15ac",
+      "review_evidence": "Artigo 22 conferido no texto institucional do UNICEF Brasil em 20/11/2026. A página identifica expressamente a adoção e proclamação pela Resolução 217 A (III) em 10/12/1948. A data é a adoção da declaração, não vigência de tratado. Hash do extrato UTF-8 com LF (Artigo N, corpo, newline final), não do HTML. A confirmação do marco do edital e o selo de sua revisão são operações separadas."
+    },
+    {
+      "id": "549e8ea2-bf41-5b1d-9d3f-ba7794c89d4d",
+      "provision_id": "0fb5c2c9-c911-400a-b28e-39fcf3d3cad6",
+      "valid_from": "1948-12-10",
+      "valid_until": null,
+      "heading": null,
+      "body": "1. Todo ser humano tem direito ao trabalho, à livre escolha de emprego, a condições justas e favoráveis de trabalho e à proteção contra o desemprego.\n2. Todo ser humano, sem qualquer distinção, tem direito a igual remuneração por igual trabalho.\n3. Todo ser humano que trabalha tem direito a uma remuneração justa e satisfatória que lhe assegure, assim como à sua família, uma existência compatível com a dignidade humana e a que se acrescentarão, se necessário, outros meios de proteção social.\n4. Todo ser humano tem direito a organizar sindicatos e a neles ingressar para proteção de seus interesses.",
+      "revoked": false,
+      "source_url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
+      "source_sha256": "24940a1d3c75aa39b1c32ca0942b19f04ebd695b2f485e27251950c82ed06353",
+      "review_evidence": "Artigo 23 conferido no texto institucional do UNICEF Brasil em 20/11/2026. A página identifica expressamente a adoção e proclamação pela Resolução 217 A (III) em 10/12/1948. A data é a adoção da declaração, não vigência de tratado. Hash do extrato UTF-8 com LF (Artigo N, corpo, newline final), não do HTML. A confirmação do marco do edital e o selo de sua revisão são operações separadas."
+    },
+    {
+      "id": "641154f5-1bac-5b28-856b-6594b283c448",
+      "provision_id": "6001ee6c-85c4-458c-a97c-686e3c6597e3",
+      "valid_from": "1948-12-10",
+      "valid_until": null,
+      "heading": null,
+      "body": "Todo ser humano tem direito a repouso e lazer, inclusive a limitação razoável das horas de trabalho e a férias remuneradas periódicas.",
+      "revoked": false,
+      "source_url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
+      "source_sha256": "338ddf877694c383e8489c0a86a72522895b0243c1db4c1c5bc20e12fb46fbff",
+      "review_evidence": "Artigo 24 conferido no texto institucional do UNICEF Brasil em 20/11/2026. A página identifica expressamente a adoção e proclamação pela Resolução 217 A (III) em 10/12/1948. A data é a adoção da declaração, não vigência de tratado. Hash do extrato UTF-8 com LF (Artigo N, corpo, newline final), não do HTML. A confirmação do marco do edital e o selo de sua revisão são operações separadas."
+    },
+    {
+      "id": "df70376f-43a4-58d8-a826-87bad4a49aed",
+      "provision_id": "4c90bea4-03f3-4abd-b399-6b9995947a7f",
+      "valid_from": "1948-12-10",
+      "valid_until": null,
+      "heading": null,
+      "body": "1. Todo ser humano tem direito a um padrão de vida capaz de assegurar a si e à sua família saúde, bem-estar, inclusive alimentação, vestuário, habitação, cuidados médicos e os serviços sociais indispensáveis e direito à segurança em caso de desemprego, doença invalidez, viuvez, velhice ou outros casos de perda dos meios de subsistência em circunstâncias fora de seu controle.\n2. A maternidade e a infância têm direito a cuidados e assistência especiais. Todas as crianças, nascidas dentro ou fora do matrimônio, gozarão da mesma proteção social.",
+      "revoked": false,
+      "source_url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
+      "source_sha256": "3dd5f9f54f246d36b93f9db519e1617b149228d6065dcdb5857b0795211e0a23",
+      "review_evidence": "Artigo 25 conferido no texto institucional do UNICEF Brasil em 20/11/2026. A página identifica expressamente a adoção e proclamação pela Resolução 217 A (III) em 10/12/1948. A data é a adoção da declaração, não vigência de tratado. Hash do extrato UTF-8 com LF (Artigo N, corpo, newline final), não do HTML. A confirmação do marco do edital e o selo de sua revisão são operações separadas."
+    },
+    {
+      "id": "1fe406f8-3c13-5eb5-9679-8a6ba106c5e1",
+      "provision_id": "e6d8b282-babf-4229-9430-4f8b5090b1cc",
+      "valid_from": "1948-12-10",
+      "valid_until": null,
+      "heading": null,
+      "body": "1. Todo ser humano tem direito à instrução. A instrução será gratuita, pelo menos nos graus elementares e fundamentais. A instrução elementar será obrigatória. A instrução técnico-profissional será acessível a todos, bem como a instrução superior, esta baseada no mérito.\n2. A instrução será orientada no sentido do pleno desenvolvimento da personalidade humana e do fortalecimento do respeito pelos direitos do ser humano e pelas liberdades fundamentais. A instrução promoverá a compreensão, a tolerância e a amizade entre todas as nações e grupos raciais ou religiosos e coadjuvará as atividades das Nações Unidas em prol da manutenção da paz.\n3. Os pais têm prioridade de direito na escolha do gênero de instrução que será ministrada a seus filhos.",
+      "revoked": false,
+      "source_url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
+      "source_sha256": "17f93c2a835010ab9ccddc9f19b9d562c0380c23317c3dad1a3553039898a702",
+      "review_evidence": "Artigo 26 conferido no texto institucional do UNICEF Brasil em 20/11/2026. A página identifica expressamente a adoção e proclamação pela Resolução 217 A (III) em 10/12/1948. A data é a adoção da declaração, não vigência de tratado. Hash do extrato UTF-8 com LF (Artigo N, corpo, newline final), não do HTML. A confirmação do marco do edital e o selo de sua revisão são operações separadas."
+    },
+    {
+      "id": "1055d7c9-ad8d-5080-aedf-016cbbc67c6f",
+      "provision_id": "c68d26fa-ea58-4bec-8743-ef10fbd3001a",
+      "valid_from": "1948-12-10",
+      "valid_until": null,
+      "heading": null,
+      "body": "1. Todo ser humano tem o direito de participar livremente da vida cultural da comunidade, de fruir as artes e de participar do progresso científico e de seus benefícios.\n2. Todo ser humano tem direito à proteção dos interesses morais e materiais decorrentes de qualquer produção científica literária ou artística da qual seja autor.",
+      "revoked": false,
+      "source_url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
+      "source_sha256": "5821804ceb96eaf5ac78ffb7dd3eb3e847cf039c4d551d023e9fe2155d7c93da",
+      "review_evidence": "Artigo 27 conferido no texto institucional do UNICEF Brasil em 20/11/2026. A página identifica expressamente a adoção e proclamação pela Resolução 217 A (III) em 10/12/1948. A data é a adoção da declaração, não vigência de tratado. Hash do extrato UTF-8 com LF (Artigo N, corpo, newline final), não do HTML. A confirmação do marco do edital e o selo de sua revisão são operações separadas."
+    },
+    {
+      "id": "5a830dc3-b38c-5a5a-be3b-f51eefb0c0ad",
+      "provision_id": "e10b439e-a185-4af1-bed5-2e8e3557d9f3",
+      "valid_from": "1948-12-10",
+      "valid_until": null,
+      "heading": null,
+      "body": "Todo ser humano tem direito a uma ordem social e internacional em que os direitos e liberdades estabelecidos na presente Declaração possam ser plenamente realizados.",
+      "revoked": false,
+      "source_url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
+      "source_sha256": "6a20fe90640850f6e21683d8628b92970956bf1c90b7c6a54ed665ad0513cbcd",
+      "review_evidence": "Artigo 28 conferido no texto institucional do UNICEF Brasil em 20/11/2026. A página identifica expressamente a adoção e proclamação pela Resolução 217 A (III) em 10/12/1948. A data é a adoção da declaração, não vigência de tratado. Hash do extrato UTF-8 com LF (Artigo N, corpo, newline final), não do HTML. A confirmação do marco do edital e o selo de sua revisão são operações separadas."
+    },
+    {
+      "id": "87487680-81a4-546e-bab2-39e4b5e7c428",
+      "provision_id": "328f5560-405b-4fc4-913f-fe139cfdde6f",
+      "valid_from": "1948-12-10",
+      "valid_until": null,
+      "heading": null,
+      "body": "1. Todo ser humano tem deveres para com a comunidade, na qual o livre e pleno desenvolvimento de sua personalidade é possível.\n2. No exercício de seus direitos e liberdades, todo ser humano estará sujeito apenas às limitações determinadas pela lei, exclusivamente com o fim de assegurar o devido reconhecimento e respeito dos direitos e liberdades de outrem e de satisfazer as justas exigências da moral, da ordem pública e do bem-estar de uma sociedade democrática.\n3. Esses direitos e liberdades não podem, em hipótese alguma, ser exercidos contrariamente aos objetivos e princípios das Nações Unidas.",
+      "revoked": false,
+      "source_url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
+      "source_sha256": "5bd776b7c42d836cb2493ea300b22c34bf5d921bb34b68878320ec569c056836",
+      "review_evidence": "Artigo 29 conferido no texto institucional do UNICEF Brasil em 20/11/2026. A página identifica expressamente a adoção e proclamação pela Resolução 217 A (III) em 10/12/1948. A data é a adoção da declaração, não vigência de tratado. Hash do extrato UTF-8 com LF (Artigo N, corpo, newline final), não do HTML. A confirmação do marco do edital e o selo de sua revisão são operações separadas."
+    },
+    {
+      "id": "f80d1837-69bc-53a8-92f4-af3d82118c6b",
+      "provision_id": "4a8992fd-7218-44ad-a4e7-dda258e2d470",
+      "valid_from": "1948-12-10",
+      "valid_until": null,
+      "heading": null,
+      "body": "Nenhuma disposição da presente Declaração pode ser interpretada como o reconhecimento a qualquer Estado, grupo ou pessoa, do direito de exercer qualquer atividade ou praticar qualquer ato destinado à destruição de quaisquer dos direitos e liberdades aqui estabelecidos.",
+      "revoked": false,
+      "source_url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
+      "source_sha256": "a3bbf2959cca93c4e66e107b449770db5022e5b24329be6eb64d463c2c7df9b2",
+      "review_evidence": "Artigo 30 conferido no texto institucional do UNICEF Brasil em 20/11/2026. A página identifica expressamente a adoção e proclamação pela Resolução 217 A (III) em 10/12/1948. A data é a adoção da declaração, não vigência de tratado. Hash do extrato UTF-8 com LF (Artigo N, corpo, newline final), não do HTML. A confirmação do marco do edital e o selo de sua revisão são operações separadas."
+    }
+  ],
+  "canonical_comparison": [
+    {
+      "provision_key": "art-00001",
+      "provision_id": "70039c3f-a8c8-4f92-b7bf-3b2e2b16c166",
+      "source_sha256": "a6697685b6cbf8743d1f57042e9c73e8ea0d99cf45258ef1c3d8a72cd323ce37",
+      "canonical_text_matches_ignoring_whitespace": true
+    },
+    {
+      "provision_key": "art-00002",
+      "provision_id": "4a776054-cfc8-483b-93c8-5e14e82850c7",
+      "source_sha256": "fe8c055a9675ea6f0b85696de5be41f79926ffad84d67baac0aafac5a65fd673",
+      "canonical_text_matches_ignoring_whitespace": true
+    },
+    {
+      "provision_key": "art-00003",
+      "provision_id": "15b41b6b-70ef-472c-8228-ba0cb0b8dd9f",
+      "source_sha256": "c2f47fd54e52becc415ecfb6a932bdd1ee63acd9750768a9221c61c692a172ca",
+      "canonical_text_matches_ignoring_whitespace": true
+    },
+    {
+      "provision_key": "art-00004",
+      "provision_id": "86bbc6d2-a37c-4fe5-b0eb-9e5196f811e4",
+      "source_sha256": "b2f5f96194369ced59d42f44e51454c27d43cb3dc96de8f1ec4dbc83d84e2fad",
+      "canonical_text_matches_ignoring_whitespace": true
+    },
+    {
+      "provision_key": "art-00005",
+      "provision_id": "391f221b-e4b7-48c1-8f71-1a88c7a569d8",
+      "source_sha256": "1a21adc4e0503d3b464455ae3403a6344fd1f561a04e587019dc12a63e7a99af",
+      "canonical_text_matches_ignoring_whitespace": true
+    },
+    {
+      "provision_key": "art-00006",
+      "provision_id": "9681183b-1111-4fe8-8280-535ebe047821",
+      "source_sha256": "5222a1767cbb66ed2a0d47c799a4499481b2e6b61fea5ce8e7585ff685ba298f",
+      "canonical_text_matches_ignoring_whitespace": true
+    },
+    {
+      "provision_key": "art-00007",
+      "provision_id": "a945695d-1e75-4e1f-bc41-7eb820a4341b",
+      "source_sha256": "95e44923f6c12d6d42f2f10a206260cfcd2982053f5ca5492caf4562cbf0c619",
+      "canonical_text_matches_ignoring_whitespace": true
+    },
+    {
+      "provision_key": "art-00008",
+      "provision_id": "139f33cd-cdbc-4ddc-9ab6-d41dbc209849",
+      "source_sha256": "dfab9943a886bce3cddd84f3282c5b41930d6d0e313b9b61c96b5b93ada950db",
+      "canonical_text_matches_ignoring_whitespace": true
+    },
+    {
+      "provision_key": "art-00009",
+      "provision_id": "76b9f55b-4cae-4845-8679-6aef797c49eb",
+      "source_sha256": "35fff37ee3d047dae20ba9e12c0d0d00d9243f6444a14958653274039049243b",
+      "canonical_text_matches_ignoring_whitespace": true
+    },
+    {
+      "provision_key": "art-00010",
+      "provision_id": "93f0c3bd-2216-4f15-a58c-c7ca43280457",
+      "source_sha256": "8cd295e3fedb7dafa32d7119ded9df26734aa81c0b2477cced9375bd2d814e14",
+      "canonical_text_matches_ignoring_whitespace": true
+    },
+    {
+      "provision_key": "art-00011",
+      "provision_id": "07c22bd0-e460-4b71-9d29-5b65919b2813",
+      "source_sha256": "1766e1790407d803706866829590bfee4b6a1be1b659e3226a66e50cb3871cc8",
+      "canonical_text_matches_ignoring_whitespace": true
+    },
+    {
+      "provision_key": "art-00012",
+      "provision_id": "dcd64bf8-4588-40ad-bd6d-c580954c9927",
+      "source_sha256": "85b6ace13348ac0e61ec62e3276f0186490850c2dbb921c0b9e40714cb65e0dc",
+      "canonical_text_matches_ignoring_whitespace": true
+    },
+    {
+      "provision_key": "art-00013",
+      "provision_id": "ba06ab38-7496-4d98-a6f2-935da3cb672d",
+      "source_sha256": "e473c59ce58b3e408164f5604117c2f12e82c8dfd6c4880c15eaa0a454b65523",
+      "canonical_text_matches_ignoring_whitespace": true
+    },
+    {
+      "provision_key": "art-00014",
+      "provision_id": "2f1b66dd-c5a4-4f0c-a961-8f6b5acf8370",
+      "source_sha256": "4196151124548cc94917ca6903acf2145810ae52af576827faa6afe5e703760a",
+      "canonical_text_matches_ignoring_whitespace": true
+    },
+    {
+      "provision_key": "art-00015",
+      "provision_id": "a6955896-2e7a-4c7e-96fa-e48d1af39adf",
+      "source_sha256": "5c366b2e97e169e5b7da8bbe398e883b40cb577c0cbf6593de2204e056776871",
+      "canonical_text_matches_ignoring_whitespace": true
+    },
+    {
+      "provision_key": "art-00016",
+      "provision_id": "59bc9d78-0e16-4d99-9aa4-a2c211e3d6c0",
+      "source_sha256": "186d91846c2f30986de0d199aa77402d77fd4af7b5adac7c04779311b28704fa",
+      "canonical_text_matches_ignoring_whitespace": true
+    },
+    {
+      "provision_key": "art-00017",
+      "provision_id": "65cc3c61-dbaa-4edb-9945-147d7a15fe53",
+      "source_sha256": "b9ac723b9f824fcf125bd2ba51caf4322aedf77a37567c0ef00537090cb1f303",
+      "canonical_text_matches_ignoring_whitespace": true
+    },
+    {
+      "provision_key": "art-00018",
+      "provision_id": "df5ddf8d-5902-406c-b8e2-72777f3fcb4e",
+      "source_sha256": "580e116696138fa371dc5c7c6d3c3970ba442cf503a34b6ffd70bdb55b223361",
+      "canonical_text_matches_ignoring_whitespace": true
+    },
+    {
+      "provision_key": "art-00019",
+      "provision_id": "8a1bba62-aa8a-4f1a-ad45-45ffd77b02dd",
+      "source_sha256": "b751d41cdf2d8e2f7caa60b1b74062a9f9118252c08f1fecaac51c72fccae8ac",
+      "canonical_text_matches_ignoring_whitespace": true
+    },
+    {
+      "provision_key": "art-00020",
+      "provision_id": "21a9bdf6-879e-4e74-9f48-9691e3a4212c",
+      "source_sha256": "de10619bb9996dd666f474f2f119b3acc12d4b304258ce14b462600effcdc5d4",
+      "canonical_text_matches_ignoring_whitespace": true
+    },
+    {
+      "provision_key": "art-00021",
+      "provision_id": "903f4d6f-5cc8-4573-b5cb-9db2feed53f9",
+      "source_sha256": "d7aecc158617a694dcfaca35843f93a7418d09505e59494b30c42d21991b44eb",
+      "canonical_text_matches_ignoring_whitespace": true
+    },
+    {
+      "provision_key": "art-00022",
+      "provision_id": "256621ab-43eb-48a8-a291-6473d5f871b2",
+      "source_sha256": "3b6e1bd7757e6bbfd21e9b3b11eed7599dd64fca1af728eb1b66a0f0d84f15ac",
+      "canonical_text_matches_ignoring_whitespace": true
+    },
+    {
+      "provision_key": "art-00023",
+      "provision_id": "0fb5c2c9-c911-400a-b28e-39fcf3d3cad6",
+      "source_sha256": "24940a1d3c75aa39b1c32ca0942b19f04ebd695b2f485e27251950c82ed06353",
+      "canonical_text_matches_ignoring_whitespace": true
+    },
+    {
+      "provision_key": "art-00024",
+      "provision_id": "6001ee6c-85c4-458c-a97c-686e3c6597e3",
+      "source_sha256": "338ddf877694c383e8489c0a86a72522895b0243c1db4c1c5bc20e12fb46fbff",
+      "canonical_text_matches_ignoring_whitespace": true
+    },
+    {
+      "provision_key": "art-00025",
+      "provision_id": "4c90bea4-03f3-4abd-b399-6b9995947a7f",
+      "source_sha256": "3dd5f9f54f246d36b93f9db519e1617b149228d6065dcdb5857b0795211e0a23",
+      "canonical_text_matches_ignoring_whitespace": true
+    },
+    {
+      "provision_key": "art-00026",
+      "provision_id": "e6d8b282-babf-4229-9430-4f8b5090b1cc",
+      "source_sha256": "17f93c2a835010ab9ccddc9f19b9d562c0380c23317c3dad1a3553039898a702",
+      "canonical_text_matches_ignoring_whitespace": true
+    },
+    {
+      "provision_key": "art-00027",
+      "provision_id": "c68d26fa-ea58-4bec-8743-ef10fbd3001a",
+      "source_sha256": "5821804ceb96eaf5ac78ffb7dd3eb3e847cf039c4d551d023e9fe2155d7c93da",
+      "canonical_text_matches_ignoring_whitespace": true
+    },
+    {
+      "provision_key": "art-00028",
+      "provision_id": "e10b439e-a185-4af1-bed5-2e8e3557d9f3",
+      "source_sha256": "6a20fe90640850f6e21683d8628b92970956bf1c90b7c6a54ed665ad0513cbcd",
+      "canonical_text_matches_ignoring_whitespace": true
+    },
+    {
+      "provision_key": "art-00029",
+      "provision_id": "328f5560-405b-4fc4-913f-fe139cfdde6f",
+      "source_sha256": "5bd776b7c42d836cb2493ea300b22c34bf5d921bb34b68878320ec569c056836",
+      "canonical_text_matches_ignoring_whitespace": true
+    },
+    {
+      "provision_key": "art-00030",
+      "provision_id": "4a8992fd-7218-44ad-a4e7-dda258e2d470",
+      "source_sha256": "a3bbf2959cca93c4e66e107b449770db5022e5b24329be6eb64d463c2c7df9b2",
+      "canonical_text_matches_ignoring_whitespace": true
+    }
+  ]
+}
