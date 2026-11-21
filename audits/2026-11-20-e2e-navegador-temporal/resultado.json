@@ -1,0 +1,42 @@
+{
+ "leitor_premium": {
+  "atual_mostra_texto_atual": true,
+  "lista_editais": [
+   "Selecionar edital",
+   "CFO 2027 (sintético)",
+   "CFO 2025 (sintético)"
+  ],
+  "edital_2025_texto_antigo": true,
+  "edital_corte": true,
+  "comparar_difere": true,
+  "console_errors": [],
+  "unexpected_network": []
+ },
+ "questao_premium": {
+  "enunciado": true,
+  "questao_oficial_corte_2024": true,
+  "questao_texto_da_edicao": true,
+  "questao_oficial_sem_rotulo_editorial": true,
+  "comentario_editorial_rotulado": true,
+  "questao_sem_texto_atual": true,
+  "console_errors": [],
+  "unexpected_network": []
+ },
+ "treino_gratis": {
+  "antes_correcao_sem_gabarito": true,
+  "gabarito_preservado": true,
+  "comentario_rotulado": true,
+  "sem_texto_legal_gratis": true,
+  "aviso_pendente": true,
+  "gabarito_editorial_rotulado": true,
+  "console_errors": [],
+  "unexpected_network": []
+ },
+ "rpc_calls": [
+  "leitor:list_reader_notices:ok",
+  "leitor:resolve_notice_legal_provision:ok",
+  "questao:resolve_question_notice_legal_context:ok",
+  "treino:resolve_free_practice_notice_legal_context:ok",
+  "treino:resolve_free_practice_notice_legal_context:ok"
+ ]
+}
