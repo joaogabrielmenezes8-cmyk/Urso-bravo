@@ -12,7 +12,6 @@ trap '$RUN pg_ctl -D "$D/data" stop -m immediate >/dev/null' EXIT
 P="psql -X -q -v ON_ERROR_STOP=1 -h $D -p $PORT -U postgres -d postgres"
 for f in tests/notice_legal_snapshots_fixture.sql tests/question_notice_legal_context_fixture.sql \
   pending/20261117130000_notice_legal_snapshots.sql pending/20261117140000_question_notice_legal_context.sql pending/20261119150000_list_reader_notices.sql \
-  pending/20261117130000_notice_legal_snapshots.sql pending/20261117140000_question_notice_legal_context.sql pending/20261119150000_list_reader_notices.sql \
   tests/notice_legal_snapshots.sql tests/question_notice_legal_context.sql tests/list_reader_notices.sql; do
   $P -f "$R/$f" >/dev/null || { echo "FAIL: $f"; exit 1; }; echo "PASS: $f"
 done
