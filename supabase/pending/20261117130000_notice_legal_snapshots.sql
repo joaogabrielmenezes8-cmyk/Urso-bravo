@@ -179,7 +179,8 @@ create or replace function public.resolve_notice_legal_provision(
 )
 returns table (
   status text, revision_id uuid, cutoff_on date, version_id uuid, heading text,
-  body text, source_url text, source_sha256 text, edition_source_url text
+  body text, source_url text, source_sha256 text, edition_source_url text,
+  certification_status text
 )
 language sql stable security invoker set search_path = ''
 as $$
@@ -190,7 +191,11 @@ as $$
          when v.revoked then 'revoked'
          else 'available' end,
     r.id, r.cutoff_on, v.id, v.heading, v.body, v.source_url, v.source_sha256,
-    r.source_url
+    r.source_url,
+    case when r.id is not null and s.provision_id is not null and v.id is not null
+              and exists (select 1 from public.notice_legal_releases l where l.revision_id = r.id)
+              and v.review_evidence is not null and btrim(v.review_evidence) <> ''
+         then 'certified' else 'pending' end
   from (values (1)) as request(dummy)
   left join lateral (
     select n.* from public.notice_legal_revisions n
