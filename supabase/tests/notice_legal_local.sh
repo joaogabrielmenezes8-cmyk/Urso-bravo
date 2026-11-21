@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
-# Runs both temporal Vade Mecum migrations and SQL suites against a throwaway
-# local Postgres (never a real project). Order: fixtures -> migrations -> suites.
+# Runs the first three temporal migrations and their SQL suites against a
+# throwaway local Postgres (never a real project).
+# The fourth migration (practice context) is covered by notice_legal_integration.sh
+# with its dedicated fixture and Vitest suite; this runner is NOT full P0 coverage.
+# Order: fixtures -> migrations -> suites.
 set -euo pipefail
 R="$(cd "$(dirname "$0")/.." && pwd)"
 [ -n "${PG_BIN:-}" ] && export PATH="$PG_BIN:$PATH"
