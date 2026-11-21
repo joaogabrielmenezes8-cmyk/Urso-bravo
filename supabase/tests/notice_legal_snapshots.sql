@@ -126,6 +126,15 @@ set local test.premium = 'yes';
 select pg_temp.assert_equal((select count(*)::text from public.legal_provision_versions), '2');
 select pg_temp.assert_equal(body, 'Anterior')
 from public.resolve_notice_legal_provision('10000000-0000-0000-0000-000000000001','20000000-0000-0000-0000-000000000001');
+-- Certification must be explicit for a released, sourced historical version.
+select pg_temp.assert_equal(certification_status, 'certified')
+from public.resolve_notice_legal_provision('10000000-0000-0000-0000-000000000001','20000000-0000-0000-0000-000000000001');
+select pg_temp.assert_equal(certification_status, 'pending')
+from public.resolve_notice_legal_provision('10000000-0000-0000-0000-000000000001','20000000-0000-0000-0000-000000000002');
+select pg_temp.assert_equal(certification_status, 'pending')
+from public.resolve_notice_legal_provision('10000000-0000-0000-0000-000000000001','20000000-0000-0000-0000-000000000003');
+select pg_temp.assert_equal(certification_status, 'certified')
+from public.resolve_notice_legal_provision('10000000-0000-0000-0000-000000000002','20000000-0000-0000-0000-000000000001');
 select pg_temp.assert_equal(status, 'pending_version')
 from public.resolve_notice_legal_provision('10000000-0000-0000-0000-000000000001','20000000-0000-0000-0000-000000000002');
 select pg_temp.assert_equal(status, 'outside_recorded_scope')
