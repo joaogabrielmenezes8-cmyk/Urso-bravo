@@ -135,6 +135,11 @@ select pg_temp.assert_equal(certification_status, 'pending')
 from public.resolve_notice_legal_provision('10000000-0000-0000-0000-000000000001','20000000-0000-0000-0000-000000000003');
 select pg_temp.assert_equal(certification_status, 'certified')
 from public.resolve_notice_legal_provision('10000000-0000-0000-0000-000000000002','20000000-0000-0000-0000-000000000001');
+-- A pending historical record must not leak current or unrelated legislative text.
+select pg_temp.assert_equal(body, null)
+from public.resolve_notice_legal_provision('10000000-0000-0000-0000-000000000001','20000000-0000-0000-0000-000000000002');
+select pg_temp.assert_equal(body, null)
+from public.resolve_notice_legal_provision('10000000-0000-0000-0000-000000000001','20000000-0000-0000-0000-000000000003');
 select pg_temp.assert_equal(status, 'pending_version')
 from public.resolve_notice_legal_provision('10000000-0000-0000-0000-000000000001','20000000-0000-0000-0000-000000000002');
 select pg_temp.assert_equal(status, 'outside_recorded_scope')
