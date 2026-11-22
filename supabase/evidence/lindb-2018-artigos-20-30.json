@@ -1,0 +1,237 @@
+{
+  "document_code": "LINDB",
+  "reviewed_on": "2026-11-22",
+  "source_url": "https://www2.camara.leg.br/legin/fed/lei/2018/lei-13655-25-abril-2018-786606-publicacaooriginal-155430-pl.html",
+  "publication_metadata_url": "https://www2.camara.leg.br/legin/fed/lei/2018/lei-13655-25-abril-2018-786606-norma-pl.html",
+  "source_extract": "lindb-2018-artigos-20-30.txt",
+  "source_artifact_format": "UTF-8 LF, Art. N. seguido de newline, corpo e newline final; artigos separados por uma linha vazia",
+  "applicable_edital_items": {
+    "CFO_2027": "8.12.4",
+    "CFSD_2025": "4.2"
+  },
+  "vacatio_basis": {
+    "publication_on": "2018-04-26",
+    "article_29_days": 180,
+    "counting_rule_url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp95.htm",
+    "rule": "Art. 8º §1º: inclui publicação e último dia, vigência no dia seguinte",
+    "article_29_valid_from": "2018-10-23",
+    "official_senate_confirmation_url": "https://legis.senado.gov.br/norma/529744"
+  },
+  "versions": [
+    {
+      "id": "8459ca06-97a1-562c-9dfd-3cdfc69cda68",
+      "provision_id": "12fcc878-ce3c-4c2f-95bf-99845b4740e1",
+      "valid_from": "2018-04-26",
+      "valid_until": null,
+      "heading": null,
+      "body": "Nas esferas administrativa, controladora e judicial, não se decidirá com base em valores jurídicos abstratos sem que sejam consideradas as consequências práticas da decisão.\nParágrafo único. A motivação demonstrará a necessidade e a adequação da medida imposta ou da invalidação de ato, contrato, ajuste, processo ou norma administrativa, inclusive em face das possíveis alternativas.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/2018/lei-13655-25-abril-2018-786606-publicacaooriginal-155430-pl.html",
+      "source_sha256": "82bae91c8b5e1e10c79a864dcc376b0013aa1d5284815def022680b456333b7c",
+      "review_evidence": "Artigo 20 acrescido pela Lei 13.655/2018, art. 1º. Texto literal da publicação original da Câmara conferido em 22/11/2026; DOU Seção 1 de 26/04/2018, p. 1, confirmado nos dados da norma. Entrada em vigor em 26/04/2018 conforme art. 2º, regra de publicação imediata. Marcadores de veto de subunidades preservados. Hash do extrato UTF-8/LF, sem notas editoriais do catálogo. Revisão de edital não selada."
+    },
+    {
+      "id": "03a1c8a8-de38-5d8b-a776-e053039a1bd6",
+      "provision_id": "93016df3-d4cd-46f9-8cb4-528368269541",
+      "valid_from": "2018-04-26",
+      "valid_until": null,
+      "heading": null,
+      "body": "A decisão que, nas esferas administrativa, controladora ou judicial, decretar a invalidação de ato, contrato, ajuste, processo ou norma administrativa deverá indicar de modo expresso suas consequências jurídicas e administrativas.\nParágrafo único. A decisão a que se refere o caput deste artigo deverá, quando for o caso, indicar as condições para que a regularização ocorra de modo proporcional e equânime e sem prejuízo aos interesses gerais, não se podendo impor aos sujeitos atingidos ônus ou perdas que, em função das peculiaridades do caso, sejam anormais ou excessivos.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/2018/lei-13655-25-abril-2018-786606-publicacaooriginal-155430-pl.html",
+      "source_sha256": "0e231e1c8a8b2000e28cee18b455f93a88f43774a7bd6a54e7d25e073550983d",
+      "review_evidence": "Artigo 21 acrescido pela Lei 13.655/2018, art. 1º. Texto literal da publicação original da Câmara conferido em 22/11/2026; DOU Seção 1 de 26/04/2018, p. 1, confirmado nos dados da norma. Entrada em vigor em 26/04/2018 conforme art. 2º, regra de publicação imediata. Marcadores de veto de subunidades preservados. Hash do extrato UTF-8/LF, sem notas editoriais do catálogo. Revisão de edital não selada."
+    },
+    {
+      "id": "885fa736-5180-5aac-b25a-5aec4167c3c1",
+      "provision_id": "7f522f5b-d94e-48b3-929b-4606d5606031",
+      "valid_from": "2018-04-26",
+      "valid_until": null,
+      "heading": null,
+      "body": "Na interpretação de normas sobre gestão pública, serão considerados os obstáculos e as dificuldades reais do gestor e as exigências das políticas públicas a seu cargo, sem prejuízo dos direitos dos administrados.\n§ 1º Em decisão sobre regularidade de conduta ou validade de ato, contrato, ajuste, processo ou norma administrativa, serão consideradas as circunstâncias práticas que houverem imposto, limitado ou condicionado a ação do agente.\n§ 2º Na aplicação de sanções, serão consideradas a natureza e a gravidade da infração cometida, os danos que dela provierem para a administração pública, as circunstâncias agravantes ou atenuantes e os antecedentes do agente.\n§ 3º As sanções aplicadas ao agente serão levadas em conta na dosimetria das demais sanções de mesma natureza e relativas ao mesmo fato.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/2018/lei-13655-25-abril-2018-786606-publicacaooriginal-155430-pl.html",
+      "source_sha256": "6ff8c9b0bfde702ccffa07c96e4e2284e94590919742b827ce34ed2a4d1847c9",
+      "review_evidence": "Artigo 22 acrescido pela Lei 13.655/2018, art. 1º. Texto literal da publicação original da Câmara conferido em 22/11/2026; DOU Seção 1 de 26/04/2018, p. 1, confirmado nos dados da norma. Entrada em vigor em 26/04/2018 conforme art. 2º, regra de publicação imediata. Marcadores de veto de subunidades preservados. Hash do extrato UTF-8/LF, sem notas editoriais do catálogo. Revisão de edital não selada."
+    },
+    {
+      "id": "8c91d42a-83d5-57e8-9ed1-1af91fb1a7fd",
+      "provision_id": "62972a8e-d4fb-48e7-bcca-96ef4b944ecc",
+      "valid_from": "2018-04-26",
+      "valid_until": null,
+      "heading": null,
+      "body": "A decisão administrativa, controladora ou judicial que estabelecer interpretação ou orientação nova sobre norma de conteúdo indeterminado, impondo novo dever ou novo condicionamento de direito, deverá prever regime de transição quando indispensável para que o novo dever ou condicionamento de direito seja cumprido de modo proporcional, equânime e eficiente e sem prejuízo aos interesses gerais.\nParágrafo único. (VETADO).",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/2018/lei-13655-25-abril-2018-786606-publicacaooriginal-155430-pl.html",
+      "source_sha256": "079f586d2ad9e8942bf774ae53125f965b8e71f420f9a38da3d9bf30eb3cb05d",
+      "review_evidence": "Artigo 23 acrescido pela Lei 13.655/2018, art. 1º. Texto literal da publicação original da Câmara conferido em 22/11/2026; DOU Seção 1 de 26/04/2018, p. 1, confirmado nos dados da norma. Entrada em vigor em 26/04/2018 conforme art. 2º, regra de publicação imediata. Marcadores de veto de subunidades preservados. Hash do extrato UTF-8/LF, sem notas editoriais do catálogo. Revisão de edital não selada."
+    },
+    {
+      "id": "32d8ddff-4a6d-589f-9313-5d03080707fe",
+      "provision_id": "ee1f3238-1b79-4394-8d0e-09a715e86d2e",
+      "valid_from": "2018-04-26",
+      "valid_until": null,
+      "heading": null,
+      "body": "A revisão, nas esferas administrativa, controladora ou judicial, quanto à validade de ato, contrato, ajuste, processo ou norma administrativa cuja produção já se houver completado levará em conta as orientações gerais da época, sendo vedado que, com base em mudança posterior de orientação geral, se declarem inválidas situações plenamente constituídas.\nParágrafo único. Consideram-se orientações gerais as interpretações e especificações contidas em atos públicos de caráter geral ou em jurisprudência judicial ou administrativa majoritária, e ainda as adotadas por prática administrativa reiterada e de amplo conhecimento público.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/2018/lei-13655-25-abril-2018-786606-publicacaooriginal-155430-pl.html",
+      "source_sha256": "1eba301ff35501ec371a690b5f77670ca280ee724cc384848667526249396380",
+      "review_evidence": "Artigo 24 acrescido pela Lei 13.655/2018, art. 1º. Texto literal da publicação original da Câmara conferido em 22/11/2026; DOU Seção 1 de 26/04/2018, p. 1, confirmado nos dados da norma. Entrada em vigor em 26/04/2018 conforme art. 2º, regra de publicação imediata. Marcadores de veto de subunidades preservados. Hash do extrato UTF-8/LF, sem notas editoriais do catálogo. Revisão de edital não selada."
+    },
+    {
+      "id": "5c5832f5-f6a9-5684-abdb-38a3817f7819",
+      "provision_id": "9c109eab-6155-4496-a951-e7aae15dbfa3",
+      "valid_from": "2018-04-26",
+      "valid_until": null,
+      "heading": null,
+      "body": "Para eliminar irregularidade, incerteza jurídica ou situação contenciosa na aplicação do direito público, inclusive no caso de expedição de licença, a autoridade administrativa poderá, após oitiva do órgão jurídico e, quando for o caso, após realização de consulta pública, e presentes razões de relevante interesse geral, celebrar compromisso com os interessados, observada a legislação aplicável, o qual só produzirá efeitos a partir de sua publicação oficial.\n§ 1º O compromisso referido no caput deste artigo:\nI - buscará solução jurídica proporcional, equânime, eficiente e compatível com os interesses gerais;\nII - (VETADO);\nIII - não poderá conferir desoneração permanente de dever ou condicionamento de direito reconhecidos por orientação geral;\nIV - deverá prever com clareza as obrigações das partes, o prazo para seu cumprimento e as sanções aplicáveis em caso de descumprimento.\n§ 2º (VETADO).",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/2018/lei-13655-25-abril-2018-786606-publicacaooriginal-155430-pl.html",
+      "source_sha256": "306de001661c3b63dba999c228a5e4b69d756da74cac7f037b9ca53ff7d32c1a",
+      "review_evidence": "Artigo 26 acrescido pela Lei 13.655/2018, art. 1º. Texto literal da publicação original da Câmara conferido em 22/11/2026; DOU Seção 1 de 26/04/2018, p. 1, confirmado nos dados da norma. Entrada em vigor em 26/04/2018 conforme art. 2º, regra de publicação imediata. Marcadores de veto de subunidades preservados. Hash do extrato UTF-8/LF, sem notas editoriais do catálogo. Revisão de edital não selada."
+    },
+    {
+      "id": "7f294704-e345-5b85-b74b-fdbdca888926",
+      "provision_id": "f9f0fae8-1105-4c70-86c5-816d85f0ea69",
+      "valid_from": "2018-04-26",
+      "valid_until": null,
+      "heading": null,
+      "body": "A decisão do processo, nas esferas administrativa, controladora ou judicial, poderá impor compensação por benefícios indevidos ou prejuízos anormais ou injustos resultantes do processo ou da conduta dos envolvidos.\n§ 1º A decisão sobre a compensação será motivada, ouvidas previamente as partes sobre seu cabimento, sua forma e, se for o caso, seu valor.\n§ 2º Para prevenir ou regular a compensação, poderá ser celebrado compromisso processual entre os envolvidos.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/2018/lei-13655-25-abril-2018-786606-publicacaooriginal-155430-pl.html",
+      "source_sha256": "c83ee72f7278e1dc2fdea9126a16a766ecb10364720a113bccd6925b4c3c9934",
+      "review_evidence": "Artigo 27 acrescido pela Lei 13.655/2018, art. 1º. Texto literal da publicação original da Câmara conferido em 22/11/2026; DOU Seção 1 de 26/04/2018, p. 1, confirmado nos dados da norma. Entrada em vigor em 26/04/2018 conforme art. 2º, regra de publicação imediata. Marcadores de veto de subunidades preservados. Hash do extrato UTF-8/LF, sem notas editoriais do catálogo. Revisão de edital não selada."
+    },
+    {
+      "id": "8dbbed04-846b-5239-b69c-82c6a5a75984",
+      "provision_id": "0cb215c1-be5d-414d-814a-7d47a4e4ece1",
+      "valid_from": "2018-04-26",
+      "valid_until": null,
+      "heading": null,
+      "body": "O agente público responderá pessoalmente por suas decisões ou opiniões técnicas em caso de dolo ou erro grosseiro.\n§ 1º (VETADO).\n§ 2º (VETADO).\n§ 3º (VETADO).",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/2018/lei-13655-25-abril-2018-786606-publicacaooriginal-155430-pl.html",
+      "source_sha256": "274423a831d54130b2720b1e2ad667161f56a6ce13a1fd01b0f785e8e980fb42",
+      "review_evidence": "Artigo 28 acrescido pela Lei 13.655/2018, art. 1º. Texto literal da publicação original da Câmara conferido em 22/11/2026; DOU Seção 1 de 26/04/2018, p. 1, confirmado nos dados da norma. Entrada em vigor em 26/04/2018 conforme art. 2º, regra de publicação imediata. Marcadores de veto de subunidades preservados. Hash do extrato UTF-8/LF, sem notas editoriais do catálogo. Revisão de edital não selada."
+    },
+    {
+      "id": "73e82c3b-5954-59fa-a3a9-a5b671cda326",
+      "provision_id": "4740aebe-2736-4563-a756-d8fe12bf7011",
+      "valid_from": "2018-10-23",
+      "valid_until": null,
+      "heading": null,
+      "body": "Em qualquer órgão ou Poder, a edição de atos normativos por autoridade administrativa, salvo os de mera organização interna, poderá ser precedida de consulta pública para manifestação de interessados, preferencialmente por meio eletrônico, a qual será considerada na decisão.\n§ 1º A convocação conterá a minuta do ato normativo e fixará o prazo e demais condições da consulta pública, observadas as normas legais e regulamentares específicas, se houver.\n§ 2º (VETADO).",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/2018/lei-13655-25-abril-2018-786606-publicacaooriginal-155430-pl.html",
+      "source_sha256": "503bc8f4da7d17fe94a0a78dd0e3a4eb19732ede5d21c618be9c6fe92a1dea7e",
+      "review_evidence": "Artigo 29 acrescido pela Lei 13.655/2018, art. 1º. Texto literal da publicação original da Câmara conferido em 22/11/2026; DOU Seção 1 de 26/04/2018, p. 1, confirmado nos dados da norma. Art. 29: vacatio de 180 dias determinada pelo art. 2º; contagem conforme LC 95/1998, art. 8º §1º; entrada em vigor calculada em 23/10/2018. Marcadores de veto de subunidades preservados. Hash do extrato UTF-8/LF, sem notas editoriais do catálogo. Revisão de edital não selada."
+    },
+    {
+      "id": "28ab616d-c1e0-5143-b941-752ef874d2dc",
+      "provision_id": "cf5e5a31-b66e-4b24-81fc-87ce8238c2e7",
+      "valid_from": "2018-04-26",
+      "valid_until": null,
+      "heading": null,
+      "body": "As autoridades públicas devem atuar para aumentar a segurança jurídica na aplicação das normas, inclusive por meio de regulamentos, súmulas administrativas e respostas a consultas.\nParágrafo único. Os instrumentos previstos no caput deste artigo terão caráter vinculante em relação ao órgão ou entidade a que se destinam, até ulterior revisão.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/2018/lei-13655-25-abril-2018-786606-publicacaooriginal-155430-pl.html",
+      "source_sha256": "454152c7b9ce9ac4678ecba6c126515efd8802b89622db32f1505e5dba0199d1",
+      "review_evidence": "Artigo 30 acrescido pela Lei 13.655/2018, art. 1º. Texto literal da publicação original da Câmara conferido em 22/11/2026; DOU Seção 1 de 26/04/2018, p. 1, confirmado nos dados da norma. Entrada em vigor em 26/04/2018 conforme art. 2º, regra de publicação imediata. Marcadores de veto de subunidades preservados. Hash do extrato UTF-8/LF, sem notas editoriais do catálogo. Revisão de edital não selada."
+    }
+  ],
+  "scope_preparation": [
+    {
+      "article": 20,
+      "provision_id": "12fcc878-ce3c-4c2f-95bf-99845b4740e1",
+      "version_id": "8459ca06-97a1-562c-9dfd-3cdfc69cda68",
+      "status": "official_source_prepared",
+      "source_sha256": "82bae91c8b5e1e10c79a864dcc376b0013aa1d5284815def022680b456333b7c",
+      "catalog_matches_without_editorial_footer": true
+    },
+    {
+      "article": 21,
+      "provision_id": "93016df3-d4cd-46f9-8cb4-528368269541",
+      "version_id": "03a1c8a8-de38-5d8b-a776-e053039a1bd6",
+      "status": "official_source_prepared",
+      "source_sha256": "0e231e1c8a8b2000e28cee18b455f93a88f43774a7bd6a54e7d25e073550983d",
+      "catalog_matches_without_editorial_footer": true
+    },
+    {
+      "article": 22,
+      "provision_id": "7f522f5b-d94e-48b3-929b-4606d5606031",
+      "version_id": "885fa736-5180-5aac-b25a-5aec4167c3c1",
+      "status": "official_source_prepared",
+      "source_sha256": "6ff8c9b0bfde702ccffa07c96e4e2284e94590919742b827ce34ed2a4d1847c9",
+      "catalog_matches_without_editorial_footer": true
+    },
+    {
+      "article": 23,
+      "provision_id": "62972a8e-d4fb-48e7-bcca-96ef4b944ecc",
+      "version_id": "8c91d42a-83d5-57e8-9ed1-1af91fb1a7fd",
+      "status": "official_source_prepared",
+      "source_sha256": "079f586d2ad9e8942bf774ae53125f965b8e71f420f9a38da3d9bf30eb3cb05d",
+      "catalog_matches_without_editorial_footer": true
+    },
+    {
+      "article": 24,
+      "provision_id": "ee1f3238-1b79-4394-8d0e-09a715e86d2e",
+      "version_id": "32d8ddff-4a6d-589f-9313-5d03080707fe",
+      "status": "official_source_prepared",
+      "source_sha256": "1eba301ff35501ec371a690b5f77670ca280ee724cc384848667526249396380",
+      "catalog_matches_without_editorial_footer": true
+    },
+    {
+      "article": 25,
+      "provision_id": "36991849-87a6-4f87-b9be-0d3eadf82df6",
+      "status": "not_enacted_veto",
+      "version_id": null,
+      "source_sha256": "646dfda00047a2b0f1b036ce72a195ca9cd693cc27f3d13a6b9612aad06ebdb6",
+      "reason": "Veto mantido. Não é revogação nem dispositivo que entrou em vigor."
+    },
+    {
+      "article": 26,
+      "provision_id": "9c109eab-6155-4496-a951-e7aae15dbfa3",
+      "version_id": "5c5832f5-f6a9-5684-abdb-38a3817f7819",
+      "status": "official_source_prepared",
+      "source_sha256": "306de001661c3b63dba999c228a5e4b69d756da74cac7f037b9ca53ff7d32c1a",
+      "catalog_matches_without_editorial_footer": true
+    },
+    {
+      "article": 27,
+      "provision_id": "f9f0fae8-1105-4c70-86c5-816d85f0ea69",
+      "version_id": "7f294704-e345-5b85-b74b-fdbdca888926",
+      "status": "official_source_prepared",
+      "source_sha256": "c83ee72f7278e1dc2fdea9126a16a766ecb10364720a113bccd6925b4c3c9934",
+      "catalog_matches_without_editorial_footer": true
+    },
+    {
+      "article": 28,
+      "provision_id": "0cb215c1-be5d-414d-814a-7d47a4e4ece1",
+      "version_id": "8dbbed04-846b-5239-b69c-82c6a5a75984",
+      "status": "official_source_prepared",
+      "source_sha256": "274423a831d54130b2720b1e2ad667161f56a6ce13a1fd01b0f785e8e980fb42",
+      "catalog_matches_without_editorial_footer": true
+    },
+    {
+      "article": 29,
+      "provision_id": "4740aebe-2736-4563-a756-d8fe12bf7011",
+      "version_id": "73e82c3b-5954-59fa-a3a9-a5b671cda326",
+      "status": "official_source_prepared",
+      "source_sha256": "503bc8f4da7d17fe94a0a78dd0e3a4eb19732ede5d21c618be9c6fe92a1dea7e",
+      "catalog_matches_without_editorial_footer": true
+    },
+    {
+      "article": 30,
+      "provision_id": "cf5e5a31-b66e-4b24-81fc-87ce8238c2e7",
+      "version_id": "28ab616d-c1e0-5143-b941-752ef874d2dc",
+      "status": "official_source_prepared",
+      "source_sha256": "454152c7b9ce9ac4678ecba6c126515efd8802b89622db32f1505e5dba0199d1",
+      "catalog_matches_without_editorial_footer": true
+    }
+  ],
+  "prepared_count": 10,
+  "vetoed_count": 1,
+  "remaining_catalog_articles_pending": [],
+  "notice_release_status": "pending_official_notice_cutoff_chain",
+  "complementary_bundle": "lindb-artigos-1-19.json"
+}
