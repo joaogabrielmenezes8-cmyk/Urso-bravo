@@ -26,7 +26,7 @@
     {
       "command": "PGLITE_MODULE=... node supabase/tests/p0_acervo_homologation_local.mjs",
       "result": "PASS",
-      "checks": "5migrações2vezes;3suítesSQL;163estados;2293vínculos;escopoCFSDcorrigido;questãooficial/simulado/contextotutor;RLS/anotações/legado"
+      "checks": "5migrações2vezes;3suítesSQL;198estados;2293vínculos;escopoCFSDcorrigido;questãooficial/simulado/contextotutor;RLS/anotações/legado"
     },
     {
       "command": "vitest run --config vitest.focused.config.ts (checkout local de verificação)",
@@ -42,6 +42,16 @@
     {
       "command": "git apply --check integracao/leitor-vade-mecum-temporal.patch contra fontes originais reais",
       "result": "PASS"
+    },
+    {
+      "command": "PGLITE_MODULE=... node supabase/tests/l9455_evidence_local.mjs",
+      "result": "PASS",
+      "checks": "5 hashes/estados, 4 artigos, 8 vínculos/retry, inciso III separado em 21/05/2026"
+    },
+    {
+      "command": "PGLITE_MODULE=... node supabase/tests/l13431_evidence_local.mjs",
+      "result": "PASS",
+      "checks": "30 hashes/estados, 29 artigos, 58 vínculos/retry; vacatio, hierarquia, regra revogadora, sem artigo ECA espúrio"
     }
   ],
   "limits": [
@@ -62,8 +72,8 @@
     },
     "CFO_2027": {
       "identified_explicit_catalog_article_slots": 2130,
-      "prepared": 161,
-      "prepared_percent": 7.5587,
+      "prepared": 194,
+      "prepared_percent": 9.108,
       "certified_for_notice": 0,
       "certified_percent": 0,
       "whole_syllabus_mapping_complete": false
@@ -74,7 +84,11 @@
     "Datas de eficácia CF16/142 derivadas de princípio constitucional e explicitamente sujeitas a revisão material",
     "LINDB25vetado: ausência de redação normativa não é lacuna nem revogação",
     "Originais/cadeia de editais não comprovados; falta selo de ambas as revisões",
-    "CFO:1967slots do recorte explícito sem versão, além de mapeamento temático ainda incompleto",
+    "CFO:1934slots do recorte explícito sem versão, além de mapeamento temático ainda incompleto",
     "Aplicação do novo patch no código operacional/preview e homologação autenticada ainda pendentes"
-  ]
+  ],
+  "prepared_total": {
+    "textual_states": 198,
+    "distinct_provisions": 194
+  }
 }
