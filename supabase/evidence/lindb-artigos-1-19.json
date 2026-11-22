@@ -1,0 +1,376 @@
+{
+  "document_code": "LINDB",
+  "reviewed_on": "2026-11-22",
+  "source_url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-4657-4-setembro-1942-414605-normaatualizada-pe.html",
+  "publication_metadata_url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-4657-4-setembro-1942-414605-norma-pe.html",
+  "source_extract": "lindb-artigos-1-19.txt",
+  "source_artifact_format": "UTF-8 LF; Art. N. newline corpo newline; uma linha vazia entre artigos",
+  "versions": [
+    {
+      "id": "411eb3d1-6a49-5983-9ccb-4f2e423ae1a9",
+      "provision_id": "6462d67a-ddce-4f4b-ac98-cc3eba0828cb",
+      "valid_from": "2009-10-02",
+      "valid_until": null,
+      "heading": null,
+      "body": "Salvo disposição contrária, a lei começa a vigorar em todo o país quarenta e cinco dias depois de oficialmente publicada.\n§ 1º Nos Estados estrangeiros, a obrigatoriedade da lei brasileira, quando admitida, se inicia três meses depois de oficialmente publicada. \n\n§ 2º (Revogado pela Lei nº 12.036, de 1/10/2009)\n\n§ 3º Se, antes de entrar a lei em vigor, ocorrer nova publicação de seu texto, destinada a correção, o prazo deste artigo e dos parágrafos anteriores começará a correr da nova publicação.\n\n§ 4º As correções a texto de lei já em vigor consideram-se lei nova.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-4657-4-setembro-1942-414605-normaatualizada-pe.html",
+      "source_sha256": "f61992b21f04eabab29252826a4e31f9cfb21f6430b998d738c1be940eafd8a8",
+      "review_evidence": "Texto literal compilado da Câmara, conferido em 22/11/2026; apenas marcas de navegação e notas editoriais removidas; revogações parciais mantidas. Data do último estado textual composto; não pretende reconstruir estados anteriores a este intervalo. Lei 12.036/2009, arts. 2º a 4º, publicação e vigência imediata em 02/10/2009. Sem selo da revisão de edital; termo final aberto representa ausência de alteração textual posterior identificada na compilação consultada, não garantia de atualização futura."
+    },
+    {
+      "id": "60c483a1-5098-5c59-acac-2ebeb8a2616f",
+      "provision_id": "8178a51b-f887-4932-a4ae-3a437b528f60",
+      "valid_from": "1942-10-24",
+      "valid_until": null,
+      "heading": null,
+      "body": "Não se destinando à vigência temporária, a lei terá vigor até que outra a modifique ou revogue.\n\n§ 1º A lei posterior revoga a anterior quando expressamente o declare, quando seja com ela incompatível ou quando regule inteiramente a matéria de que tratava a lei anterior.\n\n§ 2º A lei nova, que estabeleça disposições gerais ou especiais a par das já existentes, não revoga nem modifica a lei anterior.\n§ 3º Salvo disposição em contrário, a lei revogada não se restaura por ter a lei revogadora perdido a vigência.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-4657-4-setembro-1942-414605-normaatualizada-pe.html",
+      "source_sha256": "6a7526dd93408170362bf4c5f3a04dbaa06f278caa4d90264a6135a0302f8e8b",
+      "review_evidence": "Texto literal compilado da Câmara, conferido em 22/11/2026; apenas marcas de navegação e notas editoriais removidas; revogações parciais mantidas. Vigência inicial 24/10/1942 expressamente indicada nos dados da norma com fundamento no DL 4.707/1942. Retificação de 08/10/1942 altera apenas referenda; de 17/06/1943 alcança art. 7º §4º. Sem selo da revisão de edital; termo final aberto representa ausência de alteração textual posterior identificada na compilação consultada, não garantia de atualização futura."
+    },
+    {
+      "id": "7e3cb2e5-e46d-597e-bea3-7af27816d038",
+      "provision_id": "dbbdc710-d4bb-42c3-a688-fd6797365bed",
+      "valid_from": "1942-10-24",
+      "valid_until": null,
+      "heading": null,
+      "body": "Ninguém se escusa de cumprir a lei, alegando que não a conhece.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-4657-4-setembro-1942-414605-normaatualizada-pe.html",
+      "source_sha256": "92bb0c54262414cb819acbea3e7e507d5fa7dd6b571b2aabb43427b7a6be56b5",
+      "review_evidence": "Texto literal compilado da Câmara, conferido em 22/11/2026; apenas marcas de navegação e notas editoriais removidas; revogações parciais mantidas. Vigência inicial 24/10/1942 expressamente indicada nos dados da norma com fundamento no DL 4.707/1942. Retificação de 08/10/1942 altera apenas referenda; de 17/06/1943 alcança art. 7º §4º. Sem selo da revisão de edital; termo final aberto representa ausência de alteração textual posterior identificada na compilação consultada, não garantia de atualização futura."
+    },
+    {
+      "id": "cb7ff8e0-3b54-5ca2-8251-8d1bb3c13896",
+      "provision_id": "1ccbfebd-f9e1-477e-9f59-c13ad79d01cd",
+      "valid_from": "1942-10-24",
+      "valid_until": null,
+      "heading": null,
+      "body": "Quando a lei for omissa, o juiz decidirá o caso de acordo com a analogia, os costumes e os princípios gerais de direito.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-4657-4-setembro-1942-414605-normaatualizada-pe.html",
+      "source_sha256": "17123c8ec0b66a6602ce583e6a4ec2e67a750b9b3cc0f92cdd4ca33a84ef53f6",
+      "review_evidence": "Texto literal compilado da Câmara, conferido em 22/11/2026; apenas marcas de navegação e notas editoriais removidas; revogações parciais mantidas. Vigência inicial 24/10/1942 expressamente indicada nos dados da norma com fundamento no DL 4.707/1942. Retificação de 08/10/1942 altera apenas referenda; de 17/06/1943 alcança art. 7º §4º. Sem selo da revisão de edital; termo final aberto representa ausência de alteração textual posterior identificada na compilação consultada, não garantia de atualização futura."
+    },
+    {
+      "id": "c1e6d727-8103-548e-ae09-e2bc68e95236",
+      "provision_id": "867c421a-e2f9-4c3f-b6c3-b233ea507981",
+      "valid_from": "1942-10-24",
+      "valid_until": null,
+      "heading": null,
+      "body": "Na aplicação da lei, o juiz atenderá aos fins sociais a que ela se dirige e às exigências do bem comum.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-4657-4-setembro-1942-414605-normaatualizada-pe.html",
+      "source_sha256": "99be5538548d03bb2e1ba2136248c33a6dc2c885b6f9f52aeb014541d4200b7f",
+      "review_evidence": "Texto literal compilado da Câmara, conferido em 22/11/2026; apenas marcas de navegação e notas editoriais removidas; revogações parciais mantidas. Vigência inicial 24/10/1942 expressamente indicada nos dados da norma com fundamento no DL 4.707/1942. Retificação de 08/10/1942 altera apenas referenda; de 17/06/1943 alcança art. 7º §4º. Sem selo da revisão de edital; termo final aberto representa ausência de alteração textual posterior identificada na compilação consultada, não garantia de atualização futura."
+    },
+    {
+      "id": "45351f6a-029a-5382-be71-6a8a4b43dc08",
+      "provision_id": "d928d67f-3fd5-4ad0-8a9b-a141ecbc0b3a",
+      "valid_from": "1957-09-17",
+      "valid_until": null,
+      "heading": null,
+      "body": "A Lei em vigor terá efeito imediato e geral, respeitados o ato jurídico perfeito, o direito adquirido e a coisa julgada. \n\n§ 1º Reputa-se ato jurídico perfeito o já consumado segundo a lei vigente ao tempo em que se efetuou. \n§ 2º Consideram-se adquiridos assim os direitos que o seu titular, ou alguém por ele, possa exercer, como aqueles cujo começo do exercício tenha termo prefixo, ou condição pre-estabelecida inalterável, a arbítrio de outrem. \n\n§ 3º Chama-se coisa julgada ou caso julgado a decisão judicial de que já não caiba recurso.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-4657-4-setembro-1942-414605-normaatualizada-pe.html",
+      "source_sha256": "24fc1b945f8449bbfda6bb8f6c62c65c2dce2cb8d35b0a480f99db780e1bcfbe",
+      "review_evidence": "Texto literal compilado da Câmara, conferido em 22/11/2026; apenas marcas de navegação e notas editoriais removidas; revogações parciais mantidas. Data do último estado textual composto; não pretende reconstruir estados anteriores a este intervalo. Lei 3.238/1957, DOU 03/08/1957; sem cláusula expressa de vigência: regra de 45 dias do art. 1º da LINDB, 17/09/1957. Sem selo da revisão de edital; termo final aberto representa ausência de alteração textual posterior identificada na compilação consultada, não garantia de atualização futura."
+    },
+    {
+      "id": "c5a2ffb8-45e1-5534-a784-e9b21543b2eb",
+      "provision_id": "89a0a809-6507-4fd9-8555-e772ed9a6ea8",
+      "valid_from": "2009-10-02",
+      "valid_until": null,
+      "heading": null,
+      "body": "A lei do país em que for domiciliada a pessoa determina as regras sobre o começo e o fim da personalidade, o nome, a capacidade e os direitos de família.\n\n§ 1º Realizando-se o casamento no Brasil, será aplicada a lei brasileira quanto aos impedimentos dirimentes e às formalidades da celebração.\n\n§ 2º O casamento de estrangeiros poderá celebrar-se perante autoridades diplomáticas ou consulares do país de ambos os nubentes. \n§ 3º Tendo os nubentes domicílio diverso, regerá os casos de invalidade do matrimônio a lei do primeiro domicílio conjugal.\n\n§ 4º O regime de bens, legal ou convencional, obedece à lei do país em que tiverem os nubentes domicílio, e, se este for diverso, à do primeiro domicílio conjugal. \n§ 5º O estrangeiro casado, que se naturalizar brasileiro, pode, mediante expressa anuência de seu cônjuge, requerer ao juiz, no ato de entrega do decreto de naturalização, se apostile ao mesmo a adoção do regime de comunhão parcial de bens, respeitados os direitos de terceiros e dada esta adoção ao competente registro. \n§ 6º O divórcio realizado no estrangeiro, se um ou ambos os cônjuges forem brasileiros, só será reconhecido no Brasil depois de 1 (um) ano da data da sentença, salvo se houver sido antecedida de separação judicial por igual prazo, caso em que a homologação produzirá efeito imediato, obedecidas as condições estabelecidas para a eficácia das sentenças estrangeiras no país.\nO Superior Tribunal de Justiça, na forma de seu regimento interno, poderá reexaminar, a requerimento do interessado, decisões já proferidas em pedidos de homologação de sentenças estrangeiras de divórcio de brasileiros, a fim de que passem a produzir todos os efeitos legais. \n§ 7º Salvo o caso de abandono, o domicílio do chefe da família estende-se ao outro cônjuge e aos filhos não emancipados, e o do tutor ou curador aos incapazes sob sua guarda.\n\n§ 8º Quando a pessoa não tiver domicílio, considerar-se-á domiciliada no lugar de sua residência ou naquele em que se encontre.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-4657-4-setembro-1942-414605-normaatualizada-pe.html",
+      "source_sha256": "ce8d6ee63592d8e2c30ef53b0fcbcce102f629557dc33b62ced3e988df01c76b",
+      "review_evidence": "Texto literal compilado da Câmara, conferido em 22/11/2026; apenas marcas de navegação e notas editoriais removidas; revogações parciais mantidas. Data do último estado textual composto; não pretende reconstruir estados anteriores a este intervalo. Lei 12.036/2009, arts. 2º a 4º, publicação e vigência imediata em 02/10/2009. Texto legislativo literal não substitui análise constitucional/processual (EC 45/2004, EC 66/2010 e CPC); não se inventou nova redação por interpretação. Sem selo da revisão de edital; termo final aberto representa ausência de alteração textual posterior identificada na compilação consultada, não garantia de atualização futura."
+    },
+    {
+      "id": "d71295ed-d9be-5c60-abb2-302a13db1a62",
+      "provision_id": "993163c6-c2e5-4f25-a500-f3c4d65d8f75",
+      "valid_from": "1942-10-24",
+      "valid_until": null,
+      "heading": null,
+      "body": "Para qualificar os bens e regular as relações a eles concernentes, aplicar-se-á a lei do país em que estiverem situados.\n§ 1º Aplicar-se-á a lei do país em que for domiciliado o proprietário, quanto aos bens moveis que ele trouxer ou se destinarem a transporte para outros lugares.\n\n§ 2º O penhor regula-se pela lei do domicílio que tiver a pessoa, em cuja posse se encontre a coisa apenhada.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-4657-4-setembro-1942-414605-normaatualizada-pe.html",
+      "source_sha256": "29c7cc4c711fe5187c8b928d395af5a86ae7fbf5e8a836c90189a5ec2b85780b",
+      "review_evidence": "Texto literal compilado da Câmara, conferido em 22/11/2026; apenas marcas de navegação e notas editoriais removidas; revogações parciais mantidas. Vigência inicial 24/10/1942 expressamente indicada nos dados da norma com fundamento no DL 4.707/1942. Retificação de 08/10/1942 altera apenas referenda; de 17/06/1943 alcança art. 7º §4º. Sem selo da revisão de edital; termo final aberto representa ausência de alteração textual posterior identificada na compilação consultada, não garantia de atualização futura."
+    },
+    {
+      "id": "4419715e-9be1-5293-8677-41f85412a363",
+      "provision_id": "a6560a16-032c-41f6-9e1e-4e39b6be7374",
+      "valid_from": "1942-10-24",
+      "valid_until": null,
+      "heading": null,
+      "body": "Para qualificar e reger as obrigações, aplicar-se-á a lei do país em que se constituírem.\n§ 1º Destinando-se a obrigação a ser executada no Brasil e dependendo de forma essencial, será esta observada, admitidas as peculiaridades da lei estrangeira quanto aos requisitos extrínsecos do ato.\n\n§ 2º A obrigação resultante do contrato reputa-se constituida no lugar em que residir o proponente.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-4657-4-setembro-1942-414605-normaatualizada-pe.html",
+      "source_sha256": "c6d563b8799a9af37499d71d73ad7135a47fe911d19a6c2e683dfbaa0897f0f7",
+      "review_evidence": "Texto literal compilado da Câmara, conferido em 22/11/2026; apenas marcas de navegação e notas editoriais removidas; revogações parciais mantidas. Vigência inicial 24/10/1942 expressamente indicada nos dados da norma com fundamento no DL 4.707/1942. Retificação de 08/10/1942 altera apenas referenda; de 17/06/1943 alcança art. 7º §4º. Sem selo da revisão de edital; termo final aberto representa ausência de alteração textual posterior identificada na compilação consultada, não garantia de atualização futura."
+    },
+    {
+      "id": "2a42cf38-d603-5edb-9deb-e1df3721d88b",
+      "provision_id": "78e35d0e-34b3-4571-8b60-8d9e6f507476",
+      "valid_from": "1995-05-19",
+      "valid_until": null,
+      "heading": null,
+      "body": "A sucessão por morte ou por ausência obedece à lei do país em que domiciliado o defunto ou o desaparecido, qualquer que seja a natureza e a situação dos bens.\n§ 1º A sucessão de bens de estrangeiros, situados no País, será regulada pela lei brasileira em benefício do cônjuge ou dos filhos brasileiros, ou de quem os represente, sempre que não lhes seja mais favorável a lei pessoal do de cujus. \n\n§ 2º A lei do domicílio do herdeiro ou legatário regula a capacidade para suceder.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-4657-4-setembro-1942-414605-normaatualizada-pe.html",
+      "source_sha256": "2d1d10b2d910e022cd90cddd4b62bf1cfd210b4017ab5832e85cca293f16e9fc",
+      "review_evidence": "Texto literal compilado da Câmara, conferido em 22/11/2026; apenas marcas de navegação e notas editoriais removidas; revogações parciais mantidas. Data do último estado textual composto; não pretende reconstruir estados anteriores a este intervalo. Lei 9.047/1995, art. 2º, publicação e vigência imediata em 19/05/1995. Sem selo da revisão de edital; termo final aberto representa ausência de alteração textual posterior identificada na compilação consultada, não garantia de atualização futura."
+    },
+    {
+      "id": "cf3561dd-4fdb-5bb7-863b-b53f0080e4d3",
+      "provision_id": "04c56788-5989-4fff-9f48-926128da316e",
+      "valid_from": "1942-10-24",
+      "valid_until": null,
+      "heading": null,
+      "body": "As organizações destinadas a fins de interesse coletivo, como as sociedades e as fundações, obedecem à lei do Estado em que se constituirem.\n\n§ 1º Não poderão, entretanto, ter no Brasil filiais, agências ou estabelecimentos antes de serem os atos constitutivos aprovados pelo Governo brasileiro, ficando sujeitas à lei brasileira.\n§ 2º Os Governos estrangeiros, bem como as organizações de qualquer natureza, que eles tenham constituido, dirijam ou hajam investido de funções públicas, não poderão adquirir no Brasil bens imóveis ou susceptiveis de desapropriação.\n\n§ 3º Os Governos estrangeiros podem adquirir a propriedade dos prédios necessários à sede dos representantes diplomáticos ou dos agentes consulares.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-4657-4-setembro-1942-414605-normaatualizada-pe.html",
+      "source_sha256": "3e294bf9c741f0069aee07284387b7bae5b05cd03087cdeb8a82c2ea7cf3776c",
+      "review_evidence": "Texto literal compilado da Câmara, conferido em 22/11/2026; apenas marcas de navegação e notas editoriais removidas; revogações parciais mantidas. Vigência inicial 24/10/1942 expressamente indicada nos dados da norma com fundamento no DL 4.707/1942. Retificação de 08/10/1942 altera apenas referenda; de 17/06/1943 alcança art. 7º §4º. Sem selo da revisão de edital; termo final aberto representa ausência de alteração textual posterior identificada na compilação consultada, não garantia de atualização futura."
+    },
+    {
+      "id": "da49daf3-faea-596a-9514-a747d5f135a2",
+      "provision_id": "58066c63-40f9-481e-9e6e-0683282389d2",
+      "valid_from": "1942-10-24",
+      "valid_until": null,
+      "heading": null,
+      "body": "É competente a autoridade judiciária brasileira, quando for o réu domiciliado no Brasil ou aqui tiver de ser cumprida a obrigação.\n\n§ 1º Só à autoridade judiciária brasileira compete conhecer das ações relativas a imóveis situados no Brasil.\n\n§ 2º A autoridade judiciária brasileira cumprirá, concedido o exequatur e segundo a forma estabelecida pele lei brasileira, as diligências deprecadas por autoridade estrangeira competente, observando a lei desta, quanto ao objeto das diligências.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-4657-4-setembro-1942-414605-normaatualizada-pe.html",
+      "source_sha256": "ac23f230d460ee9ba6051d51b19d2097114c5721937e86b2d7fa62787c5f9d83",
+      "review_evidence": "Texto literal compilado da Câmara, conferido em 22/11/2026; apenas marcas de navegação e notas editoriais removidas; revogações parciais mantidas. Vigência inicial 24/10/1942 expressamente indicada nos dados da norma com fundamento no DL 4.707/1942. Retificação de 08/10/1942 altera apenas referenda; de 17/06/1943 alcança art. 7º §4º. A grafia \"pele lei\" consta tanto no original quanto na compilação da Câmara; preservada como leitura da fonte, sem atribuir alteração legislativa. Sem selo da revisão de edital; termo final aberto representa ausência de alteração textual posterior identificada na compilação consultada, não garantia de atualização futura."
+    },
+    {
+      "id": "61031a19-4751-50ab-a2ee-805ecf53fefd",
+      "provision_id": "d4809d62-7e84-401c-897b-83103f4e10e4",
+      "valid_from": "1942-10-24",
+      "valid_until": null,
+      "heading": null,
+      "body": "A prova dos fatos ocorridos em país estrangeiro rege-se pela lei que nele vigorar, quanto ao ônus e aos meios de produzir-se, não admitindo os tribunais brasileiros provas que a lei brasileira desconheça.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-4657-4-setembro-1942-414605-normaatualizada-pe.html",
+      "source_sha256": "9d702e456b9c0e8468a47d53daad52e3eaea999ddbadf209882134eda3844e26",
+      "review_evidence": "Texto literal compilado da Câmara, conferido em 22/11/2026; apenas marcas de navegação e notas editoriais removidas; revogações parciais mantidas. Vigência inicial 24/10/1942 expressamente indicada nos dados da norma com fundamento no DL 4.707/1942. Retificação de 08/10/1942 altera apenas referenda; de 17/06/1943 alcança art. 7º §4º. Sem selo da revisão de edital; termo final aberto representa ausência de alteração textual posterior identificada na compilação consultada, não garantia de atualização futura."
+    },
+    {
+      "id": "b1b12163-e36f-5e00-b26d-23f6b14fd844",
+      "provision_id": "f591c972-22a0-42cb-90b2-06f6f41ffcd2",
+      "valid_from": "1942-10-24",
+      "valid_until": null,
+      "heading": null,
+      "body": "Não conhecendo a lei estrangeira, poderá o juiz exigir de quem a invoca prova do texto e da vigência.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-4657-4-setembro-1942-414605-normaatualizada-pe.html",
+      "source_sha256": "29ba7021d56fab618ee4f134865e547405c9b019219f324d5a3fc5c86d891d90",
+      "review_evidence": "Texto literal compilado da Câmara, conferido em 22/11/2026; apenas marcas de navegação e notas editoriais removidas; revogações parciais mantidas. Vigência inicial 24/10/1942 expressamente indicada nos dados da norma com fundamento no DL 4.707/1942. Retificação de 08/10/1942 altera apenas referenda; de 17/06/1943 alcança art. 7º §4º. Sem selo da revisão de edital; termo final aberto representa ausência de alteração textual posterior identificada na compilação consultada, não garantia de atualização futura."
+    },
+    {
+      "id": "f687169d-374f-5a5d-af22-a3b9f46071d0",
+      "provision_id": "d8decb87-db6a-490c-8850-d43fe077f234",
+      "valid_from": "2009-10-02",
+      "valid_until": null,
+      "heading": null,
+      "body": "Será executada no Brasil a sentença proferida no estrangeiro, que reuna os seguintes requisitos:\n\na) haver sido proferida por juiz competente;\nb) terem sido as partes citadas ou haver-se legalmente verificado à revelia;\n\nc) ter passado em julgado e estar revestida das formalidades necessárias para a execução no lugar em que foi proferida;\n\nd) estar traduzida por intérprete autorizado;\n\ne) ter sido homologada pelo Supremo Tribunal Federal. \n\nParágrafo único. (Revogado pela Lei nº 12.036, de 1/10/2009)",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-4657-4-setembro-1942-414605-normaatualizada-pe.html",
+      "source_sha256": "ee8c92de502879bebf7b8ac8b118df159b1c82a6eb8fc3f9d132cbe24406924f",
+      "review_evidence": "Texto literal compilado da Câmara, conferido em 22/11/2026; apenas marcas de navegação e notas editoriais removidas; revogações parciais mantidas. Data do último estado textual composto; não pretende reconstruir estados anteriores a este intervalo. Lei 12.036/2009, arts. 2º a 4º, publicação e vigência imediata em 02/10/2009. Texto legislativo literal não substitui análise constitucional/processual (EC 45/2004, EC 66/2010 e CPC); não se inventou nova redação por interpretação. Sem selo da revisão de edital; termo final aberto representa ausência de alteração textual posterior identificada na compilação consultada, não garantia de atualização futura."
+    },
+    {
+      "id": "ae06f3f5-591c-5e33-84a0-c8c6430fefd6",
+      "provision_id": "fef11119-2ec4-41ff-9220-b7da45506aaf",
+      "valid_from": "1942-10-24",
+      "valid_until": null,
+      "heading": null,
+      "body": "Quando, nos termos dos artigos precedentes, se houver de aplicar a lei estrangeira, ter-se-á em vista a disposição desta, sem considerar-se qualquer remissão por ela feita a outra lei.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-4657-4-setembro-1942-414605-normaatualizada-pe.html",
+      "source_sha256": "90d4dc1314aed8430b03112f4bd2b65f8742f733a334dfcccfebcd8261c5646c",
+      "review_evidence": "Texto literal compilado da Câmara, conferido em 22/11/2026; apenas marcas de navegação e notas editoriais removidas; revogações parciais mantidas. Vigência inicial 24/10/1942 expressamente indicada nos dados da norma com fundamento no DL 4.707/1942. Retificação de 08/10/1942 altera apenas referenda; de 17/06/1943 alcança art. 7º §4º. Sem selo da revisão de edital; termo final aberto representa ausência de alteração textual posterior identificada na compilação consultada, não garantia de atualização futura."
+    },
+    {
+      "id": "c4f86589-1ee7-5632-8496-8ca5c9bac433",
+      "provision_id": "1d1cf9d4-0fcc-43a1-8f12-a6651a001ec9",
+      "valid_from": "1942-10-24",
+      "valid_until": null,
+      "heading": null,
+      "body": "As leis, atos e sentenças de outro país, bem como quaisquer declarações de vontade, não terão eficácia no Brasil, quando ofenderem a soberania nacional, a ordem pública e os bons costumes.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-4657-4-setembro-1942-414605-normaatualizada-pe.html",
+      "source_sha256": "a4b6235cbf3b78ff7f7b367f7270baa3c3d4f36db307ddf39fe5d0a3660b850b",
+      "review_evidence": "Texto literal compilado da Câmara, conferido em 22/11/2026; apenas marcas de navegação e notas editoriais removidas; revogações parciais mantidas. Vigência inicial 24/10/1942 expressamente indicada nos dados da norma com fundamento no DL 4.707/1942. Retificação de 08/10/1942 altera apenas referenda; de 17/06/1943 alcança art. 7º §4º. Sem selo da revisão de edital; termo final aberto representa ausência de alteração textual posterior identificada na compilação consultada, não garantia de atualização futura."
+    },
+    {
+      "id": "40d06103-3231-5fce-a168-45fd07715ff1",
+      "provision_id": "33a4f4cc-943e-46c8-861e-345b061d05a2",
+      "valid_from": "2014-02-27",
+      "valid_until": null,
+      "heading": null,
+      "body": "Tratando-se de brasileiros, são competentes as autoridades consulares brasileiras para lhes celebrar o casamento e os mais atos de Registro Civil e de tabelionato, inclusive o registro de nascimento e de óbito dos filhos de brasileiro ou brasileira nascido no país da sede do Consulado. \n§ 1º As autoridades consulares brasileiras também poderão celebrar a separação consensual e o divórcio consensual de brasileiros, não havendo filhos menores ou incapazes do casal e observados os requisitos legais quanto aos prazos, devendo constar da respectiva escritura pública as disposições relativas à descrição e à partilha dos bens comuns e à pensão alimentícia e, ainda, ao acordo quanto à retomada pelo cônjuge de seu nome de solteiro ou à manutenção do nome adotado quando se deu o casamento.\n\n§ 2º É indispensável a assistência de advogado, devidamente constituído, que se dará mediante a subscrição de petição, juntamente com ambas as partes, ou com apenas uma delas, caso a outra constitua advogado próprio, não se fazendo necessário que a assinatura do advogado conste da escritura pública.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-4657-4-setembro-1942-414605-normaatualizada-pe.html",
+      "source_sha256": "930d921e258aa7be524c530e3167602d088e1bbf36fb69d1628b5ac58d2cad21",
+      "review_evidence": "Texto literal compilado da Câmara, conferido em 22/11/2026; apenas marcas de navegação e notas editoriais removidas; revogações parciais mantidas. Data do último estado textual composto; não pretende reconstruir estados anteriores a este intervalo. Caput Lei 3.238/1957; §§1º e 2º Lei 12.874/2013, DOU 30/10/2013, art.3º:120 dias, vigência27/02/2014. Sem selo da revisão de edital; termo final aberto representa ausência de alteração textual posterior identificada na compilação consultada, não garantia de atualização futura."
+    },
+    {
+      "id": "59e8a748-ae70-5bbf-a926-ae2978cc7d6c",
+      "provision_id": "58d2701c-a7a5-49f2-afc6-7dbc076e635d",
+      "valid_from": "1957-09-17",
+      "valid_until": null,
+      "heading": null,
+      "body": "Reputam-se válidos todos os atos indicados no artigo anterior e celebrados pelos cônsules brasileiros na vigência do Decreto-Lei nº 4.657, de 4 de setembro de 1942, desde que satisfaçam todos os requisitos legais.\nParágrafo único. No caso em que a celebração desses atos tiver sido recusada pelas autoridades consulares, com fundamento no artigo 18 do mesmo Decreto-Lei, ao interessado é facultado renovar o pedido dentro em 90 (noventa) dias contados da data da publicação desta Lei.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-4657-4-setembro-1942-414605-normaatualizada-pe.html",
+      "source_sha256": "e72ef05ad39cf0bd57bf7ab764707dd5c6e92eb7bc34ed3fda62175661b79470",
+      "review_evidence": "Texto literal compilado da Câmara, conferido em 22/11/2026; apenas marcas de navegação e notas editoriais removidas; revogações parciais mantidas. Data do último estado textual composto; não pretende reconstruir estados anteriores a este intervalo. Lei 3.238/1957, DOU 03/08/1957; sem cláusula expressa de vigência: regra de 45 dias do art. 1º da LINDB, 17/09/1957. Sem selo da revisão de edital; termo final aberto representa ausência de alteração textual posterior identificada na compilação consultada, não garantia de atualização futura."
+    }
+  ],
+  "scope_preparation": [
+    {
+      "article": 1,
+      "provision_id": "6462d67a-ddce-4f4b-ac98-cc3eba0828cb",
+      "version_id": "411eb3d1-6a49-5983-9ccb-4f2e423ae1a9",
+      "source_sha256": "f61992b21f04eabab29252826a4e31f9cfb21f6430b998d738c1be940eafd8a8",
+      "status": "prepared_official_literal"
+    },
+    {
+      "article": 2,
+      "provision_id": "8178a51b-f887-4932-a4ae-3a437b528f60",
+      "version_id": "60c483a1-5098-5c59-acac-2ebeb8a2616f",
+      "source_sha256": "6a7526dd93408170362bf4c5f3a04dbaa06f278caa4d90264a6135a0302f8e8b",
+      "status": "prepared_official_literal"
+    },
+    {
+      "article": 3,
+      "provision_id": "dbbdc710-d4bb-42c3-a688-fd6797365bed",
+      "version_id": "7e3cb2e5-e46d-597e-bea3-7af27816d038",
+      "source_sha256": "92bb0c54262414cb819acbea3e7e507d5fa7dd6b571b2aabb43427b7a6be56b5",
+      "status": "prepared_official_literal"
+    },
+    {
+      "article": 4,
+      "provision_id": "1ccbfebd-f9e1-477e-9f59-c13ad79d01cd",
+      "version_id": "cb7ff8e0-3b54-5ca2-8251-8d1bb3c13896",
+      "source_sha256": "17123c8ec0b66a6602ce583e6a4ec2e67a750b9b3cc0f92cdd4ca33a84ef53f6",
+      "status": "prepared_official_literal"
+    },
+    {
+      "article": 5,
+      "provision_id": "867c421a-e2f9-4c3f-b6c3-b233ea507981",
+      "version_id": "c1e6d727-8103-548e-ae09-e2bc68e95236",
+      "source_sha256": "99be5538548d03bb2e1ba2136248c33a6dc2c885b6f9f52aeb014541d4200b7f",
+      "status": "prepared_official_literal"
+    },
+    {
+      "article": 6,
+      "provision_id": "d928d67f-3fd5-4ad0-8a9b-a141ecbc0b3a",
+      "version_id": "45351f6a-029a-5382-be71-6a8a4b43dc08",
+      "source_sha256": "24fc1b945f8449bbfda6bb8f6c62c65c2dce2cb8d35b0a480f99db780e1bcfbe",
+      "status": "prepared_official_literal"
+    },
+    {
+      "article": 7,
+      "provision_id": "89a0a809-6507-4fd9-8555-e772ed9a6ea8",
+      "version_id": "c5a2ffb8-45e1-5534-a784-e9b21543b2eb",
+      "source_sha256": "ce8d6ee63592d8e2c30ef53b0fcbcce102f629557dc33b62ced3e988df01c76b",
+      "status": "prepared_official_literal"
+    },
+    {
+      "article": 8,
+      "provision_id": "993163c6-c2e5-4f25-a500-f3c4d65d8f75",
+      "version_id": "d71295ed-d9be-5c60-abb2-302a13db1a62",
+      "source_sha256": "29c7cc4c711fe5187c8b928d395af5a86ae7fbf5e8a836c90189a5ec2b85780b",
+      "status": "prepared_official_literal"
+    },
+    {
+      "article": 9,
+      "provision_id": "a6560a16-032c-41f6-9e1e-4e39b6be7374",
+      "version_id": "4419715e-9be1-5293-8677-41f85412a363",
+      "source_sha256": "c6d563b8799a9af37499d71d73ad7135a47fe911d19a6c2e683dfbaa0897f0f7",
+      "status": "prepared_official_literal"
+    },
+    {
+      "article": 10,
+      "provision_id": "78e35d0e-34b3-4571-8b60-8d9e6f507476",
+      "version_id": "2a42cf38-d603-5edb-9deb-e1df3721d88b",
+      "source_sha256": "2d1d10b2d910e022cd90cddd4b62bf1cfd210b4017ab5832e85cca293f16e9fc",
+      "status": "prepared_official_literal"
+    },
+    {
+      "article": 11,
+      "provision_id": "04c56788-5989-4fff-9f48-926128da316e",
+      "version_id": "cf3561dd-4fdb-5bb7-863b-b53f0080e4d3",
+      "source_sha256": "3e294bf9c741f0069aee07284387b7bae5b05cd03087cdeb8a82c2ea7cf3776c",
+      "status": "prepared_official_literal"
+    },
+    {
+      "article": 12,
+      "provision_id": "58066c63-40f9-481e-9e6e-0683282389d2",
+      "version_id": "da49daf3-faea-596a-9514-a747d5f135a2",
+      "source_sha256": "ac23f230d460ee9ba6051d51b19d2097114c5721937e86b2d7fa62787c5f9d83",
+      "status": "prepared_official_literal"
+    },
+    {
+      "article": 13,
+      "provision_id": "d4809d62-7e84-401c-897b-83103f4e10e4",
+      "version_id": "61031a19-4751-50ab-a2ee-805ecf53fefd",
+      "source_sha256": "9d702e456b9c0e8468a47d53daad52e3eaea999ddbadf209882134eda3844e26",
+      "status": "prepared_official_literal"
+    },
+    {
+      "article": 14,
+      "provision_id": "f591c972-22a0-42cb-90b2-06f6f41ffcd2",
+      "version_id": "b1b12163-e36f-5e00-b26d-23f6b14fd844",
+      "source_sha256": "29ba7021d56fab618ee4f134865e547405c9b019219f324d5a3fc5c86d891d90",
+      "status": "prepared_official_literal"
+    },
+    {
+      "article": 15,
+      "provision_id": "d8decb87-db6a-490c-8850-d43fe077f234",
+      "version_id": "f687169d-374f-5a5d-af22-a3b9f46071d0",
+      "source_sha256": "ee8c92de502879bebf7b8ac8b118df159b1c82a6eb8fc3f9d132cbe24406924f",
+      "status": "prepared_official_literal"
+    },
+    {
+      "article": 16,
+      "provision_id": "fef11119-2ec4-41ff-9220-b7da45506aaf",
+      "version_id": "ae06f3f5-591c-5e33-84a0-c8c6430fefd6",
+      "source_sha256": "90d4dc1314aed8430b03112f4bd2b65f8742f733a334dfcccfebcd8261c5646c",
+      "status": "prepared_official_literal"
+    },
+    {
+      "article": 17,
+      "provision_id": "1d1cf9d4-0fcc-43a1-8f12-a6651a001ec9",
+      "version_id": "c4f86589-1ee7-5632-8496-8ca5c9bac433",
+      "source_sha256": "a4b6235cbf3b78ff7f7b367f7270baa3c3d4f36db307ddf39fe5d0a3660b850b",
+      "status": "prepared_official_literal"
+    },
+    {
+      "article": 18,
+      "provision_id": "33a4f4cc-943e-46c8-861e-345b061d05a2",
+      "version_id": "40d06103-3231-5fce-a168-45fd07715ff1",
+      "source_sha256": "930d921e258aa7be524c530e3167602d088e1bbf36fb69d1628b5ac58d2cad21",
+      "status": "prepared_official_literal"
+    },
+    {
+      "article": 19,
+      "provision_id": "58d2701c-a7a5-49f2-afc6-7dbc076e635d",
+      "version_id": "59e8a748-ae70-5bbf-a926-ae2978cc7d6c",
+      "source_sha256": "e72ef05ad39cf0bd57bf7ab764707dd5c6e92eb7bc34ed3fda62175661b79470",
+      "status": "prepared_official_literal"
+    }
+  ],
+  "pending_count": 0,
+  "notice_certification": false,
+  "legal_interpretation_certification": false
+}
