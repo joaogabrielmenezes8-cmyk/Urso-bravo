@@ -1,5 +1,6 @@
 diff --git a/src/components/app/editorial-answer-key-notice.tsx b/src/components/app/editorial-answer-key-notice.tsx
 new file mode 100644
+index 0000000..7a48d1d
 --- /dev/null
 +++ b/src/components/app/editorial-answer-key-notice.tsx
 @@ -0,0 +1,9 @@
@@ -14,6 +15,7 @@ new file mode 100644
 +}
 diff --git a/src/components/app/editorial-commentary.test.tsx b/src/components/app/editorial-commentary.test.tsx
 new file mode 100644
+index 0000000..73d9d47
 --- /dev/null
 +++ b/src/components/app/editorial-commentary.test.tsx
 @@ -0,0 +1,20 @@
@@ -39,6 +41,7 @@ new file mode 100644
 +});
 diff --git a/src/components/app/editorial-commentary.tsx b/src/components/app/editorial-commentary.tsx
 new file mode 100644
+index 0000000..bd4cfb0
 --- /dev/null
 +++ b/src/components/app/editorial-commentary.tsx
 @@ -0,0 +1,24 @@
@@ -67,6 +70,7 @@ new file mode 100644
 +  return <EditorialCommentaryView explanation={explanation} legalBasis={legalBasis} certified={data?.status === "available"} />;
 +}
 diff --git a/src/components/app/free-practice.tsx b/src/components/app/free-practice.tsx
+index 86f9bcb..f95e86c 100644
 --- a/src/components/app/free-practice.tsx
 +++ b/src/components/app/free-practice.tsx
 @@ -1,6 +1,9 @@
@@ -79,7 +83,7 @@ diff --git a/src/components/app/free-practice.tsx b/src/components/app/free-prac
  import { FREE_DAILY_LIMIT, fetchFreeStatus, freeBatchOptions, freePracticeErrorMessage, freeUsageLabel, newClientKey, startFreePractice, submitFreePractice, type FreeResult, type FreeStart } from "@/lib/free-practice";
  
  type Contest = { id: string; label: string };
-@@ -61,7 +64,7 @@
+@@ -61,7 +64,7 @@ export function FreePractice({ userId, contests }: { userId: string; contests: C
      : result ? <div className="space-y-4">
          <div className="rounded-xl border border-border p-5"><p className="text-sm text-muted-foreground">Resultado do treino</p><p className="mt-2 text-4xl font-black text-primary">{result.percentage}%</p><p className="text-sm">{result.correct} acertos de {result.total} questões</p><button type="button" onClick={reset} className="mt-4 rounded-lg bg-primary px-4 py-2 font-bold text-primary-foreground">Novo treino</button></div>
          <h2 className="text-lg font-bold">Correção comentada</h2>
@@ -88,8 +92,178 @@ diff --git a/src/components/app/free-practice.tsx b/src/components/app/free-prac
        </div>
      : <div className="space-y-4">
          <div className="flex items-center justify-between text-sm"><span>Questão {position + 1} de {session.questions.length}</span></div>
+diff --git a/src/components/app/legal-version-annotations.test.tsx b/src/components/app/legal-version-annotations.test.tsx
+new file mode 100644
+index 0000000..806ffe4
+--- /dev/null
++++ b/src/components/app/legal-version-annotations.test.tsx
+@@ -0,0 +1,52 @@
++import {describe,it,expect,vi,beforeEach,afterEach} from 'vitest';
++import {render,fireEvent,waitFor,cleanup} from '@testing-library/react';
++import {QueryClient,QueryClientProvider} from '@tanstack/react-query';
++const state=vi.hoisted(()=>({rows:[] as any[],error:false,count:0}));
++vi.mock('@/lib/supabase',()=>({untypedSupabase:{from:()=>{
++ let filters:Record<string,string>={},op='select',payload:any;
++ const selected=()=>state.rows.filter(r=>Object.entries(filters).every(([k,v])=>r[k]===v));
++ const b:any={select:()=>b,eq:(k:string,v:string)=>{filters[k]=v;return b;},
++  order:async()=>({data:selected(),error:state.error?new Error('unavailable'):null}),
++  insert:(p:any)=>{op='insert';payload=p;return b;},update:(p:any)=>{op='update';payload=p;return b;},delete:()=>{op='delete';return b;},
++  single:async()=>{if(state.error)return{data:null,error:new Error('failure')};
++   if(op==='insert'){const r={id:String(++state.count),...payload};state.rows.push(r);return{data:r,error:null};}
++   const row=selected()[0];if(!row)return{data:null,error:new Error('not found')};
++   if(op==='update')Object.assign(row,payload);if(op==='delete')state.rows=state.rows.filter(r=>r!==row);
++   return{data:row,error:null};}};return b;}}}));
++import {LegalVersionAnnotations} from './legal-version-annotations';
++function subject(version:string,user='u1'){
++ return <LegalVersionAnnotations key={version+user} versionId={version} userId={user} body={version==='v1'?'😀 eco eco':'redação nova'} fontSize={16}/>;
++}
++const clients:QueryClient[]=[];
++function setup(version='v1'){
++ const c=new QueryClient({defaultOptions:{queries:{retry:false,gcTime:0}}});clients.push(c);
++ const wrap=(v:string,u='u1')=><QueryClientProvider client={c}>{subject(v,u)}</QueryClientProvider>;
++ const view=render(wrap(version));return{...view,change:(v:string,u='u1')=>view.rerender(wrap(v,u))};
++}
++beforeEach(()=>{state.rows=[];state.error=false;state.count=0;});
++afterEach(()=>{cleanup();clients.forEach(c=>c.clear());clients.length=0;window.getSelection()?.removeAllRanges();});
++describe('historical reader annotations',()=>{
++ it('saves exact repeated quote offsets and renders the persisted highlight',async()=>{
++  const v=setup();const button=await v.findByRole('button',{name:'Marcar seleção / comentar'});
++  await waitFor(()=>expect(button.hasAttribute('disabled')).toBe(false));
++  const root=v.getByText('😀 eco eco');const range=document.createRange();range.setStart(root.firstChild!,7);range.setEnd(root.firstChild!,10);
++  window.getSelection()!.addRange(range);fireEvent.mouseUp(root);fireEvent.click(button);
++  fireEvent.change(v.getByRole('textbox',{name:'Comentário histórico'}),{target:{value:'nota antiga'}});
++  fireEvent.click(v.getByRole('button',{name:'Salvar anotação'}));
++  await waitFor(()=>expect(state.rows[0]).toMatchObject({user_id:'u1',version_id:'v1',selected_text:'eco',start_offset:6,end_offset:9,body:'nota antiga'}));
++  await waitFor(()=>expect(v.container.querySelector('mark')?.textContent).toBe('eco'));
++ });
++ it('keeps comments and unsaved drafts isolated when changing version or user',async()=>{
++  state.rows=[{id:'old',user_id:'u1',version_id:'v1',body:'só versão antiga',selected_text:null,start_offset:null,end_offset:null,highlight_color:null}];
++  const v=setup();await v.findByText('só versão antiga');fireEvent.click(v.getByText('só versão antiga'));
++  fireEvent.change(v.getByRole('textbox',{name:'Comentário histórico'}),{target:{value:'rascunho não salvo'}});
++  v.change('v2');await v.findByText('redação nova');expect(v.queryByText('só versão antiga')).toBeNull();expect(v.queryByRole('textbox')).toBeNull();
++  v.change('v1','u2');await waitFor(()=>expect(v.getByRole('button',{name:'Marcar seleção / comentar'}).hasAttribute('disabled')).toBe(false));
++  expect(v.queryByText('só versão antiga')).toBeNull();v.change('v1');await v.findByText('só versão antiga');
++  expect(state.rows[0].body).toBe('só versão antiga');
++ });
++ it('fails visibly when storage is unavailable while preserving the legal body',async()=>{
++  state.error=true;const v=setup();await v.findByRole('alert');expect(v.getByText('😀 eco eco')).toBeTruthy();
++  expect(v.getByRole('button',{name:'Marcar seleção / comentar'}).hasAttribute('disabled')).toBe(true);
++ });
++});
+diff --git a/src/components/app/legal-version-annotations.tsx b/src/components/app/legal-version-annotations.tsx
+new file mode 100644
+index 0000000..96fffb7
+--- /dev/null
++++ b/src/components/app/legal-version-annotations.tsx
+@@ -0,0 +1,105 @@
++import { useRef, useState } from 'react';
++import { useQuery, useQueryClient } from '@tanstack/react-query';
++import { untypedSupabase } from '@/lib/supabase';
++import { versionQuote, type VersionQuote } from '@/lib/legal-version-selection';
++import { LegalHighlightedText } from './legal-highlighted-text';
++
++type Note = { id: string; body: string; selected_text: string | null; highlight_color: string | null;
++  start_offset: number | null; end_offset: number | null };
++
++/** Mounted with key=versionId: drafts/selections never migrate when the reader changes revision. */
++export function LegalVersionAnnotations({ versionId, body, userId, fontSize }: {
++  versionId: string; body: string; userId: string; fontSize: number;
++}) {
++  const client = useQueryClient();
++  const root = useRef<HTMLDivElement>(null);
++  const captured = useRef<VersionQuote | null>(null);
++  const [editor, setEditor] = useState(false), [text, setText] = useState('');
++  const [quote, setQuote] = useState<VersionQuote | null>(null);
++  const [color, setColor] = useState('yellow'), [editingId, setEditingId] = useState<string | null>(null);
++  const [busy, setBusy] = useState(false), [error, setError] = useState('');
++  const key = ['legal-version-annotations', userId, versionId];
++  const notes = useQuery({ queryKey: key, retry: false, queryFn: async () => {
++    const result = await untypedSupabase.from('student_legal_version_annotations')
++      .select('id,body,selected_text,highlight_color,start_offset,end_offset')
++      .eq('user_id',userId).eq('version_id',versionId).order('created_at',{ascending:false});
++    if (result.error) throw result.error;
++    return (result.data ?? []) as Note[];
++  }});
++  function capture() {
++    const selection = window.getSelection(), element = root.current;
++    if (!selection?.rangeCount || selection.isCollapsed || !element) { captured.current=null; return; }
++    const range = selection.getRangeAt(0);
++    if (!element.contains(range.startContainer) || !element.contains(range.endContainer)) { captured.current=null; return; }
++    const prefix = range.cloneRange(); prefix.selectNodeContents(element);
++    prefix.setEnd(range.startContainer,range.startOffset);
++    const start = prefix.toString().length;
++    const candidate = versionQuote(body,start,start+range.toString().length);
++    captured.current = candidate?.selected_text === range.toString() ? candidate : null;
++  }
++  function open(note?: Note) {
++    setError(''); setEditingId(note?.id ?? null); setText(note?.body ?? '');
++    setColor(note?.highlight_color ?? 'yellow');
++    setQuote(note?.selected_text && note.start_offset !== null && note.end_offset !== null
++      ? {selected_text:note.selected_text,start_offset:note.start_offset,end_offset:note.end_offset}
++      : note ? null : captured.current);
++    captured.current = null; setEditor(true);
++  }
++  async function save() {
++    if (!text.trim() && !quote) { setError('Selecione um trecho ou escreva um comentário.'); return; }
++    setBusy(true); setError('');
++    try {
++      const record = {body:text.trim(), selected_text:quote?.selected_text ?? null,
++        start_offset:quote?.start_offset ?? null,end_offset:quote?.end_offset ?? null,
++        highlight_color:quote ? color : null};
++      const table = untypedSupabase.from('student_legal_version_annotations');
++      const result = editingId
++        ? await table.update(record).eq('id',editingId).eq('user_id',userId).eq('version_id',versionId).select('id').single()
++        : await table.insert({...record,user_id:userId,version_id:versionId}).select('id').single();
++      if (result.error) throw result.error;
++      await client.invalidateQueries({queryKey:key}); setEditor(false); setQuote(null);
++    } catch { setError('Não foi possível salvar a anotação desta redação.'); }
++    finally { setBusy(false); }
++  }
++  async function remove(id: string) {
++    setBusy(true); setError('');
++    try {
++      const result = await untypedSupabase.from('student_legal_version_annotations').delete()
++        .eq('id',id).eq('user_id',userId).eq('version_id',versionId).select('id').single();
++      if (result.error) throw result.error;
++      await client.invalidateQueries({queryKey:key});
++      if (editingId === id) setEditor(false);
++    } catch { setError('Não foi possível excluir esta anotação.'); }
++    finally { setBusy(false); }
++  }
++  return <div className="space-y-3" aria-label="Anotações da redação histórica">
++    <div ref={root} onMouseUp={capture} onTouchEnd={capture} lang="pt-BR"
++      className="select-text whitespace-pre-line break-words text-justify" style={{fontSize,lineHeight:1.8}}>
++      <LegalHighlightedText text={body} notes={(notes.data ?? []).map(n => ({...n,
++        anchor_data:n.start_offset !== null && n.end_offset !== null
++          ? {start_offset:n.start_offset,end_offset:n.end_offset} : null}))}
++        onEdit={mark => {const note=notes.data?.find(n=>n.id===mark.id);if(note)open(note);}} />
++    </div>
++    <button type="button" className="rounded-md border border-border px-3 py-2 text-sm"
++      disabled={busy || notes.isError || notes.isPending} onPointerDown={event=>event.preventDefault()} onClick={()=>{capture();open();}}>
++      Marcar seleção / comentar
++    </button>
++    {notes.isError && <p role="alert">Anotações históricas indisponíveis. O texto permanece disponível.</p>}
++    {editor && <div className="space-y-2" aria-label="Editar anotação histórica">
++      {quote && <blockquote className="border-l-2 pl-3 text-sm">{quote.selected_text}</blockquote>}
++      <label className="block text-sm">Comentário<textarea aria-label="Comentário histórico" value={text}
++        onChange={e=>setText(e.target.value)} maxLength={10000} className="block w-full rounded-md border border-border bg-background p-2" /></label>
++      {quote && <label className="block text-sm">Cor<select aria-label="Cor do destaque histórico" value={color} onChange={e=>setColor(e.target.value)}>
++        <option value="yellow">Amarelo</option><option value="green">Verde</option><option value="blue">Azul</option><option value="pink">Rosa</option>
++      </select></label>}
++      <div className="flex gap-3"><button type="button" disabled={busy} onClick={save}>Salvar anotação</button>
++        <button type="button" disabled={busy} onClick={()=>{setEditor(false);setQuote(null);captured.current=null;}}>Cancelar</button></div>
++    </div>}
++    {error && <p role="alert">{error}</p>}
++    {(notes.data ?? []).map(n=><div key={n.id} className="flex gap-3 text-sm">
++      <button type="button" disabled={busy} onClick={()=>open(n)} className="min-w-0 flex-1 text-left">
++        {n.selected_text && <q>{n.selected_text}</q>}{n.body && <p className="whitespace-pre-line">{n.body}</p>}
++      </button><button type="button" aria-label="Excluir anotação histórica" disabled={busy} onClick={()=>remove(n.id)}>Excluir</button>
++    </div>)}
++  </div>;
++}
 diff --git a/src/components/app/notice-legal-reading.test.tsx b/src/components/app/notice-legal-reading.test.tsx
 new file mode 100644
+index 0000000..4c5ba98
 --- /dev/null
 +++ b/src/components/app/notice-legal-reading.test.tsx
 @@ -0,0 +1,63 @@
@@ -158,12 +332,14 @@ new file mode 100644
 +});
 diff --git a/src/components/app/notice-legal-reading.tsx b/src/components/app/notice-legal-reading.tsx
 new file mode 100644
+index 0000000..da1b9da
 --- /dev/null
 +++ b/src/components/app/notice-legal-reading.tsx
-@@ -0,0 +1,122 @@
+@@ -0,0 +1,124 @@
 +import { useQuery } from "@tanstack/react-query";
 +import { untypedSupabase } from "@/lib/supabase";
 +import { formatLegalReadingText } from "@/lib/legal-reading-format";
++import { LegalVersionAnnotations } from "./legal-version-annotations";
 +
 +interface NoticeOption {
 +  id: string;
@@ -171,6 +347,7 @@ new file mode 100644
 +}
 +
 +interface NoticeVersion {
++  version_id: string | null;
 +  status: "available" | "revoked" | "pending_notice" | "pending_version" | "outside_recorded_scope";
 +  cutoff_on: string | null;
 +  heading: string | null;
@@ -267,9 +444,9 @@ new file mode 100644
 +          {version.status === "revoked" && <p role="status">Dispositivo revogado na data de corte.</p>}
 +          {version.status === "available" && <>
 +            {version.heading && <h3 className="font-bold">{version.heading}</h3>}
-+            <p className="whitespace-pre-line break-words text-justify" lang="pt-BR" style={{ fontSize, lineHeight: 1.8 }}>
-+              {formatLegalReadingText(version.body ?? "")}
-+            </p>
++            {version.version_id ? <LegalVersionAnnotations key={version.version_id}
++              versionId={version.version_id} body={version.body ?? ""} userId={userId} fontSize={fontSize} />
++              : <p className="whitespace-pre-line break-words text-justify" lang="pt-BR" style={{fontSize,lineHeight:1.8}}>{formatLegalReadingText(version.body ?? "")}</p>}
 +          </>}
 +          {mode === "compare" && equal !== null && <p className="text-sm font-semibold">
 +            {equal ? "As redações exibidas são iguais." : "O texto atual difere da redação do edital."}
@@ -285,6 +462,7 @@ new file mode 100644
 +}
 diff --git a/src/components/app/question-notice-reading.tsx b/src/components/app/question-notice-reading.tsx
 new file mode 100644
+index 0000000..e92ab18
 --- /dev/null
 +++ b/src/components/app/question-notice-reading.tsx
 @@ -0,0 +1,53 @@
@@ -342,6 +520,7 @@ new file mode 100644
 +  );
 +}
 diff --git a/src/components/app/question-tutor.tsx b/src/components/app/question-tutor.tsx
+index 9a87d19..e4f7d9c 100644
 --- a/src/components/app/question-tutor.tsx
 +++ b/src/components/app/question-tutor.tsx
 @@ -1,14 +1,16 @@
@@ -363,7 +542,7 @@ diff --git a/src/components/app/question-tutor.tsx b/src/components/app/question
    const [level, setLevel] = useState<Level>("iniciante");
    const [messages, setMessages] = useState<Msg[]>([]);
    const [draft, setDraft] = useState("");
-@@ -16,7 +18,7 @@
+@@ -16,7 +18,7 @@ export function QuestionTutor({ questionId, explanation, legalBasis }: { questio
    const [error, setError] = useState("");
  
    async function ask(text: string) {
@@ -372,7 +551,7 @@ diff --git a/src/components/app/question-tutor.tsx b/src/components/app/question
      setError("");
      setLoading(true);
      const newMessage: Msg = { role: "user", content: text.trim() };
-@@ -25,29 +27,13 @@
+@@ -25,29 +27,13 @@ export function QuestionTutor({ questionId, explanation, legalBasis }: { questio
        const { data: session } = await supabase.auth.getSession();
        const accessToken = session.session?.access_token;
        if (!accessToken) throw new Error("Entre novamente na sua conta para usar o tutor.");
@@ -404,7 +583,7 @@ diff --git a/src/components/app/question-tutor.tsx b/src/components/app/question
      } finally {
        setLoading(false);
      }
-@@ -68,10 +54,8 @@
+@@ -68,10 +54,8 @@ export function QuestionTutor({ questionId, explanation, legalBasis }: { questio
            </button>
          ))}
        </div>
@@ -416,7 +595,7 @@ diff --git a/src/components/app/question-tutor.tsx b/src/components/app/question
          Explicar no nível {level}
        </button>
        {messages.length > 0 && <div className="max-h-96 space-y-3 overflow-y-auto rounded-lg border border-border p-3" aria-live="polite">
-@@ -82,11 +66,12 @@
+@@ -82,11 +66,12 @@ export function QuestionTutor({ questionId, explanation, legalBasis }: { questio
          <input id="question-tutor-input" value={draft} onChange={(e) => setDraft(e.target.value)}
            placeholder="O que você não entendeu?" maxLength={1000}
            className="min-w-0 flex-1 rounded-lg border border-input bg-background px-3 py-2 text-sm" />
@@ -432,6 +611,7 @@ diff --git a/src/components/app/question-tutor.tsx b/src/components/app/question
        <p className="text-[11px] text-muted-foreground">O tutor pode errar. Havendo divergência, prevalecem as fontes jurídicas verificadas, não uma resposta gerada.</p>
 diff --git a/src/lib/answer-key-status.ts b/src/lib/answer-key-status.ts
 new file mode 100644
+index 0000000..1419212
 --- /dev/null
 +++ b/src/lib/answer-key-status.ts
 @@ -0,0 +1,23 @@
@@ -458,8 +638,53 @@ new file mode 100644
 +  return `GABARITO EDITORIAL (NÃO CERTIFICADO PARA A REVISÃO DO EDITAL): ${key}
 +REGRA: a adequação temporal deste gabarito à revisão do edital está pendente. Não afirme que ${key} está correta segundo a redação do edital. Se a redação certificada acima não sustentar o gabarito editorial, diga que há divergência e que a questão aguarda revisão. Sempre mencione essa pendência.`;
 +}
+diff --git a/src/lib/legal-version-selection.test.ts b/src/lib/legal-version-selection.test.ts
+new file mode 100644
+index 0000000..d0a0ecc
+--- /dev/null
++++ b/src/lib/legal-version-selection.test.ts
+@@ -0,0 +1,22 @@
++import {describe,it,expect} from 'vitest';
++import {versionQuote} from './legal-version-selection';
++import {legalHighlightSegments} from '../components/app/legal-highlighted-text';
++describe('historical quote anchors',()=>{
++ it('persists code points and highlights the second occurrence after an emoji',()=>{
++  const text='😀 eco eco';const q=versionQuote(text,7,10)!;
++  expect(q).toEqual({selected_text:'eco',start_offset:6,end_offset:9});
++  const parts=legalHighlightSegments(text,[{id:'v1',selected_text:q.selected_text,highlight_color:'yellow',anchor_data:q}]);
++  expect(parts.map(s=>s.value)).toEqual(['😀 eco ','eco']);
++ });
++ it('rejects an anchor for a different immutable wording without searching another occurrence',()=>{
++  const p=legalHighlightSegments('eco mudou eco',[{id:'old',selected_text:'eco',highlight_color:'yellow',anchor_data:{start_offset:6,end_offset:9}}]);
++  expect(p.some(s=>s.mark)).toBe(false);
++ });
++ it('preserves legacy quotations without offsets',()=>{
++  expect(legalHighlightSegments('texto antigo',[{id:'legacy',selected_text:'antigo',highlight_color:'green'}]).at(-1)?.mark?.id).toBe('legacy');
++ });
++ it('rejects split surrogate pairs and invalid ranges',()=>{
++  expect(versionQuote('😀 texto',1,3)).toBeNull();expect(versionQuote('😀 texto',0,1)).toBeNull();
++  expect(versionQuote('texto',-1,2)).toBeNull();expect(versionQuote('texto',2,20)).toBeNull();
++ });
++});
+diff --git a/src/lib/legal-version-selection.ts b/src/lib/legal-version-selection.ts
+new file mode 100644
+index 0000000..ebd9f8f
+--- /dev/null
++++ b/src/lib/legal-version-selection.ts
+@@ -0,0 +1,10 @@
++export type VersionQuote = { selected_text: string; start_offset: number; end_offset: number };
++
++/** DOM offsets use UTF-16; persisted offsets use PostgreSQL Unicode code points. */
++export function versionQuote(body: string, start: number, end: number): VersionQuote | null {
++  if (!Number.isInteger(start) || !Number.isInteger(end) || start < 0 || end <= start || end > body.length) return null;
++  const prefix = body.slice(0, start), quote = body.slice(start, end);
++  if (/^[\uDC00-\uDFFF]/u.test(quote) || /[\uD800-\uDBFF]$/u.test(quote)) return null;
++  return { selected_text: quote, start_offset: Array.from(prefix).length,
++    end_offset: Array.from(body.slice(0,end)).length };
++}
 diff --git a/src/lib/question-notice-context.test.ts b/src/lib/question-notice-context.test.ts
 new file mode 100644
+index 0000000..147b741
 --- /dev/null
 +++ b/src/lib/question-notice-context.test.ts
 @@ -0,0 +1,37 @@
@@ -502,6 +727,7 @@ new file mode 100644
 +});
 diff --git a/src/lib/question-notice-context.ts b/src/lib/question-notice-context.ts
 new file mode 100644
+index 0000000..88058c8
 --- /dev/null
 +++ b/src/lib/question-notice-context.ts
 @@ -0,0 +1,23 @@
@@ -529,6 +755,7 @@ new file mode 100644
 +  return ["Data de corte: " + context.cutoff_on, ...citations].join("\n\n");
 +}
 diff --git a/src/lib/question-tutor.functions.ts b/src/lib/question-tutor.functions.ts
+index f2f6524..2729492 100644
 --- a/src/lib/question-tutor.functions.ts
 +++ b/src/lib/question-tutor.functions.ts
 @@ -1,5 +1,7 @@
@@ -539,7 +766,7 @@ diff --git a/src/lib/question-tutor.functions.ts b/src/lib/question-tutor.functi
  import { authUrl, authPublicKey } from "./auth-config";
  
  const levelText = {
-@@ -14,6 +16,7 @@
+@@ -14,6 +16,7 @@ export const askQuestionTutor = createServerFn({ method: "POST" })
    .inputValidator(z.object({
      accessToken: z.string().min(10).max(4096),
      questionId: z.string().uuid(),
@@ -547,7 +774,7 @@ diff --git a/src/lib/question-tutor.functions.ts b/src/lib/question-tutor.functi
      level: z.enum(["iniciante", "intermediario", "avancado"]),
      message: z.string().min(1).max(1000),
      history: z.array(z.object({ role: z.enum(["user", "assistant"]), content: z.string().max(6000) })).max(10),
-@@ -23,19 +26,29 @@
+@@ -23,19 +26,29 @@ export const askQuestionTutor = createServerFn({ method: "POST" })
      const userRes = await fetch(`${authUrl}/auth/v1/user`, { headers });
      if (!userRes.ok) return { ok: false as const, error: "Entre novamente na sua conta para usar o tutor." };
  
@@ -580,7 +807,7 @@ diff --git a/src/lib/question-tutor.functions.ts b/src/lib/question-tutor.functi
      const instructions = `Você é o Tutor URSO BRAVO, professor para concursos policiais. Responda em português do Brasil, no nível ${levelText[data.level]}.
  Use SOMENTE os dados da questão abaixo. Nunca invente artigos de lei, súmulas ou jurisprudência; se a fonte não estiver nos dados, diga que não há fundamento verificado. Seja objetivo, sem markdown pesado.
  
-@@ -45,11 +58,9 @@
+@@ -45,11 +58,9 @@ ${q.statement}
  ALTERNATIVAS:
  ${options}
  
@@ -595,7 +822,7 @@ diff --git a/src/lib/question-tutor.functions.ts b/src/lib/question-tutor.functi
  
      try {
        const { createOpenAI } = await import("@ai-sdk/openai");
-@@ -62,13 +73,13 @@
+@@ -62,13 +73,13 @@ ${sources || "nenhuma"}`;
        const result = streamText({
          model: openai.responses("openai/gpt-6-astra"),
          system: instructions,
@@ -613,6 +840,7 @@ diff --git a/src/lib/question-tutor.functions.ts b/src/lib/question-tutor.functi
        console.warn("question tutor failed", status, cause?.message);
 diff --git a/src/lib/question-tutor.test.ts b/src/lib/question-tutor.test.ts
 new file mode 100644
+index 0000000..3470694
 --- /dev/null
 +++ b/src/lib/question-tutor.test.ts
 @@ -0,0 +1,59 @@
@@ -676,6 +904,7 @@ new file mode 100644
 +  });
 +});
 diff --git a/src/routes/app.ementario.tsx b/src/routes/app.ementario.tsx
+index 4b52aba..9b631fc 100644
 --- a/src/routes/app.ementario.tsx
 +++ b/src/routes/app.ementario.tsx
 @@ -1,3 +1,4 @@
@@ -683,7 +912,7 @@ diff --git a/src/routes/app.ementario.tsx b/src/routes/app.ementario.tsx
  import { LegalArticleTree } from "@/components/app/legal-article-tree";
  import { LegalPrecedentsPanel } from "@/components/app/legal-precedents-panel";
  import { LegalHighlightedText, findLegalQuoteRange } from "@/components/app/legal-highlighted-text";
-@@ -30,15 +31,26 @@
+@@ -30,15 +31,26 @@ type Law={id:string;code:string;title:string;official_url:string;update_status:s
  type Article={id:string;document_id:string;provision_label:string;provision_key:string;heading:string|null;text_body:string|null;official_anchor_url:string|null;verified_at:string|null;hierarchy_path:string[];display_order:number|null;completeness:"full"|"excerpt"|"under_review"};
  type Note={id:string;target_id:string;target_type:string;body:string;selected_text:string|null;highlight_color:string|null;anchor_data:{provision_key?:string}|null};
  const shades:Record<string,string>={yellow:"bg-yellow-300 text-black",green:"bg-lime-300 text-black",blue:"bg-sky-300 text-black",pink:"bg-pink-300 text-black"};
@@ -713,7 +942,7 @@ diff --git a/src/routes/app.ementario.tsx b/src/routes/app.ementario.tsx
   const [term,setTerm]=useState("");const [law,setLaw]=useState<Law|null>(null);const [article,setArticle]=useState<Article|null>(null);
   const [quote,setQuote]=useState("");const [note,setNote]=useState("");const [editingNoteId,setEditingNoteId]=useState<string|null>(null);const [color,setColor]=useState("yellow");
   const [desktopNotebookOpen,setDesktopNotebookOpen]=useState(false);
-@@ -114,7 +126,7 @@
+@@ -114,7 +126,7 @@ function Ementario(){
     const next=legalReaderSearch(lawCode,articleKey);
     if(legalReaderSearchEquals({law:requestedLaw,article:requestedArticle},next))return;
     // Persist the current article in the link; no user data goes in the URL.
@@ -722,7 +951,7 @@ diff --git a/src/routes/app.ementario.tsx b/src/routes/app.ementario.tsx
   }
   function selectArticleForReading(next:Article|null,remote:string|null=null){
     setArticle(next);
-@@ -276,11 +288,11 @@
+@@ -276,11 +288,11 @@ function Ementario(){
          <input inputMode="numeric" type="text" aria-label="Número do artigo" placeholder="Artigo (ex.: 186 ou 121-A)" value={articleInput} onChange={e=>setArticleInput(e.target.value)} className="min-w-0 flex-1 rounded-lg border border-input bg-secondary px-3 py-2 text-sm"/>
          <button type="submit" className="rounded-lg bg-primary px-3 py-2 text-sm font-semibold text-primary-foreground">Consultar artigo</button>
        </form>
@@ -738,7 +967,7 @@ diff --git a/src/routes/app.ementario.tsx b/src/routes/app.ementario.tsx
        <nav aria-label="Navegador rápido de artigos" className="sticky top-0 z-20 -mx-1 flex min-w-0 items-center justify-between gap-2 border-y border-border/60 bg-background/95 px-2 py-2 shadow-sm backdrop-blur-sm">
           <button type="button" aria-label="Artigo anterior" title="Ir para o artigo anterior" disabled={!articleNavigation.previous}
             onClick={()=>jumpToArticle(articleNavigation.previous)}
-@@ -294,7 +306,13 @@
+@@ -294,7 +306,13 @@ function Ementario(){
             <span className="hidden sm:inline">Próximo</span><ChevronRight className="h-4 w-4"/>
           </button>
         </nav>
@@ -753,7 +982,7 @@ diff --git a/src/routes/app.ementario.tsx b/src/routes/app.ementario.tsx
         {article?.hierarchy_path?.length?<div aria-label="Localização na legislação" className="flex flex-wrap gap-x-1 gap-y-1 text-xs text-muted-foreground">{article.hierarchy_path.map((item,i)=><span key={i}>{i>0?" › ":""}{item}</span>)}</div>:null}
         <div className="flex justify-between gap-3"><div><p className="text-primary text-sm font-bold">{article?.provision_label||`Art. ${remoteNumber}`}</p><h3 className="mt-1 font-bold">{article?.heading||""}</h3></div><span className="text-xs text-muted-foreground">{article?.completeness==="excerpt"?"Trecho da norma":article?.completeness==="under_review"?"Texto em revisão":article?.verified_at?"Texto conferido":"Fonte em conferência"}</span></div>
         {article?.completeness==="excerpt"&&<p className="rounded-md border border-border p-2 text-xs text-muted-foreground">Este artigo está disponível apenas parcialmente. Consulte o texto integral na fonte oficial.</p>}
-@@ -319,23 +337,23 @@
+@@ -319,23 +337,23 @@ function Ementario(){
           <button type="button" onClick={()=>void remove(n)} className="self-start text-xs text-destructive">Excluir</button>
          </div>)}
         </div>
@@ -782,9 +1011,10 @@ diff --git a/src/routes/app.ementario.tsx b/src/routes/app.ementario.tsx
       <button type="button" aria-label={captured?"Destacar trecho selecionado":"Abrir marcações e anotações"} title={captured?"Trecho capturado — destacar ou anotar":"Destacar ou anotar"}
         onPointerDownCapture={rememberNativeSelection} onClick={openFabEditor}
 diff --git a/src/routes/app.provas-anteriores.tsx b/src/routes/app.provas-anteriores.tsx
+index 6353c62..52ddfde 100644
 --- a/src/routes/app.provas-anteriores.tsx
 +++ b/src/routes/app.provas-anteriores.tsx
-@@ -4,6 +4,7 @@
+@@ -4,6 +4,7 @@ import {useQuery} from "@tanstack/react-query";
  import {useEffect,useMemo,useState} from "react";
  import {BookOpen,CheckCircle2,AlertTriangle,ChevronLeft,ChevronRight} from "lucide-react";
  import {untypedSupabase} from "@/lib/supabase";
@@ -792,7 +1022,7 @@ diff --git a/src/routes/app.provas-anteriores.tsx b/src/routes/app.provas-anteri
  type Temporal={historical_answer:string|null;historical_reasoning:string|null;historical_law_reference:string|null;current_answer:string|null;current_reasoning:string|null;current_law_reference:string|null;changed_since_exam:boolean|null;current_status:string;review_source_url:string|null};
  type Historical={id:string;contest_code:string;exam_year:number;question_number:number;original_statement:string;source_context:string|null;answer:string|null;annulled:boolean;key_stage:string;source_filename:string;legal_review_status:string};
  export const Route=createFileRoute("/app/provas-anteriores")({staticData:{sitemap:false},component:PastExamPractice});
-@@ -50,6 +51,7 @@
+@@ -50,6 +51,7 @@ function PastExamPractice(){
      {q.annulled?<p className="rounded-lg bg-secondary p-3 text-sm">Esta questão foi anulada no gabarito registrado; nenhuma alternativa será tratada como correta.</p>:<>
      <button type="button" disabled={parsed.options.length===4&&!selection} onClick={()=>setShown(p=>({...p,[q.id]:true}))} className="rounded-lg bg-primary px-4 py-2 text-sm font-bold text-primary-foreground disabled:opacity-50">Conferir gabarito histórico</button>
      {revealed&&<div className="rounded-lg border border-border p-3 text-sm">{view==="current"&&!reviewed&&!obsolete&&<p className="mb-2 font-semibold text-amber-300">Ainda não há gabarito atual validado. Resposta do gabarito oficial da banca: {q.answer}. Trata-se da resposta histórica, ainda não certificada para a legislação vigente.</p>}{obsolete&&<p className="mb-2 font-semibold text-amber-300">Questão desatualizada: nenhuma alternativa representa corretamente a legislação atual. Gabarito da banca na época: {q.answer}.</p>}<div className="flex items-center gap-2">{shownAnswer&&selection===shownAnswer?<CheckCircle2 className="h-4 w-4 text-primary"/>:<AlertTriangle className="h-4 w-4 text-amber-400"/>}<strong>{view==="current"&&reviewed?"Resposta conforme análise atual":"Gabarito da banca na época"}: {shownAnswer??"Não definido — revisão atual pendente"}</strong></div>{(reviewed||obsolete)?<div className="mt-2 space-y-2 text-sm"><p><strong>Em {q.exam_year}:</strong> {review.historical_reasoning}</p><p><strong>Legislação atual:</strong> {review.current_reasoning}</p><p className="text-xs text-muted-foreground">Fundamento histórico: {review.historical_law_reference} · Fundamento atual: {review.current_law_reference}</p>{review.changed_since_exam&&<p className="text-xs font-semibold text-amber-400">Atenção: houve alteração legislativa após a prova.</p>}{review.review_source_url&&<a className="text-xs text-primary underline" href={review.review_source_url} target="_blank" rel="noopener noreferrer">Conferir norma oficial</a>}</div>:<p className="mt-2 text-xs text-amber-300">Ainda não há comparação jurídica atual revisada. O gabarito exibido é histórico e pode estar desatualizado.</p>}</div>}</>}
@@ -801,9 +1031,10 @@ diff --git a/src/routes/app.provas-anteriores.tsx b/src/routes/app.provas-anteri
     </article>
    })}</div>
 diff --git a/src/routes/app.resolver.tsx b/src/routes/app.resolver.tsx
+index f5a5b39..2484240 100644
 --- a/src/routes/app.resolver.tsx
 +++ b/src/routes/app.resolver.tsx
-@@ -12,7 +12,9 @@
+@@ -12,7 +12,9 @@ import { Button } from "@/components/ui/button";
  import { cn } from "@/lib/utils";
  import { QuestionTutor } from "@/components/app/question-tutor";
  import { PrivateExplanationNotes } from "@/components/app/private-explanation-notes";
@@ -814,7 +1045,7 @@ diff --git a/src/routes/app.resolver.tsx b/src/routes/app.resolver.tsx
  
  export const Route = createFileRoute("/app/resolver")({
    staticData: { sitemap: false },
-@@ -70,7 +72,10 @@
+@@ -70,7 +72,10 @@ function Resolver() {
    const answerState = q ? answers[q.id] : undefined;
    const selectedId = answerState?.selectedId ?? null;
    const responded = answerState?.responded ?? false;
@@ -826,7 +1057,7 @@ diff --git a/src/routes/app.resolver.tsx b/src/routes/app.resolver.tsx
    const selected = q?.options.find((option) => option.id === selectedId) ?? null;
    const isCorrect = Boolean(selected && correctOption && selected.id === correctOption.id);
    const isSaved = Boolean(q && saved.data?.has(q.id));
-@@ -87,7 +92,7 @@
+@@ -87,7 +92,7 @@ function Resolver() {
      const started = answerState?.startedAt ?? startedAt.current;
      setAnswers((old) => ({ ...old, [q.id]: { selectedId, responded: true, startedAt: started } }));
      setResultVisible(true);
@@ -835,7 +1066,7 @@ diff --git a/src/routes/app.resolver.tsx b/src/routes/app.resolver.tsx
      window.scrollTo({ top: 0, behavior: "instant" });
    }
    function retry() {
-@@ -128,14 +133,12 @@
+@@ -128,14 +133,12 @@ function Resolver() {
        <div className="mt-9 grid grid-cols-[minmax(0,1fr)_minmax(0,1fr)] gap-3"><Button variant="outline" className="h-12 rounded-lg" disabled={i === 0} onClick={() => { setI((value) => Math.max(0, value - 1)); window.scrollTo(0, 0); }}><ArrowLeft />Anterior</Button><Button className="h-12 rounded-lg font-bold" disabled={!selectedId} onClick={responded ? () => setResultVisible(true) : answer}>{responded ? "Ver resultado" : "Responder"}<ArrowRight /></Button></div>
      </> : <>
        <Panel className={cn("mb-3", isCorrect ? "border-primary/30 bg-primary/5" : "border-destructive/30 bg-destructive/5")}>
@@ -854,7 +1085,7 @@ diff --git a/src/routes/app.resolver.tsx b/src/routes/app.resolver.tsx
        {!user && <p className="my-4 text-xs text-muted-foreground">Entre na sua conta para registrar este resultado no seu desempenho.</p>}
        {attempt.isError && <p role="alert" className="my-4 text-xs text-destructive">A resposta foi exibida, mas não foi possível salvar o progresso.</p>}
        <div className="my-5 grid grid-cols-1 gap-2 sm:grid-cols-2">
-@@ -143,7 +146,7 @@
+@@ -143,7 +146,7 @@ function Resolver() {
          <Button className="h-12 w-full font-bold" onClick={next}>Próxima questão<ArrowRight /></Button>
        </div>
        <p className="mb-4 text-xs text-muted-foreground">As letras podem mudar ao refazer. O gabarito é conferido pelo conteúdo original da alternativa. Cada resposta é registrada como uma nova tentativa.</p>
@@ -864,6 +1095,7 @@ diff --git a/src/routes/app.resolver.tsx b/src/routes/app.resolver.tsx
      {save.isError && <p role="alert" className="mt-4 text-xs text-destructive">Não foi possível atualizar a questão salva.</p>}
    </>;
 diff --git a/src/routes/app.simulados.tsx b/src/routes/app.simulados.tsx
+index ac7f220..04c3df8 100644
 --- a/src/routes/app.simulados.tsx
 +++ b/src/routes/app.simulados.tsx
 @@ -1,3 +1,6 @@
@@ -873,7 +1105,7 @@ diff --git a/src/routes/app.simulados.tsx b/src/routes/app.simulados.tsx
  import {createFileRoute,Link} from "@tanstack/react-router";
  import {useEffect,useMemo,useState} from "react";
  import {useQuery} from "@tanstack/react-query";
-@@ -112,13 +115,13 @@
+@@ -112,13 +115,13 @@ function PremiumSimulados(){
    </div>:result?<div className="space-y-4">
      <div className="rounded-xl border border-border p-5"><p className="text-sm text-muted-foreground">Resultado do simulado</p><p className="mt-2 text-4xl font-black text-primary">{result.percentage}%</p><p className="text-sm">{result.correct} acertos de {result.total} questões · {Math.floor(elapsed/60)}min {elapsed%60}s</p><button type="button" onClick={reset} className="mt-4 rounded-lg bg-primary px-4 py-2 font-bold text-primary-foreground">Novo simulado</button></div>
      <h2 className="text-lg font-bold">Correção comentada</h2>
@@ -891,6 +1123,7 @@ diff --git a/src/routes/app.simulados.tsx b/src/routes/app.simulados.tsx
      <div className="h-2 overflow-hidden rounded-full bg-secondary"><div className="h-full bg-primary" style={{width:`${Math.round((position+1)/Math.max(1,questionIds.length)*100)}%`}}/></div>
 diff --git a/src/test/notice-legal.integration.test.tsx b/src/test/notice-legal.integration.test.tsx
 new file mode 100644
+index 0000000..dc92bc5
 --- /dev/null
 +++ b/src/test/notice-legal.integration.test.tsx
 @@ -0,0 +1,275 @@
@@ -1169,3 +1402,32 @@ new file mode 100644
 +    expect(v.container.textContent).not.toContain("Texto");
 +  });
 +});
+diff --git a/src/components/app/legal-highlighted-text.tsx b/src/components/app/legal-highlighted-text.tsx
+index 2d5b6aa..0e00a91 100644
+--- a/src/components/app/legal-highlighted-text.tsx
++++ b/src/components/app/legal-highlighted-text.tsx
+@@ -4,6 +4,7 @@ export type LegalTextMark = {
+   id: string;
+   selected_text: string | null;
+   highlight_color: string | null;
++  anchor_data?: { start_offset?: number; end_offset?: number } | null;
+ };
+ 
+ export const LEGAL_HIGHLIGHT_COLORS: Record<string, string> = {
+@@ -58,7 +59,15 @@ export function findLegalQuoteRange(source: string, quote: string): { start: num
+ type Segment = { value: string; mark?: LegalTextMark };
+ export function legalHighlightSegments(source: string, notes: LegalTextMark[]): Segment[] {
+   const hits = notes.flatMap(mark => {
+-    const span = mark.selected_text ? findLegalQuoteRange(source, mark.selected_text) : null;
++    const anchor = mark.anchor_data;
++    const explicit = anchor?.start_offset !== undefined || anchor?.end_offset !== undefined;
++    const points = explicit ? Array.from(source) : [];
++    const start = anchor?.start_offset, end = anchor?.end_offset;
++    const anchored = typeof start === 'number' && typeof end === 'number'
++      && Number.isInteger(start) && Number.isInteger(end) && start >= 0 && end > start
++      && end <= points.length && points.slice(start,end).join('') === mark.selected_text
++      ? { start: points.slice(0,start).join('').length, end: points.slice(0,end).join('').length } : null;
++    const span = explicit ? anchored : mark.selected_text ? findLegalQuoteRange(source, mark.selected_text) : null;
+     return span ? [{ ...span, mark }] : [];
+   }).sort((a, b) => a.start - b.start || b.end - a.end);
+   if (!hits.length) return [{ value: source }];
