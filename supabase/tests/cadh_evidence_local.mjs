@@ -5,11 +5,15 @@ const { PGlite } = await import(process.env.PGLITE_MODULE || '@electric-sql/pgli
 const read = p => readFileSync(new URL('../' + p, import.meta.url), 'utf8');
 const bundle = JSON.parse(read('evidence/cadh-artigos-1-82.json'));
 const extracts = read('evidence/cadh-artigos-1-82-oea.txt').split('\n\nArtigo ');
-if (extracts.length !== 82 || bundle.versions.length !== 39 || bundle.pending_count !== 43) throw Error('Unexpected coverage');
+if (extracts.length !== 82 || bundle.versions.length !== 81 || bundle.pending_count !== 1) throw Error('Unexpected coverage');
 for (let i = 0; i < 82; i++) {
   const extract = (i ? 'Artigo ' : '') + extracts[i] + (i < 81 ? '\n' : '');
   if (createHash('sha256').update(extract).digest('hex') !== bundle.scope_preparation[i].source_sha256) throw Error('Digest mismatch ' + (i + 1));
 }
+const conflict=bundle.scope_preparation.find(s=>s.article===31);
+if(conflict.version_id!==null) throw Error('Official cross-reference conflict was silently certified');
+const sixty=bundle.versions.find(v=>v.provision_id===bundle.scope_preparation.find(s=>s.article===60).provision_id);
+if(sixty.body.includes('Seção 2')) throw Error('Section heading leaked into article 60');
 const db = new PGlite();
 try {
   await db.exec(read('tests/notice_legal_snapshots_fixture.sql'));
@@ -27,13 +31,13 @@ try {
       [JSON.stringify(revision), JSON.stringify(bundle.versions), JSON.stringify(scope)]);
   }
   const { rows } = await db.query('select (select count(*) from public.legal_provision_versions) as versions, (select count(*) from public.notice_legal_scope) as scopes');
-  if (rows[0].versions !== 39 || rows[0].scopes !== 164) throw Error(JSON.stringify(rows));
+  if (rows[0].versions !== 81 || rows[0].scopes !== 164) throw Error(JSON.stringify(rows));
   await db.exec("set role authenticated; set test.premium='yes'; set test.admin='no';");
   const statuses = {};
   for (const s of bundle.scope_preparation) {
     const { rows } = await db.query("select status from public.resolve_notice_legal_provision('10000000-0000-0000-0000-000000000001',$1)", [s.provision_id]);
     statuses[rows[0].status] = (statuses[rows[0].status] || 0) + 1;
   }
-  if (statuses.available !== 39 || statuses.pending_version !== 43) throw Error(JSON.stringify(statuses));
-  console.log('PASS: 82 digests, 39 versions/164 links with exact retry, 43 unresolved provisions stay pending');
+  if (statuses.available !== 81 || statuses.pending_version !== 1) throw Error(JSON.stringify(statuses));
+  console.log('PASS: 82 digests, 81 versions/164 links with exact retry, article 31 stays pending');
 } catch (e) { console.error(e.message); process.exitCode = 1; } finally { await db.close(); }
