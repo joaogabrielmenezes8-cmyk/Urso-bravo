@@ -1,0 +1,61 @@
+{
+  "reviewed_on": "2026-11-22",
+  "bundles": [
+    "l9455-artigos-1-4.json",
+    "l13431-artigos-1-29.json"
+  ],
+  "official_sources": [
+    {
+      "url": "https://www2.camara.leg.br/legin/fed/lei/1997/lei-9455-7-abril-1997-349431-norma-pl.html",
+      "verified": "DOU 08/04/1997, p. 6742; alterações de 2003 e 2026"
+    },
+    {
+      "url": "https://www2.camara.leg.br/legin/fed/lei/1997/lei-9455-7-abril-1997-349431-normaatualizada-pl.html",
+      "verified": "Texto integral de quatro artigos, transcrição UTF-8 limpa"
+    },
+    {
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/l15410.htm",
+      "verified": "Arts. 3º e 4º: acréscimo do inciso III ao art. 1º da Lei 9.455, vigência imediata; DOU 21/05/2026"
+    },
+    {
+      "url": "https://www2.camara.leg.br/legin/fed/lei/2026/lei-15410-20-maio-2026-799133-norma-pl.html",
+      "verified": "Publicação em 21/05/2026, p. 1"
+    },
+    {
+      "url": "https://www2.camara.leg.br/legin/fed/lei/2003/lei-10741-1-outubro-2003-497511-publicacaooriginal-1-pl.html",
+      "verified": "Arts. 112 e 118; DOU 03/10/2003; vigência após 90 dias = 01/01/2004"
+    },
+    {
+      "url": "https://www2.camara.leg.br/legin/fed/lei/2017/lei-13431-4-abril-2017-784569-norma-pl.html",
+      "verified": "DOU 05/04/2017, p. 1; uma alteração textual, inciso V do caput do art. 4º, pela Lei 14.344/2022"
+    },
+    {
+      "url": "https://www2.camara.leg.br/legin/fed/lei/2017/lei-13431-4-abril-2017-784569-normaatualizada-pl.html",
+      "verified": "29 artigos e estrutura de títulos/capítulos; art. 29 prevê um ano de vacatio"
+    },
+    {
+      "url": "https://legis.senado.leg.br/norma/17674073",
+      "verified": "Declara explicitamente 05/04/2018 para efeitos das alterações ao ECA; publicação 05/04/2017"
+    },
+    {
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/l14344.htm",
+      "verified": "Art. 28 acrescenta inciso V ao caput do art. 4º da Lei 13.431; art. 34 prevê 45 dias; DOU 25/05/2022 -> 09/07/2022"
+    }
+  ],
+  "transcription_variances": [
+    {
+      "article": "L13431 art. 4º",
+      "issue": "Compilação Câmara posiciona inciso V depois do §4º; índice Senado o chama de §5º.",
+      "resolution": "Lei modificadora art.28 diz expressamente inciso V do caput. O texto foi colocado antes do §1º, sem alteração de palavras; extrato bruto separado preservado.",
+      "is_legislative_change": false
+    },
+    {
+      "article": "L13431 data inicial",
+      "issue": "Notícias do CFP indicam 04/04/2018.",
+      "resolution": "Adotado 05/04/2018 com fundamento no DOU 05/04/2017, art.29 e indicação expressa do Senado; publicação não confundida com assinatura.",
+      "notice_certification": false
+    }
+  ],
+  "hashes": "Cada estado tem SHA-256 do extrato UTF-8/LF versionado, não do binário de uma página/PDF inacessível.",
+  "production_writes": false
+}
