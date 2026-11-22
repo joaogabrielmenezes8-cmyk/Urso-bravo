@@ -1,0 +1,874 @@
+Capturas textuais oficiais CF88 — 22/11/2026
+
+Extratos de páginas legislativas, não imagens do DOU. Não certificam editais.
+
+
+Portal da Câmara dos Deputados (https://www2.camara.leg.br/legin/fed/emecon/2022/emendaconstitucional-115-10-fevereiro-2022-792285-publicacaooriginal-164624-pl.html)
+【turn718087181view3】 [wordlim: 200] Crawled: yesterday; Content type: text/html; Source: click({"ref_id":"turn624774583view0","id":2}); Total lines: 64
+
+
+
+
+Portal da Câmara dos Deputados (https://www2.camara.leg.br/legin/fed/emecon/2023/emendaconstitucional-131-3-outubro-2023-794771-publicacaooriginal-169563-pl.html)
+【turn718087181view4】 [wordlim: 200] Crawled: yesterday; Content type: text/html; Source: click({"ref_id":"turn624774583view0","id":13}); Total lines: 62
+
+
+
+
+Portal da Câmara dos Deputados (https://www2.camara.leg.br/legin/fed/emecon/2021/emendaconstitucional-111-28-setembro-2021-791789-publicacaooriginal-163502-pl.html)
+【turn718087181view5】 [wordlim: 200] Crawled: today; Content type: text/html; Source: click({"ref_id":"turn624774583view0","id":16}); Total lines: 67
+
+
+
+
+Portal da Câmara dos Deputados (https://www2.camara.leg.br/legin/fed/emecon/2019/emendaconstitucional-101-3-julho-2019-788699-publicacaooriginal-158597-pl.html)
+【turn718087181view7】 [wordlim: 200] Crawled: today; Content type: text/html; Source: click({"ref_id":"turn624774583view0","id":52}); Total lines: 59
+
+
+
+
+Portal da Câmara dos Deputados (https://www2.camara.leg.br/legin/fed/emecon/2022/emendaconstitucional-122-17-maio-2022-792638-publicacaooriginal-165273-pl.html)
+【turn718087181view8】 [wordlim: 200] Crawled: today; Content type: text/html; Source: click({"ref_id":"turn624774583view0","id":61}); Total lines: 67
+
+
+
+
+Portal da Câmara dos Deputados (https://www2.camara.leg.br/legin/fed/emecon/2019/emendaconstitucional-104-4-dezembro-2019-789512-publicacaooriginal-159550-pl.html)
+【turn718087181view9】 [wordlim: 200] Crawled: yesterday; Content type: text/html; Source: click({"ref_id":"turn624774583view0","id":26}); Total lines: 69
+
+
+
+
+Portal da Câmara dos Deputados (https://www2.camara.leg.br/legin/fed/emecon/2004/emendaconstitucional-45-8-dezembro-2004-535274-publicacaooriginal-22987-pl.html)
+【turn718087181view10】 [wordlim: 200] Crawled: yesterday; Content type: text/html; Source: click({"ref_id":"turn624774583view0","id":1}); Total lines: 267
+
+
+
+Portal da Câmara dos Deputados (https://www2.camara.leg.br/legin/fed/emecon/2021/emendaconstitucional-111-28-setembro-2021-791789-publicacaooriginal-163502-pl.html)
+【turn768849229view2】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"turn718087181view5","lineno":45}); Total lines: 67
+L0:   * 【0†Ir ao conteúdo】
+L1:   * 【1†Ir à navegação principal】
+L2: 
+L3: 【2†Página inicial】
+L4: 
+L5:   * 【3†Image: Ativar VLibras†www.camara.leg.br】
+L6:   * 【4†Acessibilidade】
+L7:   * 【5†Fale Conosco†www.camara.leg.br】
+L8: 
+L9:   * 【6†Congresso†www.congressonacional.leg.br】
+L10:   * 【7†Senado†www.senado.leg.br】
+L11: 
+L12: PT
+L13: 
+L14:   * 【8†English EN】
+L15:   * 【9†Español ES】
+L16: 
+L17: 【10†iframe†www.googletagmanager.com】
+L18: ## Legislação Informatizada - EMENDA CONSTITUCIONAL Nº 111, DE 2021 - Publicação Original
+L19: 
+L20: Veja também:
+L21: 
+L22:   * 【11†Proposição Originária†www.camara.gov.br】
+L23:   * 【12†Dados da Norma】
+L24: # EMENDA CONSTITUCIONAL Nº 111, DE 2021
+L25: 
+L26: Altera a Constituição Federal para disciplinar a realização de consultas populares concomitantes às eleições municipais, dispor sobre o instituto da fidelidade partidária, alterar a data de posse de Governadores e do Presidente da República e estabelecer regras transitórias para distribuição entre os partidos políticos dos recursos do fundo partidário e do Fundo Especial de Financiamento de Campanha (FEFC) e para o funcionamento dos partidos políticos.
+L27:      As Mesas da Câmara dos Deputados e do Senado Federal, nos termos do § 3º do art. 60 da Constituição Federal, promulgam a seguinte Emenda ao texto constitucional:
+L28:      Art. 1º A Constituição Federal passa a vigorar com as seguintes alterações:
+L29: "Art. 14.....................................................................................................................
+L30: § 12. Serão realizadas concomitantemente às eleições municipais as consultas populares sobre questões locais aprovadas pelas Câmaras Municipais e encaminhadas à Justiça Eleitoral até 90 (noventa) dias antes da data das eleições, observados os limites operacionais relativos ao número de quesitos.
+L31: § 13. As manifestações favoráveis e contrárias às questões submetidas às consultas populares nos termos do § 12 ocorrerão durante as campanhas eleitorais, sem a utilização de propaganda gratuita no rádio e na televisão." (NR) "Art. 17....................................................................................................................
+L32: § 6º Os Deputados Federais, os Deputados Estaduais, os Deputados Distritais e os Vereadores que se desligarem do partido pelo qual tenham sido eleitos perderão o mandato, salvo nos casos de anuência do partido ou de outras hipóteses de justa causa estabelecidas em lei, não computada, em qualquer caso, a migração de partido para fins de distribuição de recursos do fundo partidário ou de outros fundos públicos e de acesso gratuito ao rádio e à televisão." (NR) "Art.
+L33: 28. A eleição do Governador e do Vice-Governador de Estado, para mandato de 4 (quatro) anos, realizar-se-á no primeiro domingo de outubro, em primeiro turno, e no último domingo de outubro, em segundo turno, se houver, do ano anterior ao do término do mandato de seus antecessores, e a posse ocorrerá em 6 de janeiro do ano subsequente, observado, quanto ao mais, o disposto no art. 77 desta Constituição.
+L34: ................................................................................................................................." (NR) "Art. 82. O mandato do Presidente da República é de 4 (quatro) anos e terá início em 5 de janeiro do ano seguinte ao de sua eleição." (NR)
+L35:      Art. 2º Para fins de distribuição entre os partidos políticos dos recursos do fundo partidário e do Fundo Especial de Financiamento de Campanha (FEFC), os votos dados a candidatas mulheres ou a candidatos negros para a Câmara dos Deputados nas eleições realizadas de 2022 a 2030 serão contados em dobro.
+L36:      Parágrafo único. A contagem em dobro de votos a que se refere o caput somente se aplica uma única vez.
+L37:      Art. 3º Até que entre em vigor lei que discipline cada uma das seguintes matérias, observar-se-ão os seguintes procedimentos:
+L38:      I - nos processos de incorporação de partidos políticos, as sanções eventualmente aplicadas aos órgãos partidários regionais e municipais do partido incorporado, inclusive as decorrentes de prestações de contas, bem como as de responsabilização de seus antigos dirigentes, não serão aplicadas ao partido incorporador nem aos seus novos dirigentes, exceto aos que já integravam o partido incorporado;
+L39:      II - nas anotações relativas às alterações dos estatutos dos partidos políticos, serão objeto de análise pelo Tribunal Superior Eleitoral apenas os dispositivos objeto de alteração.
+L40:      Art. 4º O Presidente da República e os Governadores de Estado e do Distrito Federal eleitos em 2022 tomarão posse em 1º de janeiro de 2023, e seus mandatos durarão até a posse de seus sucessores, em 5 e 6 de janeiro de 2027, respectivamente.
+L41:      Art. 5º As alterações efetuadas nos arts. 28 e 82 da Constituição Federal constantes do art. 1º desta Emenda Constitucional, relativas às datas de posse de Governadores, de Vice-Governadores, do Presidente e do Vice-Presidente da República, serão aplicadas somente a partir das eleições de 2026.
+L42:      Art. 6º Esta Emenda Constitucional entra em vigor na data de sua publicação.
+L43:      Brasília, em 28 de setembro de 2021.
+L44: Mesa da Câmara dos Deputados  | Mesa do Senado Federal
+L45: Deputado ARTHUR LIRA Presidente
+L46:  | Senador RODRIGO PACHECO Presidente
+L47: Deputado MARCELO RAMOS 1º Vice-Presidente
+L48:  | Senador VENEZIANO VITAL DO RÊGO 1º Vice-Presidente
+L49: Deputado ANDRÉ DE PAULA 2º Vice-Presidente
+L50:  | Senador ROMÁRIO 2º Vice-Presidente
+L51: Deputado LUCIANO BIVAR 1º Secretário
+L52:  | Senador IRAJÁ 1º Secretário
+L53: Deputada MARÍLIA ARRAES 2ª Secretária
+L54:  | Senador ELMANO FÉRRER 2º Secretário
+L55: Deputada ROSE MODESTO 3ª Secretária
+L56:  | Senador ROGÉRIO CARVALHO 3º Secretário
+L57: Deputada ROSANGELA GOMES 4ª Secretária  | Senador WEVERTON
+L58: 4º Secretário
+L59: Este texto não substitui o original publicado no Diário Oficial da União - Seção 1 de 29/09/2021
+L60: 
+L61: Publicação:
+L62: 
+L63:   * Diário Oficial da União - Seção 1 - 29/9/2021, Página 1 (Publicação Original)
+L64: ##### Carregando
+L65: 
+L66: Por favor, aguarde.
+
+
+
+
+Portal da Câmara dos Deputados (https://www2.camara.leg.br/legin/fed/emecon/2019/emendaconstitucional-101-3-julho-2019-788699-publicacaooriginal-158597-pl.html)
+【turn768849229view3】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"turn718087181view7","lineno":35}); Total lines: 59
+L0:   * 【0†Ir ao conteúdo】
+L1:   * 【1†Ir à navegação principal】
+L2: 
+L3: 【2†Página inicial】
+L4: 
+L5:   * 【3†Image: Ativar VLibras†www.camara.leg.br】
+L6:   * 【4†Acessibilidade】
+L7:   * 【5†Fale Conosco†www.camara.leg.br】
+L8: 
+L9:   * 【6†Congresso†www.congressonacional.leg.br】
+L10:   * 【7†Senado†www.senado.leg.br】
+L11: 
+L12: PT
+L13: 
+L14:   * 【8†English EN】
+L15:   * 【9†Español ES】
+L16: 
+L17: 【10†iframe†www.googletagmanager.com】
+L18: ## Legislação Informatizada - EMENDA CONSTITUCIONAL Nº 101, DE 2019 - Publicação Original
+L19: 
+L20: Veja também:
+L21: 
+L22:   * 【11†Proposição Originária†www.camara.gov.br】
+L23:   * 【12†Dados da Norma】
+L24: # EMENDA CONSTITUCIONAL Nº 101, DE 2019
+L25: 
+L26: Acrescenta § 3º ao art. 42 da Constituição Federal para estender aos militares dos Estados, do Distrito Federal e dos Territórios o direito à acumulação de cargos públicos prevista no art. 37, inciso XVI.
+L27:      As Mesas da Câmara dos Deputados e do Senado Federal, nos termos do § 3º do art. 60 da Constituição Federal, promulgam a seguinte Emenda ao texto constitucional:
+L28:      Art. 1º O art. 42 da Constituição Federal passa a vigorar acrescido do seguinte § 3º:
+L29: "Art. 42.  ...................................................................................................................
+L30: .....................................................................................................................................
+L31: § 3º Aplica-se aos militares dos Estados, do Distrito Federal e dos Territórios o disposto no art. 37, inciso XVI, com prevalência da atividade militar." (NR)
+L32:      Art. 2º Esta Emenda Constitucional entra em vigor na data de sua publicação.
+L33: 
+L34:      Brasília, em 3 de julho de 2019.
+L35: Mesa da Câmara dos Deputados
+L36:  | Mesa do Senado Federal
+L37: Deputado RODRIGO MAIA Presidente
+L38:  | Senador DAVI ALCOLUMBRE Presidente
+L39: Deputado MARCOS PEREIRA 1º Vice-Presidente
+L40:  | Senador ANTONIO ANASTASIA 1º Vice-Presidente
+L41: Deputado LUCIANO BIVAR 2º Vice-Presidente
+L42:  | Senador LASIER MARTINS 2º Vice-Presidente
+L43: Deputada SORAYA SANTOS 1ª Secretária
+L44:  | Senador SÉRGIO PETECÃO 1º Secretário
+L45: Deputado MÁRIO HERINGER 2º Secretário
+L46:  | Senador EDUARDO GOMES 2º Secretário
+L47: Deputado FÁBIO FARIA 3º Secretário
+L48:  | Senador FLÁVIO BOLSONARO 3º Secretário
+L49: Deputado ANDRÉ FUFUCA 4º Secretário
+L50:  | Senador LUIS CARLOS HEINZE 4º Secretário
+L51: Este texto não substitui o original publicado no Diário Oficial da União - Seção 1 de 04/07/2019
+L52: 
+L53: Publicação:
+L54: 
+L55:   * Diário Oficial da União - Seção 1 - 4/7/2019, Página 1 (Publicação Original)
+L56: ##### Carregando
+L57: 
+L58: Por favor, aguarde.
+
+
+
+
+Portal da Câmara dos Deputados (https://www2.camara.leg.br/legin/fed/emecon/2022/emendaconstitucional-122-17-maio-2022-792638-publicacaooriginal-165273-pl.html)
+【turn768849229view4】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"turn718087181view8","lineno":45}); Total lines: 67
+L0:   * 【0†Ir ao conteúdo】
+L1:   * 【1†Ir à navegação principal】
+L2: 
+L3: 【2†Página inicial】
+L4: 
+L5:   * 【3†Image: Ativar VLibras†www.camara.leg.br】
+L6:   * 【4†Acessibilidade】
+L7:   * 【5†Fale Conosco†www.camara.leg.br】
+L8: 
+L9:   * 【6†Congresso†www.congressonacional.leg.br】
+L10:   * 【7†Senado†www.senado.leg.br】
+L11: 
+L12: PT
+L13: 
+L14:   * 【8†English EN】
+L15:   * 【9†Español ES】
+L16: 
+L17: 【10†iframe†www.googletagmanager.com】
+L18: ## Legislação Informatizada - EMENDA CONSTITUCIONAL Nº 122, DE 2022 - Publicação Original
+L19: 
+L20: Veja também:
+L21: 
+L22:   * 【11†Proposição Originária†www.camara.gov.br】
+L23:   * 【12†Dados da Norma】
+L24: # EMENDA CONSTITUCIONAL Nº 122, DE 2022
+L25: 
+L26: Altera a Constituição Federal para elevar para setenta anos a idade máxima para a escolha e nomeação de membros do Supremo Tribunal Federal, do Superior Tribunal de Justiça, dos Tribunais Regionais Federais, do Tribunal Superior do Trabalho, dos Tribunais Regionais do Trabalho, do Tribunal de Contas da União e dos Ministros civis do Superior Tribunal Militar.
+L27:      As Mesas da Câmara dos Deputados e do Senado Federal, nos termos do § 3º do art. 60 da Constituição Federal, promulgam a seguinte Emenda ao texto constitucional:
+L28:      Art. 1º Os arts. 73, 101, 104, 107, 111-A, 115 e 123 da Constituição Federal passam a vigorar com as seguintes alterações:
+L29: "Art. 73. ............................................................................................................
+L30: § 1º ...................................................................................................................
+L31: I - mais de trinta e cinco e menos de setenta anos de idade;
+L32: ............................................................................................................................" (NR) "Art. 101. O Supremo Tribunal Federal compõe-se de onze Ministros, escolhidos dentre cidadãos com mais de trinta e cinco e menos de setenta anos de idade, de notável saber jurídico e reputação ilibada.
+L33: ............................................................................................................................" (NR) "Art. 104. .........................................................................................................
+L34: Parágrafo único. Os Ministros do Superior Tribunal de Justiça serão nomeados pelo Presidente da República, dentre brasileiros com mais de trinta e cinco e menos de setenta anos de idade, de notável saber jurídico e reputação ilibada, depois de aprovada a escolha pela maioria absoluta do Senado Federal, sendo:
+L35: ............................................................................................................................" (NR) "Art. 107. Os Tribunais Regionais Federais compõem-se de, no mínimo, sete juízes, recrutados, quando possível, na respectiva região e nomeados pelo Presidente da República dentre brasileiros com mais de trinta e menos de setenta anos de idade, sendo:
+L36: ............................................................................................................................" (NR) "Art. 111-A. O Tribunal Superior do Trabalho compõe-se de vinte e sete Ministros, escolhidos dentre brasileiros com mais de trinta e cinco e menos de setenta anos de idade, de notável saber jurídico e reputação ilibada, nomeados pelo Presidente da República após aprovação pela maioria absoluta do Senado Federal, sendo:
+L37: ............................................................................................................................" (NR) "Art. 115. Os Tribunais Regionais do Trabalho compõem-se de, no mínimo, sete juízes, recrutados, quando possível, na respectiva região e nomeados pelo Presidente da República dentre brasileiros com mais de trinta e menos de setenta anos de idade, sendo:
+L38: ..........................................................................................................................." (NR) "Art. 123. ........................................................................................................
+L39: Parágrafo único. Os Ministros civis serão escolhidos pelo Presidente da República dentre brasileiros com mais de trinta e cinco e menos de setenta anos de idade, sendo:
+L40: ..........................................................................................................................." (NR)
+L41:      Art. 2º Esta Emenda Constitucional entra em vigor na data de sua publicação.
+L42: 
+L43:      Brasília, em 17 de maio de 2022
+L44: Mesa da Câmara dos Deputados  | Mesa do Senado Federal
+L45: Deputado ARTHUR LIRA Presidente
+L46:  | Senador RODRIGO PACHECO Presidente
+L47: Deputado MARCELO RAMOS 1º Vice-Presidente
+L48:    | Senador VENEZIANO VITAL DO RÊGO 1º Vice-Presidente
+L49: Deputado ANDRÉ DE PAULA 2º Vice-Presidente
+L50:  | Senador ROMÁRIO 2º Vice-Presidente
+L51: Deputado LUCIANO BIVAR 1º Secretário
+L52:    | Senador IRAJÁ 1º Secretário
+L53: Deputada MARÍLIA ARRAES 2ª Secretária
+L54:    | Senador ELMANO FÉRRER 2º Secretário
+L55: Deputada ROSE MODESTO 3ª Secretária
+L56:  | Senador ROGÉRIO CARVALHO 3º Secretário
+L57: Deputada ROSANGELA GOMES 4ª Secretária  | Senador WEVERTON
+L58: 4º Secretário
+L59: Este texto não substitui o original publicado no Diário Oficial da União - Seção 1 de 18/05/2022
+L60: 
+L61: Publicação:
+L62: 
+L63:   * Diário Oficial da União - Seção 1 - 18/5/2022, Página 4 (Publicação Original)
+L64: ##### Carregando
+L65: 
+L66: Por favor, aguarde.
+
+
+
+
+Portal da Câmara dos Deputados (https://www2.camara.leg.br/legin/fed/emecon/2019/emendaconstitucional-103-12-novembro-2019-789412-publicacaooriginal-159409-pl.html)
+【turn768849229view7】 [wordlim: 200] Crawled: today; Content type: text/html; Source: click({"ref_id":"turn624774583view0","id":30}); Total lines: 398
+L0:   * 【0†Ir ao conteúdo】
+L1:   * 【1†Ir à navegação principal】
+L2: 
+L3: 【2†Página inicial】
+L4: 
+L5:   * 【3†Image: Ativar VLibras†www.camara.leg.br】
+L6:   * 【4†Acessibilidade】
+L7:   * 【5†Fale Conosco†www.camara.leg.br】
+L8: 
+L9:   * 【6†Congresso†www.congressonacional.leg.br】
+L10:   * 【7†Senado†www.senado.leg.br】
+L11: 
+L12: PT
+L13: 
+L14:   * 【8†English EN】
+L15:   * 【9†Español ES】
+L16: 
+L17: 【10†iframe†www.googletagmanager.com】
+L18: ## Legislação Informatizada - EMENDA CONSTITUCIONAL Nº 103, DE 2019 - Publicação Original
+L19: 
+L20: Veja também:
+L21: 
+L22:   * 【11†Proposição Originária†www.camara.gov.br】
+L23:   * 【12†Dados da Norma】
+L24: # EMENDA CONSTITUCIONAL Nº 103, DE 2019
+L25: 
+L26: Altera o sistema de previdência social e estabelece regras de transição e disposições transitórias.
+L27:      As Mesas da Câmara dos Deputados e do Senado Federal, nos termos do § 3º do art. 60 da Constituição Federal, promulgam a seguinte Emenda ao texto constitucional:
+L28:      Art. 1º A Constituição Federal passa a vigorar com as seguintes alterações:
+L29: "Art. 22. ..................................................................................................................
+L30: .................................................................................................................................
+L31: XXI - normas gerais de organização, efetivos, material bélico, garantias, convocação, mobilização, inatividades e pensões das polícias militares e dos corpos de bombeiros militares;
+L32: ................................................................................................................................." (NR) "Art. 37. ..................................................................................................................
+L33: ..................................................................................................................................
+L34: § 13. O servidor público titular de cargo efetivo poderá ser readaptado para exercício de cargo cujas atribuições e responsabilidades sejam compatíveis com a limitação que tenha sofrido em sua capacidade física ou mental, enquanto permanecer nesta condição, desde que possua a habilitação e o nível de escolaridade exigidos para o cargo de destino, mantida a remuneração do cargo de origem.
+L35: § 14. A aposentadoria concedida com a utilização de tempo de contribuição decorrente de cargo, emprego ou função pública, inclusive do Regime Geral de Previdência Social, acarretará o rompimento do vínculo que gerou o referido tempo de contribuição.
+L36: § 15. É vedada a complementação de aposentadorias de servidores públicos e de pensões por morte a seus dependentes que não seja decorrente do disposto nos §§ 14 a 16 do art. 40 ou que não seja prevista em lei que extinga regime próprio de previdência social." (NR) "Art. 38. ..................................................................................................................
+L37: ...................................................................................................................................
+L38: V - na hipótese de ser segurado de regime próprio de previdência social, permanecerá filiado a esse regime, no ente federativo de origem." (NR) "Art. 39. ..................................................................................................................
+L39: ...................................................................................................................................
+L40: § 9º É vedada a incorporação de vantagens de caráter temporário ou vinculadas ao exercício de função de confiança ou de cargo em comissão à remuneração do cargo efetivo." (NR) "Art. 40. O regime próprio de previdência social dos servidores titulares de cargos efetivos terá caráter contributivo e solidário, mediante contribuição do respectivo ente federativo, de servidores ativos, de aposentados e de pensionistas, observados critérios que preservem o equilíbrio financeiro e atuarial.
+L41: § 1º O servidor abrangido por regime próprio de previdência social será aposentado:
+L42: I - por incapacidade permanente para o trabalho, no cargo em que estiver investido, quando insuscetível de readaptação, hipótese em que será obrigatória a realização de avaliações periódicas para verificação da continuidade das condições que ensejaram a concessão da aposentadoria, na forma de lei do respectivo ente federativo;
+L43: ........................................................................................................................................
+L44: III - no âmbito da União, aos 62 (sessenta e dois) anos de idade, se mulher, e aos 65 (sessenta e cinco) anos de idade, se homem, e, no âmbito dos Estados, do Distrito Federal e dos Municípios, na idade mínima estabelecida mediante emenda às respectivas Constituições e Leis Orgânicas, observados o tempo de contribuição e os demais requisitos estabelecidos em lei complementar do respectivo ente federativo.
+L45: § 2º Os proventos de aposentadoria não poderão ser inferiores ao valor mínimo a que se refere o § 2º do art. 201 ou superiores ao limite máximo estabelecido para o Regime Geral de Previdência Social, observado o disposto nos §§ 14 a 16.
+L46: § 3º As regras para cálculo de proventos de aposentadoria serão disciplinadas em lei do respectivo ente federativo.
+L47: § 4º É vedada a adoção de requisitos ou critérios diferenciados para concessão de benefícios em regime próprio de previdência social, ressalvado o disposto nos §§ 4º-A, 4º-B, 4º-C e 5º.
+L48: § 4º-A. Poderão ser estabelecidos por lei complementar do respectivo ente federativo idade e tempo de contribuição diferenciados para aposentadoria de servidores com deficiência, previamente submetidos a avaliação biopsicossocial realizada por equipe multiprofissional e interdisciplinar.
+L49: § 4º-B. Poderão ser estabelecidos por lei complementar do respectivo ente federativo idade e tempo de contribuição diferenciados para aposentadoria de ocupantes do cargo de agente penitenciário, de agente socioeducativo ou de policial dos órgãos de que tratam o inciso IV do caput do art. 51, o inciso XIII do caput do art. 52 e os incisos I a IV do caput do art. 144.
+L50: § 4º-C. Poderão ser estabelecidos por lei complementar do respectivo ente federativo idade e tempo de contribuição diferenciados para aposentadoria de servidores cujas atividades sejam exercidas com efetiva exposição a agentes químicos, físicos e biológicos prejudiciais à saúde, ou associação desses agentes, vedada a caracterização por categoria profissional ou ocupação.
+L51: § 5º Os ocupantes do cargo de professor terão idade mínima reduzida em 5 (cinco) anos em relação às idades decorrentes da aplicação do disposto no inciso III do § 1º, desde que comprovem tempo de efetivo exercício das funções de magistério na educação infantil e no ensino fundamental e médio fixado em lei complementar do respectivo ente federativo.
+L52: § 6º Ressalvadas as aposentadorias decorrentes dos cargos acumuláveis na forma desta Constituição, é vedada a percepção de mais de uma aposentadoria à conta de regime próprio de previdência social, aplicando-se outras vedações, regras e condições para a acumulação de benefícios previdenciários estabelecidas no Regime Geral de Previdência Social.
+L53: § 7º Observado o disposto no § 2º do art. 201, quando se tratar da única fonte de renda formal auferida pelo dependente, o benefício de pensão por morte será concedido nos termos de lei do respectivo ente federativo, a qual tratará de forma diferenciada a hipótese de morte dos servidores de que trata o § 4º-B decorrente de agressão sofrida no exercício ou em razão da função.
+L54: .......................................................................................................................................
+L55: § 9º O tempo de contribuição federal, estadual, distrital ou municipal será contado para fins de aposentadoria, observado o disposto nos §§ 9º e 9º-A do art. 201, e o tempo de serviço correspondente será contado para fins de disponibilidade.
+L56: ...........................................................................................................................................
+L57: § 12. Além do disposto neste artigo, serão observados, em regime próprio de previdência social, no que couber, os requisitos e critérios fixados para o Regime Geral de Previdência Social.
+L58: § 13. Aplica-se ao agente público ocupante, exclusivamente, de cargo em comissão declarado em lei de livre nomeação e exoneração, de outro cargo temporário, inclusive mandato eletivo, ou de emprego público, o Regime Geral de Previdência Social.
+L59: § 14. A União, os Estados, o Distrito Federal e os Municípios instituirão, por lei de iniciativa do respectivo Poder Executivo, regime de previdência complementar para servidores públicos ocupantes de cargo efetivo, observado o limite máximo dos benefícios do Regime Geral de Previdência Social para o valor das aposentadorias e das pensões em regime próprio de previdência social, ressalvado o disposto no § 16.
+L60: § 15. O regime de previdência complementar de que trata o § 14 oferecerá plano de benefícios somente na modalidade contribuição definida, observará o disposto no art. 202 e será efetivado por intermédio de entidade fechada de previdência complementar ou de entidade aberta de previdência complementar.
+L61: .........................................................................................................................................
+L62: § 19. Observados critérios a serem estabelecidos em lei do respectivo ente federativo, o servidor titular de cargo efetivo que tenha completado as exigências para a aposentadoria voluntária e que opte por permanecer em atividade poderá fazer jus a um abono de permanência equivalente, no máximo, ao valor da sua contribuição previdenciária, até completar a idade para aposentadoria compulsória.
+L63: § 20. É vedada a existência de mais de um regime próprio de previdência social e de mais de um órgão ou entidade gestora desse regime em cada ente federativo, abrangidos todos os poderes, órgãos e entidades autárquicas e fundacionais, que serão responsáveis pelo seu financiamento, observados os critérios, os parâmetros e a natureza jurídica definidos na lei complementar de que trata o § 22.
+L64: § 21. (Revogado).
+L65: § 22. Vedada a instituição de novos regimes próprios de previdência social, lei complementar federal estabelecerá, para os que já existam, normas gerais de organização, de funcionamento e de responsabilidade em sua gestão, dispondo, entre outros aspectos, sobre:
+L66: I - requisitos para sua extinção e consequente migração para o Regime Geral de Previdência Social;
+L67: II - modelo de arrecadação, de aplicação e de utilização dos recursos;
+L68: III - fiscalização pela União e controle externo e social;
+L69: IV - definição de equilíbrio financeiro e atuarial;
+L70: V - condições para instituição do fundo com finalidade previdenciária de que trata o art. 249 e para vinculação a ele dos recursos provenientes de contribuições e dos bens, direitos e ativos de qualquer natureza;
+L71: VI - mecanismos de equacionamento do deficit atuarial;
+L72: VII - estruturação do órgão ou entidade gestora do regime, observados os princípios relacionados com governança, controle interno e transparência;
+L73: VIII - condições e hipóteses para responsabilização daqueles que desempenhem atribuições relacionadas, direta ou indiretamente, com a gestão do regime;
+L74: IX - condições para adesão a consórcio público;
+L75: X - parâmetros para apuração da base de cálculo e definição de alíquota de contribuições ordinárias e extraordinárias." (NR) "Art. 93. ..................................................................................................................
+L76: .................................................................................................................................
+L77: VIII - o ato de remoção ou de disponibilidade do magistrado, por interesse público, fundar-se-á em decisão por voto da maioria absoluta do respectivo tribunal ou do Conselho Nacional de Justiça, assegurada ampla defesa;
+L78: ................................................................................................................................" (NR) "Art. 103-B. ............................................................................................................
+L79: .................................................................................................................................
+L80: § 4º .........................................................................................................................
+L81: ...................................................................................................................................
+L82: III - receber e conhecer das reclamações contra membros ou órgãos do Poder Judiciário, inclusive contra seus serviços auxiliares, serventias e órgãos prestadores de serviços notariais e de registro que atuem por delegação do poder público ou oficializados, sem prejuízo da competência disciplinar e correicional dos tribunais, podendo avocar processos disciplinares em curso, determinar a remoção ou a disponibilidade e aplicar outras sanções administrativas, assegurada ampla defesa;
+L83: ................................................................................................................................" (NR) "Art. 109. ................................................................................................................
+L84: ...................................................................................................................................
+L85: § 3º Lei poderá autorizar que as causas de competência da Justiça Federal em que forem parte instituição de previdência social e segurado possam ser processadas e julgadas na justiça estadual quando a comarca do domicílio do segurado não for sede de vara federal.
+L86: ................................................................................................................................" (NR) "Art. 130-A. ............................................................................................................
+L87: ..................................................................................................................................
+L88: § 2º .........................................................................................................................
+L89: ...................................................................................................................................
+L90: III - receber e conhecer das reclamações contra membros ou órgãos do Ministério Público da União ou dos Estados, inclusive contra seus serviços auxiliares, sem prejuízo da competência disciplinar e correicional da instituição, podendo avocar processos disciplinares em curso, determinar a remoção ou a disponibilidade e aplicar outras sanções administrativas, assegurada ampla defesa;
+L91: ................................................................................................................................." (NR) "Art. 149. ................................................................................................................
+L92: § 1º A União, os Estados, o Distrito Federal e os Municípios instituirão, por meio de lei, contribuições para custeio de regime próprio de previdência social, cobradas dos servidores ativos, dos aposentados e dos pensionistas, que poderão ter alíquotas progressivas de acordo com o valor da base de contribuição ou dos proventos de aposentadoria e de pensões.
+L93: § 1º-A. Quando houver deficit atuarial, a contribuição ordinária dos aposentados e pensionistas poderá incidir sobre o valor dos proventos de aposentadoria e de pensões que supere o salário-mínimo.
+L94: § 1º-B. Demonstrada a insuficiência da medida prevista no § 1º-A para equacionar o deficit atuarial, é facultada a instituição de contribuição extraordinária, no âmbito da União, dos servidores públicos ativos, dos aposentados e dos pensionistas.
+L95: § 1º-C. A contribuição extraordinária de que trata o § 1º-B deverá ser instituída simultaneamente com outras medidas para equacionamento do deficit e vigorará por período determinado, contado da data de sua instituição.
+L96: ................................................................................................................................" (NR) "Art. 167. ................................................................................................................
+L97: ..................................................................................................................................
+L98: XII - na forma estabelecida na lei complementar de que trata o § 22 do art. 40, a utilização de recursos de regime próprio de previdência social, incluídos os valores integrantes dos fundos previstos no art. 249, para a realização de despesas distintas do pagamento dos benefícios previdenciários do respectivo fundo vinculado àquele regime e das despesas necessárias à sua organização e ao seu funcionamento;
+L99: XIII - a transferência voluntária de recursos, a concessão de avais, as garantias e as subvenções pela União e a concessão de empréstimos e de financiamentos por instituições financeiras federais aos Estados, ao Distrito Federal e aos Municípios na hipótese de descumprimento das regras gerais de organização e de funcionamento de regime próprio de previdência social.
+
+
+Portal da Câmara dos Deputados (https://www2.camara.leg.br/legin/fed/emecon/2022/emendaconstitucional-115-10-fevereiro-2022-792285-publicacaooriginal-164624-pl.html)
+【turn888953533search0】 [wordlim: 200] Published: 4.8 years ago; Crawled: 3 weeks ago; ## Legislação Informatizada - EMENDA CONSTITUCIONAL Nº 115, DE 2022 - Publicação Original ...      As Mesas da Câmara dos Deputados e do Senado Federal, nos termos do § 3º do art. 60 da Constituição Federal, promulgam a seguinte Emenda ao texto constitucional: ... (NR)     Art. 4º Esta Emenda Constitucional entra em vigor na data de sua publicação.
+## Legislação Informatizada - EMENDA CONSTITUCIONAL Nº 115, DE 2022 - Publicação Original
+
+# EMENDA CONSTITUCIONAL Nº 115, DE 2022
+
+Altera a Constituição Federal para incluir a proteção de dados pessoais entre os direitos e garantias fundamentais e para fixar a competência privativa da União para legislar sobre proteção e tratamento de dados pessoais.
+
+     As Mesas da Câmara dos Deputados e do Senado Federal, nos termos do § 3º do art. 60 da Constituição Federal, promulgam a seguinte Emenda ao texto constitucional: 
+     Art. 1º O caput do art. 5º da Constituição Federal passa a vigorar acrescido do seguinte inciso LXXIX:
+"Art. 5º .................................................................................................................
+................................................................................................................................. LXXIX - é assegurado, nos termos da lei, o direito à proteção dos dados pessoais, inclusive nos meios digitais.
+.............................................................................................................................. (NR)
+     Art. 2º O caput do art. 21 da Constituição Federal passa a vigorar acrescido do seguinte inciso XXVI:
+"Art. 21. ................................................................................................................
+.................................................................................................................................
+XXVI - organizar e fiscalizar a proteção e o tratamento de dados pessoais, nos termos da lei." (NR)     Art. 3º O caput do art. 22 da Constituição Federal passa a vigorar acrescido do seguinte inciso XXX:
+"Art. 22. ...............................................................................................................
+...............................................................................................................................
+XXX - proteção e tratamento de dados pessoais.
+............................................................................................................................" (NR)     Art. 4º Esta Emenda Constitucional entra em vigor na data de sua publicação.
+
+     Brasília, em 10 de fevereiro de 2022
+
+Mesa da Câmara dos Deputados  | Mesa do Senado Federal  
+Deputado ARTHUR LIRA Presidente
+ | Senador RODRIGO PACHECO Presidente
+Deputado MARCELO RAMOS 1º Vice-Presidente
+ | Senador VENEZIANO VITAL DO RÊGO 1º Vice-Presidente
+Deputado ANDRÉ DE PAULA 2º Vice-Presidente
+ | Senador ROMÁRIO 2º Vice-Presidente
+Deputado LUCIANO BIVAR 1º Secretário
+ | Senador IRAJÁ 1º Secretário
+Deputada MARÍLIA ARRAES 2ª Secretária
+ | Senador ELMANO FÉRRER 2º Secretário
+Deputada ROSE MODESTO 3ª Secretária
+ | Senador ROGÉRIO CARVALHO 3º Secretário
+Deputada ROSANGELA GOMES 4ª Secretária  | Senador WEVERTON
+4º Secretário
+
+Este texto não substitui o original publicado no Diário Oficial da União - Seção 1 de 11/02/2022
+
+Publicação:
+
+  * Diário Oficial da União - Seção 1 - 11/2/2022, Página 2 (Publicação Original)
+
+
+
+Portal da Câmara dos Deputados (https://www2.camara.leg.br/legin/fed/emecon/2023/emendaconstitucional-131-3-outubro-2023-794771-publicacaooriginal-169563-pl.html)
+【turn888953533search1】 [wordlim: 200] Published: 3.1 years ago; Crawled: yesterday; ## Legislação Informatizada - EMENDA CONSTITUCIONAL Nº 131, DE 2023 - Publicação Original ...      As Mesas da Câmara dos Deputados e do Senado Federal, nos termos do § 3º do art. 60 da Constituição Federal, promulgam a seguinte Emenda ao texto constitucional: ... § 5º A renúncia da nacionalidade, nos termos do inciso II do § 4º deste artigo, não impede o interessado de readquirir sua nacionalidade brasileira originária, nos termos da lei."
+## Legislação Informatizada - EMENDA CONSTITUCIONAL Nº 131, DE 2023 - Publicação Original
+
+# EMENDA CONSTITUCIONAL Nº 131, DE 2023
+
+Altera o art. 12 da Constituição Federal para suprimir a perda da nacionalidade brasileira em razão da mera aquisição de outra nacionalidade, incluir a exceção para situações de apatridia e acrescentar a possibilidade de a pessoa requerer a perda da própria nacionalidade.
+
+     As Mesas da Câmara dos Deputados e do Senado Federal, nos termos do § 3º do art. 60 da Constituição Federal, promulgam a seguinte Emenda ao texto constitucional:
+     Art. 1º O art. 12 da Constituição Federal passa a vigorar com as seguintes alterações:
+"Art. 12. .............................................................................................................
+............................................................................................................................
+§ 4º ....................................................................................................................
+I - tiver cancelada sua naturalização, por sentença judicial, em virtude de fraude relacionada ao processo de naturalização ou de atentado contra a ordem constitucional e o Estado Democrático;
+II - fizer pedido expresso de perda da nacionalidade brasileira perante autoridade brasileira competente, ressalvadas situações que acarretem apatridia. a) revogada;
+b) revogada.
+§ 5º A renúncia da nacionalidade, nos termos do inciso II do § 4º deste artigo, não impede o interessado de readquirir sua nacionalidade brasileira originária, nos termos da lei." (NR)
+
+     Art. 2º Esta Emenda à Constituição entra em vigor na data de sua publicação.
+
+     Brasília, em 3 de outubro de 2023
+
+Mesa da Câmara dos Deputados  | Mesa do Senado Federal  
+Deputado ARTHUR LIRA Presidente
+ | Senador RODRIGO PACHECO Presidente
+Deputado MARCOS PEREIRA 1º Vice-Presidente
+ | Senador VENEZIANO VITAL DO RÊGO 1º Vice-Presidente
+Deputado SÓSTENES CAVALCANTE 2º Vice-Presidente
+ | Senador RODRIGO CUNHA 2º Vice-Presidente
+Deputado LUCIANO BIVAR 1º Secretário
+ | Senador ROGÉRIO CARVALHO 1º Secretário
+Deputada MARIA DO ROSÁRIO 2ª Secretária
+ | Senador WEVERTON 2º Secretário
+Deputado JÚLIO CÉSAR 3º Secretário
+ | Senador CHICO RODRIGUES 3º Secretário
+Deputado LUCIO MOSQUINI 4º Secretário  | Senador STYVENSON VALENTIM
+4º Secretário
+
+Este texto não substitui o original publicado no Diário Oficial da União - Seção 1 de 04/10/2023
+
+Publicação:
+
+  * Diário Oficial da União - Seção 1 - 4/10/2023, Página 2 (Publicação Original)
+
+
+
+Emenda Constitucional nº 4, de 1993 · FiscoScan (https://www.fiscoscan.com.br/norma/emenda-constitucional-4-1993)
+【turn888953533search3】 [wordlim: 200] Published: 33.2 years ago; Crawled: 2 weeks ago; A Emenda Constitucional nº 4/1993 introduziu a regra da anterioridade eleitoral no ordenamento jurídico brasileiro. O art. 16 da CF passou a dispor que qualquer lei que altere o processo eleitoral entra em vigor na data de sua publicação, porém não produz efeitos para a eleição que ocorra dentro do período de um ano contado da sua vigência. ...     Presidência da República Casa Civil Subchefia para Assuntos Jurídicos EMENDA CONSTITUCIONAL N.º 4, DE 14 DE SETEMBRO DE 1993 Dá nova redação ao art. 16 da Constituição Federal. ... URL original https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc04.htm
+
+
+
+
+Emenda Constitucional nº 104 (https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc104.htm)
+【turn735041489view1】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc104.htm","lineno":null}); Total lines: 67
+L0: 【0†Image: Brastra.gif (4376 bytes)】  | Presidência da República
+L1: Casa Civil
+L2: Subchefia para Assuntos Jurídicos
+L3: 
+L4: 【1†EMENDA CONSTITUCIONAL Nº 104, DE 4 DE DEZEMBRO DE 2019†legislacao.planalto.gov.br】
+L5: 
+L6:    | Altera o inciso XIV do caput do art. 21, o § 4º do art. 32 e o art. 144 da Constituição Federal, para criar as polícias penais federal, estaduais e distrital.
+L7: As Mesas da Câmara dos Deputados e do Senado Federal, nos termos do § 3º do art. 60 da Constituição Federal, promulgam a seguinte Emenda ao texto constitucional:
+L8: 
+L9: Art. 1º O inciso XIV do caput do art. 21 da 【2†Constituição Federal】 passa a vigorar com a seguinte redação:
+L10: > > "Art. 21. ..................................................................................................................
+L11: >>
+L12: >> ..........................................................................................................................................
+L13: >>
+L14: >> 【3†XIV】 - organizar e manter a polícia civil, a polícia penal, a polícia militar e o corpo de bombeiros militar do Distrito Federal, bem como prestar assistência financeira ao Distrito Federal para a execução de serviços públicos, por meio de fundo próprio;
+L15: >>
+L16: >> ................................................................................................................................." (NR)
+L17: Art. 2º O § 4º do art. 32 da 【2†Constituição Federal】 passa a vigorar com a seguinte redação:
+L18: > > "Art. 32. ..................................................................................................................
+L19: >>
+L20: >> ...........................................................................................................................................
+L21: >>
+L22: >> 【4†§ 4º】 Lei federal disporá sobre a utilização, pelo Governo do Distrito Federal, da polícia civil, da polícia penal, da polícia militar e do corpo de bombeiros militar." (NR)
+L23: Art. 3º O art. 144 da 【2†Constituição Federal】 passa a vigorar com as seguintes alterações:
+L24: > > "Art. 144. ................................................................................................................
+L25: >>
+L26: >> ..........................................................................................................................................
+L27: >>
+L28: >> 【5†VI -】 polícias penais federal, estaduais e distrital.
+L29: >>
+L30: >> ..........................................................................................................................................
+L31: >>
+L32: >> 【6†§ 5º-A】. Às polícias penais, vinculadas ao órgão administrador do sistema penal da unidade federativa a que pertencem, cabe a segurança dos estabelecimentos penais.
+L33: >>
+L34: >> § 6º As polícias militares e os corpos de bombeiros militares, forças auxiliares e reserva do Exército subordinam-se, juntamente com as polícias civis e as polícias penais estaduais e distrital, aos Governadores dos Estados, do Distrito Federal e dos Territórios.
+L35: >>
+L36: >> .................................................................................................................................." (NR)
+L37: Art. 4º O preenchimento do quadro de servidores das polícias penais será feito, exclusivamente, por meio de concurso público e por meio da transformação dos cargos isolados, dos cargos de carreira dos atuais agentes penitenciários e dos cargos públicos equivalentes.
+L38: 
+L39: Art. 5º Esta Emenda Constitucional entra em vigor na data de sua publicação.
+L40: 
+L41: Brasília, em 4 de dezembro de 2019
+L42: Mesa da Câmara dos Deputados  | Mesa do Senado Federal
+L43: Deputado RODRIGO MAIA
+L44: Presidente  | Senador DAVI ALCOLUMBRE
+L45: Presidente
+L46: Deputado MARCOS PEREIRA
+L47: 1º Vice-Presidente  | Senador ANTONIO ANASTASIA
+L48: 1º Vice-Presidente
+L49: Deputado LUCIANO BIVAR
+L50: 2º Vice-Presidente  | Senador LASIER MARTINS
+L51: 2º Vice-Presidente
+L52: Deputada SORAYA SANTOS
+L53: 1ª Secretária  | Senador SÉRGIO PETECÃO
+L54: 1º Secretário
+L55: Deputado MÁRIO HERINGER
+L56: 2º Secretário  | Senador EDUARDO GOMES
+L57: 2º Secretário
+L58: Deputado FÁBIO FARIA
+L59: 3º Secretário  | Senador FLÁVIO BOLSONARO
+L60: 3º Secretário
+L61: Deputado ANDRÉ FUFUCA
+L62: 4º Secretário  | Senador LUIS CARLOS HEINZE
+L63: 4º Secretário
+L64: Este texto não substitui o publicado no DOU 5.12.2019
+L65: 
+L66: *
+
+
+
+Emenda Constitucional nº 135 (https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc135.htm)
+【turn476328658view2】 [wordlim: 200] Crawled: today; Content type: text/html; Source: click({"ref_id":"turn182515234view0","id":7}); Total lines: 84
+
+
+
+
+Emenda Constitucional nº 138 (https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc138.htm)
+【turn476328658view3】 [wordlim: 200] Crawled: today; Content type: text/html; Source: click({"ref_id":"turn182515234view0","id":4}); Total lines: 42
+
+
+
+
+Emenda Constitucional nº 109 (https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc109.htm)
+【turn476328658view4】 [wordlim: 200] Crawled: today; Content type: text/html; Source: click({"ref_id":"turn182515234view0","id":33}); Total lines: 324
+
+
+
+
+Emenda Constitucional nº 45 (https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc45.htm)
+【turn476328658view5】 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({"ref_id":"turn396160149view0","pattern":"Art. 10."}); Total lines: 494
+L447: >> III requisitar e designar membros do Ministério Público, delegando-lhes atribuições, e requisitar servidores de órgãos do Ministério Público.
+L448: >>
+L449: >> § 4º O Presidente do Conselho Federal da Ordem dos Advogados do Brasil oficiará junto ao Conselho.
+L450: >>
+L451: >> § 5º Leis da União e dos Estados criarão ouvidorias do Ministério Público, competentes para receber reclamações e denúncias de qualquer interessado contra membros ou órgãos do Ministério Público, inclusive contra seus serviços auxiliares, representando diretamente ao Conselho Nacional do Ministério Público."
+L452: Art. 3º A lei criará o Fundo de Garantia das Execuções Trabalhistas, integrado pelas multas decorrentes de condenações trabalhistas e administrativas oriundas da fiscalização do trabalho, além de outras receitas.
+L453: 
+L454: Art. 4º Ficam extintos os tribunais de Alçada, onde houver, passando os seus membros a integrar os Tribunais de Justiça dos respectivos Estados, respeitadas a antigüidade e classe de origem.
+L455: Parágrafo único. No prazo de cento e oitenta dias, contado da promulgação desta Emenda, os Tribunais de Justiça, por ato administrativo, promoverão a integração dos membros dos tribunais extintos em seus quadros, fixando-lhes a competência e remetendo, em igual prazo, ao Poder Legislativo, proposta de alteração da organização e da divisão judiciária correspondentes, assegurados os direitos dos inativos e pensionistas e o aproveitamento dos servidores no Poder Judiciário estadual.
+L456: Art. 5º O Conselho Nacional de Justiça e o Conselho Nacional do Ministério Público serão instalados no prazo de cento e oitenta dias a contar da promulgação desta Emenda, devendo a indicação ou escolha de seus membros ser efetuada até trinta dias antes do termo final.
+L457: § 1º Não efetuadas as indicações e escolha dos nomes para os Conselhos Nacional de Justiça e do Ministério Público dentro do prazo fixado no caput deste artigo, caberá, respectivamente, ao Supremo Tribunal Federal e ao Ministério Público da União realizálas.
+L458: 
+L459: § 2º Até que entre em vigor o Estatuto da Magistratura, o Conselho Nacional de Justiça, mediante resolução, disciplinará seu funcionamento e definirá as atribuições do Ministro-Corregedor.
+L460: Art. 6º O Conselho Superior da Justiça do Trabalho será instalado no prazo de cento e oitenta dias, cabendo ao Tribunal Superior do Trabalho regulamentar seu funcionamento por resolução, enquanto não promulgada a lei a que se refere o art. 111-A, § 2º, II.
+L461: Art. 7º O Congresso Nacional instalará, imediatamente após a promulgação desta Emenda Constitucional, comissão especial mista, destinada a elaborar, em cento e oitenta dias, os projetos de lei necessários à regulamentação da matéria nela tratada, bem como promover alterações na legislação federal objetivando tornar mais amplo o acesso à Justiça e mais célere a prestação jurisdicional.
+L462: Art. 8º As atuais súmulas do Supremo Tribunal Federal somente produzirão efeito vinculante após sua confirmação por dois terços de seus integrantes e publicação na imprensa oficial.
+L463: 
+L464: Art. 9º São revogados o 【70†inciso IV do art. 36】; a 【71†alínea h do inciso I do art. 102】; o 【72†§ 4º do art. 103】; e os 【73†§§ 1º a 3º do art. 111.】
+L465: 
+L466: Art. 10. Esta Emenda Constitucional entra em vigor na data de sua publicação.
+L467: 
+L468: Brasília, em 30 de dezembro de 2004
+L469: Mesa da Câmara dos Deputados  | Mesa do Senado Federal
+L470: Deputado João Paulo Cunha
+L471: Presidente  | Senador José Sarney
+L472: Presidente
+L473: Deputado Inocêncio de Oliveira
+L474: 1º Vice-Presidente  | Senador Paulo Paim
+L475: 1º Vice-Presidente
+L476: Deputado Luiz Piauhylino
+L477: 2º Vice-Presidente  | Senador Eduardo Siqueira Campos
+L478: 2º Vice-Presidente
+L479: Deputado Geddel Vieira Lima
+L480: 1º Secretário  | Senador Romeu Tuma
+L481: 1º Secretário
+L482: Deputado Severino Cavalcanti
+L483: 2º Secretário  | Senador Alberto Silva
+L484: 2º Secretário
+L485: Deputado Nilton Capixaba
+L486: 3º Secretário  | Senador Heráclito Fortes
+L487: 3º Secretário
+L488: Deputado Ciro Nogueira
+L489: 4º Secretário  | Senador Sérgio Zambiasi
+L490: 4º Secretário
+L491: Este texto não substitui o publicado no DOU 31.12.2004
+L492: 
+L493: *
+
+
+
+
+Emenda Constitucional nº 103 (https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc103.htm)
+【turn476328658view6】 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({"ref_id":"turn396160149view1","pattern":"Art. 36."}); Total lines: 608
+L544: Art. 30. A vedação de diferenciação ou substituição de base de cálculo decorrente do disposto no 【36†§ 9º do art. 195 da Constituição Federa】l não se aplica a contribuições que substituam a contribuição de que trata a 【101†alínea "a" do inciso I do caput do art. 195 da Constituição Federal】 instituídas antes da data de entrada em vigor desta Emenda Constitucional.
+L545: Art. 31. O disposto no 【37†§ 11 do art. 195 da Constituição Federal】 não se aplica aos  parcelamentos previstos na legislação vigente até a data de entrada em vigor desta Emenda Constitucional, sendo vedadas a reabertura ou a prorrogação de prazo para adesão.
+L546: Art. 32. Até que entre em vigor lei que disponha sobre a alíquota da contribuição de que trata a 【102†Lei nº 7.689, de 15 de dezembro de 1988】, esta será de 20% (vinte por cento) no caso das pessoas jurídicas referidas no 【103†inciso I do § 1º do art. 1º da Lei Complementar nº 105, de 10 de janeiro de 2001】.              【82†(Vigência)】
+L547: Art. 33. Até que seja disciplinada a relação entre a União, os Estados, o Distrito Federal e os Municípios e entidades abertas de previdência complementar na forma do disposto nos 【51†§§ 4º e 5º do art.
+L548: 202 da Constituição Federal,】 somente entidades fechadas de previdência complementar estão autorizadas a administrar planos de benefícios patrocinados pela União, Estados, Distrito Federal ou Municípios, inclusive suas autarquias, fundações, sociedades de economia mista e empresas controladas direta ou indiretamente.
+L549: Art. 34. Na hipótese de extinção por lei de regime previdenciário e migração dos respectivos segurados para o Regime Geral de Previdência Social, serão observados, até que lei federal disponha sobre a matéria, os seguintes requisitos pelo ente federativo:
+L550: 
+L551: I - assunção integral da responsabilidade pelo pagamento dos benefícios concedidos durante a vigência do regime extinto, bem como daqueles cujos requisitos já tenham sido implementados antes da sua extinção;
+L552: II - previsão de mecanismo de ressarcimento ou de complementação de benefícios aos que tenham contribuído acima do limite máximo do Regime Geral de Previdência Social;
+L553: 
+L554: III - vinculação das reservas existentes no momento da extinção, exclusivamente:
+L555: 
+L556: a) ao pagamento dos benefícios concedidos e a conceder, ao ressarcimento de contribuições ou à complementação de benefícios, na forma dos incisos I e II; e
+L557: 
+L558: b) à compensação financeira com o Regime Geral de Previdência Social.
+L559: Parágrafo único. A existência de superavit atuarial não constitui óbice à extinção de regime próprio de previdência social e à consequente migração para o Regime Geral de Previdência Social.
+L560: 
+L561: Art. 35. Revogam-se:
+L562: 
+L563: I - os seguintes dispositivos da 【3†Constituição Federal】:
+L564: 
+L565: a) o 【104†§ 21 do art. 40】;           【32†(Vigência)】
+L566: 
+L567: b) o 【105†§ 13 do art. 195;】
+L568: 
+L569: II - os 【106†arts. 9º】, 【107†13】 e 【108†15 da Emenda Constitucional nº 20, de 15 de dezembro de 1998;】
+L570: III - os 【59†arts. 2º】, 【61†6º】 e 【109†6º-A da Emenda Constitucional nº 41, de 19 de dezembro de 2003】;            【32†(Vigência)】
+L571: 
+L572: IV - o 【62†art. 3º da Emenda Constitucional nº 47, de 5 de julho de 2005】.            【32†(Vigência)】
+L573: 
+L574: Art. 36. Esta Emenda Constitucional entra em vigor:
+L575: 
+L576: I - no primeiro dia do quarto mês subsequente ao da data de publicação desta Emenda Constitucional, quanto ao disposto nos 【110†arts. 11】, 【111†28】 e 【112†32】;
+L577: II - para os regimes próprios de previdência social dos Estados, do Distrito Federal e dos Municípios, quanto à alteração promovida pelo 【79†art. 1º desta Emenda Constitucional no art. 149 da Constituição Federa】l e às revogações previstas na 【113†alínea "a" do inciso I】 e nos 【114†incisos III】 e 【115†IV do art. 35】, na data de publicação de lei de iniciativa privativa do respectivo Poder Executivo que as referende integralmente;
+L578: 
+L579: III - nos demais casos, na data de sua publicação.
+L580: Parágrafo único. A lei de que trata o inciso II do caput não produzirá efeitos anteriores à data de sua publicação.
+L581: 
+L582: Brasília, em 12 de novembro de 2019
+L583: Mesa da Câmara dos Deputados  | Mesa do Senado Federal
+L584: Deputado RODRIGO MAIA
+L585: Presidente  | Senador DAVI ALCOLUMBRE
+L586: Presidente
+L587: Deputado MARCOS PEREIRA
+L588: 1º Vice-Presidente  | Senador ANTONIO ANASTASIA
+L589: 1º Vice-Presidente
+L590: Deputado LUCIANO BIVAR
+L591: 2º Vice-Presidente  | Senador LASIER MARTINS
+L592: 2º Vice-Presidente
+L593: Deputada SORAYA SANTOS
+L594: 1ª Secretária  | Senador SÉRGIO PETECÃO
+L595: 1º Secretário
+L596: Deputado MÁRIO HERINGER
+L597: 2º Secretário  | Senador EDUARDO GOMES
+L598: 2º Secretário
+L599: Deputado FÁBIO FARIA
+L600: 3º Secretário  | Senador FLÁVIO BOLSONARO
+L601: 3º Secretário
+L602: Deputado ANDRÉ FUFUCA
+L603: 4º Secretário  | Senador LUIS CARLOS HEINZE
+L604: 4º Secretário
+L605: Este texto não substitui o publicado no DOU 13.11.2019
+L606: 
+L607: *
+
+
+Emenda Constitucional nº 135 (https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc135.htm)
+【turn129613878view0】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"turn476328658view2","lineno":50}); Total lines: 84
+L46: >> 【7†§ 3º】 Aos empregados que percebam de empregadores que contribuem para o Programa de Integração Social ou para o Programa de Formação do Patrimônio do Servidor Público remuneração mensal de até 2 (duas) vezes o salário mínimo do ano-base para pagamento em 2025, corrigida, a partir de 2026, pela variação anual do Índice Nacional de Preços ao Consumidor (INPC), calculado e divulgado pela Fundação Instituto Brasileiro de Geografia e Estatística (IBGE), ou de outro índice que vier a substituí-lo, acumulada no segundo exercício anterior ao de pagamento do benefício, é assegurado o pagamento de 1 (um) salário mínimo anual, computado nesse valor o rendimento das contas individuais, no caso daqueles que já participavam dos referidos Programas, até a data de promulgação desta Constituição.
+L47: >>
+L48: >> 【8†§ 3º-A】. O limite para elegibilidade do benefício de que trata o § 3º deste artigo não será inferior ao valor equivalente ao salário mínimo do período trabalhado multiplicado pelo índice de 1,5 (um inteiro e cinco décimos).
+L49: >>
+L50: >> ..............................................................................................................................." (NR)
+L51: Art. 2º O Ato das Disposições Constitucionais Transitórias (ADCT) passa a vigorar com as seguintes alterações:
+L52: > > 【9†"Art. 76.】 São desvinculados de órgão, fundo ou despesa, até 31 de dezembro de 2032, 30% (trinta por cento) da arrecadação da União relativa às contribuições sociais, sem prejuízo do pagamento das despesas do Regime Geral de Previdência Social, às contribuições de intervenção no domínio econômico, às taxas e às receitas patrimoniais, já instituídas ou que vierem a ser criadas até a referida data.
+L53: >>
+L54: >> .......................................................................................................................................
+L55: >>
+L56: >> 【10†§ 5º】 A desvinculação de que trata o caput deste artigo não opera efeitos sobre recursos que, por expressa disposição em norma constitucional ou legal, devam ser transferidos a Estados, ao Distrito Federal e a Municípios.
+L57: >>
+
+
+
+
+Emenda Constitucional nº 138 (https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc138.htm)
+【turn129613878view1】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"turn476328658view3","lineno":20}); Total lines: 42
+L10: > > "Art. 37. ....................................................................................................
+L11: >>
+L12: >> ............................................................................................................................
+L13: >>
+L14: >> XVI - ..........................................................................................................
+L15: >>
+L16: >> .............................................................................................................................
+L17: >>
+L18: >> 【3†b)】 a de um cargo de professor com outro de qualquer natureza;
+L19: >>
+L20: >> .................................................................................................................." (NR)
+L21: Art. 2º Esta Emenda Constitucional entra em vigor na data de sua publicação.
+L22: 
+L23: Brasília, 19 de dezembro de 2025.
+L24: Mesa da Câmara dos Deputados  |    | Mesa do Senado Federal
+L25:    |    |
+L26: Deputado HUGO MOTTA Presidente  |    | Senador DAVI ALCOLUMBRE Presidente
+L27:    |    |
+L28: Deputado ALTINEU CÔRTES 1º Vice-Presidente  |    | Senador EDUARDO GOMES 1º Vice-Presidente
+L29:    |    |
+L30: Deputado ELMAR NASCIMENTO 2º Vice-Presidente  |    | Senador HUMBERTO COSTA 2º Vice-Presidente
+L31:    |    |
+L32: Deputado CARLOS VERAS 1º Secretário  |    | Senadora DANIELLA RIBEIRO 1ª Secretária
+L33:    |    |
+L34: Deputado LULA DA FONTE 2º Secretário  |    | Senador CONFÚCIO MOURA 2º Secretário
+L35:    |    |
+L36: Deputada DELEGADA KATARINA 3ª Secretária  |    | Senadora ANA PAULA LOBATO 3ª Secretária
+L37:    |    |
+L38: Deputado SERGIO SOUZA 4º Secretário  |    | Senador LAÉRCIO OLIVEIRA 4º Secretário
+
+
+
+
+Emenda Constitucional nº 109 (https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc109.htm)
+【turn129613878view2】 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({"ref_id":"turn476328658view4","pattern":"Art. 7º"}); Total lines: 324
+L100: >> VI - criação ou majoração de auxílios, vantagens, bônus, abonos, verbas de representação ou benefícios de qualquer natureza, inclusive os de cunho indenizatório, em favor de membros de Poder, do Ministério Público ou da Defensoria Pública e de servidores e empregados públicos e de militares, ou ainda de seus dependentes, exceto quando derivados de sentença judicial transitada em julgado ou de determinação legal anterior ao início da aplicação das medidas de que trata este artigo;
+L101: >>
+L102: >> VII - criação de despesa obrigatória;
+L103: >>
+L104: >> VIII - adoção de medida que implique reajuste de despesa obrigatória acima da variação da inflação, observada a preservação do poder aquisitivo referida no inciso IV do caput do art. 7º desta Constituição;
+L105: >>
+L106: >> IX - criação ou expansão de programas e linhas de financiamento, bem como remissão, renegociação ou refinanciamento de dívidas que impliquem ampliação das despesas com subsídios e subvenções;
+L107: >>
+L108: >> X - concessão ou ampliação de incentivo ou benefício de natureza tributária.
+L109: >>
+L110: >> § 1º Apurado que a despesa corrente supera 85% (oitenta e cinco por cento) da receita corrente, sem exceder o percentual mencionado no caput deste artigo, as medidas nele indicadas podem ser, no todo ou em parte, implementadas por atos do Chefe do Poder Executivo com vigência imediata, facultado aos demais Poderes e órgãos autônomos implementá-las em seus respectivos âmbitos.
+L111: >>
+L112: >> § 2º O ato de que trata o § 1º deste artigo deve ser submetido, em regime de urgência, à apreciação do Poder Legislativo.
+L113: >>
+L114: >> § 3º O ato perde a eficácia, reconhecida a validade dos atos praticados na sua vigência, quando:
+L115: >>
+L116: >> I - rejeitado pelo Poder Legislativo;
+L117: >>
+L118: >> II - transcorrido o prazo de 180 (cento e oitenta) dias sem que se ultime a sua apreciação; ou
+L119: >>
+L290: II - aos fundos ressalvados no 【48†inciso IV do art. 167 da Constituição Federal.】
+L291: 
+L292: Art. 6º Ficam revogados:
+L293: 
+L294: I - o 【49†art. 91 do Ato das Disposições Constitucionais Transitórias】; e
+L295: 
+L296: II - o 【50†§ 4º do art. 101 do Ato das Disposições Constitucionais Transitórias】.
+L297: Art. 7º Esta Emenda Constitucional entra em vigor na data de sua publicação, exceto quanto à 【51†alteração do art. 29-A da Constituição Federal】, a qual entra em vigor a partir do início da primeira legislatura municipal após a data de publicação desta Emenda Constitucional.
+L298: 
+L299: Brasília, em 15 de março de 2021
+L300: Mesa da Câmara dos Deputados  | Mesa do Senado Federal
+L301: Deputado ARTHUR LIRA
+L302: Presidente  | Senador RODRIGO PACHECO
+L303: Presidente
+L304: Deputado MARCELO RAMOS
+L305: 1º Vice-Presidente  | Senador VENEZIANO VITAL DO RÊGO
+L306: 1º Vice-Presidente
+L307: Deputado ANDRÉ DE PAULA
+L308: 2º Vice-Presidente  | Senador ROMÁRIO
+L309: 2º Vice-Presidente
+L310: Deputado LUCIANO BIVAR
+L311: 1º Secretário  | Senador IRAJÁ
+L312: 1º Secretário
+L313: Deputada MARÍLIA ARRAES
+L314: 2ª Secretária  | Senador ELMANO FÉRRER
+L315: 2º Secretário
+L316: Deputada ROSE MODESTO
+L317: 3ª Secretária  | Senador ROGÉRIO CARVALHO
+L318: 3º Secretário
+L319: Deputada ROSANGELA GOMES
+L320: 4ª Secretária  | Senador WEVERTON 4º Secretário
+L321: Este texto não substitui o publicado no DOU 16.3.2021
+L322: 
+L323: *
+
+
+
+Emenda Constitucional nº 135 (https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc135.htm)
+【turn382552250view0】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"turn476328658view2","lineno":67}); Total lines: 84
+L0: 【0†Image: Brastra.gif (4376 bytes)】  | Presidência da República
+L1: Casa Civil
+L2: Secretaria Especial para Assuntos Jurídicos
+L3: 
+L4: 【1†EMENDA CONSTITUCIONAL Nº 135, DE 20 DE DEZEMBRO DE 2024†legislacao.planalto.gov.br】
+L5: 
+L6:    | Altera os arts. 37, 163, 165, 212-A e 239 da Constituição Federal e o Ato das Disposições Constitucionais Transitórias (ADCT).
+L7: 
+L8: As Mesas da Câmara dos Deputados e do Senado Federal, nos termos do § 3º do art. 60 da Constituição Federal, promulgam a seguinte Emenda ao texto constitucional:
+L9: Art. 1º A Constituição Federal passa a vigorar com as seguintes alterações:
+L10: > > "Art. 37. ..............................................................................................................
+L11: >>
+L12: >> ........................................................................................................................................
+L13: >>
+L14: >> 【2†§ 11.】 Não serão computadas, para efeito dos limites remuneratórios de que trata o inciso XI do caput deste artigo, as parcelas de caráter indenizatório expressamente previstas em lei ordinária, aprovada pelo Congresso Nacional, de caráter nacional, aplicada a todos os Poderes e órgãos constitucionalmente autônomos.
+L15: >>
+L16: >> ............................................................................................................................." (NR)
+L17: >>
+L18: >> "Art. 163. ............................................................................................................
+L19: >>
+L20: >> ........................................................................................................................................
+L21: >>
+L22: >> 【3†IX -】 condições e limites para concessão, ampliação ou prorrogação de incentivo ou benefício de natureza tributária.
+L23: >>
+L24: >> ............................................................................................................................." (NR)
+L25: >>
+L26: >> "Art. 165. ............................................................................................................
+L27: >>
+L28: >> .......................................................................................................................................
+L29: >>
+L30: >> 【4†§ 17.】 Para o cumprimento do disposto no inciso I do § 11 deste artigo, o Poder Executivo poderá reduzir ou limitar, na elaboração e na execução das leis orçamentárias, as despesas com a concessão de subsídios, subvenções e benefícios de natureza financeira, inclusive os relativos a indenizações e restituições por perdas econômicas, observado o ato jurídico perfeito." (NR)
+L31: >>
+L32: >> "Art. 212-A. ........................................................................................................
+L33: >>
+L34: >> .......................................................................................................................................
+L35: >>
+L36: >> 【5†XIV -】 no exercício de 2025, da complementação de que trata o inciso V do caput, até 10% (dez por cento) dos valores de cada uma das modalidades referidas nesse dispositivo poderão ser repassados pela União para ações de fomento à criação de matrículas em tempo integral na educação básica pública, considerados indicadores de atendimento, melhoria da qualidade e redução de desigualdades, mantida a classificação orçamentária do repasse como Fundeb, não se aplicando, para fins deste inciso, os critérios de que tratam as alíneas "a", "b" e "c" do inciso V deste artigo;
+L37: >>
+L38: >> 【6†XV -】 a partir do exercício de 2026, no mínimo 4% (quatro por cento) dos recursos dos fundos referidos no inciso I do caput deste artigo serão destinados pelos Estados, pelo Distrito Federal e pelos Municípios à criação de matrículas em tempo integral na educação básica, conforme diretrizes pactuadas entre a União e demais entes da Federação, até o atingimento das metas de educação em tempo integral estabelecidas pelo Plano Nacional de Educação.
+L39: >>
+L40: >> ............................................................................................................................." (NR)
+L41: >>
+L42: >> "Art. 239. .............................................................................................................
+L43: >>
+L44: >> ........................................................................................................................................
+L45: >>
+L46: >> 【7†§ 3º】 Aos empregados que percebam de empregadores que contribuem para o Programa de Integração Social ou para o Programa de Formação do Patrimônio do Servidor Público remuneração mensal de até 2 (duas) vezes o salário mínimo do ano-base para pagamento em 2025, corrigida, a partir de 2026, pela variação anual do Índice Nacional de Preços ao Consumidor (INPC), calculado e divulgado pela Fundação Instituto Brasileiro de Geografia e Estatística (IBGE), ou de outro índice que vier a substituí-lo, acumulada no segundo exercício anterior ao de pagamento do benefício, é assegurado o pagamento de 1 (um) salário mínimo anual, computado nesse valor o rendimento das contas individuais, no caso daqueles que já participavam dos referidos Programas, até a data de promulgação desta Constituição.
+L47: >>
+L48: >> 【8†§ 3º-A】. O limite para elegibilidade do benefício de que trata o § 3º deste artigo não será inferior ao valor equivalente ao salário mínimo do período trabalhado multiplicado pelo índice de 1,5 (um inteiro e cinco décimos).
+L49: >>
+L50: >> ..............................................................................................................................." (NR)
+L51: Art. 2º O Ato das Disposições Constitucionais Transitórias (ADCT) passa a vigorar com as seguintes alterações:
+L52: > > 【9†"Art. 76.】 São desvinculados de órgão, fundo ou despesa, até 31 de dezembro de 2032, 30% (trinta por cento) da arrecadação da União relativa às contribuições sociais, sem prejuízo do pagamento das despesas do Regime Geral de Previdência Social, às contribuições de intervenção no domínio econômico, às taxas e às receitas patrimoniais, já instituídas ou que vierem a ser criadas até a referida data.
+L53: >>
+L54: >> .......................................................................................................................................
+L55: >>
+L56: >> 【10†§ 5º】 A desvinculação de que trata o caput deste artigo não opera efeitos sobre recursos que, por expressa disposição em norma constitucional ou legal, devam ser transferidos a Estados, ao Distrito Federal e a Municípios.
+L57: >>
+L58: >> 【11†§ 6º】 A desvinculação de que trata o caput deste artigo não se aplica às receitas destinadas ao fundo criado pelo 【12†art. 47 da Lei nº 12.351, de 22 de dezembro de 2010】, e aos recursos a que se refere o 【13†art. 2º da Lei nº 12.858, de 9 de setembro de 2013】." (NR)
+L59: >>
+L60: >> 【14†"Art. 138.】 Até 2032, qualquer criação, alteração ou prorrogação de vinculação legal ou constitucional de receitas a despesas, inclusive na hipótese de aplicação mínima de montante de recursos, não poderá resultar em crescimento anual da respectiva despesa primária superior à variação do limite de despesas primárias, na forma prevista na lei complementar de que trata o 【15†art. 6º da Emenda Constitucional nº 126, de 21 de dezembro de 2022】."
+L61: Art. 3º Enquanto não editada a lei ordinária de caráter nacional, aprovada pelo Congresso Nacional, a que se refere o 【2†§ 11 do art. 37 da Constituição Federal】, não serão computadas, para efeito dos limites remuneratórios de que trata o inciso XI do caput do referido artigo, as parcelas de caráter indenizatório previstas na legislação.
+L62: 
+L63: Art. 4º Esta Emenda Constitucional entra em vigor na data de sua publicação.
+L64: 
+L65: Brasília, em 20 de dezembro de 2024.
+L66: Mesa da Câmara dos Deputados  |    | Mesa do Senado Federal
+L67:    |    |
+L68: Deputado Arthur Lira Presidente  |    | Senador Rodrigo Pacheco Presidente
+L69:    |    |
+L70: Deputado Marcos Pereira 1º Vice-Presidente  |    | Senador Veneziano Vital do Rêgo 1º Vice-Presidente
+L71:    |    |
+L72: Deputado Sóstenes Cavalcante 2º Vice-Presidente  |    | Senador Rodrigo Cunha 2º Vice-Presidente
+L73:    |    |
+L74: Deputado Luciano Bivar 1º Secretário  |    | Senador Rogério Carvalho 1º Secretário
+L75:    |    |
+L76: Deputada Maria do Rosário 2ª Secretária  |    | Senador Weverton 2º Secretário
+L77:    |    |
+L78: Deputado Júlio César 3º Secretário  |    | Senador Chico Rodrigues 3º Secretário
+L79:    |    |
+L80: Deputado Lucio Mosquini 4º Secretário  |    | Senador Styvenson Valentim 4º Secretário
+L81: Este texto não substitui o publicado no DOU 20.12.2024 - Edição extra
+L82: 
+L83: *
+
+
+Base interpretativa, não cláusula legal: estudo Análise das emendas constitucionais, Revista de Informação Legislativa, p.220; https://www2.senado.leg.br/bdsf/bitstream/handle/id/502959/001002793.pdf . Sustenta incidência imediata na promulgação quando falta cláusula de vigência. Datas derivadas dos arts16 e142 exigem revisão material antes de selo.
+
