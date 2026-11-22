@@ -16,7 +16,7 @@ Conferência de diplomas do Anexo B com os códigos do catálogo:
 
 | Edição e item | Códigos |
 | --- | --- |
-| CFSD 2025, 4.1 | `CF88`: arts. 1º a 5º, 12 a 16, 37 a 42, 122 a 126 e 142 a 144. Os dispositivos vinculados a cada artigo precisam ser conferidos individualmente. |
+| CFSD 2025, 4.1 | `CF88`: arts. 1º a 5º, 12 a 16, 37, 38, 42, 122 a 126 e 142 a 144 (21 artigos; Seções I e III, sem arts. 39–41). Os dispositivos vinculados a cada artigo precisam ser conferidos individualmente. |
 | CFSD 2025, 4.2 a 4.4 | `LINDB`, `DUDH`, `CADH`. |
 | CFO 2027, 4.10 a 4.11 | `CF88`, `CEMG`. |
 | CFO 2027, 7.12 a 7.16 | `L8429`, `L13019`, `L13709`, `L14133`, `MG45969`. |
@@ -49,7 +49,7 @@ Código real no rascunho Lovable `drft_01m7ms02befwys2r2ra1f07e7y`, commit `c7f5
 
 Não existe certificação do gabarito inédito por revisão. A disponibilidade do texto legal não certifica a alternativa editorial. Resultados anteriores não foram regravados. Treino grátis e provas anteriores não possuíam tutor e não receberam um novo tutor.
 
-Marcações, comentários e progresso atuais preservam os mesmos IDs. As ferramentas aparecem em Atual/Comparar e ficam ocultas em Edital para evitar gravação em âncoras incorretas. Edição de marcações históricas por versão ainda não foi implementada.
+Marcações, comentários e progresso atuais preservam os mesmos IDs. No rascunho c7f5495 as ferramentas antigas aparecem em Atual/Comparar. Em 22/11 foi implementada no patch deste PR a edição histórica vinculada ao ID da versão, com âncoras exatas e tabela própria, sem regravar anotações antigas. Essa atualização adicional ainda não foi aplicada ao rascunho Lovable: a navegação ao editor foi bloqueada por política de acesso do navegador; não houve contorno do bloqueio.
 
 ## Migrações pendentes
 
@@ -59,8 +59,9 @@ Aplicar em ordem somente depois de homologação/autorização para o destino:
 2. `20261117140000_question_notice_legal_context.sql`: contexto de questões e revisão imutável dos simulados.
 3. `20261119150000_list_reader_notices.sql`: lista mínima de editais ativos e históricos selados conforme acesso, sem ampliar a RLS global de notices.
 4. `20261120150000_practice_notice_legal_context.sql`: contexto de treino gratuito e provas anteriores.
+5. `20261122030000_legal_version_annotations.sql`: notas e destaques vinculados à versão imutável, offsets Unicode, seleção validada no servidor e RLS por dono/acesso ao texto.
 
-As quatro permanecem em `supabase/pending`. A última também depende da estrutura já existente de treino gratuito. Os nomes/tipos das colunas de sessões e provas anteriores e os códigos `PMMG_CFO`/`PMMG_SOLDADO` foram conferidos por SELECT no Supabase canônico.
+As cinco permanecem em `supabase/pending`. A quarta também depende da estrutura já existente de treino gratuito. Os nomes/tipos das colunas de sessões e provas anteriores e os códigos `PMMG_CFO`/`PMMG_SOLDADO` foram conferidos por SELECT no Supabase canônico.
 
 A revisão de segurança detectou e corrigiu uma elevação indevida no wrapper SECURITY DEFINER do treino gratuito: depois de validar dono/sessão/envio, ele verifica premium/admin com `coalesce` antes de resolver texto. Conta grátis recebe `pending_access` sem redação ou data de corte, mantendo gabarito e comentário já autorizados.
 
@@ -101,19 +102,61 @@ A cópia consolidada do CFSD 2025 também contém a Errata nº 01, de 19/06/2024
 Merge, aceitação do rascunho, publicação, migrações e importação em produção dependem de autorização específica. Nenhuma dessas operações foi executada nesta retomada.
 
 
-### CADH — avanço adicional de 20/11
+## Implementação e acervo — 22/11/2026
 
-Fonte textual: https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp; base de promulgação: https://www.planalto.gov.br/ccivil_03/decreto/d0678.htm. Foram extraídos os 82 artigos da CIDH/OEA, com hashes individuais em `cadh-artigos-1-82.json` e transcrição versionada em `cadh-artigos-1-82-oea.txt`.
+HEAD inicial confirmado: `2a8cece280c6c1a9ef6d806fa242f787e60039a7`. O ajuste concorrente de limpeza do PostgreSQL descartável foi preservado. A branch e o PR existentes foram mantidos.
 
-A comparação com os dispositivos canônicos resultou em **39 versões preparadas e 43 artigos pendentes de reconciliação**. A normalização usada é explícita (espaços/caixa, Estados-Partes e marcadores de alíneas). Diferenças de palavras não foram corrigidas automaticamente. O bundle contém os diffs e mantém `version_id=null` para os pendentes; não atribui a essas diferenças uma alteração legislativa. A página do Planalto apresentou falha de codificação na extração e sua cópia PDF não teve texto extraível pelo conector; a tentativa de download direto retornou timeout. O texto do Senado apresentou divergências de transcrição, por isso não foi usado para preencher lacunas silenciosamente.
+### Marcações históricas implementadas
 
-O Decreto 678/1992 declara a entrada em vigor internacional para o Brasil em 25/09/1992 e sua própria vigência na publicação, indicada no Planalto como DOU de 09/11/1992. O bundle adota a publicação do decreto como início de eficácia interna documentada e registra ambas as datas, além da declaração interpretativa brasileira sobre arts. 43 e 48(d). Nenhum selo de edital foi preparado.
+O patch acrescenta `legal-version-annotations.tsx`, `legal-version-selection.ts`, seus testes, e altera `notice-legal-reading.tsx` e `legal-highlighted-text.tsx`. Comentário/destaque grava `user_id` e `version_id`; a âncora é medida em pontos de código Unicode e validada contra o corpo imutável no PostgreSQL. Trechos repetidos não deslocam a marcação para outra ocorrência. Trocar usuário ou versão reinicia o rascunho local e usa outra chave de consulta. Erros de persistência são exibidos.
 
-Teste `supabase/tests/cadh_evidence_local.mjs`: PASS para 82 hashes, 39 versões e 164 vínculos em dois editais sintéticos com retry idêntico. O resolver devolveu 39 disponíveis e 43 `pending_version`; nenhum pendente recebeu redação atual. Comandos usam a mesma variável PGLITE_MODULE documentada acima. Itens conferidos nas cópias dos editais: CFO 2027, Anexo B 9.2; CFSD 2025, Anexo B 4.4.
+A quinta migração não modifica `student_study_annotations` nem o progresso existente. O dono e a versão de uma anotação não podem ser trocados; acesso ao texto histórico continua sujeito às permissões existentes. A validação de seleções usa o corpo literal, evitando diferença entre texto formatado e offsets.
 
-| Fonte comum ao P0 | Versões preparadas | Pendência explícita |
+**Estado de aplicação:** código novo no patch versionado e testado localmente. O rascunho real continua em `c7f5495`; não foi atualizado com as novas marcações nem houve novo preview integral nesta retomada. O bloqueio do editor não foi contornado.
+
+### Lotes preparados
+
+| Lote | Estados textuais preparados | Limite material |
 | --- | ---: | --- |
-| DUDH, artigos 1–30 | 30 | Marco/selo do edital, sem versão publicada em produção |
-| CADH, artigos 1–82 | 39 | 43 artigos a reconciliar e marco/selo do edital |
+| DUDH | 30 | Lote anterior preservado; adoção não tratada como vigência de tratado |
+| CADH | 81 | Todos os 43 pendentes foram revisados; 42 preparados, art. 31 continua pendente |
+| LINDB | 29 | Art. 25 vetado, sem redação normativa fictícia |
+| CF88 — recorte CFSD | 23 estados para 21 artigos | Art. 37 possui três intervalos; arts. 16 e 142 exigem revisão da eficácia derivada |
+| **Total** | **163 estados para 161 dispositivos distintos** | **Nenhum selo de edital** |
 
-Essas 69 versões preparadas não representam certificação integral de CFO 2027 ou CFSD 2025.
+CADH: `cadh-reconciliation-20261122.json` registra a análise individual. O cabeçalho da Seção 2 foi retirado do corpo do art. 60 por erro de extração. Diferenças de transcrição/leitura não foram classificadas como alterações legislativas. O art. 31 da OEA remete aos arts. 76/77; publicações brasileiras oficiais consultadas transcrevem 69/70. Não se escolheu silenciosamente uma delas. As 39 versões anteriores e seus IDs/payloads foram preservados. Fonte OEA integral extraída em 20/11, revisada em 22/11; a nova recuperação integral apresentou 403, registrada sem alegar nova captura completa.
+
+LINDB: extratos oficiais da Câmara e fontes de vigência versionados. Art. 29 vigora em 23/10/2018, após 180 dias; demais acréscimos normativos de 2018 em 26/04/2018. Art. 18 tem estado composto desde 27/02/2014, após 120 dias da Lei 12.874/2013. Revogações parciais dos arts. 1º e 15 preservadas. Texto legislativo literal não substitui análise de EC45, EC66, CPC ou jurisprudência.
+
+CF88: art. 37 separa os intervalos 16/03/2021–20/12/2024, 20/12/2024–22/12/2025 e 22/12/2025–01/01/2027. A reconstrução aplica somente substituições expressas da EC135 (§11) e EC138 (XVI,b) ao texto oficial do Senado; a regra transitória do art. 3º da EC135 permanece referência correlata. §§17/18 da EC132 não foram antecipados: sua vigência é em 2027. Arts. 16 e 142 usam data de promulgação por incidência constitucional imediata, identificada como interpretação derivada e sujeita a revisão; não como cláusula expressa ou certificação institucional.
+
+### Cobertura calculável
+
+Manifesto: `supabase/evidence/p0-device-coverage-20261122.json`. O CFO inclui registro TSV dos 2.130 IDs canônicos dos 21 diplomas expressos; o manifesto enumera exceções preparadas e o estado pendente padrão, permitindo reconstrução individual completa.
+
+| Edital | Denominador identificado | Dispositivos com texto preparado | Preparação | Certificados para o edital |
+| --- | ---: | ---: | ---: | ---: |
+| CFSD 2025 | 163 slots de artigo | 161 | 98,7730% | 0/163 — 0% |
+| CFO 2027 | 2.130 slots dos diplomas expressos | 161 | 7,5587% | 0/2.130 — 0% |
+
+O denominador inclui o slot vetado LINDB25. A CADH31 permanece sem versão. Dois artigos constitucionais têm revisão de data material pendente. Os percentuais de preparação não são percentuais de certificação jurídica. O denominador do CFO **não representa o programa integral**: recortes temáticos CP/CPP/CC/CPC e completude do catálogo ainda precisam ser mapeados. Nenhum dado de produção foi sobrescrito.
+
+### Editais: evidência e impedimento exato
+
+`p0-official-notice-chain-20261122.json` separa assinatura, publicação, vigência, cópia e original. O portal CRS e a autenticidade do Diário retornaram timeout. Foi localizada a URL oficial direta do CFO, `https://policiamilitar.mg.gov.br/conteudoportal/sites/concurso/030920260905177550.pdf`, mas a recuperação retornou timeout. A URL do CFSD citada em fonte secundária, `https://intranet.policiamilitar.mg.gov.br/conteudoportal/sites/concurso/090520242041069440.pdf`, retornou 502.
+
+As cópias conhecidas da Errata01 e Retificações01/02 do CFSD estão individualizadas no ledger. Isso não comprova cadeia exaustiva. Uma cópia de ato posterior cita Diário de 11/05/2024; não foi confundida com prova da publicação integral no CRS. Cortes 09/05/2024 e 03/09/2026 continuam candidatos, sem selo. Hash de PDF original inacessível permanece nulo.
+
+### Homologação essencial desta retomada
+
+- `legal_version_annotations_local.mjs`: PASS para CRUD, imutabilidade, seleção Unicode/repetida, RLS, isolamento e preservação do legado.
+- `cadh_evidence_local.mjs`: PASS, 82 hashes, 81 versões, 164 vínculos/retry e art31 pendente.
+- `lindb_evidence_local.mjs`: PASS, 30 hashes, 29 versões, 60 vínculos/retry, veto e rejeição durante vacatio.
+- `cf88_evidence_local.mjs`: PASS, 23 estados, 21 artigos, 42 vínculos/retry e seleção distinta do art37.
+- `p0_acervo_homologation_local.mjs`: PASS, cinco migrações duas vezes, três suítes SQL, 163 estados, 2.293 vínculos em editais sintéticos, mesma revisão em questão/simulado/contexto do tutor, notas por versão e RLS.
+- React: duas suítes, sete testes PASS; TypeScript focado PASS; aplicação do patch à base real conferida.
+- As 256 verificações/11 integrações anteriores não foram repetidas a cada alteração. Não houve chamada real à IA, login real ou novo preview integral.
+
+Comandos dos testes de evidência: `PGLITE_MODULE=/caminho/pglite/dist/index.js node supabase/tests/<arquivo>.mjs`. Nenhum aceita URL/credencial de banco remoto. Evidência consolidada: `audits/2026-11-22-temporal/resultado.json`.
+
+Persistem: certificação dos marcos/cadeia oficiais; conflito CADH31; revisão material de eficácia CF16/142; demais 1.967 slots do recorte explícito CFO sem versão; demais recortes temáticos; aplicação operacional das novas marcações e homologação autenticada. Não há certificação integral, merge, deploy ou escrita no banco de produção.
