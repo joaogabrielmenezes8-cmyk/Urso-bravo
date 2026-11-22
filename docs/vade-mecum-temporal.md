@@ -122,7 +122,9 @@ A quinta migração não modifica `student_study_annotations` nem o progresso ex
 | CADH | 81 | Todos os 43 pendentes foram revisados; 42 preparados, art. 31 continua pendente |
 | LINDB | 29 | Art. 25 vetado, sem redação normativa fictícia |
 | CF88 — recorte CFSD | 23 estados para 21 artigos | Art. 37 possui três intervalos; arts. 16 e 142 exigem revisão da eficácia derivada |
-| **Total** | **163 estados para 161 dispositivos distintos** | **Nenhum selo de edital** |
+| Lei 9.455 — Tortura | 5 estados para 4 artigos | Acréscimo de 2026 separado da redação anterior |
+| Lei 13.431 — Escuta protegida | 30 estados para 29 artigos | Vacatio de um ano e acréscimo de 2022 individualizados |
+| **Total** | **198 estados para 194 dispositivos distintos** | **Nenhum selo de edital** |
 
 CADH: `cadh-reconciliation-20261122.json` registra a análise individual. O cabeçalho da Seção 2 foi retirado do corpo do art. 60 por erro de extração. Diferenças de transcrição/leitura não foram classificadas como alterações legislativas. O art. 31 da OEA remete aos arts. 76/77; publicações brasileiras oficiais consultadas transcrevem 69/70. Não se escolheu silenciosamente uma delas. As 39 versões anteriores e seus IDs/payloads foram preservados. Fonte OEA integral extraída em 20/11, revisada em 22/11; a nova recuperação integral apresentou 403, registrada sem alegar nova captura completa.
 
@@ -137,7 +139,7 @@ Manifesto: `supabase/evidence/p0-device-coverage-20261122.json`. O CFO inclui re
 | Edital | Denominador identificado | Dispositivos com texto preparado | Preparação | Certificados para o edital |
 | --- | ---: | ---: | ---: | ---: |
 | CFSD 2025 | 163 slots de artigo | 161 | 98,7730% | 0/163 — 0% |
-| CFO 2027 | 2.130 slots dos diplomas expressos | 161 | 7,5587% | 0/2.130 — 0% |
+| CFO 2027 | 2.130 slots dos diplomas expressos | 194 | 9,1080% | 0/2.130 — 0% |
 
 O denominador inclui o slot vetado LINDB25. A CADH31 permanece sem versão. Dois artigos constitucionais têm revisão de data material pendente. Os percentuais de preparação não são percentuais de certificação jurídica. O denominador do CFO **não representa o programa integral**: recortes temáticos CP/CPP/CC/CPC e completude do catálogo ainda precisam ser mapeados. Nenhum dado de produção foi sobrescrito.
 
@@ -153,10 +155,18 @@ As cópias conhecidas da Errata01 e Retificações01/02 do CFSD estão individua
 - `cadh_evidence_local.mjs`: PASS, 82 hashes, 81 versões, 164 vínculos/retry e art31 pendente.
 - `lindb_evidence_local.mjs`: PASS, 30 hashes, 29 versões, 60 vínculos/retry, veto e rejeição durante vacatio.
 - `cf88_evidence_local.mjs`: PASS, 23 estados, 21 artigos, 42 vínculos/retry e seleção distinta do art37.
-- `p0_acervo_homologation_local.mjs`: PASS, cinco migrações duas vezes, três suítes SQL, 163 estados, 2.293 vínculos em editais sintéticos, mesma revisão em questão/simulado/contexto do tutor, notas por versão e RLS.
+- `p0_acervo_homologation_local.mjs`: PASS, cinco migrações duas vezes, três suítes SQL, 198 estados, 2.293 vínculos em editais sintéticos, mesma revisão em questão/simulado/contexto do tutor, notas por versão e RLS.
 - React: duas suítes, sete testes PASS; TypeScript focado PASS; aplicação do patch à base real conferida.
 - As 256 verificações/11 integrações anteriores não foram repetidas a cada alteração. Não houve chamada real à IA, login real ou novo preview integral.
 
 Comandos dos testes de evidência: `PGLITE_MODULE=/caminho/pglite/dist/index.js node supabase/tests/<arquivo>.mjs`. Nenhum aceita URL/credencial de banco remoto. Evidência consolidada: `audits/2026-11-22-temporal/resultado.json`.
 
-Persistem: certificação dos marcos/cadeia oficiais; conflito CADH31; revisão material de eficácia CF16/142; demais 1.967 slots do recorte explícito CFO sem versão; demais recortes temáticos; aplicação operacional das novas marcações e homologação autenticada. Não há certificação integral, merge, deploy ou escrita no banco de produção.
+Persistem: certificação dos marcos/cadeia oficiais; conflito CADH31; revisão material de eficácia CF16/142; demais 1.934 slots do recorte explícito CFO sem versão; demais recortes temáticos; aplicação operacional das novas marcações e homologação autenticada. Não há certificação integral, merge, deploy ou escrita no banco de produção.
+
+### Lotes CFO adicionais — mesma retomada
+
+`l9455-artigos-1-4.json`: quatro artigos, cinco estados. Art. 1º distingue 01/01/2004–21/05/2026 e a redação desde 21/05/2026 (Lei 15.410/2026, arts. 3º e 4º). Os arts. 2º–4º têm vigência inicial em 08/04/1997. A redação do art. 1º anterior a 2004 não foi preparada por estar fora dos cortes prioritários. O catálogo atual já contém o inciso III de 2026; não foi sobrescrito. O art. 4º é regra revogadora do ECA233, sem receber `revoked=true` indevidamente.
+
+`l13431-artigos-1-29.json`: 29 artigos, 30 estados; início 05/04/2018 comprovado pela publicação, art. 29 e registro do Senado. Art. 4º separa o acréscimo do inciso V em 09/07/2022, após 45 dias da publicação da Lei 14.344. O posicionamento gráfico do inciso V foi corrigido para o caput conforme art. 28 da lei modificadora; extrato bruto da Câmara preservado. Estrutura de 11 títulos/capítulos mantida como metadados. A citação do ECA208 no art. 25 não gerou artigo espúrio.
+
+`l9455_evidence_local.mjs`: PASS, cinco hashes/estados e oito vínculos/retry; acréscimo de 2026 ausente na redação anterior. `l13431_evidence_local.mjs`: PASS, 30 hashes/estados, 58 vínculos/retry, vacatio, hierarquia e regra revogadora. Integração essencial repetida somente após esses novos lotes: PASS com 198 estados e 2.293 vínculos. Fontes e divergências de transcrição em `cfo-lotes-fontes-20261122.json`.
