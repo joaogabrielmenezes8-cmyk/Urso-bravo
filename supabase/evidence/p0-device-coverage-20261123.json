@@ -1,0 +1,3329 @@
+{
+  "reviewed_on": "2026-11-23",
+  "canonical_project": "mnibsiqxviglqyrtunqs",
+  "catalog_read_only": true,
+  "denominator": "Dispositivos canônicos no nível de artigo, inclusive slots estruturais/vetados. Não é contagem de incisos. CFO: somente 21 diplomas expressos identificados no catálogo; recortes temáticos CP/CPP/CC/CPC ainda não mapeados, nem completude do catálogo certificada. CFSD: 4 diplomas, recorte constitucional corrigido; cadeia oficial ainda pendente.",
+  "cf88_cfsd_correction": "Seções I e III do Capítulo VII: arts37,38,42. Arts39-41 excluídos; nenhuma versão ou marcação existente removida.",
+  "notice_seal_prepared": false,
+  "notices": [
+    {
+      "notice_code": "CFSD_2025",
+      "identified_catalog_article_slots": 163,
+      "prepared_versions": 161,
+      "prepared_percent": 98.773,
+      "certified_versions": 0,
+      "certified_percent": 0,
+      "scope_identification_complete": true,
+      "source_chain_complete": false,
+      "cutoff_confirmed": false,
+      "cutoff_candidate": "2024-05-09",
+      "cutoff_clause": "7.6.1",
+      "scope": [
+        {
+          "document_code": "CF88",
+          "provision_id": "85efa183-a542-4f36-931a-0df0824e1f46",
+          "provision_key": "art-00001",
+          "version_id": "42ea3d48-0812-5643-a906-f53157e5df2f",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CF88",
+          "provision_id": "c86bf6f8-2ae5-445a-ad92-2a053ce275b9",
+          "provision_key": "art-00002",
+          "version_id": "2b6dc823-7c07-5c24-bd77-40de73167006",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CF88",
+          "provision_id": "a3bc7a7b-bdd6-439e-8e7a-7965cf40e2f7",
+          "provision_key": "art-00003",
+          "version_id": "f4ff0f05-d0bf-5718-83c4-2bfb8e6c5a62",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CF88",
+          "provision_id": "c070639a-b618-4296-9a45-ac2d6dc20213",
+          "provision_key": "art-00004",
+          "version_id": "60b48606-f1e0-5d60-b95f-327e4711f578",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CF88",
+          "provision_id": "6bf08f39-8d9b-43b0-a769-fa0bf7635cd4",
+          "provision_key": "art-00005",
+          "version_id": "e4214cb3-5de0-590d-bf21-20ab5150a506",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CF88",
+          "provision_id": "b7a70559-e3d7-4783-840f-aa4d1097f961",
+          "provision_key": "art-00012",
+          "version_id": "e46f295d-7571-58af-b1c8-4f055740246f",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CF88",
+          "provision_id": "2f5cbecf-1909-459c-904f-51c48034eb73",
+          "provision_key": "art-00013",
+          "version_id": "143ecaac-1d2e-5cc2-8d31-6560e97fa8ee",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CF88",
+          "provision_id": "af8cc4e9-32bc-4df6-91d1-c823810bbf0f",
+          "provision_key": "art-00014",
+          "version_id": "566d6c93-942e-58d8-a9b5-b3ccdd91beae",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CF88",
+          "provision_id": "3b141863-ee9b-42ba-ae27-567f67315c00",
+          "provision_key": "art-00015",
+          "version_id": "7cbaa476-c7bc-5b6d-8f16-4f311365d819",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CF88",
+          "provision_id": "f8b16d40-4441-41dc-965f-b2c9cbda2c41",
+          "provision_key": "art-00016",
+          "version_id": "fc454624-1807-535f-a085-0b05e5b6e957",
+          "preparation_status": "prepared_effective_date_requires_review",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CF88",
+          "provision_id": "6675bf90-10e0-408d-abaf-012deb486fc4",
+          "provision_key": "art-00037",
+          "version_id": "f9de1f7c-3e10-5d5c-8d07-f2e8babd718d",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CF88",
+          "provision_id": "23802386-0c3e-483a-9002-0c6a5b7e529c",
+          "provision_key": "art-00038",
+          "version_id": "62bac481-47b2-5004-8c7d-687c2556f7c0",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CF88",
+          "provision_id": "9f2d7e84-72cf-4040-9fcf-57ffed4a5bf5",
+          "provision_key": "art-00042",
+          "version_id": "a7dbca9c-8dd2-5e50-bc7f-5f6eff35e97b",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CF88",
+          "provision_id": "a43c23af-1756-469d-a127-f9ff2a63590f",
+          "provision_key": "art-00122",
+          "version_id": "56c77b48-2eb4-5bca-a273-8f1176e822e2",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CF88",
+          "provision_id": "5c07df92-071d-4119-9f6a-13279fa5ea50",
+          "provision_key": "art-00123",
+          "version_id": "0815cebb-807f-50fb-a481-6729d104b8e3",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CF88",
+          "provision_id": "4d6d1721-675e-44e3-b2e8-b0460d83c115",
+          "provision_key": "art-00124",
+          "version_id": "d698c2dd-7cc0-59f2-a2cc-e5e54af3a421",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CF88",
+          "provision_id": "ce570d2b-6f4c-4756-9da8-1b20a1878d69",
+          "provision_key": "art-00125",
+          "version_id": "05ae91db-45d7-5276-842f-815c4cfe2a88",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CF88",
+          "provision_id": "6ee39758-ae86-4a20-ba0d-c7e7ab2929e9",
+          "provision_key": "art-00126",
+          "version_id": "1b8c10a5-35ec-5f35-82d2-d5965eb86223",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CF88",
+          "provision_id": "531b503c-8cc1-4732-bf5a-f0aff8e20bcd",
+          "provision_key": "art-00142",
+          "version_id": "07689820-2744-51eb-8a1c-d39c7bc51d81",
+          "preparation_status": "prepared_effective_date_requires_review",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CF88",
+          "provision_id": "4c223f9c-d955-4103-aad7-6851db237112",
+          "provision_key": "art-00143",
+          "version_id": "0e10d56b-e336-5b52-91b2-dfd6dbfdbd12",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CF88",
+          "provision_id": "7569d241-2a7b-4d04-a71c-940afb09f5fe",
+          "provision_key": "art-00144",
+          "version_id": "63e1f0c9-e8c3-588f-9af2-275e7fd7f3c3",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "8ec24c69-b310-4a67-af51-226c3421a7b9",
+          "provision_key": "art-00001",
+          "version_id": "55f575f1-87b9-5add-8e2d-d9d9f1b1b2e0",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "ec429791-28b8-44bf-9553-3a964fa88378",
+          "provision_key": "art-00002",
+          "version_id": "a9d17203-92ea-52e4-a75d-1bcbffe891a6",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "9501c337-a058-4547-9e21-61ed1567a3a4",
+          "provision_key": "art-00003",
+          "version_id": "7ad026e3-a7bf-5656-b3f4-92f594427568",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "1fd6ec8c-8db6-4c4b-b68a-72687c697561",
+          "provision_key": "art-00004",
+          "version_id": "85fbc02c-0106-569a-96de-a4920b828efd",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "65c93d22-c9b0-499c-8a07-393642749237",
+          "provision_key": "art-00005",
+          "version_id": "68d15f1f-513d-5812-b4e3-0aa038bbb1bb",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "4afc2ae2-5fed-401b-84e0-a61e7a0c3479",
+          "provision_key": "art-00006",
+          "version_id": "47853529-87e8-507c-8740-42b7fa7e2926",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "f211db12-4c30-4c6b-9d79-94788d6096b7",
+          "provision_key": "art-00007",
+          "version_id": "78a85d5e-775e-5bfc-9da0-66b036ca1c1a",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "717f4f7c-39ba-4943-b457-23c644e162d6",
+          "provision_key": "art-00008",
+          "version_id": "5806f7ac-dbed-5d35-b2e2-12233f60ea40",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "eaff01f3-e8d6-4898-9394-ee55e2997157",
+          "provision_key": "art-00009",
+          "version_id": "f765c2b4-a65e-5fc2-8b84-536170330ea1",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "6c59c41f-488d-4cc9-a316-af7cb852c82d",
+          "provision_key": "art-00010",
+          "version_id": "55cdc77a-a74e-5123-83cb-3a11f848a3bf",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "1bb2a70a-a4dc-43fb-a2c9-66458a4fec85",
+          "provision_key": "art-00011",
+          "version_id": "e9e08e9f-9d76-591e-96c6-20fe452facb5",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "5ff37b4a-6976-43dd-91a8-548bd946d078",
+          "provision_key": "art-00012",
+          "version_id": "e801ebd2-052a-5e8d-b39b-51bd2215e533",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "fca0b2ad-8745-4e1a-b9c0-4670d65dc34c",
+          "provision_key": "art-00013",
+          "version_id": "e6e20e59-69f1-5533-a076-e6b476a4e734",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "cbd27ebd-7ac8-4f7f-8974-a9e9cb4cf5fd",
+          "provision_key": "art-00014",
+          "version_id": "1bac09bd-1457-5708-ae05-91cc2ab890fb",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "eb8aa788-eee9-4028-9dbb-6175280192ff",
+          "provision_key": "art-00015",
+          "version_id": "02452a3c-c326-5d9b-a31a-94c8d462c340",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "7b95f575-b990-4249-b95d-9f0bfec421a1",
+          "provision_key": "art-00016",
+          "version_id": "efdc9733-aea9-507d-b8e7-2e9c97f01cfd",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "1da281af-bcef-43e1-bc66-29b2455e3ee5",
+          "provision_key": "art-00017",
+          "version_id": "35808e3a-a562-5776-8a27-118a175358e2",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "6899b4c1-333d-4ccc-a48a-c61e0b858caa",
+          "provision_key": "art-00018",
+          "version_id": "e41503d0-a6c4-51ba-b2a1-a331dc601025",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "084121d9-0b2d-4108-ac22-f6ece2338b06",
+          "provision_key": "art-00019",
+          "version_id": "35935767-4b3a-573e-b891-10504e81b26d",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "ea829a06-289a-4108-8cb5-1de986d74d0d",
+          "provision_key": "art-00020",
+          "version_id": "477af811-ec33-5b22-8668-bab23abcba89",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "1291d70d-b092-43ae-8703-7accbb56d4a9",
+          "provision_key": "art-00021",
+          "version_id": "6a992519-b36e-55a2-a8fd-979ed71cb033",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "a14245e4-a02e-48ed-a246-fd5dd31f7264",
+          "provision_key": "art-00022",
+          "version_id": "80a76087-9b37-550a-8884-99fec4b4de91",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "9b1c2117-58e7-4648-b950-30b85b07eee8",
+          "provision_key": "art-00023",
+          "version_id": "f9c340ee-d294-5f43-9154-c5fdaafbfe06",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "3d0bd052-4c31-4783-8ab0-b17795ddb704",
+          "provision_key": "art-00024",
+          "version_id": "cff72667-98e2-5486-a62f-5ba547a83392",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "47d15071-03eb-469f-800d-c9dd91bb4ae4",
+          "provision_key": "art-00025",
+          "version_id": "3c2666ce-fb29-5b87-9b74-3f99f360dfb9",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "5fec2975-5d01-4486-a5a0-bc02f4e130bb",
+          "provision_key": "art-00026",
+          "version_id": "a9dcc6c8-b40d-587a-ab9c-6bb56da85a8f",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "3e4e17c0-b037-4ea5-945b-1f4aa4c1a3fe",
+          "provision_key": "art-00027",
+          "version_id": "e7f28c9d-f4f8-5b54-bcd4-1bb3314b704c",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "65a889a2-19fd-40bf-8627-ab352d8a6aee",
+          "provision_key": "art-00028",
+          "version_id": "aa8433f5-6c91-5c3b-b859-6e2b38b0b335",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "5e874ca4-c1de-4c77-bc66-bab17a6ffd2c",
+          "provision_key": "art-00029",
+          "version_id": "df70e480-4553-55c9-9475-9d9eeef6a921",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "d17ba067-7a9f-4a7d-9670-b77d3f45fc3d",
+          "provision_key": "art-00030",
+          "version_id": "d0545db4-4406-55ec-865f-224786804acf",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "dcf44fec-11ed-4f90-b747-391f01889c03",
+          "provision_key": "art-00031",
+          "version_id": null,
+          "preparation_status": "pending_official_source_conflict_69_70_vs_76_77",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "500c802a-2f95-4db1-a86f-46f098eb6a6c",
+          "provision_key": "art-00032",
+          "version_id": "fe77e80e-735b-5c5b-91e7-7aae3bfcaf55",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "e94cc7b6-ca19-485b-a450-05a4dddd133e",
+          "provision_key": "art-00033",
+          "version_id": "bf12ca2d-e1a1-5df4-a1d4-22c9fd7b4369",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "abd9c35f-1954-44db-bec8-92e21ec54ba3",
+          "provision_key": "art-00034",
+          "version_id": "6dc36047-d046-5a93-815b-97a0c4fb1cc4",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "409baa27-73b1-41af-ade6-6857e7c7e32a",
+          "provision_key": "art-00035",
+          "version_id": "610205ce-bbb1-5cf6-b528-85c4f76c19a9",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "ce486de7-1fe6-492f-9396-56244ecb4741",
+          "provision_key": "art-00036",
+          "version_id": "b6b8d0c2-864a-5f35-9102-5e74478b762a",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "3411dd2a-97bc-49eb-8652-dc9ab41232b6",
+          "provision_key": "art-00037",
+          "version_id": "a5eef57c-6b43-53ab-900f-7c6cef42357e",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "537e2b43-98ad-4a17-9bbd-09298b4b562b",
+          "provision_key": "art-00038",
+          "version_id": "afc347c2-8090-5db8-89de-154049974e48",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "5cc8b2f7-327e-4ca2-bc25-d3472f20a2e0",
+          "provision_key": "art-00039",
+          "version_id": "0e4c3dc6-20ed-5d70-b30f-e712593d6fb7",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "ed8dbbb4-a8d7-4745-9bf7-affc1c8470fe",
+          "provision_key": "art-00040",
+          "version_id": "9a0e3a89-4f15-5b45-8d5c-d57d02d48138",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "488829a3-83ce-4a89-b143-7c5c6711b939",
+          "provision_key": "art-00041",
+          "version_id": "fa0dfbbd-0378-59a2-8a41-0797d2ef1a72",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "29b44802-49d5-4509-8f1f-df2ce6ce8eb6",
+          "provision_key": "art-00042",
+          "version_id": "4db00bb1-1673-5234-8ecd-27088711af72",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "b050892f-aba6-4667-9bcd-762235b0508a",
+          "provision_key": "art-00043",
+          "version_id": "d343759a-6d8c-5582-8b18-5d6334980ab0",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "ac41e1a4-f3ad-4ce9-b37d-fec6a448b557",
+          "provision_key": "art-00044",
+          "version_id": "5d93d8d9-febd-52f8-a89c-82a5aeaa3e13",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "5ce82919-b420-456b-b5a2-7ed807ecee2b",
+          "provision_key": "art-00045",
+          "version_id": "3d2d1e10-4886-53d6-b987-2764ebe46cfe",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "e451614c-c91f-4dbd-bd8f-91ab3248d060",
+          "provision_key": "art-00046",
+          "version_id": "89dd2724-51e0-5d79-a0a6-8898cd121d05",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "4783a91a-e442-4d58-9aac-bcbbe9a765b0",
+          "provision_key": "art-00047",
+          "version_id": "886c0761-5f3a-5bca-98eb-9b02e6e945a5",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "67b5822f-edee-49c9-a5ae-00c1f47c857b",
+          "provision_key": "art-00048",
+          "version_id": "89efd69c-80ab-5464-91c9-4f06e6de34ea",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "d4823fad-b97f-4288-8a63-30c663aa808b",
+          "provision_key": "art-00049",
+          "version_id": "ea1b2b89-fa91-5856-af30-fcbb956e9445",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "d3807a5c-c7eb-44c0-9c7d-ef00a18d918e",
+          "provision_key": "art-00050",
+          "version_id": "04e623f8-3941-560d-a6b3-e5aec3cbdf26",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "23541390-4df0-4cf3-ae0c-3d4061310cbe",
+          "provision_key": "art-00051",
+          "version_id": "9562eee0-376f-5903-a03a-4a7069f98e5c",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "aab0270b-012e-4b5a-8191-dd8f39f3f4b4",
+          "provision_key": "art-00052",
+          "version_id": "98ea4308-1a2e-5200-aec1-5514c0d1c3d6",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "5f1ae5ea-ec77-4f9d-9605-4404dc62e4a9",
+          "provision_key": "art-00053",
+          "version_id": "ae154325-88ee-5677-bf53-8cfc636f64a1",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "db342db7-1900-4165-891a-5926fb59f16f",
+          "provision_key": "art-00054",
+          "version_id": "deb3bd21-4314-5d64-a2b8-5da75ccbe564",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "f3459385-586d-429e-83a4-252f92fa086c",
+          "provision_key": "art-00055",
+          "version_id": "e3bed65f-2722-59aa-aaca-224957a83f84",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "1a669be9-744d-477d-9b05-2b76a397ebfa",
+          "provision_key": "art-00056",
+          "version_id": "d51a6f35-ff64-5c37-92ee-52021f4f99c8",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "f1c60f88-e3d7-45b2-bed8-b82595389d02",
+          "provision_key": "art-00057",
+          "version_id": "07485021-eaeb-5588-86c6-728b80ea9991",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "a9dfc4b5-38da-4d19-afa0-9e769192705e",
+          "provision_key": "art-00058",
+          "version_id": "8dcc1839-8d67-5d21-b1b6-49ef86c1f871",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "dbf31c7e-54c2-4765-876d-e6f8097da904",
+          "provision_key": "art-00059",
+          "version_id": "ad1d1627-9004-52b3-91ef-8d6872804bc3",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "c6bc5bcf-660d-45b7-8932-4414e0e6c79c",
+          "provision_key": "art-00060",
+          "version_id": "d8520d89-d725-5023-9c7c-ebf175bd2dea",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "6b78bc02-5407-4a92-a204-861d94fbd746",
+          "provision_key": "art-00061",
+          "version_id": "fd57d3c1-a2d3-5835-9e47-18383adaa511",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "afd242f0-05b6-4875-b9d2-589d05c6eaf4",
+          "provision_key": "art-00062",
+          "version_id": "5838c705-149a-5f22-a837-2f9831f7ce84",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "9d2f895b-3333-4951-a0d0-f0cd7cfac53d",
+          "provision_key": "art-00063",
+          "version_id": "2e052a24-77e4-584c-b958-b34aa724b868",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "0415d217-f1d2-4bdd-9371-d8c19df9cfc1",
+          "provision_key": "art-00064",
+          "version_id": "ae483d22-bb71-5dec-aae7-f380d762ad6c",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "7f162511-9a5b-4ba8-b415-672dbef5bc76",
+          "provision_key": "art-00065",
+          "version_id": "caa4d6f6-9bc5-503a-b76d-158d3f239b46",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "fb41abf1-20f8-42d3-b2bc-235e2cd53f98",
+          "provision_key": "art-00066",
+          "version_id": "a042c5ef-b930-5dc3-b5b9-d83a93d233a8",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "4004d8ac-e57a-49c2-94e2-86b89efddcf4",
+          "provision_key": "art-00067",
+          "version_id": "44a6aa44-7c9b-52f8-98f4-2c3666e9dd89",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "e74eb782-09b6-411c-818f-cecb2e95efcb",
+          "provision_key": "art-00068",
+          "version_id": "60c27c13-c083-56ef-9d53-e7a6c67929ef",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "20c429a7-c963-47f2-9b1f-b355372d692d",
+          "provision_key": "art-00069",
+          "version_id": "e5fa79f1-1045-5aae-8efe-e6d5835801d3",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "f9643195-6be8-4eb8-a910-1fc2ab325fca",
+          "provision_key": "art-00070",
+          "version_id": "b151bc10-72a3-530f-9213-40993df9aeb8",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "33887c29-756d-4a8b-a494-71aa392cded9",
+          "provision_key": "art-00071",
+          "version_id": "f530941c-f11a-547b-a07d-03f39e61dca0",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "42d685c9-2b05-4b79-86fc-432fb1788308",
+          "provision_key": "art-00072",
+          "version_id": "e1c731b6-d1a6-569f-abbf-dad0e073fabf",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "0c6f0b31-bfb7-4d85-9ec9-b676e4f9dc90",
+          "provision_key": "art-00073",
+          "version_id": "d07859ec-1157-5150-a2ab-1385cb940035",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "30a99d1c-a87b-4cac-95c6-506e3ef0a5c1",
+          "provision_key": "art-00074",
+          "version_id": "423fb8fa-be8e-5357-b93a-95ff907a18cc",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "9c974571-ab7f-464d-b2f5-f2e01661d460",
+          "provision_key": "art-00075",
+          "version_id": "409a1de1-b981-5b6c-b3e1-50c99d09c80d",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "13bbefc2-7e3f-4065-a1f4-2c6c1083c4a4",
+          "provision_key": "art-00076",
+          "version_id": "312e8091-09f2-5a4a-80c3-62f8ced6c906",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "bd77b3b6-e96f-486d-891b-242900c699d1",
+          "provision_key": "art-00077",
+          "version_id": "a0d8750a-949a-5220-9c57-1534f4d95f3b",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "87fa7094-ea43-46a4-b84f-fc3a03a50040",
+          "provision_key": "art-00078",
+          "version_id": "7b443dd8-25b4-5ce3-8ded-ed387d910f45",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "c598c736-6323-43c4-b328-00bf0fc695bd",
+          "provision_key": "art-00079",
+          "version_id": "a7502c3e-40da-547c-8160-4093dc75b471",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "0c2530a5-47b8-43e9-9d0f-b199506fc7b6",
+          "provision_key": "art-00080",
+          "version_id": "f961ec5c-1df3-5bea-b7af-9f97bfc89f89",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "f8bd5307-3a8c-4d5c-86ed-9e57685972f6",
+          "provision_key": "art-00081",
+          "version_id": "22634321-8360-5515-85c5-682f9e9531f0",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "8855ed01-a270-4c0e-b7ef-00fa55ca7eb6",
+          "provision_key": "art-00082",
+          "version_id": "65f207b5-d40d-5f7c-bbc4-b34c68f3093f",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "DUDH",
+          "provision_id": "70039c3f-a8c8-4f92-b7bf-3b2e2b16c166",
+          "provision_key": "art-00001",
+          "version_id": "15837228-eb8f-5437-8c92-4affa59e3d54",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "DUDH",
+          "provision_id": "4a776054-cfc8-483b-93c8-5e14e82850c7",
+          "provision_key": "art-00002",
+          "version_id": "ea6afb6c-68c6-5824-9699-0572898cd31a",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "DUDH",
+          "provision_id": "15b41b6b-70ef-472c-8228-ba0cb0b8dd9f",
+          "provision_key": "art-00003",
+          "version_id": "660f5530-a16a-539d-81a7-54f6e6d9a1f9",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "DUDH",
+          "provision_id": "86bbc6d2-a37c-4fe5-b0eb-9e5196f811e4",
+          "provision_key": "art-00004",
+          "version_id": "d73bf1e0-5487-518d-887a-75f3f7cf43f8",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "DUDH",
+          "provision_id": "391f221b-e4b7-48c1-8f71-1a88c7a569d8",
+          "provision_key": "art-00005",
+          "version_id": "bdad657a-6f67-5ac3-9309-0e833b38429e",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "DUDH",
+          "provision_id": "9681183b-1111-4fe8-8280-535ebe047821",
+          "provision_key": "art-00006",
+          "version_id": "d773ad50-c1cd-5879-94ed-14ab141cabfe",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "DUDH",
+          "provision_id": "a945695d-1e75-4e1f-bc41-7eb820a4341b",
+          "provision_key": "art-00007",
+          "version_id": "535b5665-76c1-5c55-9f38-6c2519b539d2",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "DUDH",
+          "provision_id": "139f33cd-cdbc-4ddc-9ab6-d41dbc209849",
+          "provision_key": "art-00008",
+          "version_id": "6ade0870-0a24-53dc-a09a-851482f2fe70",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "DUDH",
+          "provision_id": "76b9f55b-4cae-4845-8679-6aef797c49eb",
+          "provision_key": "art-00009",
+          "version_id": "0251cc6e-7cf1-5502-b894-f194694e025f",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "DUDH",
+          "provision_id": "93f0c3bd-2216-4f15-a58c-c7ca43280457",
+          "provision_key": "art-00010",
+          "version_id": "4332cb76-0357-5cb9-919e-d8fb36d680f9",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "DUDH",
+          "provision_id": "07c22bd0-e460-4b71-9d29-5b65919b2813",
+          "provision_key": "art-00011",
+          "version_id": "e9c28970-f6e7-574c-ae7e-bdb77219bec7",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "DUDH",
+          "provision_id": "dcd64bf8-4588-40ad-bd6d-c580954c9927",
+          "provision_key": "art-00012",
+          "version_id": "1309d7d0-b902-5936-bc93-afaa662a4927",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "DUDH",
+          "provision_id": "ba06ab38-7496-4d98-a6f2-935da3cb672d",
+          "provision_key": "art-00013",
+          "version_id": "6269d2e2-cf64-55d8-bf84-de0d4d6e665f",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "DUDH",
+          "provision_id": "2f1b66dd-c5a4-4f0c-a961-8f6b5acf8370",
+          "provision_key": "art-00014",
+          "version_id": "cfa78c7f-1211-511f-ab03-3918bc6b72f3",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "DUDH",
+          "provision_id": "a6955896-2e7a-4c7e-96fa-e48d1af39adf",
+          "provision_key": "art-00015",
+          "version_id": "53ebe358-1d44-57d9-8f90-60b9acfe19b8",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "DUDH",
+          "provision_id": "59bc9d78-0e16-4d99-9aa4-a2c211e3d6c0",
+          "provision_key": "art-00016",
+          "version_id": "e61837ee-12ff-523e-a3e2-dc93305c6069",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "DUDH",
+          "provision_id": "65cc3c61-dbaa-4edb-9945-147d7a15fe53",
+          "provision_key": "art-00017",
+          "version_id": "9d71ecef-4451-55d5-ba22-1f80744e68fe",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "DUDH",
+          "provision_id": "df5ddf8d-5902-406c-b8e2-72777f3fcb4e",
+          "provision_key": "art-00018",
+          "version_id": "21bd6901-0917-5f8f-b7cd-938e35cde2e7",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "DUDH",
+          "provision_id": "8a1bba62-aa8a-4f1a-ad45-45ffd77b02dd",
+          "provision_key": "art-00019",
+          "version_id": "76fb2b53-168e-5af3-9954-0d1a97f6a133",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "DUDH",
+          "provision_id": "21a9bdf6-879e-4e74-9f48-9691e3a4212c",
+          "provision_key": "art-00020",
+          "version_id": "f78963f3-054c-5f95-8c9a-4612711048ce",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "DUDH",
+          "provision_id": "903f4d6f-5cc8-4573-b5cb-9db2feed53f9",
+          "provision_key": "art-00021",
+          "version_id": "937f2145-0292-580e-a3db-2cd8e271aa2b",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "DUDH",
+          "provision_id": "256621ab-43eb-48a8-a291-6473d5f871b2",
+          "provision_key": "art-00022",
+          "version_id": "9847fb70-0267-5f88-b82a-339828ead3d2",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "DUDH",
+          "provision_id": "0fb5c2c9-c911-400a-b28e-39fcf3d3cad6",
+          "provision_key": "art-00023",
+          "version_id": "549e8ea2-bf41-5b1d-9d3f-ba7794c89d4d",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "DUDH",
+          "provision_id": "6001ee6c-85c4-458c-a97c-686e3c6597e3",
+          "provision_key": "art-00024",
+          "version_id": "641154f5-1bac-5b28-856b-6594b283c448",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "DUDH",
+          "provision_id": "4c90bea4-03f3-4abd-b399-6b9995947a7f",
+          "provision_key": "art-00025",
+          "version_id": "df70376f-43a4-58d8-a826-87bad4a49aed",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "DUDH",
+          "provision_id": "e6d8b282-babf-4229-9430-4f8b5090b1cc",
+          "provision_key": "art-00026",
+          "version_id": "1fe406f8-3c13-5eb5-9679-8a6ba106c5e1",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "DUDH",
+          "provision_id": "c68d26fa-ea58-4bec-8743-ef10fbd3001a",
+          "provision_key": "art-00027",
+          "version_id": "1055d7c9-ad8d-5080-aedf-016cbbc67c6f",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "DUDH",
+          "provision_id": "e10b439e-a185-4af1-bed5-2e8e3557d9f3",
+          "provision_key": "art-00028",
+          "version_id": "5a830dc3-b38c-5a5a-be3b-f51eefb0c0ad",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "DUDH",
+          "provision_id": "328f5560-405b-4fc4-913f-fe139cfdde6f",
+          "provision_key": "art-00029",
+          "version_id": "87487680-81a4-546e-bab2-39e4b5e7c428",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "DUDH",
+          "provision_id": "4a8992fd-7218-44ad-a4e7-dda258e2d470",
+          "provision_key": "art-00030",
+          "version_id": "f80d1837-69bc-53a8-92f4-af3d82118c6b",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "LINDB",
+          "provision_id": "6462d67a-ddce-4f4b-ac98-cc3eba0828cb",
+          "provision_key": "art-00001",
+          "version_id": "411eb3d1-6a49-5983-9ccb-4f2e423ae1a9",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "LINDB",
+          "provision_id": "8178a51b-f887-4932-a4ae-3a437b528f60",
+          "provision_key": "art-00002",
+          "version_id": "60c483a1-5098-5c59-acac-2ebeb8a2616f",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "LINDB",
+          "provision_id": "dbbdc710-d4bb-42c3-a688-fd6797365bed",
+          "provision_key": "art-00003",
+          "version_id": "7e3cb2e5-e46d-597e-bea3-7af27816d038",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "LINDB",
+          "provision_id": "1ccbfebd-f9e1-477e-9f59-c13ad79d01cd",
+          "provision_key": "art-00004",
+          "version_id": "cb7ff8e0-3b54-5ca2-8251-8d1bb3c13896",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "LINDB",
+          "provision_id": "867c421a-e2f9-4c3f-b6c3-b233ea507981",
+          "provision_key": "art-00005",
+          "version_id": "c1e6d727-8103-548e-ae09-e2bc68e95236",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "LINDB",
+          "provision_id": "d928d67f-3fd5-4ad0-8a9b-a141ecbc0b3a",
+          "provision_key": "art-00006",
+          "version_id": "45351f6a-029a-5382-be71-6a8a4b43dc08",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "LINDB",
+          "provision_id": "89a0a809-6507-4fd9-8555-e772ed9a6ea8",
+          "provision_key": "art-00007",
+          "version_id": "c5a2ffb8-45e1-5534-a784-e9b21543b2eb",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "LINDB",
+          "provision_id": "993163c6-c2e5-4f25-a500-f3c4d65d8f75",
+          "provision_key": "art-00008",
+          "version_id": "d71295ed-d9be-5c60-abb2-302a13db1a62",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "LINDB",
+          "provision_id": "a6560a16-032c-41f6-9e1e-4e39b6be7374",
+          "provision_key": "art-00009",
+          "version_id": "4419715e-9be1-5293-8677-41f85412a363",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "LINDB",
+          "provision_id": "78e35d0e-34b3-4571-8b60-8d9e6f507476",
+          "provision_key": "art-00010",
+          "version_id": "2a42cf38-d603-5edb-9deb-e1df3721d88b",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "LINDB",
+          "provision_id": "04c56788-5989-4fff-9f48-926128da316e",
+          "provision_key": "art-00011",
+          "version_id": "cf3561dd-4fdb-5bb7-863b-b53f0080e4d3",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "LINDB",
+          "provision_id": "58066c63-40f9-481e-9e6e-0683282389d2",
+          "provision_key": "art-00012",
+          "version_id": "da49daf3-faea-596a-9514-a747d5f135a2",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "LINDB",
+          "provision_id": "d4809d62-7e84-401c-897b-83103f4e10e4",
+          "provision_key": "art-00013",
+          "version_id": "61031a19-4751-50ab-a2ee-805ecf53fefd",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "LINDB",
+          "provision_id": "f591c972-22a0-42cb-90b2-06f6f41ffcd2",
+          "provision_key": "art-00014",
+          "version_id": "b1b12163-e36f-5e00-b26d-23f6b14fd844",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "LINDB",
+          "provision_id": "d8decb87-db6a-490c-8850-d43fe077f234",
+          "provision_key": "art-00015",
+          "version_id": "f687169d-374f-5a5d-af22-a3b9f46071d0",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "LINDB",
+          "provision_id": "fef11119-2ec4-41ff-9220-b7da45506aaf",
+          "provision_key": "art-00016",
+          "version_id": "ae06f3f5-591c-5e33-84a0-c8c6430fefd6",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "LINDB",
+          "provision_id": "1d1cf9d4-0fcc-43a1-8f12-a6651a001ec9",
+          "provision_key": "art-00017",
+          "version_id": "c4f86589-1ee7-5632-8496-8ca5c9bac433",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "LINDB",
+          "provision_id": "33a4f4cc-943e-46c8-861e-345b061d05a2",
+          "provision_key": "art-00018",
+          "version_id": "40d06103-3231-5fce-a168-45fd07715ff1",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "LINDB",
+          "provision_id": "58d2701c-a7a5-49f2-afc6-7dbc076e635d",
+          "provision_key": "art-00019",
+          "version_id": "59e8a748-ae70-5bbf-a926-ae2978cc7d6c",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "LINDB",
+          "provision_id": "12fcc878-ce3c-4c2f-95bf-99845b4740e1",
+          "provision_key": "art-00020",
+          "version_id": "8459ca06-97a1-562c-9dfd-3cdfc69cda68",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "LINDB",
+          "provision_id": "93016df3-d4cd-46f9-8cb4-528368269541",
+          "provision_key": "art-00021",
+          "version_id": "03a1c8a8-de38-5d8b-a776-e053039a1bd6",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "LINDB",
+          "provision_id": "7f522f5b-d94e-48b3-929b-4606d5606031",
+          "provision_key": "art-00022",
+          "version_id": "885fa736-5180-5aac-b25a-5aec4167c3c1",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "LINDB",
+          "provision_id": "62972a8e-d4fb-48e7-bcca-96ef4b944ecc",
+          "provision_key": "art-00023",
+          "version_id": "8c91d42a-83d5-57e8-9ed1-1af91fb1a7fd",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "LINDB",
+          "provision_id": "ee1f3238-1b79-4394-8d0e-09a715e86d2e",
+          "provision_key": "art-00024",
+          "version_id": "32d8ddff-4a6d-589f-9313-5d03080707fe",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "LINDB",
+          "provision_id": "36991849-87a6-4f87-b9be-0d3eadf82df6",
+          "provision_key": "art-00025",
+          "version_id": null,
+          "preparation_status": "not_enacted_veto",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "LINDB",
+          "provision_id": "9c109eab-6155-4496-a951-e7aae15dbfa3",
+          "provision_key": "art-00026",
+          "version_id": "5c5832f5-f6a9-5684-abdb-38a3817f7819",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "LINDB",
+          "provision_id": "f9f0fae8-1105-4c70-86c5-816d85f0ea69",
+          "provision_key": "art-00027",
+          "version_id": "7f294704-e345-5b85-b74b-fdbdca888926",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "LINDB",
+          "provision_id": "0cb215c1-be5d-414d-814a-7d47a4e4ece1",
+          "provision_key": "art-00028",
+          "version_id": "8dbbed04-846b-5239-b69c-82c6a5a75984",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "LINDB",
+          "provision_id": "4740aebe-2736-4563-a756-d8fe12bf7011",
+          "provision_key": "art-00029",
+          "version_id": "73e82c3b-5954-59fa-a3a9-a5b671cda326",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "LINDB",
+          "provision_id": "cf5e5a31-b66e-4b24-81fc-87ce8238c2e7",
+          "provision_key": "art-00030",
+          "version_id": "28ab616d-c1e0-5143-b941-752ef874d2dc",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        }
+      ],
+      "effective_date_review_required": 2,
+      "counts_by_preparation_status": {
+        "prepared_official_text": 159,
+        "prepared_effective_date_requires_review": 2,
+        "pending_official_source_conflict_69_70_vs_76_77": 1,
+        "not_enacted_veto": 1
+      }
+    },
+    {
+      "notice_code": "CFO_2027",
+      "identified_catalog_article_slots": 2130,
+      "prepared_versions": 237,
+      "prepared_percent": 11.1268,
+      "certified_versions": 0,
+      "certified_percent": 0,
+      "scope_identification_complete": false,
+      "source_chain_complete": false,
+      "cutoff_confirmed": false,
+      "cutoff_candidate": "2026-09-03",
+      "cutoff_clause": "7.8.1",
+      "scope": [
+        {
+          "document_code": "CADH",
+          "provision_id": "8ec24c69-b310-4a67-af51-226c3421a7b9",
+          "provision_key": "art-00001",
+          "version_id": "55f575f1-87b9-5add-8e2d-d9d9f1b1b2e0",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "ec429791-28b8-44bf-9553-3a964fa88378",
+          "provision_key": "art-00002",
+          "version_id": "a9d17203-92ea-52e4-a75d-1bcbffe891a6",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "9501c337-a058-4547-9e21-61ed1567a3a4",
+          "provision_key": "art-00003",
+          "version_id": "7ad026e3-a7bf-5656-b3f4-92f594427568",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "1fd6ec8c-8db6-4c4b-b68a-72687c697561",
+          "provision_key": "art-00004",
+          "version_id": "85fbc02c-0106-569a-96de-a4920b828efd",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "65c93d22-c9b0-499c-8a07-393642749237",
+          "provision_key": "art-00005",
+          "version_id": "68d15f1f-513d-5812-b4e3-0aa038bbb1bb",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "4afc2ae2-5fed-401b-84e0-a61e7a0c3479",
+          "provision_key": "art-00006",
+          "version_id": "47853529-87e8-507c-8740-42b7fa7e2926",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "f211db12-4c30-4c6b-9d79-94788d6096b7",
+          "provision_key": "art-00007",
+          "version_id": "78a85d5e-775e-5bfc-9da0-66b036ca1c1a",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "717f4f7c-39ba-4943-b457-23c644e162d6",
+          "provision_key": "art-00008",
+          "version_id": "5806f7ac-dbed-5d35-b2e2-12233f60ea40",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "eaff01f3-e8d6-4898-9394-ee55e2997157",
+          "provision_key": "art-00009",
+          "version_id": "f765c2b4-a65e-5fc2-8b84-536170330ea1",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "6c59c41f-488d-4cc9-a316-af7cb852c82d",
+          "provision_key": "art-00010",
+          "version_id": "55cdc77a-a74e-5123-83cb-3a11f848a3bf",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "1bb2a70a-a4dc-43fb-a2c9-66458a4fec85",
+          "provision_key": "art-00011",
+          "version_id": "e9e08e9f-9d76-591e-96c6-20fe452facb5",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "5ff37b4a-6976-43dd-91a8-548bd946d078",
+          "provision_key": "art-00012",
+          "version_id": "e801ebd2-052a-5e8d-b39b-51bd2215e533",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "fca0b2ad-8745-4e1a-b9c0-4670d65dc34c",
+          "provision_key": "art-00013",
+          "version_id": "e6e20e59-69f1-5533-a076-e6b476a4e734",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "cbd27ebd-7ac8-4f7f-8974-a9e9cb4cf5fd",
+          "provision_key": "art-00014",
+          "version_id": "1bac09bd-1457-5708-ae05-91cc2ab890fb",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "eb8aa788-eee9-4028-9dbb-6175280192ff",
+          "provision_key": "art-00015",
+          "version_id": "02452a3c-c326-5d9b-a31a-94c8d462c340",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "7b95f575-b990-4249-b95d-9f0bfec421a1",
+          "provision_key": "art-00016",
+          "version_id": "efdc9733-aea9-507d-b8e7-2e9c97f01cfd",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "1da281af-bcef-43e1-bc66-29b2455e3ee5",
+          "provision_key": "art-00017",
+          "version_id": "35808e3a-a562-5776-8a27-118a175358e2",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "6899b4c1-333d-4ccc-a48a-c61e0b858caa",
+          "provision_key": "art-00018",
+          "version_id": "e41503d0-a6c4-51ba-b2a1-a331dc601025",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "084121d9-0b2d-4108-ac22-f6ece2338b06",
+          "provision_key": "art-00019",
+          "version_id": "35935767-4b3a-573e-b891-10504e81b26d",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "ea829a06-289a-4108-8cb5-1de986d74d0d",
+          "provision_key": "art-00020",
+          "version_id": "477af811-ec33-5b22-8668-bab23abcba89",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "1291d70d-b092-43ae-8703-7accbb56d4a9",
+          "provision_key": "art-00021",
+          "version_id": "6a992519-b36e-55a2-a8fd-979ed71cb033",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "a14245e4-a02e-48ed-a246-fd5dd31f7264",
+          "provision_key": "art-00022",
+          "version_id": "80a76087-9b37-550a-8884-99fec4b4de91",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "9b1c2117-58e7-4648-b950-30b85b07eee8",
+          "provision_key": "art-00023",
+          "version_id": "f9c340ee-d294-5f43-9154-c5fdaafbfe06",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "3d0bd052-4c31-4783-8ab0-b17795ddb704",
+          "provision_key": "art-00024",
+          "version_id": "cff72667-98e2-5486-a62f-5ba547a83392",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "47d15071-03eb-469f-800d-c9dd91bb4ae4",
+          "provision_key": "art-00025",
+          "version_id": "3c2666ce-fb29-5b87-9b74-3f99f360dfb9",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "5fec2975-5d01-4486-a5a0-bc02f4e130bb",
+          "provision_key": "art-00026",
+          "version_id": "a9dcc6c8-b40d-587a-ab9c-6bb56da85a8f",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "3e4e17c0-b037-4ea5-945b-1f4aa4c1a3fe",
+          "provision_key": "art-00027",
+          "version_id": "e7f28c9d-f4f8-5b54-bcd4-1bb3314b704c",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "65a889a2-19fd-40bf-8627-ab352d8a6aee",
+          "provision_key": "art-00028",
+          "version_id": "aa8433f5-6c91-5c3b-b859-6e2b38b0b335",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "5e874ca4-c1de-4c77-bc66-bab17a6ffd2c",
+          "provision_key": "art-00029",
+          "version_id": "df70e480-4553-55c9-9475-9d9eeef6a921",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "d17ba067-7a9f-4a7d-9670-b77d3f45fc3d",
+          "provision_key": "art-00030",
+          "version_id": "d0545db4-4406-55ec-865f-224786804acf",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "dcf44fec-11ed-4f90-b747-391f01889c03",
+          "provision_key": "art-00031",
+          "version_id": null,
+          "preparation_status": "pending_official_source_conflict_69_70_vs_76_77",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "500c802a-2f95-4db1-a86f-46f098eb6a6c",
+          "provision_key": "art-00032",
+          "version_id": "fe77e80e-735b-5c5b-91e7-7aae3bfcaf55",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "e94cc7b6-ca19-485b-a450-05a4dddd133e",
+          "provision_key": "art-00033",
+          "version_id": "bf12ca2d-e1a1-5df4-a1d4-22c9fd7b4369",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "abd9c35f-1954-44db-bec8-92e21ec54ba3",
+          "provision_key": "art-00034",
+          "version_id": "6dc36047-d046-5a93-815b-97a0c4fb1cc4",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "409baa27-73b1-41af-ade6-6857e7c7e32a",
+          "provision_key": "art-00035",
+          "version_id": "610205ce-bbb1-5cf6-b528-85c4f76c19a9",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "ce486de7-1fe6-492f-9396-56244ecb4741",
+          "provision_key": "art-00036",
+          "version_id": "b6b8d0c2-864a-5f35-9102-5e74478b762a",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "3411dd2a-97bc-49eb-8652-dc9ab41232b6",
+          "provision_key": "art-00037",
+          "version_id": "a5eef57c-6b43-53ab-900f-7c6cef42357e",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "537e2b43-98ad-4a17-9bbd-09298b4b562b",
+          "provision_key": "art-00038",
+          "version_id": "afc347c2-8090-5db8-89de-154049974e48",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "5cc8b2f7-327e-4ca2-bc25-d3472f20a2e0",
+          "provision_key": "art-00039",
+          "version_id": "0e4c3dc6-20ed-5d70-b30f-e712593d6fb7",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "ed8dbbb4-a8d7-4745-9bf7-affc1c8470fe",
+          "provision_key": "art-00040",
+          "version_id": "9a0e3a89-4f15-5b45-8d5c-d57d02d48138",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "488829a3-83ce-4a89-b143-7c5c6711b939",
+          "provision_key": "art-00041",
+          "version_id": "fa0dfbbd-0378-59a2-8a41-0797d2ef1a72",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "29b44802-49d5-4509-8f1f-df2ce6ce8eb6",
+          "provision_key": "art-00042",
+          "version_id": "4db00bb1-1673-5234-8ecd-27088711af72",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "b050892f-aba6-4667-9bcd-762235b0508a",
+          "provision_key": "art-00043",
+          "version_id": "d343759a-6d8c-5582-8b18-5d6334980ab0",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "ac41e1a4-f3ad-4ce9-b37d-fec6a448b557",
+          "provision_key": "art-00044",
+          "version_id": "5d93d8d9-febd-52f8-a89c-82a5aeaa3e13",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "5ce82919-b420-456b-b5a2-7ed807ecee2b",
+          "provision_key": "art-00045",
+          "version_id": "3d2d1e10-4886-53d6-b987-2764ebe46cfe",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "e451614c-c91f-4dbd-bd8f-91ab3248d060",
+          "provision_key": "art-00046",
+          "version_id": "89dd2724-51e0-5d79-a0a6-8898cd121d05",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "4783a91a-e442-4d58-9aac-bcbbe9a765b0",
+          "provision_key": "art-00047",
+          "version_id": "886c0761-5f3a-5bca-98eb-9b02e6e945a5",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "67b5822f-edee-49c9-a5ae-00c1f47c857b",
+          "provision_key": "art-00048",
+          "version_id": "89efd69c-80ab-5464-91c9-4f06e6de34ea",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "d4823fad-b97f-4288-8a63-30c663aa808b",
+          "provision_key": "art-00049",
+          "version_id": "ea1b2b89-fa91-5856-af30-fcbb956e9445",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "d3807a5c-c7eb-44c0-9c7d-ef00a18d918e",
+          "provision_key": "art-00050",
+          "version_id": "04e623f8-3941-560d-a6b3-e5aec3cbdf26",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "23541390-4df0-4cf3-ae0c-3d4061310cbe",
+          "provision_key": "art-00051",
+          "version_id": "9562eee0-376f-5903-a03a-4a7069f98e5c",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "aab0270b-012e-4b5a-8191-dd8f39f3f4b4",
+          "provision_key": "art-00052",
+          "version_id": "98ea4308-1a2e-5200-aec1-5514c0d1c3d6",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "5f1ae5ea-ec77-4f9d-9605-4404dc62e4a9",
+          "provision_key": "art-00053",
+          "version_id": "ae154325-88ee-5677-bf53-8cfc636f64a1",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "db342db7-1900-4165-891a-5926fb59f16f",
+          "provision_key": "art-00054",
+          "version_id": "deb3bd21-4314-5d64-a2b8-5da75ccbe564",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "f3459385-586d-429e-83a4-252f92fa086c",
+          "provision_key": "art-00055",
+          "version_id": "e3bed65f-2722-59aa-aaca-224957a83f84",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "1a669be9-744d-477d-9b05-2b76a397ebfa",
+          "provision_key": "art-00056",
+          "version_id": "d51a6f35-ff64-5c37-92ee-52021f4f99c8",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "f1c60f88-e3d7-45b2-bed8-b82595389d02",
+          "provision_key": "art-00057",
+          "version_id": "07485021-eaeb-5588-86c6-728b80ea9991",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "a9dfc4b5-38da-4d19-afa0-9e769192705e",
+          "provision_key": "art-00058",
+          "version_id": "8dcc1839-8d67-5d21-b1b6-49ef86c1f871",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "dbf31c7e-54c2-4765-876d-e6f8097da904",
+          "provision_key": "art-00059",
+          "version_id": "ad1d1627-9004-52b3-91ef-8d6872804bc3",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "c6bc5bcf-660d-45b7-8932-4414e0e6c79c",
+          "provision_key": "art-00060",
+          "version_id": "d8520d89-d725-5023-9c7c-ebf175bd2dea",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "6b78bc02-5407-4a92-a204-861d94fbd746",
+          "provision_key": "art-00061",
+          "version_id": "fd57d3c1-a2d3-5835-9e47-18383adaa511",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "afd242f0-05b6-4875-b9d2-589d05c6eaf4",
+          "provision_key": "art-00062",
+          "version_id": "5838c705-149a-5f22-a837-2f9831f7ce84",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "9d2f895b-3333-4951-a0d0-f0cd7cfac53d",
+          "provision_key": "art-00063",
+          "version_id": "2e052a24-77e4-584c-b958-b34aa724b868",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "0415d217-f1d2-4bdd-9371-d8c19df9cfc1",
+          "provision_key": "art-00064",
+          "version_id": "ae483d22-bb71-5dec-aae7-f380d762ad6c",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "7f162511-9a5b-4ba8-b415-672dbef5bc76",
+          "provision_key": "art-00065",
+          "version_id": "caa4d6f6-9bc5-503a-b76d-158d3f239b46",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "fb41abf1-20f8-42d3-b2bc-235e2cd53f98",
+          "provision_key": "art-00066",
+          "version_id": "a042c5ef-b930-5dc3-b5b9-d83a93d233a8",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "4004d8ac-e57a-49c2-94e2-86b89efddcf4",
+          "provision_key": "art-00067",
+          "version_id": "44a6aa44-7c9b-52f8-98f4-2c3666e9dd89",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "e74eb782-09b6-411c-818f-cecb2e95efcb",
+          "provision_key": "art-00068",
+          "version_id": "60c27c13-c083-56ef-9d53-e7a6c67929ef",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "20c429a7-c963-47f2-9b1f-b355372d692d",
+          "provision_key": "art-00069",
+          "version_id": "e5fa79f1-1045-5aae-8efe-e6d5835801d3",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "f9643195-6be8-4eb8-a910-1fc2ab325fca",
+          "provision_key": "art-00070",
+          "version_id": "b151bc10-72a3-530f-9213-40993df9aeb8",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "33887c29-756d-4a8b-a494-71aa392cded9",
+          "provision_key": "art-00071",
+          "version_id": "f530941c-f11a-547b-a07d-03f39e61dca0",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "42d685c9-2b05-4b79-86fc-432fb1788308",
+          "provision_key": "art-00072",
+          "version_id": "e1c731b6-d1a6-569f-abbf-dad0e073fabf",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "0c6f0b31-bfb7-4d85-9ec9-b676e4f9dc90",
+          "provision_key": "art-00073",
+          "version_id": "d07859ec-1157-5150-a2ab-1385cb940035",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "30a99d1c-a87b-4cac-95c6-506e3ef0a5c1",
+          "provision_key": "art-00074",
+          "version_id": "423fb8fa-be8e-5357-b93a-95ff907a18cc",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "9c974571-ab7f-464d-b2f5-f2e01661d460",
+          "provision_key": "art-00075",
+          "version_id": "409a1de1-b981-5b6c-b3e1-50c99d09c80d",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "13bbefc2-7e3f-4065-a1f4-2c6c1083c4a4",
+          "provision_key": "art-00076",
+          "version_id": "312e8091-09f2-5a4a-80c3-62f8ced6c906",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "bd77b3b6-e96f-486d-891b-242900c699d1",
+          "provision_key": "art-00077",
+          "version_id": "a0d8750a-949a-5220-9c57-1534f4d95f3b",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "87fa7094-ea43-46a4-b84f-fc3a03a50040",
+          "provision_key": "art-00078",
+          "version_id": "7b443dd8-25b4-5ce3-8ded-ed387d910f45",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "c598c736-6323-43c4-b328-00bf0fc695bd",
+          "provision_key": "art-00079",
+          "version_id": "a7502c3e-40da-547c-8160-4093dc75b471",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "0c2530a5-47b8-43e9-9d0f-b199506fc7b6",
+          "provision_key": "art-00080",
+          "version_id": "f961ec5c-1df3-5bea-b7af-9f97bfc89f89",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "f8bd5307-3a8c-4d5c-86ed-9e57685972f6",
+          "provision_key": "art-00081",
+          "version_id": "22634321-8360-5515-85c5-682f9e9531f0",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CADH",
+          "provision_id": "8855ed01-a270-4c0e-b7ef-00fa55ca7eb6",
+          "provision_key": "art-00082",
+          "version_id": "65f207b5-d40d-5f7c-bbc4-b34c68f3093f",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CF88",
+          "provision_id": "85efa183-a542-4f36-931a-0df0824e1f46",
+          "provision_key": "art-00001",
+          "version_id": "42ea3d48-0812-5643-a906-f53157e5df2f",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CF88",
+          "provision_id": "c86bf6f8-2ae5-445a-ad92-2a053ce275b9",
+          "provision_key": "art-00002",
+          "version_id": "2b6dc823-7c07-5c24-bd77-40de73167006",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CF88",
+          "provision_id": "a3bc7a7b-bdd6-439e-8e7a-7965cf40e2f7",
+          "provision_key": "art-00003",
+          "version_id": "f4ff0f05-d0bf-5718-83c4-2bfb8e6c5a62",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CF88",
+          "provision_id": "c070639a-b618-4296-9a45-ac2d6dc20213",
+          "provision_key": "art-00004",
+          "version_id": "60b48606-f1e0-5d60-b95f-327e4711f578",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CF88",
+          "provision_id": "6bf08f39-8d9b-43b0-a769-fa0bf7635cd4",
+          "provision_key": "art-00005",
+          "version_id": "e4214cb3-5de0-590d-bf21-20ab5150a506",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CF88",
+          "provision_id": "b7a70559-e3d7-4783-840f-aa4d1097f961",
+          "provision_key": "art-00012",
+          "version_id": "e46f295d-7571-58af-b1c8-4f055740246f",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CF88",
+          "provision_id": "2f5cbecf-1909-459c-904f-51c48034eb73",
+          "provision_key": "art-00013",
+          "version_id": "143ecaac-1d2e-5cc2-8d31-6560e97fa8ee",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CF88",
+          "provision_id": "af8cc4e9-32bc-4df6-91d1-c823810bbf0f",
+          "provision_key": "art-00014",
+          "version_id": "566d6c93-942e-58d8-a9b5-b3ccdd91beae",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CF88",
+          "provision_id": "3b141863-ee9b-42ba-ae27-567f67315c00",
+          "provision_key": "art-00015",
+          "version_id": "7cbaa476-c7bc-5b6d-8f16-4f311365d819",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CF88",
+          "provision_id": "f8b16d40-4441-41dc-965f-b2c9cbda2c41",
+          "provision_key": "art-00016",
+          "version_id": "fc454624-1807-535f-a085-0b05e5b6e957",
+          "preparation_status": "prepared_effective_date_requires_review",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CF88",
+          "provision_id": "6675bf90-10e0-408d-abaf-012deb486fc4",
+          "provision_key": "art-00037",
+          "version_id": "b38a348e-dec2-5d5d-83c3-019bc459b85a",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CF88",
+          "provision_id": "23802386-0c3e-483a-9002-0c6a5b7e529c",
+          "provision_key": "art-00038",
+          "version_id": "62bac481-47b2-5004-8c7d-687c2556f7c0",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CF88",
+          "provision_id": "9f2d7e84-72cf-4040-9fcf-57ffed4a5bf5",
+          "provision_key": "art-00042",
+          "version_id": "a7dbca9c-8dd2-5e50-bc7f-5f6eff35e97b",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CF88",
+          "provision_id": "a43c23af-1756-469d-a127-f9ff2a63590f",
+          "provision_key": "art-00122",
+          "version_id": "56c77b48-2eb4-5bca-a273-8f1176e822e2",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CF88",
+          "provision_id": "5c07df92-071d-4119-9f6a-13279fa5ea50",
+          "provision_key": "art-00123",
+          "version_id": "0815cebb-807f-50fb-a481-6729d104b8e3",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CF88",
+          "provision_id": "4d6d1721-675e-44e3-b2e8-b0460d83c115",
+          "provision_key": "art-00124",
+          "version_id": "d698c2dd-7cc0-59f2-a2cc-e5e54af3a421",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CF88",
+          "provision_id": "ce570d2b-6f4c-4756-9da8-1b20a1878d69",
+          "provision_key": "art-00125",
+          "version_id": "05ae91db-45d7-5276-842f-815c4cfe2a88",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CF88",
+          "provision_id": "6ee39758-ae86-4a20-ba0d-c7e7ab2929e9",
+          "provision_key": "art-00126",
+          "version_id": "1b8c10a5-35ec-5f35-82d2-d5965eb86223",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CF88",
+          "provision_id": "531b503c-8cc1-4732-bf5a-f0aff8e20bcd",
+          "provision_key": "art-00142",
+          "version_id": "07689820-2744-51eb-8a1c-d39c7bc51d81",
+          "preparation_status": "prepared_effective_date_requires_review",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CF88",
+          "provision_id": "4c223f9c-d955-4103-aad7-6851db237112",
+          "provision_key": "art-00143",
+          "version_id": "0e10d56b-e336-5b52-91b2-dfd6dbfdbd12",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CF88",
+          "provision_id": "7569d241-2a7b-4d04-a71c-940afb09f5fe",
+          "provision_key": "art-00144",
+          "version_id": "63e1f0c9-e8c3-588f-9af2-275e7fd7f3c3",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "DUDH",
+          "provision_id": "70039c3f-a8c8-4f92-b7bf-3b2e2b16c166",
+          "provision_key": "art-00001",
+          "version_id": "15837228-eb8f-5437-8c92-4affa59e3d54",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "DUDH",
+          "provision_id": "4a776054-cfc8-483b-93c8-5e14e82850c7",
+          "provision_key": "art-00002",
+          "version_id": "ea6afb6c-68c6-5824-9699-0572898cd31a",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "DUDH",
+          "provision_id": "15b41b6b-70ef-472c-8228-ba0cb0b8dd9f",
+          "provision_key": "art-00003",
+          "version_id": "660f5530-a16a-539d-81a7-54f6e6d9a1f9",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "DUDH",
+          "provision_id": "86bbc6d2-a37c-4fe5-b0eb-9e5196f811e4",
+          "provision_key": "art-00004",
+          "version_id": "d73bf1e0-5487-518d-887a-75f3f7cf43f8",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "DUDH",
+          "provision_id": "391f221b-e4b7-48c1-8f71-1a88c7a569d8",
+          "provision_key": "art-00005",
+          "version_id": "bdad657a-6f67-5ac3-9309-0e833b38429e",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "DUDH",
+          "provision_id": "9681183b-1111-4fe8-8280-535ebe047821",
+          "provision_key": "art-00006",
+          "version_id": "d773ad50-c1cd-5879-94ed-14ab141cabfe",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "DUDH",
+          "provision_id": "a945695d-1e75-4e1f-bc41-7eb820a4341b",
+          "provision_key": "art-00007",
+          "version_id": "535b5665-76c1-5c55-9f38-6c2519b539d2",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "DUDH",
+          "provision_id": "139f33cd-cdbc-4ddc-9ab6-d41dbc209849",
+          "provision_key": "art-00008",
+          "version_id": "6ade0870-0a24-53dc-a09a-851482f2fe70",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "DUDH",
+          "provision_id": "76b9f55b-4cae-4845-8679-6aef797c49eb",
+          "provision_key": "art-00009",
+          "version_id": "0251cc6e-7cf1-5502-b894-f194694e025f",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "DUDH",
+          "provision_id": "93f0c3bd-2216-4f15-a58c-c7ca43280457",
+          "provision_key": "art-00010",
+          "version_id": "4332cb76-0357-5cb9-919e-d8fb36d680f9",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "DUDH",
+          "provision_id": "07c22bd0-e460-4b71-9d29-5b65919b2813",
+          "provision_key": "art-00011",
+          "version_id": "e9c28970-f6e7-574c-ae7e-bdb77219bec7",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "DUDH",
+          "provision_id": "dcd64bf8-4588-40ad-bd6d-c580954c9927",
+          "provision_key": "art-00012",
+          "version_id": "1309d7d0-b902-5936-bc93-afaa662a4927",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "DUDH",
+          "provision_id": "ba06ab38-7496-4d98-a6f2-935da3cb672d",
+          "provision_key": "art-00013",
+          "version_id": "6269d2e2-cf64-55d8-bf84-de0d4d6e665f",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "DUDH",
+          "provision_id": "2f1b66dd-c5a4-4f0c-a961-8f6b5acf8370",
+          "provision_key": "art-00014",
+          "version_id": "cfa78c7f-1211-511f-ab03-3918bc6b72f3",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "DUDH",
+          "provision_id": "a6955896-2e7a-4c7e-96fa-e48d1af39adf",
+          "provision_key": "art-00015",
+          "version_id": "53ebe358-1d44-57d9-8f90-60b9acfe19b8",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "DUDH",
+          "provision_id": "59bc9d78-0e16-4d99-9aa4-a2c211e3d6c0",
+          "provision_key": "art-00016",
+          "version_id": "e61837ee-12ff-523e-a3e2-dc93305c6069",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "DUDH",
+          "provision_id": "65cc3c61-dbaa-4edb-9945-147d7a15fe53",
+          "provision_key": "art-00017",
+          "version_id": "9d71ecef-4451-55d5-ba22-1f80744e68fe",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "DUDH",
+          "provision_id": "df5ddf8d-5902-406c-b8e2-72777f3fcb4e",
+          "provision_key": "art-00018",
+          "version_id": "21bd6901-0917-5f8f-b7cd-938e35cde2e7",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "DUDH",
+          "provision_id": "8a1bba62-aa8a-4f1a-ad45-45ffd77b02dd",
+          "provision_key": "art-00019",
+          "version_id": "76fb2b53-168e-5af3-9954-0d1a97f6a133",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "DUDH",
+          "provision_id": "21a9bdf6-879e-4e74-9f48-9691e3a4212c",
+          "provision_key": "art-00020",
+          "version_id": "f78963f3-054c-5f95-8c9a-4612711048ce",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "DUDH",
+          "provision_id": "903f4d6f-5cc8-4573-b5cb-9db2feed53f9",
+          "provision_key": "art-00021",
+          "version_id": "937f2145-0292-580e-a3db-2cd8e271aa2b",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "DUDH",
+          "provision_id": "256621ab-43eb-48a8-a291-6473d5f871b2",
+          "provision_key": "art-00022",
+          "version_id": "9847fb70-0267-5f88-b82a-339828ead3d2",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "DUDH",
+          "provision_id": "0fb5c2c9-c911-400a-b28e-39fcf3d3cad6",
+          "provision_key": "art-00023",
+          "version_id": "549e8ea2-bf41-5b1d-9d3f-ba7794c89d4d",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "DUDH",
+          "provision_id": "6001ee6c-85c4-458c-a97c-686e3c6597e3",
+          "provision_key": "art-00024",
+          "version_id": "641154f5-1bac-5b28-856b-6594b283c448",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "DUDH",
+          "provision_id": "4c90bea4-03f3-4abd-b399-6b9995947a7f",
+          "provision_key": "art-00025",
+          "version_id": "df70376f-43a4-58d8-a826-87bad4a49aed",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "DUDH",
+          "provision_id": "e6d8b282-babf-4229-9430-4f8b5090b1cc",
+          "provision_key": "art-00026",
+          "version_id": "1fe406f8-3c13-5eb5-9679-8a6ba106c5e1",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "DUDH",
+          "provision_id": "c68d26fa-ea58-4bec-8743-ef10fbd3001a",
+          "provision_key": "art-00027",
+          "version_id": "1055d7c9-ad8d-5080-aedf-016cbbc67c6f",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "DUDH",
+          "provision_id": "e10b439e-a185-4af1-bed5-2e8e3557d9f3",
+          "provision_key": "art-00028",
+          "version_id": "5a830dc3-b38c-5a5a-be3b-f51eefb0c0ad",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "DUDH",
+          "provision_id": "328f5560-405b-4fc4-913f-fe139cfdde6f",
+          "provision_key": "art-00029",
+          "version_id": "87487680-81a4-546e-bab2-39e4b5e7c428",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "DUDH",
+          "provision_id": "4a8992fd-7218-44ad-a4e7-dda258e2d470",
+          "provision_key": "art-00030",
+          "version_id": "f80d1837-69bc-53a8-92f4-af3d82118c6b",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "LINDB",
+          "provision_id": "6462d67a-ddce-4f4b-ac98-cc3eba0828cb",
+          "provision_key": "art-00001",
+          "version_id": "411eb3d1-6a49-5983-9ccb-4f2e423ae1a9",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "LINDB",
+          "provision_id": "8178a51b-f887-4932-a4ae-3a437b528f60",
+          "provision_key": "art-00002",
+          "version_id": "60c483a1-5098-5c59-acac-2ebeb8a2616f",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "LINDB",
+          "provision_id": "dbbdc710-d4bb-42c3-a688-fd6797365bed",
+          "provision_key": "art-00003",
+          "version_id": "7e3cb2e5-e46d-597e-bea3-7af27816d038",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "LINDB",
+          "provision_id": "1ccbfebd-f9e1-477e-9f59-c13ad79d01cd",
+          "provision_key": "art-00004",
+          "version_id": "cb7ff8e0-3b54-5ca2-8251-8d1bb3c13896",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "LINDB",
+          "provision_id": "867c421a-e2f9-4c3f-b6c3-b233ea507981",
+          "provision_key": "art-00005",
+          "version_id": "c1e6d727-8103-548e-ae09-e2bc68e95236",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "LINDB",
+          "provision_id": "d928d67f-3fd5-4ad0-8a9b-a141ecbc0b3a",
+          "provision_key": "art-00006",
+          "version_id": "45351f6a-029a-5382-be71-6a8a4b43dc08",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "LINDB",
+          "provision_id": "89a0a809-6507-4fd9-8555-e772ed9a6ea8",
+          "provision_key": "art-00007",
+          "version_id": "c5a2ffb8-45e1-5534-a784-e9b21543b2eb",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "LINDB",
+          "provision_id": "993163c6-c2e5-4f25-a500-f3c4d65d8f75",
+          "provision_key": "art-00008",
+          "version_id": "d71295ed-d9be-5c60-abb2-302a13db1a62",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "LINDB",
+          "provision_id": "a6560a16-032c-41f6-9e1e-4e39b6be7374",
+          "provision_key": "art-00009",
+          "version_id": "4419715e-9be1-5293-8677-41f85412a363",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "LINDB",
+          "provision_id": "78e35d0e-34b3-4571-8b60-8d9e6f507476",
+          "provision_key": "art-00010",
+          "version_id": "2a42cf38-d603-5edb-9deb-e1df3721d88b",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "LINDB",
+          "provision_id": "04c56788-5989-4fff-9f48-926128da316e",
+          "provision_key": "art-00011",
+          "version_id": "cf3561dd-4fdb-5bb7-863b-b53f0080e4d3",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "LINDB",
+          "provision_id": "58066c63-40f9-481e-9e6e-0683282389d2",
+          "provision_key": "art-00012",
+          "version_id": "da49daf3-faea-596a-9514-a747d5f135a2",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "LINDB",
+          "provision_id": "d4809d62-7e84-401c-897b-83103f4e10e4",
+          "provision_key": "art-00013",
+          "version_id": "61031a19-4751-50ab-a2ee-805ecf53fefd",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "LINDB",
+          "provision_id": "f591c972-22a0-42cb-90b2-06f6f41ffcd2",
+          "provision_key": "art-00014",
+          "version_id": "b1b12163-e36f-5e00-b26d-23f6b14fd844",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "LINDB",
+          "provision_id": "d8decb87-db6a-490c-8850-d43fe077f234",
+          "provision_key": "art-00015",
+          "version_id": "f687169d-374f-5a5d-af22-a3b9f46071d0",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "LINDB",
+          "provision_id": "fef11119-2ec4-41ff-9220-b7da45506aaf",
+          "provision_key": "art-00016",
+          "version_id": "ae06f3f5-591c-5e33-84a0-c8c6430fefd6",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "LINDB",
+          "provision_id": "1d1cf9d4-0fcc-43a1-8f12-a6651a001ec9",
+          "provision_key": "art-00017",
+          "version_id": "c4f86589-1ee7-5632-8496-8ca5c9bac433",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "LINDB",
+          "provision_id": "33a4f4cc-943e-46c8-861e-345b061d05a2",
+          "provision_key": "art-00018",
+          "version_id": "40d06103-3231-5fce-a168-45fd07715ff1",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "LINDB",
+          "provision_id": "58d2701c-a7a5-49f2-afc6-7dbc076e635d",
+          "provision_key": "art-00019",
+          "version_id": "59e8a748-ae70-5bbf-a926-ae2978cc7d6c",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "LINDB",
+          "provision_id": "12fcc878-ce3c-4c2f-95bf-99845b4740e1",
+          "provision_key": "art-00020",
+          "version_id": "8459ca06-97a1-562c-9dfd-3cdfc69cda68",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "LINDB",
+          "provision_id": "93016df3-d4cd-46f9-8cb4-528368269541",
+          "provision_key": "art-00021",
+          "version_id": "03a1c8a8-de38-5d8b-a776-e053039a1bd6",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "LINDB",
+          "provision_id": "7f522f5b-d94e-48b3-929b-4606d5606031",
+          "provision_key": "art-00022",
+          "version_id": "885fa736-5180-5aac-b25a-5aec4167c3c1",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "LINDB",
+          "provision_id": "62972a8e-d4fb-48e7-bcca-96ef4b944ecc",
+          "provision_key": "art-00023",
+          "version_id": "8c91d42a-83d5-57e8-9ed1-1af91fb1a7fd",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "LINDB",
+          "provision_id": "ee1f3238-1b79-4394-8d0e-09a715e86d2e",
+          "provision_key": "art-00024",
+          "version_id": "32d8ddff-4a6d-589f-9313-5d03080707fe",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "LINDB",
+          "provision_id": "36991849-87a6-4f87-b9be-0d3eadf82df6",
+          "provision_key": "art-00025",
+          "version_id": null,
+          "preparation_status": "not_enacted_veto",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "LINDB",
+          "provision_id": "9c109eab-6155-4496-a951-e7aae15dbfa3",
+          "provision_key": "art-00026",
+          "version_id": "5c5832f5-f6a9-5684-abdb-38a3817f7819",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "LINDB",
+          "provision_id": "f9f0fae8-1105-4c70-86c5-816d85f0ea69",
+          "provision_key": "art-00027",
+          "version_id": "7f294704-e345-5b85-b74b-fdbdca888926",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "LINDB",
+          "provision_id": "0cb215c1-be5d-414d-814a-7d47a4e4ece1",
+          "provision_key": "art-00028",
+          "version_id": "8dbbed04-846b-5239-b69c-82c6a5a75984",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "LINDB",
+          "provision_id": "4740aebe-2736-4563-a756-d8fe12bf7011",
+          "provision_key": "art-00029",
+          "version_id": "73e82c3b-5954-59fa-a3a9-a5b671cda326",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "LINDB",
+          "provision_id": "cf5e5a31-b66e-4b24-81fc-87ce8238c2e7",
+          "provision_key": "art-00030",
+          "version_id": "28ab616d-c1e0-5143-b941-752ef874d2dc",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L9455",
+          "provision_id": "e3743fff-21d1-44dc-a5e9-4e4ecbde0fda",
+          "provision_key": "art-00001",
+          "version_id": "1bf3fd3e-343b-546c-872b-880c64718214",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L9455",
+          "provision_id": "be6b6d5c-ba6f-4b13-ac2b-ed61a7c54935",
+          "provision_key": "art-00002",
+          "version_id": "7245de41-5cbf-5f1d-b3f2-21dd4831c668",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L9455",
+          "provision_id": "d6f9e6e2-06b6-474e-9dec-1d45c4789b6c",
+          "provision_key": "art-00003",
+          "version_id": "c12ff4c6-a037-558c-9566-913698e1f4e9",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L9455",
+          "provision_id": "1dc83d04-4754-492c-8b00-222d231291e7",
+          "provision_key": "art-00004",
+          "version_id": "6d8dd745-0422-5700-b2f2-fd08a299aa8f",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13431",
+          "provision_id": "72fd5b2a-51c3-4f39-8a36-f7b9c76804e7",
+          "provision_key": "art-00001",
+          "version_id": "26e93705-b2bb-519e-a698-bd82ee327ef8",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13431",
+          "provision_id": "3e776b2a-a239-4ba7-9732-9ce439cf4dfc",
+          "provision_key": "art-00002",
+          "version_id": "29bb4df5-b9ea-5d81-ae36-28f7f60cf35c",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13431",
+          "provision_id": "015ee203-a10f-4f5b-9d33-0c81a8dc2428",
+          "provision_key": "art-00003",
+          "version_id": "6c25299c-5b3c-52f1-a79f-d395915b4ed8",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13431",
+          "provision_id": "ffe0f419-c731-4d50-ae34-703bc668832c",
+          "provision_key": "art-00004",
+          "version_id": "b2b3573c-df83-59e3-9321-aaf87b0a8ae3",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13431",
+          "provision_id": "b1f741bb-6344-4226-b6fe-b4dbc18eb6cb",
+          "provision_key": "art-00005",
+          "version_id": "84f6d488-7768-5b17-ba25-843c97797e98",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13431",
+          "provision_id": "44bf7197-3862-4dee-9044-12610e69f2f9",
+          "provision_key": "art-00006",
+          "version_id": "0d033a6a-3101-5033-8535-b7422cb28134",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13431",
+          "provision_id": "8efc882b-cc91-4680-b3b3-d54a62c79caf",
+          "provision_key": "art-00007",
+          "version_id": "3b667fc3-def9-5fa6-9f4f-12e979a0e480",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13431",
+          "provision_id": "e77214ea-7e93-48a6-a357-180b55a152d1",
+          "provision_key": "art-00008",
+          "version_id": "329a8561-eecb-58ba-8370-ae778d47da13",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13431",
+          "provision_id": "d8e4746d-f17e-4209-b4d3-5a7ae7261421",
+          "provision_key": "art-00009",
+          "version_id": "00629bb1-9cdf-57ff-baa4-d9156dbb78d9",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13431",
+          "provision_id": "c4533feb-f28e-4097-975b-1382b6090d08",
+          "provision_key": "art-00010",
+          "version_id": "103eca54-357a-51cd-b1af-14f94cca6a94",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13431",
+          "provision_id": "8e03be6d-41cb-4e02-ac52-e279d0f6cb69",
+          "provision_key": "art-00011",
+          "version_id": "2205a813-37cc-55e9-a918-a5373e7cdd20",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13431",
+          "provision_id": "7cd61a2d-8ed2-4312-9a18-bbe492a54d78",
+          "provision_key": "art-00012",
+          "version_id": "cb374f78-1e04-5e7c-a161-0f5e4a175dc9",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13431",
+          "provision_id": "e3c31e69-b0af-4940-8a95-29bd6d5aa02e",
+          "provision_key": "art-00013",
+          "version_id": "98783cd7-b2c0-5609-8588-ef826164e574",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13431",
+          "provision_id": "f816337f-adea-450f-86e9-0d0af18e0aae",
+          "provision_key": "art-00014",
+          "version_id": "30ac5fb9-ea65-5612-aa5a-8bc9e2b2887f",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13431",
+          "provision_id": "48783a23-37c8-4b8b-af59-c5dfc4edc2d5",
+          "provision_key": "art-00015",
+          "version_id": "94276bac-f2c0-5058-9186-1152cb5d42f4",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13431",
+          "provision_id": "c76e96f0-6bcd-494f-a29e-bf2dea4b4449",
+          "provision_key": "art-00016",
+          "version_id": "d3718e4b-ba8b-5bb0-8ab4-8f909b4a448e",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13431",
+          "provision_id": "a75e7efd-172f-4b59-ad45-524757bb3dd9",
+          "provision_key": "art-00017",
+          "version_id": "9cc7b24d-898c-50cd-8f70-d2005d03ffef",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13431",
+          "provision_id": "402221d4-5c9a-4841-a36d-80dcff293cbe",
+          "provision_key": "art-00018",
+          "version_id": "f19639c9-a537-5998-b721-27a6280d44f4",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13431",
+          "provision_id": "43612882-1926-452d-a7f4-c1f6c2569785",
+          "provision_key": "art-00019",
+          "version_id": "309d4136-d239-5531-8c48-3726468fa4ce",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13431",
+          "provision_id": "fb4fd080-725d-4cc2-b703-3188365120f0",
+          "provision_key": "art-00020",
+          "version_id": "1fbdc287-ae0a-5b9a-b25b-ea4fdaa7e565",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13431",
+          "provision_id": "0000c09d-d884-4cf3-aa6a-2d8bc20f1384",
+          "provision_key": "art-00021",
+          "version_id": "2a82fc3c-0117-5e6b-be9d-0b53822efbc0",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13431",
+          "provision_id": "f793c410-2d9c-4777-9580-ce843132a975",
+          "provision_key": "art-00022",
+          "version_id": "e34374b9-38e3-5489-a10d-ee62de044b47",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13431",
+          "provision_id": "874497dc-a6f0-44e2-9e01-01eb46d50c1b",
+          "provision_key": "art-00023",
+          "version_id": "54a51285-8bd5-5cd2-8eb8-e375997a8b90",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13431",
+          "provision_id": "571d8789-3969-4ed3-a179-233d5dc21eae",
+          "provision_key": "art-00024",
+          "version_id": "53b500a9-bcec-551c-b155-f5e0ac2201bb",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13431",
+          "provision_id": "e0310708-f34d-47d7-a056-54755eb5fb4f",
+          "provision_key": "art-00025",
+          "version_id": "25914b19-c21b-5fe0-91a0-f53e872d9f7d",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13431",
+          "provision_id": "adc1cfd1-2ef9-4ebf-bfab-ed6a28e74afc",
+          "provision_key": "art-00026",
+          "version_id": "1520cbad-6151-524a-be02-bb9320b6415d",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13431",
+          "provision_id": "75d9c636-bf72-4864-bed2-035678ca65e8",
+          "provision_key": "art-00027",
+          "version_id": "8b658f29-747e-552c-a890-09cc7652818c",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13431",
+          "provision_id": "9b52e77b-168c-46c3-a800-eedd1e52e277",
+          "provision_key": "art-00028",
+          "version_id": "bf5c9c6e-9e05-56c3-9818-7352718159e0",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13431",
+          "provision_id": "0b838e58-aac7-4858-ac07-0ee37701fc1f",
+          "provision_key": "art-00029",
+          "version_id": "5d715b14-8324-5824-bcf6-eb8aaa45d478",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13869",
+          "provision_id": "a0bc2a10-5f78-4ac4-a39d-d1995d45ad4f",
+          "provision_key": "art-00001",
+          "version_id": "b826db8a-8378-57b0-86f9-5043097c505a",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13869",
+          "provision_id": "82e23246-3ddb-4045-b200-580435d8dfbd",
+          "provision_key": "art-00002",
+          "version_id": "a4835ea7-2bb9-53c2-b3c3-543f19324af3",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13869",
+          "provision_id": "2c598ec6-40f7-42ed-aae4-bb8b2f95659a",
+          "provision_key": "art-00003",
+          "version_id": "73e05279-d7b6-5837-88b4-93bab7145a7e",
+          "preparation_status": "prepared_effective_date_requires_review",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13869",
+          "provision_id": "f035c9f7-ed0d-4726-8c79-5d3df40213cf",
+          "provision_key": "art-00004",
+          "version_id": "94137696-2129-508a-9ad1-fe8cf4600886",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13869",
+          "provision_id": "932875f8-7691-4153-8839-32902a6cf872",
+          "provision_key": "art-00005",
+          "version_id": "428e30e6-256b-5eea-9e46-e78eb347c098",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13869",
+          "provision_id": "67def0ea-cbb8-47a5-a973-dc9533d307ed",
+          "provision_key": "art-00006",
+          "version_id": "848f118f-1204-5cbe-b86a-fa38bebd8676",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13869",
+          "provision_id": "08fa899a-404e-48fa-8ee7-31d9c46936ba",
+          "provision_key": "art-00007",
+          "version_id": "130d587f-92c3-587c-8265-f4cd17127365",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13869",
+          "provision_id": "743d66ec-5ba7-4973-a818-7a30bcb61e8c",
+          "provision_key": "art-00008",
+          "version_id": "0f3d3b6d-a3a4-580e-b44c-6d622d2d03f4",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13869",
+          "provision_id": "8e954060-20c4-4f25-ad34-66efd8dca2e2",
+          "provision_key": "art-00009",
+          "version_id": "8f339d2f-ad3c-5b70-9e08-43a779899488",
+          "preparation_status": "prepared_effective_date_requires_review",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13869",
+          "provision_id": "586d98ed-2c5d-4d96-9b31-ef6d6c21ed4e",
+          "provision_key": "art-00010",
+          "version_id": "9fe66154-a60d-5378-a286-9d3c8964e0e1",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13869",
+          "provision_id": "334971e1-769e-457f-886d-891e130ca8e3",
+          "provision_key": "art-00011",
+          "version_id": null,
+          "preparation_status": "not_enacted_veto",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13869",
+          "provision_id": "7c2b62f2-af6d-4fc5-b5c9-0b81a9ba1ed5",
+          "provision_key": "art-00012",
+          "version_id": "612ee623-2fee-5534-aeb1-72b3cc867cb5",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13869",
+          "provision_id": "f32f2ffa-a925-4b2c-bf3f-bae96ef73e04",
+          "provision_key": "art-00013",
+          "version_id": "76711a7d-e36b-5ce1-bf01-7e301d2a0f6b",
+          "preparation_status": "prepared_effective_date_requires_review",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13869",
+          "provision_id": "85496b31-727b-4064-a27a-5a472a9368e3",
+          "provision_key": "art-00014",
+          "version_id": null,
+          "preparation_status": "not_enacted_veto",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13869",
+          "provision_id": "8f1b890d-2d4c-42d2-b414-5acfe0e14795",
+          "provision_key": "art-00015",
+          "version_id": "0d0f2f17-275e-5f19-86ed-8067c0af792c",
+          "preparation_status": "prepared_effective_date_requires_review",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13869",
+          "provision_id": "685e4e80-a78e-4ea4-8f1e-f12f75cbc8fc",
+          "provision_key": "art-00015-a",
+          "version_id": "bb9a526e-b56e-5272-b975-5a35da7de7ae",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13869",
+          "provision_id": "c9019318-2905-4d01-b258-88e128715b09",
+          "provision_key": "art-00016",
+          "version_id": "f941fcf8-7121-566d-bc36-f9bb021e3cde",
+          "preparation_status": "prepared_effective_date_requires_review",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13869",
+          "provision_id": "009afa02-9f48-4a9e-99a5-1f6138608bb4",
+          "provision_key": "art-00017",
+          "version_id": null,
+          "preparation_status": "not_enacted_veto",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13869",
+          "provision_id": "7bad90b8-0042-4812-a9aa-2de9b7d47bed",
+          "provision_key": "art-00018",
+          "version_id": "027bbad5-d342-549d-aea0-f560c9e6dadc",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13869",
+          "provision_id": "d26ab53e-c848-4774-9dc2-3bb0ba8e8b22",
+          "provision_key": "art-00019",
+          "version_id": "0546d65b-6539-5d74-ac94-17cdcd0fdf5f",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13869",
+          "provision_id": "bb464b5e-cdb6-47d3-b530-d8c874145faf",
+          "provision_key": "art-00020",
+          "version_id": "61a2f42e-bf13-5245-a3dd-1934b52ebeab",
+          "preparation_status": "prepared_effective_date_requires_review",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13869",
+          "provision_id": "f246ed88-5e5d-4619-ac50-f8693452ade7",
+          "provision_key": "art-00021",
+          "version_id": "c4b5018c-71ba-50e5-913f-f73527e80ed9",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13869",
+          "provision_id": "e12fbd98-9750-47cb-8b53-ba060c1aff67",
+          "provision_key": "art-00022",
+          "version_id": "c259600a-b508-54d2-b46d-c47014d515fb",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13869",
+          "provision_id": "b93cc55c-57ea-477c-8051-3dc76f530497",
+          "provision_key": "art-00023",
+          "version_id": "f15e35a4-7224-54aa-86fa-42278d259b1b",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13869",
+          "provision_id": "bbc99989-8fa9-4aa8-a1c4-e43e652bee8d",
+          "provision_key": "art-00024",
+          "version_id": "64961fdc-cfdb-5149-ad92-b2b0a9c7f1cd",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13869",
+          "provision_id": "0f847e77-0262-467b-8038-c4caa1f4a066",
+          "provision_key": "art-00025",
+          "version_id": "38aac76f-efc9-5d53-97a3-9d28f8592117",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13869",
+          "provision_id": "ecc3f6ee-e155-4906-858f-cfce5c3e7c60",
+          "provision_key": "art-00026",
+          "version_id": null,
+          "preparation_status": "not_enacted_veto",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13869",
+          "provision_id": "9a9c3db8-aaa5-47fe-bb08-24ddec86008b",
+          "provision_key": "art-00027",
+          "version_id": "76f772e8-d24f-5c98-a369-a0c375eaf481",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13869",
+          "provision_id": "2d9a6990-e8ab-4de7-821c-67b01bee5046",
+          "provision_key": "art-00028",
+          "version_id": "141eb648-c3d2-5d06-accd-3f45b55f83a5",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13869",
+          "provision_id": "739561ae-748d-4981-8e05-074693244e02",
+          "provision_key": "art-00029",
+          "version_id": "1a2c9465-a248-5623-8485-91c0bdf6697e",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13869",
+          "provision_id": "cbeeab9c-86e6-41e0-8c18-f901eed1f209",
+          "provision_key": "art-00030",
+          "version_id": "df0af1f8-b365-549d-bf3b-15e24358e7b5",
+          "preparation_status": "prepared_effective_date_requires_review",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13869",
+          "provision_id": "1260029f-2362-47c8-88f5-031fdff72712",
+          "provision_key": "art-00031",
+          "version_id": "a7024e84-2926-5f3d-b4c9-da2872952204",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13869",
+          "provision_id": "6e98c3cb-0770-42bb-bc30-fc13181981ef",
+          "provision_key": "art-00032",
+          "version_id": "175a7aca-8bbb-5799-a8bd-36f00e83f824",
+          "preparation_status": "prepared_effective_date_requires_review",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13869",
+          "provision_id": "3b7c4856-4ffc-4056-ba2f-5490a49b78b8",
+          "provision_key": "art-00033",
+          "version_id": "2af89214-332f-54c5-a488-8c75e77131f1",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13869",
+          "provision_id": "c5ca0ff5-0e08-4ead-aee4-8d0638205116",
+          "provision_key": "art-00034",
+          "version_id": null,
+          "preparation_status": "not_enacted_veto",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13869",
+          "provision_id": "2525868a-52d4-4e48-867f-f91ee0016a34",
+          "provision_key": "art-00035",
+          "version_id": null,
+          "preparation_status": "not_enacted_veto",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13869",
+          "provision_id": "ede3e275-7758-45d7-bd44-79da786afc7a",
+          "provision_key": "art-00036",
+          "version_id": "32867ba7-68f9-5788-b440-359a7589f583",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13869",
+          "provision_id": "6d272cfa-78ed-4dd3-972b-bce27b02d73d",
+          "provision_key": "art-00037",
+          "version_id": "61ba5eb8-7512-5c56-a72e-056bb7f4045f",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13869",
+          "provision_id": "f1299cb6-4fb6-46f5-b3f7-94ba07253633",
+          "provision_key": "art-00038",
+          "version_id": "60d03210-a301-5496-925a-58c3976d6405",
+          "preparation_status": "prepared_effective_date_requires_review",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13869",
+          "provision_id": "3cd3415e-0bdc-4195-b7bf-1132d5dce8a5",
+          "provision_key": "art-00039",
+          "version_id": "e5117bcc-bd20-5017-b20f-35253a8b8834",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13869",
+          "provision_id": "17ab729b-647d-4b34-a7b7-83d8ba17231b",
+          "provision_key": "art-00040",
+          "version_id": "9e6c7ddd-94ae-585c-8916-0ae1d61d0e26",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13869",
+          "provision_id": "c918bc5e-3a23-4fdc-860a-ae31fe23a8bf",
+          "provision_key": "art-00041",
+          "version_id": "3e4bcddd-b28e-54a3-9367-26cbb9da70d4",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13869",
+          "provision_id": "1b10fe41-5206-48d7-9cce-d79198e3392a",
+          "provision_key": "art-00042",
+          "version_id": "2484c41e-7a68-5384-9f83-c667bc9801f5",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13869",
+          "provision_id": "3c8e19d9-eb92-4432-b488-10c42ee88b59",
+          "provision_key": "art-00043",
+          "version_id": "d20a852d-d7c4-5e6e-aec4-b7be44933291",
+          "preparation_status": "prepared_effective_date_requires_review",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13869",
+          "provision_id": "7d6271e3-bb9c-4403-8d83-010edf014e2b",
+          "provision_key": "art-00044",
+          "version_id": "91a8540e-37e5-569a-a05a-2f940c530e0b",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "L13869",
+          "provision_id": "bdc46527-989d-49c5-9597-ceb59197adab",
+          "provision_key": "art-00045",
+          "version_id": "d0f8914d-d3af-5b05-a97a-409960afb226",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CF88",
+          "provision_id": "641528f1-6367-4468-9f11-94d436ba4932",
+          "provision_key": "art-00019",
+          "version_id": "9ee50146-5271-5510-9d58-ea6e88de9142",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CF88",
+          "provision_id": "ff61aae9-3dd5-4f85-880d-5ed6ef6a2d77",
+          "provision_key": "art-00026",
+          "version_id": "898cb4a1-706e-50a9-9041-62c68734a977",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CF88",
+          "provision_id": "d2a584c9-636a-4ffa-ac30-64b0720254dc",
+          "provision_key": "art-00033",
+          "version_id": "9881e3c5-88f8-51a2-8269-3e363dd3944b",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        }
+      ],
+      "effective_date_review_required": 12,
+      "counts_by_preparation_status": {
+        "prepared_official_text": 225,
+        "pending_official_source_conflict_69_70_vs_76_77": 1,
+        "prepared_effective_date_requires_review": 12,
+        "not_enacted_veto": 7,
+        "pending_historical_evidence": 1885
+      },
+      "catalog_scope_file": "p0-cfo-explicit-catalog.tsv",
+      "default_unlisted_status": "pending_historical_evidence"
+    }
+  ],
+  "incremental_batch": {
+    "additional_prepared_devices": 3,
+    "previous_prepared_devices": 234,
+    "current_prepared_devices": 237,
+    "pending_historical_evidence": 1885,
+    "total_prepared_textual_states": 241,
+    "scope": "CFO explicit diplomas only; thematic program denominator remains incomplete"
+  }
+}
