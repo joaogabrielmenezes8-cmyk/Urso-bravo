@@ -1,0 +1,54 @@
+{
+  "run_on": "2026-11-23",
+  "mission": "Massive CFO batch",
+  "base_head": "15f5b8ff38c59ac56905167c17e542f6e6fe3cf6",
+  "new_prepared_devices": 146,
+  "batches": {
+    "L9099": 81,
+    "L9605": 65
+  },
+  "prepared_devices_total": 389,
+  "textual_states_total": 393,
+  "cfo_identified_explicit_scope": 2130,
+  "cfo_prepared_percent": 18.2629,
+  "formal_notice_certification_percent": 0,
+  "new_full_veto_slots_separated": 8,
+  "source_comparison": "Official Camara original publication and current compilation, whitespace normalization only",
+  "tests": [
+    {
+      "name": "original_law_batches_local.mjs",
+      "result": "PASS",
+      "checks": "146 complete bodies match original AND compiled archives;146 SHA256;8 vetoes excluded; art85 remains pending; exact retry;146 resolver results; both pre-vacatio imports rejected"
+    },
+    {
+      "name": "deterministic regeneration",
+      "result": "PASS",
+      "checks": "Both bundles and all normalized source archives byte-identical on second generation"
+    },
+    {
+      "name": "cfo_thematic_map_local.mjs",
+      "result": "PASS",
+      "checks": "163 topics;1129 candidate devices;2029 links; no duplicate item/device; hashes; no denominator/certification inflation"
+    },
+    {
+      "name": "p0_acervo_homologation_local.mjs",
+      "result": "PASS",
+      "checks": "393 states;2293 scope links; five migrations twice;3 SQL regressions; question/mock/tutor/reader temporal context; RLS, historical notes and legacy"
+    }
+  ],
+  "thematic_mapping": {
+    "topic_inventory": 163,
+    "candidate_devices": 1129,
+    "candidate_links": 2029,
+    "included_in_denominator": false,
+    "notice_source": "third-party mirror, official PDF HTTP503",
+    "exhaustive": false
+  },
+  "production_writes": false,
+  "merge": false,
+  "deploy": false,
+  "authenticated_browser_e2e": false,
+  "real_ai_call": false,
+  "operational_preview_updated": false,
+  "remaining_effective_date_reviews": 12
+}

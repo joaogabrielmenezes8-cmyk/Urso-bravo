@@ -1,0 +1,131 @@
+{
+  "document_code": "CF88",
+  "reviewed_on": "2026-11-23",
+  "source_url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988/arquivos/ConstituicaoTextoAtualizado_EC%20141.html",
+  "source_extract": "cf88-legislativo-original-20261123.txt",
+  "notice_certification": false,
+  "versions": [
+    {
+      "id": "716cb904-777e-53cb-abfe-72bacc6667d3",
+      "provision_id": "aa93ed4f-4687-4d61-af7a-ac23ef9d6d77",
+      "valid_from": "1988-10-05",
+      "valid_until": null,
+      "heading": null,
+      "body": "O Poder Legislativo é exercido pelo Congresso Nacional, que se compõe da Câmara dos Deputados e do Senado Federal.\n\nParágrafo único. Cada legislatura terá a duração de quatro anos.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988/arquivos/ConstituicaoTextoAtualizado_EC%20141.html",
+      "source_sha256": "34f25cf1e5ef475d0f84d96997046edef8b7d0668db6c6cc7169704b6bb14cec",
+      "review_evidence": "Compilação oficial Câmara EC141/2026, artigos originais sem anotação de emenda; início constitucional 05/10/1988. Preparação literal, sem certificação por edital ou jurisprudencial."
+    },
+    {
+      "id": "407da415-f350-50d9-93e8-057bfbf8aca7",
+      "provision_id": "67fe7451-7663-4bfb-8b88-057b18f5e33c",
+      "valid_from": "1988-10-05",
+      "valid_until": null,
+      "heading": null,
+      "body": "A Câmara dos Deputados compõe-se de representantes do povo, eleitos, pelo sistema proporcional, em cada Estado, em cada Território e no Distrito Federal.\n§ 1º O número total de Deputados, bem como a representação por Estado e pelo Distrito Federal, será estabelecido por lei complementar, proporcionalmente à população, procedendo-se aos ajustes necessários, no ano anterior às eleições, para que nenhuma daquelas unidades da Federação tenha menos de oito ou mais de setenta Deputados.\n\n§ 2º Cada Território elegerá quatro Deputados.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988/arquivos/ConstituicaoTextoAtualizado_EC%20141.html",
+      "source_sha256": "0c12bb2066428123154233fdd7ce1e5f2cf1be40188de882ebad06ca17eabf6e",
+      "review_evidence": "Compilação oficial Câmara EC141/2026, artigos originais sem anotação de emenda; início constitucional 05/10/1988. Preparação literal, sem certificação por edital ou jurisprudencial."
+    },
+    {
+      "id": "78efb787-2976-5de5-bb2b-71a8afc6fb94",
+      "provision_id": "eaa98fce-fe02-4eda-b87e-ded6c51a4be0",
+      "valid_from": "1988-10-05",
+      "valid_until": null,
+      "heading": null,
+      "body": "O Senado Federal compõe-se de representantes dos Estados e do Distrito Federal, eleitos segundo o princípio majoritário.\n§ 1º Cada Estado e o Distrito Federal elegerão três Senadores, com mandato de oito anos.\n\n§ 2º A representação de cada Estado e do Distrito Federal será renovada de quatro em quatro anos, alternadamente, por um e dois terços.\n\n§ 3º Cada Senador será eleito com dois suplentes.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988/arquivos/ConstituicaoTextoAtualizado_EC%20141.html",
+      "source_sha256": "f7f0d326baee2bf483f86ee579bc5944f4e5c306cbae6504a9d91419605bb22a",
+      "review_evidence": "Compilação oficial Câmara EC141/2026, artigos originais sem anotação de emenda; início constitucional 05/10/1988. Preparação literal, sem certificação por edital ou jurisprudencial."
+    },
+    {
+      "id": "6421c1a6-13a5-5e79-9589-89ebcf213317",
+      "provision_id": "c1d2fdc5-3fab-418f-bf4d-7ce816608ab6",
+      "valid_from": "1988-10-05",
+      "valid_until": null,
+      "heading": null,
+      "body": "Salvo disposição constitucional em contrário, as deliberações de cada Casa e de suas comissões serão tomadas por maioria dos votos, presente a maioria absoluta de seus membros.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988/arquivos/ConstituicaoTextoAtualizado_EC%20141.html",
+      "source_sha256": "f674ce8980b71ab2310a9319e8ecbf1d0bdf6cbb2260baea7dc1dcb1e2515a28",
+      "review_evidence": "Compilação oficial Câmara EC141/2026, artigos originais sem anotação de emenda; início constitucional 05/10/1988. Preparação literal, sem certificação por edital ou jurisprudencial."
+    },
+    {
+      "id": "8e104204-6763-5343-9d71-02318bd13373",
+      "provision_id": "6ebb6d28-9da9-4893-a917-8ee2f8b5e4e0",
+      "valid_from": "1988-10-05",
+      "valid_until": null,
+      "heading": null,
+      "body": "Os Deputados e Senadores não poderão:\n\nI - desde a expedição do diploma:\na) firmar ou manter contrato com pessoa jurídica de direito público, autarquia, empresa pública, sociedade de economia mista ou empresa concessionária de serviço público, salvo quando o contrato obedecer a cláusulas uniformes;\n\nb) aceitar ou exercer cargo, função ou emprego remunerado, inclusive os de que sejam demissíveis ad nutum, nas entidades constantes da alínea anterior;\n\nII - desde a posse:\na) ser proprietários, controladores ou diretores de empresa que goze de favor decorrente de contrato com pessoa jurídica de direito público, ou nela exercer função remunerada;\n\nb) ocupar cargo ou função de que sejam demissíveis ad nutum, nas entidades referidas no inciso I, a;\n\nc) patrocinar causa em que seja interessada qualquer das entidades a que se refere o inciso I, a;\n\nd) ser titulares de mais de um cargo ou mandato público eletivo.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988/arquivos/ConstituicaoTextoAtualizado_EC%20141.html",
+      "source_sha256": "06a5886d11aec31b5b06f9acaa35a69997a4b5c27b8e2e9f6b35208604f9025b",
+      "review_evidence": "Compilação oficial Câmara EC141/2026, artigos originais sem anotação de emenda; início constitucional 05/10/1988. Preparação literal, sem certificação por edital ou jurisprudencial."
+    },
+    {
+      "id": "3f079929-aa88-5ba2-aa71-563d343d3ce3",
+      "provision_id": "4a62b207-8ae0-4af4-a72e-f94b294f5454",
+      "valid_from": "1988-10-05",
+      "valid_until": null,
+      "heading": null,
+      "body": "Não perderá o mandato o Deputado ou Senador:\nI - investido no cargo de Ministro de Estado, Governador de Território, Secretário de Estado, do Distrito Federal, de Território, de Prefeitura de capital ou chefe de missão diplomática temporária;\n\nII - licenciado pela respectiva Casa por motivo de doença, ou para tratar, sem remuneração, de interesse particular, desde que, neste caso, o afastamento não ultrapasse cento e vinte dias por sessão legislativa.\n§ 1º O suplente será convocado nos casos de vaga, de investidura em funções previstas neste artigo ou de licença superior a cento e vinte dias.\n\n§ 2º Ocorrendo vaga e não havendo suplente, far-se-á eleição para preenchê-la se faltarem mais de quinze meses para o término do mandato.\n\n§ 3º Na hipótese do inciso I, o Deputado ou Senador poderá optar pela remuneração do mandato.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988/arquivos/ConstituicaoTextoAtualizado_EC%20141.html",
+      "source_sha256": "ff5c2691a401c5f6e76dbe886d6442f2f065f4537e12c01e80455b4cec0f82bd",
+      "review_evidence": "Compilação oficial Câmara EC141/2026, artigos originais sem anotação de emenda; início constitucional 05/10/1988. Preparação literal, sem certificação por edital ou jurisprudencial."
+    }
+  ],
+  "scope_preparation": [
+    {
+      "article": 44,
+      "provision_key": "art-00044",
+      "provision_id": "aa93ed4f-4687-4d61-af7a-ac23ef9d6d77",
+      "version_id": "716cb904-777e-53cb-abfe-72bacc6667d3",
+      "source_sha256": "34f25cf1e5ef475d0f84d96997046edef8b7d0668db6c6cc7169704b6bb14cec",
+      "status": "prepared_official_literal_original"
+    },
+    {
+      "article": 45,
+      "provision_key": "art-00045",
+      "provision_id": "67fe7451-7663-4bfb-8b88-057b18f5e33c",
+      "version_id": "407da415-f350-50d9-93e8-057bfbf8aca7",
+      "source_sha256": "0c12bb2066428123154233fdd7ce1e5f2cf1be40188de882ebad06ca17eabf6e",
+      "status": "prepared_official_literal_original"
+    },
+    {
+      "article": 46,
+      "provision_key": "art-00046",
+      "provision_id": "eaa98fce-fe02-4eda-b87e-ded6c51a4be0",
+      "version_id": "78efb787-2976-5de5-bb2b-71a8afc6fb94",
+      "source_sha256": "f7f0d326baee2bf483f86ee579bc5944f4e5c306cbae6504a9d91419605bb22a",
+      "status": "prepared_official_literal_original"
+    },
+    {
+      "article": 47,
+      "provision_key": "art-00047",
+      "provision_id": "c1d2fdc5-3fab-418f-bf4d-7ce816608ab6",
+      "version_id": "6421c1a6-13a5-5e79-9589-89ebcf213317",
+      "source_sha256": "f674ce8980b71ab2310a9319e8ecbf1d0bdf6cbb2260baea7dc1dcb1e2515a28",
+      "status": "prepared_official_literal_original"
+    },
+    {
+      "article": 54,
+      "provision_key": "art-00054",
+      "provision_id": "6ebb6d28-9da9-4893-a917-8ee2f8b5e4e0",
+      "version_id": "8e104204-6763-5343-9d71-02318bd13373",
+      "source_sha256": "06a5886d11aec31b5b06f9acaa35a69997a4b5c27b8e2e9f6b35208604f9025b",
+      "status": "prepared_official_literal_original"
+    },
+    {
+      "article": 56,
+      "provision_key": "art-00056",
+      "provision_id": "4a62b207-8ae0-4af4-a72e-f94b294f5454",
+      "version_id": "3f079929-aa88-5ba2-aa71-563d343d3ce3",
+      "source_sha256": "ff5c2691a401c5f6e76dbe886d6442f2f065f4537e12c01e80455b4cec0f82bd",
+      "status": "prepared_official_literal_original"
+    }
+  ]
+}

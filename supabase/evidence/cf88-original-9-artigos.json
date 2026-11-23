@@ -1,0 +1,230 @@
+{
+  "document_code": "CF88",
+  "reviewed_on": "2026-11-22",
+  "source_url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988/arquivos/ConstituicaoTextoAtualizado_EC%20141.html",
+  "publication_metadata_url": "https://www2.senado.leg.br/bdsf/handle/id/645769",
+  "source_extract": "cf88-original-9-artigos.txt",
+  "source_artifact_format": "UTF-8 LF, Art. N. newline corpo newline; artigos separados por uma linha vazia",
+  "versions": [
+    {
+      "id": "42ea3d48-0812-5643-a906-f53157e5df2f",
+      "provision_id": "85efa183-a542-4f36-931a-0df0824e1f46",
+      "valid_from": "1988-10-05",
+      "valid_until": null,
+      "heading": null,
+      "body": "A República Federativa do Brasil, formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal, constitui-se em Estado democrático de direito e tem como fundamentos:\n\nI - a soberania;\n\nII - a cidadania;\n\nIII - a dignidade da pessoa humana;\n\nIV - os valores sociais do trabalho e da livre iniciativa;\n\nV - o pluralismo político.\nParágrafo único. Todo o poder emana do povo, que o exerce por meio de representantes eleitos ou diretamente, nos termos desta Constituição.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988/arquivos/ConstituicaoTextoAtualizado_EC%20141.html",
+      "source_sha256": "a2b668aed4cfa442835ecd596b1994a551d9c2646311f2c266da70feaf118be0",
+      "review_evidence": "Texto literal da compilação oficial da Câmara até EC141/2026, sem indicação de emenda no artigo original; conferência de 22/11/2026. Data constitucional original 05/10/1988 confirmada na edição administrativa do Senado EC132/2023, expediente. Não é selo de edital, nem certificação de interpretação jurisprudencial ou de todas as normas constitucionais correlatas."
+    },
+    {
+      "id": "2b6dc823-7c07-5c24-bd77-40de73167006",
+      "provision_id": "c86bf6f8-2ae5-445a-ad92-2a053ce275b9",
+      "valid_from": "1988-10-05",
+      "valid_until": null,
+      "heading": null,
+      "body": "São Poderes da União, independentes e harmônicos entre si, o Legislativo, o Executivo e o Judiciário.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988/arquivos/ConstituicaoTextoAtualizado_EC%20141.html",
+      "source_sha256": "c03eaf1052dc992c36b9945782898ebbb0802a17b2775bdbc1f94f1bcd96f868",
+      "review_evidence": "Texto literal da compilação oficial da Câmara até EC141/2026, sem indicação de emenda no artigo original; conferência de 22/11/2026. Data constitucional original 05/10/1988 confirmada na edição administrativa do Senado EC132/2023, expediente. Não é selo de edital, nem certificação de interpretação jurisprudencial ou de todas as normas constitucionais correlatas."
+    },
+    {
+      "id": "f4ff0f05-d0bf-5718-83c4-2bfb8e6c5a62",
+      "provision_id": "a3bc7a7b-bdd6-439e-8e7a-7965cf40e2f7",
+      "valid_from": "1988-10-05",
+      "valid_until": null,
+      "heading": null,
+      "body": "Constituem objetivos fundamentais da República Federativa do Brasil:\n\nI - construir uma sociedade livre, justa e solidária;\n\nII - garantir o desenvolvimento nacional;\nIII - erradicar a pobreza e a marginalização e reduzir as desigualdades sociais e regionais;\n\nIV - promover o bem de todos, sem preconceitos de origem, raça, sexo, cor, idade e quaisquer outras formas de discriminação.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988/arquivos/ConstituicaoTextoAtualizado_EC%20141.html",
+      "source_sha256": "fbcb0eb5e59314e00bb6790d7a093b698886498b270551589da49732514bacde",
+      "review_evidence": "Texto literal da compilação oficial da Câmara até EC141/2026, sem indicação de emenda no artigo original; conferência de 22/11/2026. Data constitucional original 05/10/1988 confirmada na edição administrativa do Senado EC132/2023, expediente. Não é selo de edital, nem certificação de interpretação jurisprudencial ou de todas as normas constitucionais correlatas."
+    },
+    {
+      "id": "60b48606-f1e0-5d60-b95f-327e4711f578",
+      "provision_id": "c070639a-b618-4296-9a45-ac2d6dc20213",
+      "valid_from": "1988-10-05",
+      "valid_until": null,
+      "heading": null,
+      "body": "A República Federativa do Brasil rege-se nas suas relações internacionais pelos seguintes princípios:\n\nI - independência nacional;\n\nII - prevalência dos direitos humanos;\n\nIII - autodeterminação dos povos;\n\nIV - não-intervenção;\n\nV - igualdade entre os Estados;\n\nVI - defesa da paz;\nVII - solução pacífica dos conflitos;\n\nVIII - repúdio ao terrorismo e ao racismo;\n\nIX - cooperação entre os povos para o progresso da humanidade;\n\nX - concessão de asilo político.\n\nParágrafo único. A República Federativa do Brasil buscará a integração econômica, política, social e cultural dos povos da América Latina, visando à formação de uma comunidade latino-americana de nações.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988/arquivos/ConstituicaoTextoAtualizado_EC%20141.html",
+      "source_sha256": "b9d2a7e64278690b7c95fd4f28637be30b85772b2d028e23a0af797668738424",
+      "review_evidence": "Texto literal da compilação oficial da Câmara até EC141/2026, sem indicação de emenda no artigo original; conferência de 22/11/2026. Data constitucional original 05/10/1988 confirmada na edição administrativa do Senado EC132/2023, expediente. Não é selo de edital, nem certificação de interpretação jurisprudencial ou de todas as normas constitucionais correlatas."
+    },
+    {
+      "id": "143ecaac-1d2e-5cc2-8d31-6560e97fa8ee",
+      "provision_id": "2f5cbecf-1909-459c-904f-51c48034eb73",
+      "valid_from": "1988-10-05",
+      "valid_until": null,
+      "heading": null,
+      "body": "A língua portuguesa é o idioma oficial da República Federativa do Brasil.\n\n§ 1º São símbolos da República Federativa do Brasil a bandeira, o hino, as armas e o selo nacionais.\n§ 2º Os Estados, o Distrito Federal e os Municípios poderão ter símbolos próprios.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988/arquivos/ConstituicaoTextoAtualizado_EC%20141.html",
+      "source_sha256": "ccb27b70f21a1ecf5a2c2da6e554021e194fd5b1117cb772eeb705e3b8912091",
+      "review_evidence": "Texto literal da compilação oficial da Câmara até EC141/2026, sem indicação de emenda no artigo original; conferência de 22/11/2026. Data constitucional original 05/10/1988 confirmada na edição administrativa do Senado EC132/2023, expediente. Não é selo de edital, nem certificação de interpretação jurisprudencial ou de todas as normas constitucionais correlatas."
+    },
+    {
+      "id": "7cbaa476-c7bc-5b6d-8f16-4f311365d819",
+      "provision_id": "3b141863-ee9b-42ba-ae27-567f67315c00",
+      "valid_from": "1988-10-05",
+      "valid_until": null,
+      "heading": null,
+      "body": "É vedada a cassação de direitos políticos, cuja perda ou suspensão só se dará nos casos de:\n\nI - cancelamento da naturalização por sentença transitada em julgado;\n\nII - incapacidade civil absoluta;\nIII - condenação criminal transitada em julgado, enquanto durarem seus efeitos;\n\nIV - recusa de cumprir obrigação a todos imposta ou prestação alternativa, nos termos do art. 5º, VIII;\n\nV - improbidade administrativa, nos termos do art. 37, § 4º.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988/arquivos/ConstituicaoTextoAtualizado_EC%20141.html",
+      "source_sha256": "6743b6d6a663bc85cbda675ebb7c9355cbf12ad8ef692ce6c119112647db577c",
+      "review_evidence": "Texto literal da compilação oficial da Câmara até EC141/2026, sem indicação de emenda no artigo original; conferência de 22/11/2026. Data constitucional original 05/10/1988 confirmada na edição administrativa do Senado EC132/2023, expediente. Não é selo de edital, nem certificação de interpretação jurisprudencial ou de todas as normas constitucionais correlatas."
+    },
+    {
+      "id": "56c77b48-2eb4-5bca-a273-8f1176e822e2",
+      "provision_id": "a43c23af-1756-469d-a127-f9ff2a63590f",
+      "valid_from": "1988-10-05",
+      "valid_until": null,
+      "heading": null,
+      "body": "São órgãos da Justiça Militar:\n\nI - o Superior Tribunal Militar;\n\nII - os Tribunais e juízes militares instituídos por lei.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988/arquivos/ConstituicaoTextoAtualizado_EC%20141.html",
+      "source_sha256": "66c846cbd829ea92776ef5e811314bd02153fcc08b7ea060aa90c1ffa425eaca",
+      "review_evidence": "Texto literal da compilação oficial da Câmara até EC141/2026, sem indicação de emenda no artigo original; conferência de 22/11/2026. Data constitucional original 05/10/1988 confirmada na edição administrativa do Senado EC132/2023, expediente. Não é selo de edital, nem certificação de interpretação jurisprudencial ou de todas as normas constitucionais correlatas."
+    },
+    {
+      "id": "d698c2dd-7cc0-59f2-a2cc-e5e54af3a421",
+      "provision_id": "4d6d1721-675e-44e3-b2e8-b0460d83c115",
+      "valid_from": "1988-10-05",
+      "valid_until": null,
+      "heading": null,
+      "body": "À Justiça Militar compete processar e julgar os crimes militares definidos em lei.\n\nParágrafo único. A lei disporá sobre a organização, o funcionamento e a competência da Justiça Militar.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988/arquivos/ConstituicaoTextoAtualizado_EC%20141.html",
+      "source_sha256": "ff530f05fb75eeffb34cfab2d2afaede0db57fd8db506bf34836d2a5104d9744",
+      "review_evidence": "Texto literal da compilação oficial da Câmara até EC141/2026, sem indicação de emenda no artigo original; conferência de 22/11/2026. Data constitucional original 05/10/1988 confirmada na edição administrativa do Senado EC132/2023, expediente. Não é selo de edital, nem certificação de interpretação jurisprudencial ou de todas as normas constitucionais correlatas."
+    },
+    {
+      "id": "0e10d56b-e336-5b52-91b2-dfd6dbfdbd12",
+      "provision_id": "4c223f9c-d955-4103-aad7-6851db237112",
+      "valid_from": "1988-10-05",
+      "valid_until": null,
+      "heading": null,
+      "body": "O serviço militar é obrigatório nos termos da lei.\n\n§ 1º Às Forças Armadas compete, na forma da lei, atribuir serviço alternativo aos que, em tempo de paz, após alistados, alegarem imperativo de consciência, entendendo-se como tal o decorrente de crença religiosa e de convicção filosófica ou política, para se eximirem de atividades de caráter essencialmente militar.\n§ 2º As mulheres e os eclesiásticos ficam isentos do serviço militar obrigatório em tempo de paz, sujeitos, porém, a outros encargos que a lei lhes atribuir.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988/arquivos/ConstituicaoTextoAtualizado_EC%20141.html",
+      "source_sha256": "2b06e9d14e9137bc4f44e3b3926ab8001d66ddea87b872a2a6f059be284af879",
+      "review_evidence": "Texto literal da compilação oficial da Câmara até EC141/2026, sem indicação de emenda no artigo original; conferência de 22/11/2026. Data constitucional original 05/10/1988 confirmada na edição administrativa do Senado EC132/2023, expediente. Não é selo de edital, nem certificação de interpretação jurisprudencial ou de todas as normas constitucionais correlatas."
+    }
+  ],
+  "scope_preparation": [
+    {
+      "article": 1,
+      "provision_id": "85efa183-a542-4f36-931a-0df0824e1f46",
+      "version_id": "42ea3d48-0812-5643-a906-f53157e5df2f",
+      "source_sha256": "a2b668aed4cfa442835ecd596b1994a551d9c2646311f2c266da70feaf118be0",
+      "source_lines": [
+        11,
+        22
+      ],
+      "status": "prepared_official_literal_original"
+    },
+    {
+      "article": 2,
+      "provision_id": "c86bf6f8-2ae5-445a-ad92-2a053ce275b9",
+      "version_id": "2b6dc823-7c07-5c24-bd77-40de73167006",
+      "source_sha256": "c03eaf1052dc992c36b9945782898ebbb0802a17b2775bdbc1f94f1bcd96f868",
+      "source_lines": [
+        24,
+        24
+      ],
+      "status": "prepared_official_literal_original"
+    },
+    {
+      "article": 3,
+      "provision_id": "a3bc7a7b-bdd6-439e-8e7a-7965cf40e2f7",
+      "version_id": "f4ff0f05-d0bf-5718-83c4-2bfb8e6c5a62",
+      "source_sha256": "fbcb0eb5e59314e00bb6790d7a093b698886498b270551589da49732514bacde",
+      "source_lines": [
+        26,
+        33
+      ],
+      "status": "prepared_official_literal_original"
+    },
+    {
+      "article": 4,
+      "provision_id": "c070639a-b618-4296-9a45-ac2d6dc20213",
+      "version_id": "60b48606-f1e0-5d60-b95f-327e4711f578",
+      "source_sha256": "b9d2a7e64278690b7c95fd4f28637be30b85772b2d028e23a0af797668738424",
+      "source_lines": [
+        35,
+        56
+      ],
+      "status": "prepared_official_literal_original"
+    },
+    {
+      "article": 13,
+      "provision_id": "2f5cbecf-1909-459c-904f-51c48034eb73",
+      "version_id": "143ecaac-1d2e-5cc2-8d31-6560e97fa8ee",
+      "source_sha256": "ccb27b70f21a1ecf5a2c2da6e554021e194fd5b1117cb772eeb705e3b8912091",
+      "source_lines": [
+        388,
+        391
+      ],
+      "status": "prepared_official_literal_original"
+    },
+    {
+      "article": 15,
+      "provision_id": "3b141863-ee9b-42ba-ae27-567f67315c00",
+      "version_id": "7cbaa476-c7bc-5b6d-8f16-4f311365d819",
+      "source_sha256": "6743b6d6a663bc85cbda675ebb7c9355cbf12ad8ef692ce6c119112647db577c",
+      "source_lines": [
+        454,
+        463
+      ],
+      "status": "prepared_official_literal_original"
+    },
+    {
+      "article": 122,
+      "provision_id": "a43c23af-1756-469d-a127-f9ff2a63590f",
+      "version_id": "56c77b48-2eb4-5bca-a273-8f1176e822e2",
+      "source_sha256": "66c846cbd829ea92776ef5e811314bd02153fcc08b7ea060aa90c1ffa425eaca",
+      "source_lines": [
+        2366,
+        2370
+      ],
+      "status": "prepared_official_literal_original"
+    },
+    {
+      "article": 124,
+      "provision_id": "4d6d1721-675e-44e3-b2e8-b0460d83c115",
+      "version_id": "d698c2dd-7cc0-59f2-a2cc-e5e54af3a421",
+      "source_sha256": "ff530f05fb75eeffb34cfab2d2afaede0db57fd8db506bf34836d2a5104d9744",
+      "source_lines": [
+        2377,
+        2379
+      ],
+      "status": "prepared_official_literal_original"
+    },
+    {
+      "article": 143,
+      "provision_id": "4c223f9c-d955-4103-aad7-6851db237112",
+      "version_id": "0e10d56b-e336-5b52-91b2-dfd6dbfdbd12",
+      "source_sha256": "2b06e9d14e9137bc4f44e3b3926ab8001d66ddea87b872a2a6f059be284af879",
+      "source_lines": [
+        2634,
+        2637
+      ],
+      "status": "prepared_official_literal_original"
+    }
+  ],
+  "notice_certification": false,
+  "remaining_cfsd_articles_pending": [],
+  "complementary_bundles": [
+    "cf88-emendas-9-artigos.json",
+    "cf88-artigo-37-versoes.json",
+    "cf88-sem-clausula-2-artigos.json"
+  ],
+  "effective_date_review_required_articles": [
+    16,
+    142
+  ]
+}

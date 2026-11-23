@@ -1,0 +1,84 @@
+{
+  "provision_id": "dcf44fec-11ed-4f90-b747-391f01889c03",
+  "document_code": "CADH",
+  "provision_key": "art-00031",
+  "reviewed_on": "2026-11-23",
+  "classification": "confirmed_official_documentary_cross_reference_conflict",
+  "variants": [
+    {
+      "documentary_variant_id": "brazilian_promulgation_print",
+      "body": "Poderão ser incluídos no regime de proteção desta Convenção outros direitos e liberdades que forem reconhecidos de acordo com os processos estabelecidos nos artigos 69 e 70.",
+      "body_sha256": "e45120989057e188bf3ccf588380dc3b8ea6a2b5320e5d8730b861ee8bce64a1",
+      "legal_version_id": null,
+      "chronological_amendment_claim": false
+    },
+    {
+      "documentary_variant_id": "oea_international_text",
+      "body": "Poderão ser incluídos no regime de proteção desta Convenção outros direitos e liberdades que forem reconhecidos de acordo com os processos estabelecidos nos artigos 76 e 77.",
+      "body_sha256": "c31cea2063dbe8edf968d16f7beaedc5df1886b4795cd8a66579acba3d15e7a2",
+      "legal_version_id": null,
+      "chronological_amendment_claim": false
+    }
+  ],
+  "brazilian_print_evidence": {
+    "url": "https://aplicacao.itamaraty.gov.br/ApiConcordia/Documento/download/12030",
+    "retrieved_on": "2026-11-23",
+    "raw_sha256": "407aae1e4e196ee8daf6c5b329f5a594134011031d69f29b523d2df07db59f38",
+    "raw_bytes": 1011340,
+    "confidence": "official_government_facsimile",
+    "document_on": "1992-11-06",
+    "official_publication_on": "1992-11-09",
+    "locator": {
+      "pdf_page": 3,
+      "printed_page": 15564,
+      "column": "right",
+      "article": 31
+    },
+    "visual_review_confirmed_reference": "69 e 70",
+    "repository_artifact_path": "cfsd-20261123/d678-dou.pdf",
+    "facsimile_caption_is_not_rectification": "A legenda Original com Defeito não é tratada como ato retificador do art31.",
+    "visual_transcript": {
+      "path": "cfsd-20261123/cadh31-dou-transcricao.txt",
+      "sha256": "41980fc1a0ecd739d970de4ce2177f8e05ae3b673b1103968d9cc542dcd6cbf0"
+    }
+  },
+  "corroborating_sources": [
+    {
+      "url": "https://www2.camara.leg.br/legin/fed/decret/1992/decreto-678-6-novembro-1992-449028-publicacaooriginal-1-pe.html",
+      "retrieved_on": "2026-11-23",
+      "raw_sha256": "2e8721d3e077ae6bc6f9a8d407b9bb63d88726883fbff8a9d534e7b9907cddc8",
+      "raw_bytes": 117426,
+      "confidence": "official_legislative_html_corrobates_print",
+      "document_on": null,
+      "official_publication_on": null
+    },
+    {
+      "url": "https://legis.senado.leg.br/norma/388856/publicacao/15635063",
+      "retrieved_on": "2026-11-23",
+      "raw_sha256": "0eb83e0aa92ba97013bb5f8bc4de00d452606b4b10521fa56815a1822f544453",
+      "raw_bytes": 211537,
+      "confidence": "official_legislative_html_corrobates_print",
+      "document_on": null,
+      "official_publication_on": null
+    }
+  ],
+  "oea_evidence": {
+    "url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+    "archive": "cadh-artigos-1-82-oea.txt",
+    "archive_sha256": "bedbe096f3a6c9e8ea1c5781c55536b736d860dacd1a36932219d6618f21b947",
+    "archive_retrieved_on": "2026-11-20",
+    "live_retrieval_on_20261123": "403 at PDF and legacy HTML endpoints; search index corroborates76/77; no new full capture claimed"
+  },
+  "determinations": {
+    "not_only_ocr_error": true,
+    "not_only_internal_catalog_transcription": true,
+    "difference_is_numeric_cross_reference": true,
+    "translation_origin_proven": false,
+    "historical_amendment_proven": false,
+    "official_correction_of_brazilian_print_located": false,
+    "single_applicable_reading_selected": false
+  },
+  "reason_still_pending": "O fac-símile oficial brasileiro contém69/70 e a leitura OEA arquivada contém76/77. Não foi localizada retificação oficial nem evidência suficiente para atribuir origem tradutória ou cronologia de alteração. Não converter variantes documentais em versões temporais sobrepostas, nem corrigir silenciosamente o ato de incorporação.",
+  "certified_for_notice": false,
+  "prepared_version_id": null
+}

@@ -1,0 +1,2944 @@
+{
+  "notice_code": "CFSD_2025",
+  "reviewed_on": "2026-11-23",
+  "coverage_sha256": "9a4acba9d15a18acae3fe8bac5d61b8ce706729dd7590ecbc733c2dc43978444",
+  "devices": [
+    {
+      "document_code": "CF88",
+      "provision_key": "art-00001",
+      "provision_id": "85efa183-a542-4f36-931a-0df0824e1f46",
+      "version_id": "42ea3d48-0812-5643-a906-f53157e5df2f",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988/arquivos/ConstituicaoTextoAtualizado_EC%20141.html",
+      "source_extract_sha256": "a2b668aed4cfa442835ecd596b1994a551d9c2646311f2c266da70feaf118be0",
+      "body_sha256": "bdbc17bcbc4d6aa02fa2557020c5d1858b0ddf6d477c2250d9d5c0d651c91c71",
+      "valid_from": "1988-10-05",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CF88",
+      "provision_key": "art-00002",
+      "provision_id": "c86bf6f8-2ae5-445a-ad92-2a053ce275b9",
+      "version_id": "2b6dc823-7c07-5c24-bd77-40de73167006",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988/arquivos/ConstituicaoTextoAtualizado_EC%20141.html",
+      "source_extract_sha256": "c03eaf1052dc992c36b9945782898ebbb0802a17b2775bdbc1f94f1bcd96f868",
+      "body_sha256": "4e488a3d9c28fd042ace640ebc564be86db74065515d167dc1bfc2d697593de3",
+      "valid_from": "1988-10-05",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CF88",
+      "provision_key": "art-00003",
+      "provision_id": "a3bc7a7b-bdd6-439e-8e7a-7965cf40e2f7",
+      "version_id": "f4ff0f05-d0bf-5718-83c4-2bfb8e6c5a62",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988/arquivos/ConstituicaoTextoAtualizado_EC%20141.html",
+      "source_extract_sha256": "fbcb0eb5e59314e00bb6790d7a093b698886498b270551589da49732514bacde",
+      "body_sha256": "8f1a2d8ad822575760e3faa9100af77a5db6a393d8f7219fa425e9a8e45c3165",
+      "valid_from": "1988-10-05",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CF88",
+      "provision_key": "art-00004",
+      "provision_id": "c070639a-b618-4296-9a45-ac2d6dc20213",
+      "version_id": "60b48606-f1e0-5d60-b95f-327e4711f578",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988/arquivos/ConstituicaoTextoAtualizado_EC%20141.html",
+      "source_extract_sha256": "b9d2a7e64278690b7c95fd4f28637be30b85772b2d028e23a0af797668738424",
+      "body_sha256": "6774b1788c24510833d366ccea1f9bc353b90170603f7b101bfce9d695127dc6",
+      "valid_from": "1988-10-05",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CF88",
+      "provision_key": "art-00005",
+      "provision_id": "6bf08f39-8d9b-43b0-a769-fa0bf7635cd4",
+      "version_id": "e4214cb3-5de0-590d-bf21-20ab5150a506",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988/arquivos/ConstituicaoTextoAtualizado_EC%20141.html",
+      "source_extract_sha256": "2718f834b0febaf16f106b4e750ca8fe5f63d51e5a30b5ba3601257fd25dc475",
+      "body_sha256": "d76bca1fe789261f787fd9ae702b923d5543990f8864067c8825147d9ef8cb19",
+      "valid_from": "2022-02-11",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CF88",
+      "provision_key": "art-00012",
+      "provision_id": "b7a70559-e3d7-4783-840f-aa4d1097f961",
+      "version_id": "e46f295d-7571-58af-b1c8-4f055740246f",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988/arquivos/ConstituicaoTextoAtualizado_EC%20141.html",
+      "source_extract_sha256": "b578035252568b2bd3847b2f5e2c0bc4281bd2e0e30e94466b17f163153155f8",
+      "body_sha256": "9d33ded30a98b3c53230056e5bc4698d1400740a5163b6a664f430c940d47990",
+      "valid_from": "2023-10-04",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CF88",
+      "provision_key": "art-00013",
+      "provision_id": "2f5cbecf-1909-459c-904f-51c48034eb73",
+      "version_id": "143ecaac-1d2e-5cc2-8d31-6560e97fa8ee",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988/arquivos/ConstituicaoTextoAtualizado_EC%20141.html",
+      "source_extract_sha256": "ccb27b70f21a1ecf5a2c2da6e554021e194fd5b1117cb772eeb705e3b8912091",
+      "body_sha256": "2d5c5cd07c6fe14e8eb2537227c6e7cdb9f16e8cfecb8e26a9a9a2187763e53d",
+      "valid_from": "1988-10-05",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CF88",
+      "provision_key": "art-00014",
+      "provision_id": "af8cc4e9-32bc-4df6-91d1-c823810bbf0f",
+      "version_id": "566d6c93-942e-58d8-a9b5-b3ccdd91beae",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988/arquivos/ConstituicaoTextoAtualizado_EC%20141.html",
+      "source_extract_sha256": "166e134f3212848d27612ff15ecba4841e2a5eb3d16bfe55158b42c30e55f5bf",
+      "body_sha256": "4b7a86ff9f2b337cca662e04f4b5d9be914b8d8aac3a5aa0a4c8913df0d6c699",
+      "valid_from": "2021-09-29",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CF88",
+      "provision_key": "art-00015",
+      "provision_id": "3b141863-ee9b-42ba-ae27-567f67315c00",
+      "version_id": "7cbaa476-c7bc-5b6d-8f16-4f311365d819",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988/arquivos/ConstituicaoTextoAtualizado_EC%20141.html",
+      "source_extract_sha256": "6743b6d6a663bc85cbda675ebb7c9355cbf12ad8ef692ce6c119112647db577c",
+      "body_sha256": "d234720576df031b0199d2ea51878c8e5ba2b3c4ddfdaf55c711d5c8c71d1fdb",
+      "valid_from": "1988-10-05",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CF88",
+      "provision_key": "art-00016",
+      "provision_id": "f8b16d40-4441-41dc-965f-b2c9cbda2c41",
+      "version_id": "fc454624-1807-535f-a085-0b05e5b6e957",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988/arquivos/ConstituicaoTextoAtualizado_EC%20141.html",
+      "source_extract_sha256": "2480f9c4ee2a2147ba61fe735f7ee40d18ce2f4a0cac69fa4b6e369a7706bb43",
+      "body_sha256": "91d0955bfc832dd3a6805ea08061a09787228f67eda147485e96641c469b0722",
+      "valid_from": "1993-09-14",
+      "valid_until": null,
+      "exact_start_requires_review": true,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CF88",
+      "provision_key": "art-00037",
+      "provision_id": "6675bf90-10e0-408d-abaf-012deb486fc4",
+      "version_id": "f9de1f7c-3e10-5d5c-8d07-f2e8babd718d",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www2.senado.leg.br/bdsf/bitstream/handle/id/645769/CF88_EC132_separata.pdf",
+      "source_extract_sha256": "2549d651dc0930dcb6818a7ebce8e2429ead38d04bd4d2563bb21fdfe0f97b4d",
+      "body_sha256": "73c266fb2be8514c88ff9cc1b4864c6bf6d2babf6b195339b73560e950bc3b8f",
+      "valid_from": "2021-03-16",
+      "valid_until": "2024-12-20",
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CF88",
+      "provision_key": "art-00038",
+      "provision_id": "23802386-0c3e-483a-9002-0c6a5b7e529c",
+      "version_id": "62bac481-47b2-5004-8c7d-687c2556f7c0",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988/arquivos/ConstituicaoTextoAtualizado_EC%20141.html",
+      "source_extract_sha256": "477bf0060121d74d4d0590d801dcae61f710e0932851a4389ce621b84928e33f",
+      "body_sha256": "2bfac3ddf62101b93e7a82633fdcc0c37cd8ec8768b3990afe9660748fe164fc",
+      "valid_from": "2019-11-13",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CF88",
+      "provision_key": "art-00042",
+      "provision_id": "9f2d7e84-72cf-4040-9fcf-57ffed4a5bf5",
+      "version_id": "a7dbca9c-8dd2-5e50-bc7f-5f6eff35e97b",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988/arquivos/ConstituicaoTextoAtualizado_EC%20141.html",
+      "source_extract_sha256": "8c3c059fb0eb305817472111396a8e12c7cd8584bbbc7fd3fc9c138fd1c9bbce",
+      "body_sha256": "a880947afcd8346d833e40182dac03b0954c9dc05f534d5dd75f26a28cb2ddc3",
+      "valid_from": "2019-07-04",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CF88",
+      "provision_key": "art-00122",
+      "provision_id": "a43c23af-1756-469d-a127-f9ff2a63590f",
+      "version_id": "56c77b48-2eb4-5bca-a273-8f1176e822e2",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988/arquivos/ConstituicaoTextoAtualizado_EC%20141.html",
+      "source_extract_sha256": "66c846cbd829ea92776ef5e811314bd02153fcc08b7ea060aa90c1ffa425eaca",
+      "body_sha256": "3be1f72d509d4d06bee07e3dcfc799a37dc4a7bd781fd6d9f7f178011d71a97c",
+      "valid_from": "1988-10-05",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CF88",
+      "provision_key": "art-00123",
+      "provision_id": "5c07df92-071d-4119-9f6a-13279fa5ea50",
+      "version_id": "0815cebb-807f-50fb-a481-6729d104b8e3",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988/arquivos/ConstituicaoTextoAtualizado_EC%20141.html",
+      "source_extract_sha256": "f193a17ba269e22353379c626c7d4fa37d69beb1b520216dd45a0faff7576717",
+      "body_sha256": "f1b0ad27cc173ac22a30d394054ca2c9c95b79e8a73b1ceb11308b44a9c64a1f",
+      "valid_from": "2022-05-18",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CF88",
+      "provision_key": "art-00124",
+      "provision_id": "4d6d1721-675e-44e3-b2e8-b0460d83c115",
+      "version_id": "d698c2dd-7cc0-59f2-a2cc-e5e54af3a421",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988/arquivos/ConstituicaoTextoAtualizado_EC%20141.html",
+      "source_extract_sha256": "ff530f05fb75eeffb34cfab2d2afaede0db57fd8db506bf34836d2a5104d9744",
+      "body_sha256": "34db6209944faefefabb19250f2b78d91ed9b472614a652cda149acb7db99bbb",
+      "valid_from": "1988-10-05",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CF88",
+      "provision_key": "art-00125",
+      "provision_id": "ce570d2b-6f4c-4756-9da8-1b20a1878d69",
+      "version_id": "05ae91db-45d7-5276-842f-815c4cfe2a88",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988/arquivos/ConstituicaoTextoAtualizado_EC%20141.html",
+      "source_extract_sha256": "0d1fba0f38d3a5ec615486c193b7d341a30c7f07c3272ef18a8497db0c23d98d",
+      "body_sha256": "97a13fe05837015d56be9d50f8a6af8568760fe16c89d04501e8a3a0f75dcf62",
+      "valid_from": "2004-12-31",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CF88",
+      "provision_key": "art-00126",
+      "provision_id": "6ee39758-ae86-4a20-ba0d-c7e7ab2929e9",
+      "version_id": "1b8c10a5-35ec-5f35-82d2-d5965eb86223",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988/arquivos/ConstituicaoTextoAtualizado_EC%20141.html",
+      "source_extract_sha256": "d3da830d79b85d133dd9f9a809b345b9bc4f55709b754db984cba11bd41b6ab1",
+      "body_sha256": "143b7e41a298d1cc9e57c84b697d7a383eb6768c439ee5dd2be633b15e177cc1",
+      "valid_from": "2004-12-31",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CF88",
+      "provision_key": "art-00142",
+      "provision_id": "531b503c-8cc1-4732-bf5a-f0aff8e20bcd",
+      "version_id": "07689820-2744-51eb-8a1c-d39c7bc51d81",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988/arquivos/ConstituicaoTextoAtualizado_EC%20141.html",
+      "source_extract_sha256": "c8b546881e555fb571c128197822d1487660d1d7fe7f5df05b22725291f0f021",
+      "body_sha256": "ffe35c1a39a9640e922930bda89d25af0df807f722c1fff9391f781e3ade527e",
+      "valid_from": "2014-02-11",
+      "valid_until": null,
+      "exact_start_requires_review": true,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CF88",
+      "provision_key": "art-00143",
+      "provision_id": "4c223f9c-d955-4103-aad7-6851db237112",
+      "version_id": "0e10d56b-e336-5b52-91b2-dfd6dbfdbd12",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988/arquivos/ConstituicaoTextoAtualizado_EC%20141.html",
+      "source_extract_sha256": "2b06e9d14e9137bc4f44e3b3926ab8001d66ddea87b872a2a6f059be284af879",
+      "body_sha256": "31b5ef1bc54e1598f884c60625c3d67199f8f43b50d878a63f151e88d7178703",
+      "valid_from": "1988-10-05",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CF88",
+      "provision_key": "art-00144",
+      "provision_id": "7569d241-2a7b-4d04-a71c-940afb09f5fe",
+      "version_id": "63e1f0c9-e8c3-588f-9af2-275e7fd7f3c3",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988/arquivos/ConstituicaoTextoAtualizado_EC%20141.html",
+      "source_extract_sha256": "c9ac90ceabe58ac47416d93d930a9b273ac02046483e28c0dde0d4d4393ec002",
+      "body_sha256": "1e6dd28af67041c7b169416c0513d4b34c188341ac9f069db87eff28e60fd7c2",
+      "valid_from": "2019-12-05",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00001",
+      "provision_id": "8ec24c69-b310-4a67-af51-226c3421a7b9",
+      "version_id": "55f575f1-87b9-5add-8e2d-d9d9f1b1b2e0",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "e927679cfb2aa41dcbdf78fa61a31113ed6d32a0d988255784f4e7c5fae3ad99",
+      "body_sha256": "f7d45164f562b318a28297afe4fc71c0959fa5bb112980fb78421e7259574603",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00002",
+      "provision_id": "ec429791-28b8-44bf-9553-3a964fa88378",
+      "version_id": "a9d17203-92ea-52e4-a75d-1bcbffe891a6",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "9c10317fdb68cea847702df69718f417d6e9b5882a731d8fb5a1aefb0983c0eb",
+      "body_sha256": "5e89948364f8eb1ac27251a4744eec9d6560187be05422bd4151fe04dc42202a",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00003",
+      "provision_id": "9501c337-a058-4547-9e21-61ed1567a3a4",
+      "version_id": "7ad026e3-a7bf-5656-b3f4-92f594427568",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "767e95bc2bd936121c527877df4e93a140c3dc33b0721e6065111cff69ac775a",
+      "body_sha256": "48d5d901725a57f9f2c6f6857867da4ebe0430d9eed9f510ec5ef42dfc4c9c96",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00004",
+      "provision_id": "1fd6ec8c-8db6-4c4b-b68a-72687c697561",
+      "version_id": "85fbc02c-0106-569a-96de-a4920b828efd",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "6080ed0086e3555d9d1b6417fb58bbe5d910c6c549bba5a6f622da195a6a4315",
+      "body_sha256": "3b188e449305611402cd35fb224b3a8f36bf0378b540276d1387941957224dcc",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00005",
+      "provision_id": "65c93d22-c9b0-499c-8a07-393642749237",
+      "version_id": "68d15f1f-513d-5812-b4e3-0aa038bbb1bb",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "1bc82818a1661104c52fd34788de749fc1d605735cc75219c9bee782cd9c08bf",
+      "body_sha256": "839247261cec6daa25c9e8194e088e49ba1844fc0d1b359202475810ddf2dbcd",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00006",
+      "provision_id": "4afc2ae2-5fed-401b-84e0-a61e7a0c3479",
+      "version_id": "47853529-87e8-507c-8740-42b7fa7e2926",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "1bb18236ccb188735c4cf9098aca138d744ef13ee703cabec30fa03250ca01f6",
+      "body_sha256": "6822250b41003c747a8c010511c851fdbb3790da4605b679b7a524e77223eb74",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00007",
+      "provision_id": "f211db12-4c30-4c6b-9d79-94788d6096b7",
+      "version_id": "78a85d5e-775e-5bfc-9da0-66b036ca1c1a",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "5468c6f666601f11dfaef9508d4d52cd5712456c8a73f9f2466e432d9f7542b5",
+      "body_sha256": "aa857a6b8eb38caf7ce7e4aa0cf7b8af6ba10c583d3640eb6a5cc5d0541f086c",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00008",
+      "provision_id": "717f4f7c-39ba-4943-b457-23c644e162d6",
+      "version_id": "5806f7ac-dbed-5d35-b2e2-12233f60ea40",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "2e2563979b38d3cca36994a67d3bc563cd50cc7c58391a0cbc7c5a61b1e198ea",
+      "body_sha256": "7132b5bbb6c07d08aee8d073197252089270026acb3d090f05a922d2e2607720",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00009",
+      "provision_id": "eaff01f3-e8d6-4898-9394-ee55e2997157",
+      "version_id": "f765c2b4-a65e-5fc2-8b84-536170330ea1",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "dbf1bbed8e501e7c58dabf690fefefda4d60b2fe87f65af2a560b7d613446c67",
+      "body_sha256": "7ca7a8df03b626a95ef509b4dcd2c4263b28ada2aeddd7774fe6a17229a92681",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00010",
+      "provision_id": "6c59c41f-488d-4cc9-a316-af7cb852c82d",
+      "version_id": "55cdc77a-a74e-5123-83cb-3a11f848a3bf",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "5f2a209f8ca77a9fcc9a7391f2fc63e5cb737b3d161c28e3f57aafff26d2a8dc",
+      "body_sha256": "d20a5436604b58972799e5b1a3b68996b5428d26c834fad6d812b8e3c94be2c6",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00011",
+      "provision_id": "1bb2a70a-a4dc-43fb-a2c9-66458a4fec85",
+      "version_id": "e9e08e9f-9d76-591e-96c6-20fe452facb5",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "c7ec738bcef0147ae7897c60d0769dcc17e8ab7def7303b62d55ac8e139239b7",
+      "body_sha256": "9e197306b76cd78fe39c0d597a4fd5574491cb4beed6c3ada3c4a93ca09720c2",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00012",
+      "provision_id": "5ff37b4a-6976-43dd-91a8-548bd946d078",
+      "version_id": "e801ebd2-052a-5e8d-b39b-51bd2215e533",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "21313844961c867a0fc45b4f10abb3e8cf398ac8ab56b24f64d9a5757cb808f8",
+      "body_sha256": "e7fded6e903a0af09dbdeeb514f92c2eef653a049f3e8ef12ef27d6c0b2b3d5f",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00013",
+      "provision_id": "fca0b2ad-8745-4e1a-b9c0-4670d65dc34c",
+      "version_id": "e6e20e59-69f1-5533-a076-e6b476a4e734",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "e306a2148b9673b501d708cca82a4529e8e3e074593de7cedc7b9ff9b60fcd21",
+      "body_sha256": "2e6741b042cf5218b9b0b0717cdc2fa4facbcd18b6e27c2985eb1a9811be8e1c",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00014",
+      "provision_id": "cbd27ebd-7ac8-4f7f-8974-a9e9cb4cf5fd",
+      "version_id": "1bac09bd-1457-5708-ae05-91cc2ab890fb",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "3dfec650937776f06203d2e27808aa1f9ad6a60c6ec21d17ef40456aa171857c",
+      "body_sha256": "c38e032ff6e9c9290c73e7a3dfab39cb76b019cc715fb344349c144202f0f76d",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00015",
+      "provision_id": "eb8aa788-eee9-4028-9dbb-6175280192ff",
+      "version_id": "02452a3c-c326-5d9b-a31a-94c8d462c340",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "65bd55a1293ba4eec3aad241523eb627903f24db64e5f24c4ed4233551537f18",
+      "body_sha256": "0376422d6bb1d8611dae39ee283b924899657ed2ab08c15faadd29f534fc3c91",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00016",
+      "provision_id": "7b95f575-b990-4249-b95d-9f0bfec421a1",
+      "version_id": "efdc9733-aea9-507d-b8e7-2e9c97f01cfd",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "9fc9f08227439ad977e69b5ad228deb616ed5c0d27cdd39b9033c6af962b67b3",
+      "body_sha256": "ab550665d00f20b7c70994880dd302ee27827bd31e91537be5de4f1f8de8ac68",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00017",
+      "provision_id": "1da281af-bcef-43e1-bc66-29b2455e3ee5",
+      "version_id": "35808e3a-a562-5776-8a27-118a175358e2",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "724840cff628ff074a36e7c87cc34e875f36ea2122f75b1cfb321ccc7e19f712",
+      "body_sha256": "ba7adc2af31325124becd2bb42ee74f18bab1f33f8c448486d2e78b88c5f9454",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00018",
+      "provision_id": "6899b4c1-333d-4ccc-a48a-c61e0b858caa",
+      "version_id": "e41503d0-a6c4-51ba-b2a1-a331dc601025",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "ea8542b64073ef9950be967c6f0accb4e3d5a96277e436fb8f9253ee588e9da5",
+      "body_sha256": "901fc3c25693d42dff352d8584f8751e195ad98980ac2899feb9416f07dfc4a6",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00019",
+      "provision_id": "084121d9-0b2d-4108-ac22-f6ece2338b06",
+      "version_id": "35935767-4b3a-573e-b891-10504e81b26d",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "260bde51b5c57a8702ca16abb8253e670e3ec64233c395159b8e7a13137404eb",
+      "body_sha256": "0b80a52d6a7a28e4946b7ba0dbe1105690c2c0baa5cc336d40f01f19ce2e9eaa",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00020",
+      "provision_id": "ea829a06-289a-4108-8cb5-1de986d74d0d",
+      "version_id": "477af811-ec33-5b22-8668-bab23abcba89",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "d6dd16f891e333593f438858ff473042f68efd79b7bc40e56d7c4b6c1dd733cb",
+      "body_sha256": "8f3167708ddff5170a945390a632c0860a7ffeb9a42eac7221e6e63a6c70c1a2",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00021",
+      "provision_id": "1291d70d-b092-43ae-8703-7accbb56d4a9",
+      "version_id": "6a992519-b36e-55a2-a8fd-979ed71cb033",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "9a6f6c6af217515e15cb759af719bd72a41f50b00d12b56a0d70a29bbb5d593a",
+      "body_sha256": "8b9bd661790f2caa69c68a3ed43e34b9ce4d4624599656c02d4958f08d943b59",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00022",
+      "provision_id": "a14245e4-a02e-48ed-a246-fd5dd31f7264",
+      "version_id": "80a76087-9b37-550a-8884-99fec4b4de91",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "9d0fa3bd33ca2f1cba7b7efc98dfbf6a516fff1eea0f8d5fa463b643aa639de9",
+      "body_sha256": "7df9b89ffb160955cc0e7e83260bfa254f7a0732491fbd7d861de810558ac008",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00023",
+      "provision_id": "9b1c2117-58e7-4648-b950-30b85b07eee8",
+      "version_id": "f9c340ee-d294-5f43-9154-c5fdaafbfe06",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "61bdf719fafb20949fb57f8ed32c52168d39ebabd66c6c7b128ebc36249ba1f9",
+      "body_sha256": "11e311c6b1ddee57bf35fefc6d5762daa2d2bd5dc0a778fa932c9266766c5c4c",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00024",
+      "provision_id": "3d0bd052-4c31-4783-8ab0-b17795ddb704",
+      "version_id": "cff72667-98e2-5486-a62f-5ba547a83392",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "db8e9eecc8ad4c1cc4b70cb651a5d03fc216f45f10a142f7503234cac6e339d8",
+      "body_sha256": "2de14cc49d5ff8e5ed7328f74573140a92f0d7c8312f77c722ab0d74d7a596c4",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00025",
+      "provision_id": "47d15071-03eb-469f-800d-c9dd91bb4ae4",
+      "version_id": "3c2666ce-fb29-5b87-9b74-3f99f360dfb9",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "cb7d12d65969baf1a1307129f4715e857fce4537fc3923a805a3e296efc507ce",
+      "body_sha256": "5eb3a72035ea80ec1c14ddc153607cf9b7935fd0e0c712e55a025b18ad931e82",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00026",
+      "provision_id": "5fec2975-5d01-4486-a5a0-bc02f4e130bb",
+      "version_id": "a9dcc6c8-b40d-587a-ab9c-6bb56da85a8f",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "2e96ea7baf0188b51400072b34796482c9a408a3540e4d78fd7be9a6bcccc058",
+      "body_sha256": "8c4362598cd4e5cb0d9f7ba40c8d4dd35f8dcbf8c72b7bd94f05e26a68e95e63",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00027",
+      "provision_id": "3e4e17c0-b037-4ea5-945b-1f4aa4c1a3fe",
+      "version_id": "e7f28c9d-f4f8-5b54-bcd4-1bb3314b704c",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "0ebfe7040fefa8cec3ced7ce5485006ee265d3c1a28c54ca00297c9d85f6f572",
+      "body_sha256": "46834c0bc2481cd3b9af2a38e1f3e95fd72b3a12946c248c0d68ec77b95769e3",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00028",
+      "provision_id": "65a889a2-19fd-40bf-8627-ab352d8a6aee",
+      "version_id": "aa8433f5-6c91-5c3b-b859-6e2b38b0b335",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "737b7025accd364fd150a891d68be59c520a6e4e49bee5fd996ce353180b02a8",
+      "body_sha256": "aa60b353df71a09bedcc1b568174d7696210e1e25ab8381f6988200aa524c125",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00029",
+      "provision_id": "5e874ca4-c1de-4c77-bc66-bab17a6ffd2c",
+      "version_id": "df70e480-4553-55c9-9475-9d9eeef6a921",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "6b34a84f87c0757896f7de3bcb0b2b487fb438907b0a68470662b92175798557",
+      "body_sha256": "5e52fc7b1ac5a8ddd49d7a71b56ea8ea08a77cd0f81ea420272bb0582ac5cc69",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00030",
+      "provision_id": "d17ba067-7a9f-4a7d-9670-b77d3f45fc3d",
+      "version_id": "d0545db4-4406-55ec-865f-224786804acf",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "49d9795d542b33c9540ace3b1cd6769c001888e03b79adba1d1cf69369f306e6",
+      "body_sha256": "088e2c2e9369fc346a57bfd96daf60d01378724ab2958c7db13d17cf7f49b806",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00031",
+      "provision_id": "dcf44fec-11ed-4f90-b747-391f01889c03",
+      "version_id": null,
+      "certified_for_notice": false,
+      "documentary_status": "confirmed_official_conflict",
+      "evidence": "cfsd-20261123/cadh31-source-variants.json",
+      "evidence_sha256": "b7aaa5a079136cb403c097d06488633ab35d93eda414bfd9bb0891aa1188355a"
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00032",
+      "provision_id": "500c802a-2f95-4db1-a86f-46f098eb6a6c",
+      "version_id": "fe77e80e-735b-5c5b-91e7-7aae3bfcaf55",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "a17ab01d72995a7e78ce2c4e88406714dd2af2c1107d556a98f678d0869f0d4a",
+      "body_sha256": "1738a5ca808106639d8e9e888afbb392a2310e775e9b54af49417425f0eb05cc",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00033",
+      "provision_id": "e94cc7b6-ca19-485b-a450-05a4dddd133e",
+      "version_id": "bf12ca2d-e1a1-5df4-a1d4-22c9fd7b4369",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "b0d36778736b0955e1efa7288f3888d1e9243509488f8a27fe2b347d1724a046",
+      "body_sha256": "c9a89342ce2b76f907af5eea71b83dfe0e88495b2cd170e0caf24c027bf3d419",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00034",
+      "provision_id": "abd9c35f-1954-44db-bec8-92e21ec54ba3",
+      "version_id": "6dc36047-d046-5a93-815b-97a0c4fb1cc4",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "e453da7359453145c6aa1a83681504895a931278dea9dd0415b98c6d2b56fd3a",
+      "body_sha256": "6bb14302cbb27b0fde78ed6f62f9d07d8051faed38f3cbf6fc7f17e3ada22bf5",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00035",
+      "provision_id": "409baa27-73b1-41af-ade6-6857e7c7e32a",
+      "version_id": "610205ce-bbb1-5cf6-b528-85c4f76c19a9",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "f26c736a8e7acbb0fac5640eb791bdd7ebfced5128c9a523021624a1435731cc",
+      "body_sha256": "dceb65d6b3bb50b0ff89eebaaa609b5d0043a7800a8acbe728492c7ebeb2bfd7",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00036",
+      "provision_id": "ce486de7-1fe6-492f-9396-56244ecb4741",
+      "version_id": "b6b8d0c2-864a-5f35-9102-5e74478b762a",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "acbc8d2dc006cfd9114f6b65b512788ae121aa839df984442ddabcbc775b6761",
+      "body_sha256": "d247ceeb3f5094e7ae9d09d2780906c29a670ecfe7c93ee0f57d3eec94df0bde",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00037",
+      "provision_id": "3411dd2a-97bc-49eb-8652-dc9ab41232b6",
+      "version_id": "a5eef57c-6b43-53ab-900f-7c6cef42357e",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "bf82ba6000b9927438c73495459979804a14e8bea557c1fbdb6eef4fde21a899",
+      "body_sha256": "efc87c401ba77b8d7e172b66cb7f8142eb8746f93b4f51b46ae823c04401cce0",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00038",
+      "provision_id": "537e2b43-98ad-4a17-9bbd-09298b4b562b",
+      "version_id": "afc347c2-8090-5db8-89de-154049974e48",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "48c8b4d54d2e0676cf5e5bb9142823bdbd461d236454bcf5e888a3f727351cb6",
+      "body_sha256": "9ac3240e04ed77e1deda86cd9fb08d3b5f5999e2a1750b4f15be6ce7a546ce6d",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00039",
+      "provision_id": "5cc8b2f7-327e-4ca2-bc25-d3472f20a2e0",
+      "version_id": "0e4c3dc6-20ed-5d70-b30f-e712593d6fb7",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "9ee9f9715007985dcf1ac58e396ffd891b71060fd1a5ed525775385645301945",
+      "body_sha256": "4dfdbcbd7d89c07d2cf65ef58c58d9a7703a05c0ed5f88aa41efb7ff91df64a5",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00040",
+      "provision_id": "ed8dbbb4-a8d7-4745-9bf7-affc1c8470fe",
+      "version_id": "9a0e3a89-4f15-5b45-8d5c-d57d02d48138",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "df1adec82ea7d3e48b6127d6d9ae80ba21bd57c55a704421b0db85d3185c92ce",
+      "body_sha256": "d1e7e0b4bcfc7f2dc4de7f799eb6d41123856a50cd9074e82178db4dc92a0b95",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00041",
+      "provision_id": "488829a3-83ce-4a89-b143-7c5c6711b939",
+      "version_id": "fa0dfbbd-0378-59a2-8a41-0797d2ef1a72",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "474267cec9a0cec8fdaa4d47ee9acf6189713d52a1331c146624005797980258",
+      "body_sha256": "626dbcab9220c21efaff03b44b30490502aa4ed1b039461b8de8d69e974490c9",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00042",
+      "provision_id": "29b44802-49d5-4509-8f1f-df2ce6ce8eb6",
+      "version_id": "4db00bb1-1673-5234-8ecd-27088711af72",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "4a6fefb2d92e8051e7b81f5b87076ffe61c6fa519b3567bfb35b24f1772266ab",
+      "body_sha256": "50b9161e8a2142bb9f96a0a8653f366c2817dff5f7a149ac3ed2dbc3c1305c12",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00043",
+      "provision_id": "b050892f-aba6-4667-9bcd-762235b0508a",
+      "version_id": "d343759a-6d8c-5582-8b18-5d6334980ab0",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "a015a3c0a6d1f34721944235fcf414ba9133a02fbed54104d8a25a3eaf3f2cde",
+      "body_sha256": "29af70c3dbf867f8e122488a00c85cc1b0304815bd36eb06fa3d601c139c64af",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00044",
+      "provision_id": "ac41e1a4-f3ad-4ce9-b37d-fec6a448b557",
+      "version_id": "5d93d8d9-febd-52f8-a89c-82a5aeaa3e13",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "55cb2f304b9d43b1681c17415a8c17ed98be165b7b4edfb34b5ff3b5a8b16ea3",
+      "body_sha256": "b5cc19f16a6ca329c010bfd2658d79b3782929a2f62896ef7e2d9b1fdb6e90b0",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00045",
+      "provision_id": "5ce82919-b420-456b-b5a2-7ed807ecee2b",
+      "version_id": "3d2d1e10-4886-53d6-b987-2764ebe46cfe",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "56817e4a3ca0b28a86350c26df385e3f06f8ae70d485b4bfefc3fb13cfe1bf35",
+      "body_sha256": "17bd2765ecd258742f01384296caedb14a602067fa69020ee0e6a3056e5329f2",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00046",
+      "provision_id": "e451614c-c91f-4dbd-bd8f-91ab3248d060",
+      "version_id": "89dd2724-51e0-5d79-a0a6-8898cd121d05",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "4c5e50a98158d4a8491c6a1e33156241edb5936d348bf09832d821a138ef813d",
+      "body_sha256": "3606388e5deeba21d44a1809e29c4cfe8d3820fb55c0196652409937887a8801",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00047",
+      "provision_id": "4783a91a-e442-4d58-9aac-bcbbe9a765b0",
+      "version_id": "886c0761-5f3a-5bca-98eb-9b02e6e945a5",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "2ea5d3e506bc6e5946f0325d923e11c6eefcc0aedf778e548de3d3db4b977123",
+      "body_sha256": "f6744c2e94eae49651d84d781800d8bbd541af0fddcc723387f81c777495d981",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00048",
+      "provision_id": "67b5822f-edee-49c9-a5ae-00c1f47c857b",
+      "version_id": "89efd69c-80ab-5464-91c9-4f06e6de34ea",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "d8c5eb30aabe0001fe347701607dce2408a149275820cad3debf773aa9f25665",
+      "body_sha256": "9ca7b5534aa169cd1a7e7d5a4bd96ae422d35ee4681ac769c389c20f3fcf2fed",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00049",
+      "provision_id": "d4823fad-b97f-4288-8a63-30c663aa808b",
+      "version_id": "ea1b2b89-fa91-5856-af30-fcbb956e9445",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "c4f8729861cc3e729359d70e6d3b25dc2e9f4ba743dcc14f2e490198ffbb5854",
+      "body_sha256": "42347bb46243867c52f41b5f5043007de46033c88fefceb10c1f7ea9d50fb3c3",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00050",
+      "provision_id": "d3807a5c-c7eb-44c0-9c7d-ef00a18d918e",
+      "version_id": "04e623f8-3941-560d-a6b3-e5aec3cbdf26",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "d5f9ddf3ad6a020aa48798589d17fe53b814bf123df071cc9ab1877c74dde90b",
+      "body_sha256": "aaa5ed6039a7265d8ae48742fa3db6575e0cb9bd0b6d167750d9fd8604fea2cd",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00051",
+      "provision_id": "23541390-4df0-4cf3-ae0c-3d4061310cbe",
+      "version_id": "9562eee0-376f-5903-a03a-4a7069f98e5c",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "022751042ba4cb0952209613bb01032556c7973e2047c0d3193e19e23f20ed4f",
+      "body_sha256": "4c8b3031382b3abf79fd41bf67351354df73f753b3bdd53fee78d0831cd07d37",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00052",
+      "provision_id": "aab0270b-012e-4b5a-8191-dd8f39f3f4b4",
+      "version_id": "98ea4308-1a2e-5200-aec1-5514c0d1c3d6",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "228ccca6d084a6eaeeb6a606c71e44c18c2eef5b06e646d34285066bc0f61329",
+      "body_sha256": "1fe69194ca23f46c4b1f842e63061ebba306ea0a38115ddc86eb1269a7e65d31",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00053",
+      "provision_id": "5f1ae5ea-ec77-4f9d-9605-4404dc62e4a9",
+      "version_id": "ae154325-88ee-5677-bf53-8cfc636f64a1",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "50b0642237d1c18590523fd4b973514e70748435a695eb363e5720bcd4709e7a",
+      "body_sha256": "c235a96ebffa561d3c8a2e024cf47ff018f668e02cccd4550077604bc8d9363f",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00054",
+      "provision_id": "db342db7-1900-4165-891a-5926fb59f16f",
+      "version_id": "deb3bd21-4314-5d64-a2b8-5da75ccbe564",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "126e58d0be80aa67c882820e8d6f57fbb58fc00d3e07dab8c26d5b77b0a87e7a",
+      "body_sha256": "2cd6b6c9862ff2cb5a53c9884a19668a49c688974418a3bceed8703b6439bdf1",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00055",
+      "provision_id": "f3459385-586d-429e-83a4-252f92fa086c",
+      "version_id": "e3bed65f-2722-59aa-aaca-224957a83f84",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "6831f4320799b157ea1bc30f3bff61dca9d3390b0301be054e40d36e6c34cd24",
+      "body_sha256": "efe7e3f1df5dd484eab07c6fdee9f1f9bb698d9d787d40348663d13c9499d3fd",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00056",
+      "provision_id": "1a669be9-744d-477d-9b05-2b76a397ebfa",
+      "version_id": "d51a6f35-ff64-5c37-92ee-52021f4f99c8",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "12e0317cd416b943d2f0618014b9ce132cf1a2079348d01b298df0dabbed5af4",
+      "body_sha256": "33b1254ba17905cfa24e7fdd66c632207ae178f5772aea9b5f407e750ff47866",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00057",
+      "provision_id": "f1c60f88-e3d7-45b2-bed8-b82595389d02",
+      "version_id": "07485021-eaeb-5588-86c6-728b80ea9991",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "9f5934adda38e5dd34cc65055afd78210fb48816ffca6e43698848e312078a8e",
+      "body_sha256": "ed8757dcebf3d4fd808517d264b042fb48be296d1dbf642862388e42b1da7fb7",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00058",
+      "provision_id": "a9dfc4b5-38da-4d19-afa0-9e769192705e",
+      "version_id": "8dcc1839-8d67-5d21-b1b6-49ef86c1f871",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "997ef845b1af7f1be8a95905df83e276b2455af06700b7efc112e6712501b3c5",
+      "body_sha256": "82224a35b5ae52a60b1452644b6fd21df164ebc42adbab89a5f567695ea9b5d8",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00059",
+      "provision_id": "dbf31c7e-54c2-4765-876d-e6f8097da904",
+      "version_id": "ad1d1627-9004-52b3-91ef-8d6872804bc3",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "e988ec7a4181d725f9f73938a850a0357888beb10c836b6ee2f44e02ae15edc4",
+      "body_sha256": "ec2de718bf413096c9fff01f8219dd16c61b200b596554aeabc8b65ef3a0a26e",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00060",
+      "provision_id": "c6bc5bcf-660d-45b7-8932-4414e0e6c79c",
+      "version_id": "d8520d89-d725-5023-9c7c-ebf175bd2dea",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "79c69961f70432aa2f08d5228155a2436a94973b3b4b610b8d598fd6a7639707",
+      "body_sha256": "563206f833d8a1a35234df2b5533b1711ca5a0d090efd893c5f4f7afa3bb6178",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00061",
+      "provision_id": "6b78bc02-5407-4a92-a204-861d94fbd746",
+      "version_id": "fd57d3c1-a2d3-5835-9e47-18383adaa511",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "91e888d470d5f08892cb226bca2ad40f06f3579e0cc943f128017b4c9f39fd1c",
+      "body_sha256": "786534e713838fc050a142bde953f7c84e498408e3aeb71522c756c9ede99884",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00062",
+      "provision_id": "afd242f0-05b6-4875-b9d2-589d05c6eaf4",
+      "version_id": "5838c705-149a-5f22-a837-2f9831f7ce84",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "7f34a9ee10e60aa2c20d7e5a07ec37074a95057d13275fd22f92368a0356c94f",
+      "body_sha256": "600c799d5c3220707443e37383aa60b58b79c20f34703d0404b6e9c1904874c8",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00063",
+      "provision_id": "9d2f895b-3333-4951-a0d0-f0cd7cfac53d",
+      "version_id": "2e052a24-77e4-584c-b958-b34aa724b868",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "59df0759c122774be0217d01683642e898370f3e3afa5397a6e2254823ec2ad8",
+      "body_sha256": "2cbc92ae56e7c2bd39a4de87777635cfc5f02dab9ed90b0728803037329c11b0",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00064",
+      "provision_id": "0415d217-f1d2-4bdd-9371-d8c19df9cfc1",
+      "version_id": "ae483d22-bb71-5dec-aae7-f380d762ad6c",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "a67bc3eda64d4e3318d661eb2fe499bcc21dc3c8e4df1ce6cb26875002cab05e",
+      "body_sha256": "2551bd784830d2ae18ffa9825886a0d1ff12e1e3c80bd6b0d53ec501c6a80b48",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00065",
+      "provision_id": "7f162511-9a5b-4ba8-b415-672dbef5bc76",
+      "version_id": "caa4d6f6-9bc5-503a-b76d-158d3f239b46",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "62ca8ac625294fcf777ba1bcca2d4ab733e9ebf342436808b9e017fb7d8ddd79",
+      "body_sha256": "ddede481e47edf63c33dbaaa0797b25b90645f742c3bda3d47000006c8c794a0",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00066",
+      "provision_id": "fb41abf1-20f8-42d3-b2bc-235e2cd53f98",
+      "version_id": "a042c5ef-b930-5dc3-b5b9-d83a93d233a8",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "4def7f869aaa200a8ec5905b7c8e8783d083180be22d96f1e90f55d5a8267598",
+      "body_sha256": "4dc47ec36be4281ddf2a2797a2f7213b31f9c61bed9ec312e1ad9e56e24a024f",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00067",
+      "provision_id": "4004d8ac-e57a-49c2-94e2-86b89efddcf4",
+      "version_id": "44a6aa44-7c9b-52f8-98f4-2c3666e9dd89",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "a2ddb44f31c58309a2a23f3ebb8e6d6d332aa24b092e545d368103290adc1c73",
+      "body_sha256": "65e1873a5d6c5278cffa464d0774763e50186cb57218546e3595f446af2e0004",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00068",
+      "provision_id": "e74eb782-09b6-411c-818f-cecb2e95efcb",
+      "version_id": "60c27c13-c083-56ef-9d53-e7a6c67929ef",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "24b40ceea7cdd3676ec8a7b7635365fb52db9d90caed1612d4b9efd4e4425827",
+      "body_sha256": "822d3fe6282ea5e36ebb5e7fc41caddba1228de2e63ab8c5fa4e868feaa40b86",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00069",
+      "provision_id": "20c429a7-c963-47f2-9b1f-b355372d692d",
+      "version_id": "e5fa79f1-1045-5aae-8efe-e6d5835801d3",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "ab950d0b4bc0e926ef86a99107f48a04dfecaf81d030de158e2247fe39b8281d",
+      "body_sha256": "5c3b2b4bb8237c100a94a3d1e129eea501c688856025f860416e454bc9eb99ef",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00070",
+      "provision_id": "f9643195-6be8-4eb8-a910-1fc2ab325fca",
+      "version_id": "b151bc10-72a3-530f-9213-40993df9aeb8",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "2ea8be23cc7851c957d04449c2f0145ef0d6c3fc82948bf7718116b35df90b5a",
+      "body_sha256": "2ef2d71d581a99acfa3ec2e8188318afda90d65d3326eb3457ec1a2ee2e3cc76",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00071",
+      "provision_id": "33887c29-756d-4a8b-a494-71aa392cded9",
+      "version_id": "f530941c-f11a-547b-a07d-03f39e61dca0",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "89ed49a763fc7c297d8aebd879142cfe86b3e94e094e63be8af0ff8ce94acf03",
+      "body_sha256": "bb425494ee89c457553592419b2d57e6b613c057858dfa4163daaaff613fa623",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00072",
+      "provision_id": "42d685c9-2b05-4b79-86fc-432fb1788308",
+      "version_id": "e1c731b6-d1a6-569f-abbf-dad0e073fabf",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "7773a377ed348fa42704cae58a90b01d7a2393c18a11c694affe385f55898df5",
+      "body_sha256": "3e1c6fe859799bdcecf36bd414529164768b3de44d36707ef7c0a84c60f5bf38",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00073",
+      "provision_id": "0c6f0b31-bfb7-4d85-9ec9-b676e4f9dc90",
+      "version_id": "d07859ec-1157-5150-a2ab-1385cb940035",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "330ad5d7dc569698f7c7b01ebbf60d2942ac072184a726b50d7b7ed293ef5c08",
+      "body_sha256": "27737c63d4e41b40a6b275eb2023f8d9bc04e03d24aa80a8d3ba77ce7960b8c7",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00074",
+      "provision_id": "30a99d1c-a87b-4cac-95c6-506e3ef0a5c1",
+      "version_id": "423fb8fa-be8e-5357-b93a-95ff907a18cc",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "2fbacdcfb6e3aeba802e3e020a3044035d75a71f22d29d4a5cd978eaf862964f",
+      "body_sha256": "b28bd38ef991792058ecfacaa261551ed4e1f6b9a0d3026996a8817429de61ae",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00075",
+      "provision_id": "9c974571-ab7f-464d-b2f5-f2e01661d460",
+      "version_id": "409a1de1-b981-5b6c-b3e1-50c99d09c80d",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "1a33c9b6b08bf77768c57c6be6014c5f5fabd137b1026ca4cdcfb589f910e2e5",
+      "body_sha256": "f9066ee3d6215acd47a6a027b2f2098be94febb187adbb7d69caef5391821854",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00076",
+      "provision_id": "13bbefc2-7e3f-4065-a1f4-2c6c1083c4a4",
+      "version_id": "312e8091-09f2-5a4a-80c3-62f8ced6c906",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "57187a490f8764bd31a80c1da1b08a2079b26f1760e515b6e9c7bfcde878e1ad",
+      "body_sha256": "201830ee0b4861e64a62273de8a6a654a85120c6da0aca7886e55d2df88e6f05",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00077",
+      "provision_id": "bd77b3b6-e96f-486d-891b-242900c699d1",
+      "version_id": "a0d8750a-949a-5220-9c57-1534f4d95f3b",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "15dc922689d32ed265b6cdc4867bcbbf51812c3417ea428078675b774fdb2de2",
+      "body_sha256": "71856ed30ad6e2df767d4deef3b40ca1df27338e8af6f08fed07999cdadb3d9b",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00078",
+      "provision_id": "87fa7094-ea43-46a4-b84f-fc3a03a50040",
+      "version_id": "7b443dd8-25b4-5ce3-8ded-ed387d910f45",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "23be1a9b90fa3cd78e41c48c0d39525094fa66644e9673e7de3a9b507a5d0b81",
+      "body_sha256": "4c3d872fba2b603a640f99cfdf2e3a6dd455f6781b44236d3b23ef840244dbf7",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00079",
+      "provision_id": "c598c736-6323-43c4-b328-00bf0fc695bd",
+      "version_id": "a7502c3e-40da-547c-8160-4093dc75b471",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "df167348caf0f7d7b083c8f6b3a13cdc1477c327c96d6ee83ff2b4303afde387",
+      "body_sha256": "27ad56d549a2e0ea9553290dab67dda320230b1e0619e2f917c9472ed7be9b60",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00080",
+      "provision_id": "0c2530a5-47b8-43e9-9d0f-b199506fc7b6",
+      "version_id": "f961ec5c-1df3-5bea-b7af-9f97bfc89f89",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "1bf6f95e76f4312f0d8b4b724a71f244746b6dba524b3d9dea5383d9028580e2",
+      "body_sha256": "6ac6cf9b1b0f05c880219691a3aaadcf1d8861ab085937e1311d53e3cbd7eca1",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00081",
+      "provision_id": "f8bd5307-3a8c-4d5c-86ed-9e57685972f6",
+      "version_id": "22634321-8360-5515-85c5-682f9e9531f0",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "66879de40fa6c5b2078913043bb1339073c4cf93939e28b5d4f855c904ccff5b",
+      "body_sha256": "b606284e9b78d206ae282015440cf341d4a15025b7ad46b7d9878bb8cb163551",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "CADH",
+      "provision_key": "art-00082",
+      "provision_id": "8855ed01-a270-4c0e-b7ef-00fa55ca7eb6",
+      "version_id": "65f207b5-d40d-5f7c-bbc4-b34c68f3093f",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.oas.org/pt/CIDH/mandato/Basicos/convencion.asp",
+      "source_extract_sha256": "8e68e89cbad64e8f27d56409ff8eae9ec30104399963a90a0f9a1e6a6edff6fd",
+      "body_sha256": "6420bda0ab79c6fa332f49ba8c2e4b969d96a1c741992461ca9f9e3455242482",
+      "valid_from": "1992-11-09",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "DUDH",
+      "provision_key": "art-00001",
+      "provision_id": "70039c3f-a8c8-4f92-b7bf-3b2e2b16c166",
+      "version_id": "15837228-eb8f-5437-8c92-4affa59e3d54",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
+      "source_extract_sha256": "a6697685b6cbf8743d1f57042e9c73e8ea0d99cf45258ef1c3d8a72cd323ce37",
+      "body_sha256": "7b432f45620022cfad7cbe3a8954bc558797adef185a8bea97f7851771b6ce81",
+      "valid_from": "1948-12-10",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "DUDH",
+      "provision_key": "art-00002",
+      "provision_id": "4a776054-cfc8-483b-93c8-5e14e82850c7",
+      "version_id": "ea6afb6c-68c6-5824-9699-0572898cd31a",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
+      "source_extract_sha256": "fe8c055a9675ea6f0b85696de5be41f79926ffad84d67baac0aafac5a65fd673",
+      "body_sha256": "ee091ea5a4455fd3898035b6a319d270913a6fa49ca19b67f400e1d7c532057f",
+      "valid_from": "1948-12-10",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "DUDH",
+      "provision_key": "art-00003",
+      "provision_id": "15b41b6b-70ef-472c-8228-ba0cb0b8dd9f",
+      "version_id": "660f5530-a16a-539d-81a7-54f6e6d9a1f9",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
+      "source_extract_sha256": "c2f47fd54e52becc415ecfb6a932bdd1ee63acd9750768a9221c61c692a172ca",
+      "body_sha256": "a03a18890af785b112ce5cb1a6057b2d1908544e1e3a08622ac109ca91c713a6",
+      "valid_from": "1948-12-10",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "DUDH",
+      "provision_key": "art-00004",
+      "provision_id": "86bbc6d2-a37c-4fe5-b0eb-9e5196f811e4",
+      "version_id": "d73bf1e0-5487-518d-887a-75f3f7cf43f8",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
+      "source_extract_sha256": "b2f5f96194369ced59d42f44e51454c27d43cb3dc96de8f1ec4dbc83d84e2fad",
+      "body_sha256": "532450da7221c961f09db2d6de2fc1670b5cef404041b4bca89823b036656cba",
+      "valid_from": "1948-12-10",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "DUDH",
+      "provision_key": "art-00005",
+      "provision_id": "391f221b-e4b7-48c1-8f71-1a88c7a569d8",
+      "version_id": "bdad657a-6f67-5ac3-9309-0e833b38429e",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
+      "source_extract_sha256": "1a21adc4e0503d3b464455ae3403a6344fd1f561a04e587019dc12a63e7a99af",
+      "body_sha256": "a68e7c9ae7dcb28f6b365cd23b441f760a74bacf497ae740303fa2f40ae95aef",
+      "valid_from": "1948-12-10",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "DUDH",
+      "provision_key": "art-00006",
+      "provision_id": "9681183b-1111-4fe8-8280-535ebe047821",
+      "version_id": "d773ad50-c1cd-5879-94ed-14ab141cabfe",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
+      "source_extract_sha256": "5222a1767cbb66ed2a0d47c799a4499481b2e6b61fea5ce8e7585ff685ba298f",
+      "body_sha256": "f44be12928e6ebe4131f8072997de689bfae6519b294c706820201f17d2bf2b4",
+      "valid_from": "1948-12-10",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "DUDH",
+      "provision_key": "art-00007",
+      "provision_id": "a945695d-1e75-4e1f-bc41-7eb820a4341b",
+      "version_id": "535b5665-76c1-5c55-9f38-6c2519b539d2",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
+      "source_extract_sha256": "95e44923f6c12d6d42f2f10a206260cfcd2982053f5ca5492caf4562cbf0c619",
+      "body_sha256": "920c993ee02222759cca855cf6b5611611a41a9a8aa287f85ee41827a76d0935",
+      "valid_from": "1948-12-10",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "DUDH",
+      "provision_key": "art-00008",
+      "provision_id": "139f33cd-cdbc-4ddc-9ab6-d41dbc209849",
+      "version_id": "6ade0870-0a24-53dc-a09a-851482f2fe70",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
+      "source_extract_sha256": "dfab9943a886bce3cddd84f3282c5b41930d6d0e313b9b61c96b5b93ada950db",
+      "body_sha256": "6cf01f9ba82b30ecf1989cb17c8ad911b0a06bbc82274aae9a4416ffde28ad47",
+      "valid_from": "1948-12-10",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "DUDH",
+      "provision_key": "art-00009",
+      "provision_id": "76b9f55b-4cae-4845-8679-6aef797c49eb",
+      "version_id": "0251cc6e-7cf1-5502-b894-f194694e025f",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
+      "source_extract_sha256": "35fff37ee3d047dae20ba9e12c0d0d00d9243f6444a14958653274039049243b",
+      "body_sha256": "12b56b112339cccfdf92fc77a6b3458322c97077b566ec25487436e423e792a8",
+      "valid_from": "1948-12-10",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "DUDH",
+      "provision_key": "art-00010",
+      "provision_id": "93f0c3bd-2216-4f15-a58c-c7ca43280457",
+      "version_id": "4332cb76-0357-5cb9-919e-d8fb36d680f9",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
+      "source_extract_sha256": "8cd295e3fedb7dafa32d7119ded9df26734aa81c0b2477cced9375bd2d814e14",
+      "body_sha256": "751b5b5288cd523a9a9d2be0dd6f1eb45d54db41ae001a4f2a6085b544dbb74f",
+      "valid_from": "1948-12-10",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "DUDH",
+      "provision_key": "art-00011",
+      "provision_id": "07c22bd0-e460-4b71-9d29-5b65919b2813",
+      "version_id": "e9c28970-f6e7-574c-ae7e-bdb77219bec7",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
+      "source_extract_sha256": "1766e1790407d803706866829590bfee4b6a1be1b659e3226a66e50cb3871cc8",
+      "body_sha256": "fb2d0e4a10ec46164869bc9ac1e51f10609a13b60947c2cc2aa4964e246ee9c0",
+      "valid_from": "1948-12-10",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "DUDH",
+      "provision_key": "art-00012",
+      "provision_id": "dcd64bf8-4588-40ad-bd6d-c580954c9927",
+      "version_id": "1309d7d0-b902-5936-bc93-afaa662a4927",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
+      "source_extract_sha256": "85b6ace13348ac0e61ec62e3276f0186490850c2dbb921c0b9e40714cb65e0dc",
+      "body_sha256": "24b317122ca4ce976918de174a6e90276444dd7b66627cc3479cd1cc11e3d197",
+      "valid_from": "1948-12-10",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "DUDH",
+      "provision_key": "art-00013",
+      "provision_id": "ba06ab38-7496-4d98-a6f2-935da3cb672d",
+      "version_id": "6269d2e2-cf64-55d8-bf84-de0d4d6e665f",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
+      "source_extract_sha256": "e473c59ce58b3e408164f5604117c2f12e82c8dfd6c4880c15eaa0a454b65523",
+      "body_sha256": "1a43e35da2be1190dadb103e54e43759b575a3b16844778b17e1ed685f63d2f9",
+      "valid_from": "1948-12-10",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "DUDH",
+      "provision_key": "art-00014",
+      "provision_id": "2f1b66dd-c5a4-4f0c-a961-8f6b5acf8370",
+      "version_id": "cfa78c7f-1211-511f-ab03-3918bc6b72f3",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
+      "source_extract_sha256": "4196151124548cc94917ca6903acf2145810ae52af576827faa6afe5e703760a",
+      "body_sha256": "9f9881fb7282a84ece65fa961d90e4bdb609e73b71f291fec42460f81c4a0897",
+      "valid_from": "1948-12-10",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "DUDH",
+      "provision_key": "art-00015",
+      "provision_id": "a6955896-2e7a-4c7e-96fa-e48d1af39adf",
+      "version_id": "53ebe358-1d44-57d9-8f90-60b9acfe19b8",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
+      "source_extract_sha256": "5c366b2e97e169e5b7da8bbe398e883b40cb577c0cbf6593de2204e056776871",
+      "body_sha256": "01e0ca4d1f86cc3c6021fe449aa9252a1769851df1cde4550ada851bcdb6e83b",
+      "valid_from": "1948-12-10",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "DUDH",
+      "provision_key": "art-00016",
+      "provision_id": "59bc9d78-0e16-4d99-9aa4-a2c211e3d6c0",
+      "version_id": "e61837ee-12ff-523e-a3e2-dc93305c6069",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
+      "source_extract_sha256": "186d91846c2f30986de0d199aa77402d77fd4af7b5adac7c04779311b28704fa",
+      "body_sha256": "81b20f3d3e106c804413c8ba83fd44f56583618b52ea1f25afa1d24d89bb0a37",
+      "valid_from": "1948-12-10",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "DUDH",
+      "provision_key": "art-00017",
+      "provision_id": "65cc3c61-dbaa-4edb-9945-147d7a15fe53",
+      "version_id": "9d71ecef-4451-55d5-ba22-1f80744e68fe",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
+      "source_extract_sha256": "b9ac723b9f824fcf125bd2ba51caf4322aedf77a37567c0ef00537090cb1f303",
+      "body_sha256": "f42fe98b85bb6c8c21c238984cb2a41903e4c2bed0e296e81ef23e821cc00d44",
+      "valid_from": "1948-12-10",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "DUDH",
+      "provision_key": "art-00018",
+      "provision_id": "df5ddf8d-5902-406c-b8e2-72777f3fcb4e",
+      "version_id": "21bd6901-0917-5f8f-b7cd-938e35cde2e7",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
+      "source_extract_sha256": "580e116696138fa371dc5c7c6d3c3970ba442cf503a34b6ffd70bdb55b223361",
+      "body_sha256": "1e73b629f4e044a3144f039d40edda171309883d32a903f175fcf11c2dfded3c",
+      "valid_from": "1948-12-10",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "DUDH",
+      "provision_key": "art-00019",
+      "provision_id": "8a1bba62-aa8a-4f1a-ad45-45ffd77b02dd",
+      "version_id": "76fb2b53-168e-5af3-9954-0d1a97f6a133",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
+      "source_extract_sha256": "b751d41cdf2d8e2f7caa60b1b74062a9f9118252c08f1fecaac51c72fccae8ac",
+      "body_sha256": "50c65ae58d27350e0ce1a57df8bb1b6efa7b748dfce8f653992b265e502e4174",
+      "valid_from": "1948-12-10",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "DUDH",
+      "provision_key": "art-00020",
+      "provision_id": "21a9bdf6-879e-4e74-9f48-9691e3a4212c",
+      "version_id": "f78963f3-054c-5f95-8c9a-4612711048ce",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
+      "source_extract_sha256": "de10619bb9996dd666f474f2f119b3acc12d4b304258ce14b462600effcdc5d4",
+      "body_sha256": "285c24a8204f8eb43e857de98dd8a8fb2cf7fa9e742a069a62b0702aaa1b05bd",
+      "valid_from": "1948-12-10",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "DUDH",
+      "provision_key": "art-00021",
+      "provision_id": "903f4d6f-5cc8-4573-b5cb-9db2feed53f9",
+      "version_id": "937f2145-0292-580e-a3db-2cd8e271aa2b",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
+      "source_extract_sha256": "d7aecc158617a694dcfaca35843f93a7418d09505e59494b30c42d21991b44eb",
+      "body_sha256": "a353d78354ad7c8fcdea27cb801dbaf91601174d8ea9b4c61ed96c3471afd974",
+      "valid_from": "1948-12-10",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "DUDH",
+      "provision_key": "art-00022",
+      "provision_id": "256621ab-43eb-48a8-a291-6473d5f871b2",
+      "version_id": "9847fb70-0267-5f88-b82a-339828ead3d2",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
+      "source_extract_sha256": "3b6e1bd7757e6bbfd21e9b3b11eed7599dd64fca1af728eb1b66a0f0d84f15ac",
+      "body_sha256": "9d8ae72395dab5f7c07cc379c7f7b9ca9f457c97d766dc9bcc39f09536827b04",
+      "valid_from": "1948-12-10",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "DUDH",
+      "provision_key": "art-00023",
+      "provision_id": "0fb5c2c9-c911-400a-b28e-39fcf3d3cad6",
+      "version_id": "549e8ea2-bf41-5b1d-9d3f-ba7794c89d4d",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
+      "source_extract_sha256": "24940a1d3c75aa39b1c32ca0942b19f04ebd695b2f485e27251950c82ed06353",
+      "body_sha256": "10ca49fd9b35d50081555b3c58377647914d09f7ee20645279ab4619f0625a1b",
+      "valid_from": "1948-12-10",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "DUDH",
+      "provision_key": "art-00024",
+      "provision_id": "6001ee6c-85c4-458c-a97c-686e3c6597e3",
+      "version_id": "641154f5-1bac-5b28-856b-6594b283c448",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
+      "source_extract_sha256": "338ddf877694c383e8489c0a86a72522895b0243c1db4c1c5bc20e12fb46fbff",
+      "body_sha256": "b5d115b98a0fc04fc7b7149677b42e9328c93b402246233b751160a6e6ccf5b1",
+      "valid_from": "1948-12-10",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "DUDH",
+      "provision_key": "art-00025",
+      "provision_id": "4c90bea4-03f3-4abd-b399-6b9995947a7f",
+      "version_id": "df70376f-43a4-58d8-a826-87bad4a49aed",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
+      "source_extract_sha256": "3dd5f9f54f246d36b93f9db519e1617b149228d6065dcdb5857b0795211e0a23",
+      "body_sha256": "e3023c75e9c60efc181eeb086a69f580000c713048760a6e686dea4a097c1df6",
+      "valid_from": "1948-12-10",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "DUDH",
+      "provision_key": "art-00026",
+      "provision_id": "e6d8b282-babf-4229-9430-4f8b5090b1cc",
+      "version_id": "1fe406f8-3c13-5eb5-9679-8a6ba106c5e1",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
+      "source_extract_sha256": "17f93c2a835010ab9ccddc9f19b9d562c0380c23317c3dad1a3553039898a702",
+      "body_sha256": "3e407e250169f086d3e7d2f6a44481bfb255aca40f56c8a5bb4005585d7a84b5",
+      "valid_from": "1948-12-10",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "DUDH",
+      "provision_key": "art-00027",
+      "provision_id": "c68d26fa-ea58-4bec-8743-ef10fbd3001a",
+      "version_id": "1055d7c9-ad8d-5080-aedf-016cbbc67c6f",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
+      "source_extract_sha256": "5821804ceb96eaf5ac78ffb7dd3eb3e847cf039c4d551d023e9fe2155d7c93da",
+      "body_sha256": "672a793474dbdf622c698f62eaf0888bc33b64a68910945d2abe871247d2c79d",
+      "valid_from": "1948-12-10",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "DUDH",
+      "provision_key": "art-00028",
+      "provision_id": "e10b439e-a185-4af1-bed5-2e8e3557d9f3",
+      "version_id": "5a830dc3-b38c-5a5a-be3b-f51eefb0c0ad",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
+      "source_extract_sha256": "6a20fe90640850f6e21683d8628b92970956bf1c90b7c6a54ed665ad0513cbcd",
+      "body_sha256": "3e941e497bd3d90264a028a755144139fdb09c257015dcc415e10f37c50e0f1a",
+      "valid_from": "1948-12-10",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "DUDH",
+      "provision_key": "art-00029",
+      "provision_id": "328f5560-405b-4fc4-913f-fe139cfdde6f",
+      "version_id": "87487680-81a4-546e-bab2-39e4b5e7c428",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
+      "source_extract_sha256": "5bd776b7c42d836cb2493ea300b22c34bf5d921bb34b68878320ec569c056836",
+      "body_sha256": "b42c75ee60f461aaba71d6c38699a9ae3d3032b9d7f921634a3402631b7f083a",
+      "valid_from": "1948-12-10",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "DUDH",
+      "provision_key": "art-00030",
+      "provision_id": "4a8992fd-7218-44ad-a4e7-dda258e2d470",
+      "version_id": "f80d1837-69bc-53a8-92f4-af3d82118c6b",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www.unicef.org/brazil/declaracao-universal-dos-direitos-humanos",
+      "source_extract_sha256": "a3bbf2959cca93c4e66e107b449770db5022e5b24329be6eb64d463c2c7df9b2",
+      "body_sha256": "a0f821e421f150a1f440259077e13828528e2f5999bdb5786dab3d64cc40994a",
+      "valid_from": "1948-12-10",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "LINDB",
+      "provision_key": "art-00001",
+      "provision_id": "6462d67a-ddce-4f4b-ac98-cc3eba0828cb",
+      "version_id": "411eb3d1-6a49-5983-9ccb-4f2e423ae1a9",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-4657-4-setembro-1942-414605-normaatualizada-pe.html",
+      "source_extract_sha256": "f61992b21f04eabab29252826a4e31f9cfb21f6430b998d738c1be940eafd8a8",
+      "body_sha256": "90edbca9371fb9caa61ea5550688bf5a7144b98473e3eb7a66e7f90d74f0728e",
+      "valid_from": "2009-10-02",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "LINDB",
+      "provision_key": "art-00002",
+      "provision_id": "8178a51b-f887-4932-a4ae-3a437b528f60",
+      "version_id": "60c483a1-5098-5c59-acac-2ebeb8a2616f",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-4657-4-setembro-1942-414605-normaatualizada-pe.html",
+      "source_extract_sha256": "6a7526dd93408170362bf4c5f3a04dbaa06f278caa4d90264a6135a0302f8e8b",
+      "body_sha256": "60416200419562d401be5c969dd03218209f5a1187c80732670febf09565b61b",
+      "valid_from": "1942-10-24",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "LINDB",
+      "provision_key": "art-00003",
+      "provision_id": "dbbdc710-d4bb-42c3-a688-fd6797365bed",
+      "version_id": "7e3cb2e5-e46d-597e-bea3-7af27816d038",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-4657-4-setembro-1942-414605-normaatualizada-pe.html",
+      "source_extract_sha256": "92bb0c54262414cb819acbea3e7e507d5fa7dd6b571b2aabb43427b7a6be56b5",
+      "body_sha256": "eafb98b4ad460a9ad75d9a962bfb35073674c6373e8007b5034a616019df53bb",
+      "valid_from": "1942-10-24",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "LINDB",
+      "provision_key": "art-00004",
+      "provision_id": "1ccbfebd-f9e1-477e-9f59-c13ad79d01cd",
+      "version_id": "cb7ff8e0-3b54-5ca2-8251-8d1bb3c13896",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-4657-4-setembro-1942-414605-normaatualizada-pe.html",
+      "source_extract_sha256": "17123c8ec0b66a6602ce583e6a4ec2e67a750b9b3cc0f92cdd4ca33a84ef53f6",
+      "body_sha256": "e8d27a8dfcbcbf3edecfbf7e63c94aa936858fca522c2720ad5686ebe769c618",
+      "valid_from": "1942-10-24",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "LINDB",
+      "provision_key": "art-00005",
+      "provision_id": "867c421a-e2f9-4c3f-b6c3-b233ea507981",
+      "version_id": "c1e6d727-8103-548e-ae09-e2bc68e95236",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-4657-4-setembro-1942-414605-normaatualizada-pe.html",
+      "source_extract_sha256": "99be5538548d03bb2e1ba2136248c33a6dc2c885b6f9f52aeb014541d4200b7f",
+      "body_sha256": "814f0a1129ac470fd3809d70d874427a6c68943b3db1ab50bf05f33dcade4899",
+      "valid_from": "1942-10-24",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "LINDB",
+      "provision_key": "art-00006",
+      "provision_id": "d928d67f-3fd5-4ad0-8a9b-a141ecbc0b3a",
+      "version_id": "45351f6a-029a-5382-be71-6a8a4b43dc08",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-4657-4-setembro-1942-414605-normaatualizada-pe.html",
+      "source_extract_sha256": "24fc1b945f8449bbfda6bb8f6c62c65c2dce2cb8d35b0a480f99db780e1bcfbe",
+      "body_sha256": "35301b463bf46f723df95fa0f49ddd0b44411d4feeead7fb741bb54e7422da40",
+      "valid_from": "1957-09-17",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "LINDB",
+      "provision_key": "art-00007",
+      "provision_id": "89a0a809-6507-4fd9-8555-e772ed9a6ea8",
+      "version_id": "c5a2ffb8-45e1-5534-a784-e9b21543b2eb",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-4657-4-setembro-1942-414605-normaatualizada-pe.html",
+      "source_extract_sha256": "ce8d6ee63592d8e2c30ef53b0fcbcce102f629557dc33b62ced3e988df01c76b",
+      "body_sha256": "6c6d32bf6999c71cb0b9d907c3fbf83cf90d2959513257a351adb77729f2f2ea",
+      "valid_from": "2009-10-02",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "LINDB",
+      "provision_key": "art-00008",
+      "provision_id": "993163c6-c2e5-4f25-a500-f3c4d65d8f75",
+      "version_id": "d71295ed-d9be-5c60-abb2-302a13db1a62",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-4657-4-setembro-1942-414605-normaatualizada-pe.html",
+      "source_extract_sha256": "29c7cc4c711fe5187c8b928d395af5a86ae7fbf5e8a836c90189a5ec2b85780b",
+      "body_sha256": "f6592e9fbd0baba8bae1291b8f7f3edef5402d41b1cd22b9edbb848ec2e93033",
+      "valid_from": "1942-10-24",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "LINDB",
+      "provision_key": "art-00009",
+      "provision_id": "a6560a16-032c-41f6-9e1e-4e39b6be7374",
+      "version_id": "4419715e-9be1-5293-8677-41f85412a363",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-4657-4-setembro-1942-414605-normaatualizada-pe.html",
+      "source_extract_sha256": "c6d563b8799a9af37499d71d73ad7135a47fe911d19a6c2e683dfbaa0897f0f7",
+      "body_sha256": "65b54f140e254f92bd1bce125551a1482f187e2143b2e7b4bc58ca96ce0c0e83",
+      "valid_from": "1942-10-24",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "LINDB",
+      "provision_key": "art-00010",
+      "provision_id": "78e35d0e-34b3-4571-8b60-8d9e6f507476",
+      "version_id": "2a42cf38-d603-5edb-9deb-e1df3721d88b",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-4657-4-setembro-1942-414605-normaatualizada-pe.html",
+      "source_extract_sha256": "2d1d10b2d910e022cd90cddd4b62bf1cfd210b4017ab5832e85cca293f16e9fc",
+      "body_sha256": "4426e313a5224eda51091377d414745d606236431a432804e9d699cc5919ffd7",
+      "valid_from": "1995-05-19",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "LINDB",
+      "provision_key": "art-00011",
+      "provision_id": "04c56788-5989-4fff-9f48-926128da316e",
+      "version_id": "cf3561dd-4fdb-5bb7-863b-b53f0080e4d3",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-4657-4-setembro-1942-414605-normaatualizada-pe.html",
+      "source_extract_sha256": "3e294bf9c741f0069aee07284387b7bae5b05cd03087cdeb8a82c2ea7cf3776c",
+      "body_sha256": "8dfb374858ba3ba2acef7164f78d635eafb4b9e7cd8c2eee6c77643d64e2bb1f",
+      "valid_from": "1942-10-24",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "LINDB",
+      "provision_key": "art-00012",
+      "provision_id": "58066c63-40f9-481e-9e6e-0683282389d2",
+      "version_id": "da49daf3-faea-596a-9514-a747d5f135a2",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-4657-4-setembro-1942-414605-normaatualizada-pe.html",
+      "source_extract_sha256": "ac23f230d460ee9ba6051d51b19d2097114c5721937e86b2d7fa62787c5f9d83",
+      "body_sha256": "0c294cc0f3ddfcc974ce849d5cffb7331c8e5115225bfaaee986c5a4ac1929a1",
+      "valid_from": "1942-10-24",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "LINDB",
+      "provision_key": "art-00013",
+      "provision_id": "d4809d62-7e84-401c-897b-83103f4e10e4",
+      "version_id": "61031a19-4751-50ab-a2ee-805ecf53fefd",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-4657-4-setembro-1942-414605-normaatualizada-pe.html",
+      "source_extract_sha256": "9d702e456b9c0e8468a47d53daad52e3eaea999ddbadf209882134eda3844e26",
+      "body_sha256": "1ea93eb32d491eca1935861d9cf557322039155bbae2546a97b3ebe36b49848e",
+      "valid_from": "1942-10-24",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "LINDB",
+      "provision_key": "art-00014",
+      "provision_id": "f591c972-22a0-42cb-90b2-06f6f41ffcd2",
+      "version_id": "b1b12163-e36f-5e00-b26d-23f6b14fd844",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-4657-4-setembro-1942-414605-normaatualizada-pe.html",
+      "source_extract_sha256": "29ba7021d56fab618ee4f134865e547405c9b019219f324d5a3fc5c86d891d90",
+      "body_sha256": "fd8b256662be321bd0ce88d1b421ddf3c1c29ee33efe613d9e6cd7fbee2a0205",
+      "valid_from": "1942-10-24",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "LINDB",
+      "provision_key": "art-00015",
+      "provision_id": "d8decb87-db6a-490c-8850-d43fe077f234",
+      "version_id": "f687169d-374f-5a5d-af22-a3b9f46071d0",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-4657-4-setembro-1942-414605-normaatualizada-pe.html",
+      "source_extract_sha256": "ee8c92de502879bebf7b8ac8b118df159b1c82a6eb8fc3f9d132cbe24406924f",
+      "body_sha256": "f7af202783a7e68785a06a3b1bd09e7cc98827fb0ae0cbbbb48b8cebacb1496a",
+      "valid_from": "2009-10-02",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "LINDB",
+      "provision_key": "art-00016",
+      "provision_id": "fef11119-2ec4-41ff-9220-b7da45506aaf",
+      "version_id": "ae06f3f5-591c-5e33-84a0-c8c6430fefd6",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-4657-4-setembro-1942-414605-normaatualizada-pe.html",
+      "source_extract_sha256": "90d4dc1314aed8430b03112f4bd2b65f8742f733a334dfcccfebcd8261c5646c",
+      "body_sha256": "69cbf20d0cc56583f03e8a7e0adac5e01b99804a8a6d941bc794a90410496676",
+      "valid_from": "1942-10-24",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "LINDB",
+      "provision_key": "art-00017",
+      "provision_id": "1d1cf9d4-0fcc-43a1-8f12-a6651a001ec9",
+      "version_id": "c4f86589-1ee7-5632-8496-8ca5c9bac433",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-4657-4-setembro-1942-414605-normaatualizada-pe.html",
+      "source_extract_sha256": "a4b6235cbf3b78ff7f7b367f7270baa3c3d4f36db307ddf39fe5d0a3660b850b",
+      "body_sha256": "115ff80273fbff2fbfec5d9c2bcb1d404411fd1707843be6c44ffcdbe0b6c019",
+      "valid_from": "1942-10-24",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "LINDB",
+      "provision_key": "art-00018",
+      "provision_id": "33a4f4cc-943e-46c8-861e-345b061d05a2",
+      "version_id": "40d06103-3231-5fce-a168-45fd07715ff1",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-4657-4-setembro-1942-414605-normaatualizada-pe.html",
+      "source_extract_sha256": "930d921e258aa7be524c530e3167602d088e1bbf36fb69d1628b5ac58d2cad21",
+      "body_sha256": "db855ee311b1622e62d7fcb98fc3f07c8b07b7f9655389c443cabd1253ac5e32",
+      "valid_from": "2014-02-27",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "LINDB",
+      "provision_key": "art-00019",
+      "provision_id": "58d2701c-a7a5-49f2-afc6-7dbc076e635d",
+      "version_id": "59e8a748-ae70-5bbf-a926-ae2978cc7d6c",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-4657-4-setembro-1942-414605-normaatualizada-pe.html",
+      "source_extract_sha256": "e72ef05ad39cf0bd57bf7ab764707dd5c6e92eb7bc34ed3fda62175661b79470",
+      "body_sha256": "d2fb0a64fa0e61914feaa68c043df8877701a179f38ae4c61a6be103098a81f2",
+      "valid_from": "1957-09-17",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "LINDB",
+      "provision_key": "art-00020",
+      "provision_id": "12fcc878-ce3c-4c2f-95bf-99845b4740e1",
+      "version_id": "8459ca06-97a1-562c-9dfd-3cdfc69cda68",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/2018/lei-13655-25-abril-2018-786606-publicacaooriginal-155430-pl.html",
+      "source_extract_sha256": "82bae91c8b5e1e10c79a864dcc376b0013aa1d5284815def022680b456333b7c",
+      "body_sha256": "e244abf0efa20fcbfff545d9cb4665fe8667600db8975f86690218fce73bf72a",
+      "valid_from": "2018-04-26",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "LINDB",
+      "provision_key": "art-00021",
+      "provision_id": "93016df3-d4cd-46f9-8cb4-528368269541",
+      "version_id": "03a1c8a8-de38-5d8b-a776-e053039a1bd6",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/2018/lei-13655-25-abril-2018-786606-publicacaooriginal-155430-pl.html",
+      "source_extract_sha256": "0e231e1c8a8b2000e28cee18b455f93a88f43774a7bd6a54e7d25e073550983d",
+      "body_sha256": "7fc7d877e52f635302fc9487cb986906b43db2d93ed0cad7bbc09c1604ecd4b0",
+      "valid_from": "2018-04-26",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "LINDB",
+      "provision_key": "art-00022",
+      "provision_id": "7f522f5b-d94e-48b3-929b-4606d5606031",
+      "version_id": "885fa736-5180-5aac-b25a-5aec4167c3c1",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/2018/lei-13655-25-abril-2018-786606-publicacaooriginal-155430-pl.html",
+      "source_extract_sha256": "6ff8c9b0bfde702ccffa07c96e4e2284e94590919742b827ce34ed2a4d1847c9",
+      "body_sha256": "170403675f91b46a3e8a5e7e70e844af9d0491bacab8777a90b6e26fa9d832b5",
+      "valid_from": "2018-04-26",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "LINDB",
+      "provision_key": "art-00023",
+      "provision_id": "62972a8e-d4fb-48e7-bcca-96ef4b944ecc",
+      "version_id": "8c91d42a-83d5-57e8-9ed1-1af91fb1a7fd",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/2018/lei-13655-25-abril-2018-786606-publicacaooriginal-155430-pl.html",
+      "source_extract_sha256": "079f586d2ad9e8942bf774ae53125f965b8e71f420f9a38da3d9bf30eb3cb05d",
+      "body_sha256": "31397443f0a402c6b6ef1fa2ae774e5e43c83e6168e099cd7407134dcfb5afaf",
+      "valid_from": "2018-04-26",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "LINDB",
+      "provision_key": "art-00024",
+      "provision_id": "ee1f3238-1b79-4394-8d0e-09a715e86d2e",
+      "version_id": "32d8ddff-4a6d-589f-9313-5d03080707fe",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/2018/lei-13655-25-abril-2018-786606-publicacaooriginal-155430-pl.html",
+      "source_extract_sha256": "1eba301ff35501ec371a690b5f77670ca280ee724cc384848667526249396380",
+      "body_sha256": "d53c629df186b738647c34fbd39f1323717f7d53eae703f0dd4d9bf771924c65",
+      "valid_from": "2018-04-26",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "LINDB",
+      "provision_key": "art-00025",
+      "provision_id": "36991849-87a6-4f87-b9be-0d3eadf82df6",
+      "version_id": null,
+      "certified_for_notice": false,
+      "documentary_status": "not_enacted_veto",
+      "reason": "LINDB25 vetado; não existe corpo de lei promulgado a preparar."
+    },
+    {
+      "document_code": "LINDB",
+      "provision_key": "art-00026",
+      "provision_id": "9c109eab-6155-4496-a951-e7aae15dbfa3",
+      "version_id": "5c5832f5-f6a9-5684-abdb-38a3817f7819",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/2018/lei-13655-25-abril-2018-786606-publicacaooriginal-155430-pl.html",
+      "source_extract_sha256": "306de001661c3b63dba999c228a5e4b69d756da74cac7f037b9ca53ff7d32c1a",
+      "body_sha256": "5c5d02907397e96b10761df2a73cf0c3b5d267211f00f5c3fc9474afe4eb63ed",
+      "valid_from": "2018-04-26",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "LINDB",
+      "provision_key": "art-00027",
+      "provision_id": "f9f0fae8-1105-4c70-86c5-816d85f0ea69",
+      "version_id": "7f294704-e345-5b85-b74b-fdbdca888926",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/2018/lei-13655-25-abril-2018-786606-publicacaooriginal-155430-pl.html",
+      "source_extract_sha256": "c83ee72f7278e1dc2fdea9126a16a766ecb10364720a113bccd6925b4c3c9934",
+      "body_sha256": "4be61ca6efed6fddf429a423b1917153e0c5b9533f2fabe5b80e6464b1b6d231",
+      "valid_from": "2018-04-26",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "LINDB",
+      "provision_key": "art-00028",
+      "provision_id": "0cb215c1-be5d-414d-814a-7d47a4e4ece1",
+      "version_id": "8dbbed04-846b-5239-b69c-82c6a5a75984",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/2018/lei-13655-25-abril-2018-786606-publicacaooriginal-155430-pl.html",
+      "source_extract_sha256": "274423a831d54130b2720b1e2ad667161f56a6ce13a1fd01b0f785e8e980fb42",
+      "body_sha256": "1fe5d22e189d2a3fb5548a6af23b91f2d7a8b67811d873a67d08c4f663d2f2b6",
+      "valid_from": "2018-04-26",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "LINDB",
+      "provision_key": "art-00029",
+      "provision_id": "4740aebe-2736-4563-a756-d8fe12bf7011",
+      "version_id": "73e82c3b-5954-59fa-a3a9-a5b671cda326",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/2018/lei-13655-25-abril-2018-786606-publicacaooriginal-155430-pl.html",
+      "source_extract_sha256": "503bc8f4da7d17fe94a0a78dd0e3a4eb19732ede5d21c618be9c6fe92a1dea7e",
+      "body_sha256": "4f0b8100fa2652ed85c23c30027792bba0693ce0785602a93ce7d4f4e4b84883",
+      "valid_from": "2018-10-23",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    },
+    {
+      "document_code": "LINDB",
+      "provision_key": "art-00030",
+      "provision_id": "cf5e5a31-b66e-4b24-81fc-87ce8238c2e7",
+      "version_id": "28ab616d-c1e0-5143-b941-752ef874d2dc",
+      "certified_for_notice": false,
+      "documentary_status": "prepared_source_traced",
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/2018/lei-13655-25-abril-2018-786606-publicacaooriginal-155430-pl.html",
+      "source_extract_sha256": "454152c7b9ce9ac4678ecba6c126515efd8802b89622db32f1505e5dba0199d1",
+      "body_sha256": "4197fe30c3f963fdfcb7a21b49e00e358a29b0f085fc5f40df249f757b7c150b",
+      "valid_from": "2018-04-26",
+      "valid_until": null,
+      "exact_start_requires_review": false,
+      "scenario_checks": {
+        "2024-05-09": true,
+        "2024-05-11": true
+      }
+    }
+  ],
+  "identified_devices": 163,
+  "prepared_texts": 161,
+  "formal_certification_count": 0,
+  "formal_certification_percent": 0,
+  "scenario_results": {
+    "2024-05-09": 161,
+    "2024-05-11": 161
+  },
+  "scenario_limit": "São apenas duas hipóteses documentais, não limites comprovados da data real. Igualdade da seleção nas hipóteses não confirma corte nem sela edital.",
+  "blockers": [
+    "official_cutoff_unconfirmed",
+    "official_rectification_chain_incomplete",
+    "unresolved_documentary_evidence",
+    "effective_dates_require_material_review"
+  ],
+  "material_date_reviews": [
+    "CF88/art-00016",
+    "CF88/art-00142"
+  ],
+  "granular_certification_condition": "As versões têm fontes rastreáveis e seleção nas hipóteses examinadas, mas nenhuma é promovida a certificada para edital sem corte oficial comprovado. O modelo mantém a pendência; não se cria selo paralelo."
+}

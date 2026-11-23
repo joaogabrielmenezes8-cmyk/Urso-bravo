@@ -1,0 +1,58 @@
+{
+  "document_code": "CF88",
+  "reviewed_on": "2026-11-22",
+  "source_extract": "cf88-sem-clausula-2-artigos.txt",
+  "source_artifact_format": "UTF-8 LF, Art. N. newline corpo newline; linha vazia entre artigos",
+  "normative_source": "https://www2.senado.leg.br/bdsf/bitstream/handle/id/645769/CF88_EC132_separata.pdf",
+  "interpretive_source": "https://www2.senado.leg.br/bdsf/bitstream/handle/id/502959/001002793.pdf",
+  "versions": [
+    {
+      "id": "fc454624-1807-535f-a085-0b05e5b6e957",
+      "provision_id": "f8b16d40-4441-41dc-965f-b2c9cbda2c41",
+      "valid_from": "1993-09-14",
+      "valid_until": null,
+      "heading": null,
+      "body": "A lei que alterar o processo eleitoral entrará em vigor na data de sua publicação, não se aplicando à eleição que ocorra até um ano da data de sua vigência.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988/arquivos/ConstituicaoTextoAtualizado_EC%20141.html",
+      "source_sha256": "2480f9c4ee2a2147ba61fe735f7ee40d18ce2f4a0cac69fa4b6e369a7706bb43",
+      "review_evidence": "Texto legislativo literal compilado da Câmara. EC4 sem cláusula expressa de vigência, promulgação1993-09-14, conforme edição Senado EC132/2023. Data de vigência DERIVADA do princípio de imediata incidência constitucional, explicitado no estudo técnico Análise das emendas constitucionais, Revista de Informação Legislativa, p220, disponível na BDSF. Não apresentada como cláusula expressa, nem como certificação jurídica institucional. Revisão material da interpretação permanece pendente; não selar edital com este lote automaticamente. Art142 IX revogado preservado."
+    },
+    {
+      "id": "07689820-2744-51eb-8a1c-d39c7bc51d81",
+      "provision_id": "531b503c-8cc1-4732-bf5a-f0aff8e20bcd",
+      "valid_from": "2014-02-11",
+      "valid_until": null,
+      "heading": null,
+      "body": "As Forças Armadas, constituídas pela Marinha, pelo Exército e pela Aeronáutica, são instituições nacionais permanentes e regulares, organizadas com base na hierarquia e na disciplina, sob a autoridade suprema do Presidente da República, e destinam-se à defesa da Pátria, à garantia dos poderes constitucionais e, por iniciativa de qualquer destes, da lei e da ordem.\n§ 1º Lei complementar estabelecerá as normas gerais a serem adotadas na organização, no preparo e no emprego das Forças Armadas.\n\n§ 2º Não caberá habeas corpus em relação a punições disciplinares militares.\n\n§ 3º Os membros das Forças Armadas são denominados militares, aplicando-se-lhes, além das que vierem a ser fixadas em lei, as seguintes disposições: \nI - as patentes, com prerrogativas, direitos e deveres a elas inerentes, são conferidas pelo Presidente da República e asseguradas em plenitude aos oficiais da ativa, da reserva ou reformados, sendo-lhes privativos os títulos e postos militares e, juntamente com os demais membros, o uso dos uniformes das Forças Armadas; \nII - o militar em atividade que tomar posse em cargo ou emprego público civil permanente, ressalvada a hipótese prevista no art. 37, inciso XVI, alínea \"c\", será transferido para a reserva, nos termos da lei;  \nIII - o militar da ativa que, de acordo com a lei, tomar posse em cargo, emprego ou função pública civil temporária, não eletiva, ainda que da administração indireta, ressalvada a hipótese prevista no art.\n37, inciso XVI, alínea \"c\", ficará agregado ao respectivo quadro e somente poderá, enquanto permanecer nessa situação, ser promovido por antiguidade, contando-se-lhe o tempo de serviço apenas para aquela promoção e transferência para a reserva, sendo depois de dois anos de afastamento, contínuos ou não, transferido para a reserva, nos termos da lei; \nIV - ao militar são proibidas a sindicalização e a greve; \n\nV - o militar, enquanto em serviço ativo, não pode estar filiado a partidos políticos; \nVI - o oficial só perderá o posto e a patente se for julgado indigno do oficialato ou com ele incompatível, por decisão de tribunal militar de caráter permanente, em tempo de paz, ou de tribunal especial, em tempo de guerra; \nVII - o oficial condenado na justiça comum ou militar a pena privativa de liberdade superior a dois anos, por sentença transitada em julgado, será submetido ao julgamento previsto no inciso anterior; \nVIII - aplica-se aos militares o disposto no art. 7º, incisos VIII, XII, XVII, XVIII, XIX e XXV, e no art. 37, incisos XI, XIII, XIV e XV, bem como, na forma da lei e com prevalência da atividade militar, no art. 37, inciso XVI, alínea \"c\"; \n\nIX - (Revogado pela Emenda Constitucional nº 41, de 2003)\nX - a lei disporá sobre o ingresso nas Forças Armadas, os limites de idade, a estabilidade e outras condições de transferência do militar para a inatividade, os direitos, os deveres, a remuneração, as prerrogativas e outras situações especiais dos militares, consideradas as peculiaridades de suas atividades, inclusive aquelas cumpridas por força de compromissos internacionais e de guerra.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988/arquivos/ConstituicaoTextoAtualizado_EC%20141.html",
+      "source_sha256": "c8b546881e555fb571c128197822d1487660d1d7fe7f5df05b22725291f0f021",
+      "review_evidence": "Texto legislativo literal compilado da Câmara. EC77 sem cláusula expressa de vigência, promulgação2014-02-11, conforme edição Senado EC132/2023. Data de vigência DERIVADA do princípio de imediata incidência constitucional, explicitado no estudo técnico Análise das emendas constitucionais, Revista de Informação Legislativa, p220, disponível na BDSF. Não apresentada como cláusula expressa, nem como certificação jurídica institucional. Revisão material da interpretação permanece pendente; não selar edital com este lote automaticamente. Art142 IX revogado preservado."
+    }
+  ],
+  "scope_preparation": [
+    {
+      "article": 16,
+      "provision_id": "f8b16d40-4441-41dc-965f-b2c9cbda2c41",
+      "version_id": "fc454624-1807-535f-a085-0b05e5b6e957",
+      "source_sha256": "2480f9c4ee2a2147ba61fe735f7ee40d18ce2f4a0cac69fa4b6e369a7706bb43",
+      "status": "prepared_derived_effective_date_requires_review",
+      "effective_on": "1993-09-14",
+      "effective_date_basis": "constitutional_immediate_incidence_at_promulgation_no_express_clause",
+      "material_certification": false
+    },
+    {
+      "article": 142,
+      "provision_id": "531b503c-8cc1-4732-bf5a-f0aff8e20bcd",
+      "version_id": "07689820-2744-51eb-8a1c-d39c7bc51d81",
+      "source_sha256": "c8b546881e555fb571c128197822d1487660d1d7fe7f5df05b22725291f0f021",
+      "status": "prepared_derived_effective_date_requires_review",
+      "effective_on": "2014-02-11",
+      "effective_date_basis": "constitutional_immediate_incidence_at_promulgation_no_express_clause",
+      "material_certification": false
+    }
+  ],
+  "notice_certification": false,
+  "requires_effective_date_review": true
+}

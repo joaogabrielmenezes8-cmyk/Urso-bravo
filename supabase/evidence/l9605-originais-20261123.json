@@ -1,0 +1,1529 @@
+{
+  "document_code": "L9605",
+  "reviewed_on": "2026-11-23",
+  "candidate_cutoff": "2026-09-03",
+  "notice_certification": false,
+  "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+  "source_extract": "l9605-originais-20261123.txt",
+  "valid_from_basis": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova.",
+  "publication_on": "1998-02-13",
+  "vacatio_days": 45,
+  "source_captures": [
+    {
+      "url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-publicacaooriginal-1-pl.html",
+      "captured_on": "2026-11-23",
+      "raw_sha256": "e95c511bce612dd0e506811b6cd5145ead7e38aebb3e44db0f0904c845ff5abd",
+      "raw_bytes": 91089
+    },
+    {
+      "url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "captured_on": "2026-11-23",
+      "raw_sha256": "7c1d32e19ece3049f7aea1d893d0d9c681d07cc8c928ca7a3a731898e57dc155",
+      "raw_bytes": 140877
+    },
+    {
+      "url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-norma-pl.html",
+      "captured_on": "2026-11-23",
+      "raw_sha256": "aff58f07f5759094ed7065d39a1d4486b508b5942d0291d31b9bbbdf32f82f9e",
+      "raw_bytes": 66081
+    },
+    {
+      "url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-retificacao-172836-pl.html",
+      "captured_on": "2026-11-23",
+      "raw_sha256": "95079ef39e603da31f4330fd550519870818f40243416f07ac0c0c4c368b0fed",
+      "raw_bytes": 42619
+    }
+  ],
+  "versions": [
+    {
+      "id": "e29a73e4-49b2-5e4f-a30d-41092159f8e6",
+      "provision_id": "4893d4ea-f591-40e8-ba8d-93d9e4be020e",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "Quem, de qualquer forma, concorre para a prática dos crimes previstos nesta Lei, incide nas penas a estes cominadas, na medida da sua culpabilidade, bem como o diretor, o administrador, o membro de conselho e de órgão técnico, o auditor, o gerente, o preposto ou mandatário de pessoa jurídica, que, sabendo da conduta criminosa de outrem, deixar de impedir a sua prática, quando podia agir para evitá-la.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "9573439cf0e6553f63b697a54b52acaee46e6f401c2ce0850ea830df81750095",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "8792f091-cbf3-5a62-a570-73e8bd49634a",
+      "provision_id": "aabcb730-6100-49f9-bd44-b2a4a2f031c0",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "As pessoas jurídicas serão responsabilizadas administrativa, civil e penalmente conforme o disposto nesta Lei, nos casos em que a infração seja cometida por decisão de seu representante legal ou contratual, ou de seu órgão colegiado, no interesse ou benefício da sua entidade.\n\nParágrafo único. A responsabilidade das pessoas jurídicas não exclui a das pessoas físicas, autoras, co-autoras ou partícipes do mesmo fato.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "82906759a2beb8b1f180c9b0e27a568cc26581a96e1732dd1be49f98ba82a257",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "a005c700-1eed-5889-8b9f-b64509c8f452",
+      "provision_id": "34f8cbe2-ce0b-4e66-82e2-fec59f01f4ad",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "Poderá ser desconsiderada a pessoa jurídica sempre que sua personalidade for obstáculo ao ressarcimento de prejuízos causados à qualidade do meio ambiente.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "0be72629281d5691462e681a8448c48871d04906f2a95305a09a8e526a664030",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "dae6d9fa-9f32-5f1f-9073-4c8562fc1183",
+      "provision_id": "6f734b69-7d76-4152-a66e-504368d57482",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "Para imposição e gradação da penalidade, a autoridade competente observará:\n\nI - a gravidade do fato, tendo em vista os motivos da infração e suas conseqüências para a saúde pública e para o meio ambiente;\n\nII - os antecedentes do infrator quanto ao cumprimento da legislação de interesse ambiental;\n\nIII - a situação econômica do infrator, no caso de multa.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "3d8e25b8f3fd091b8b38be5973c618bfaa09590713eef2e70c67d02d736bbe71",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "3575cd84-fb40-5687-8ec6-fc978f1d54d9",
+      "provision_id": "d95f30ba-42c7-49bf-8a9d-e333d5ebe937",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "As penas restritivas de direitos são autônomas e substituem as privativas de liberdade quando:\n\nI - tratar-se de crime culposo ou for aplicada a pena privativa de liberdade inferior a quatro anos;\n\nII - a culpabilidade, os antecedentes, a conduta social e a personalidade do condenado, bem como os motivos e as circunstâncias do crime indicarem que a substituição seja suficiente para efeitos de reprovação e prevenção do crime.\n\nParágrafo único. As penas restritivas de direitos a que se refere este artigo terão a mesma duração da pena privativa de liberdade substituída.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "91fa9eb81924fa47189fe8503859854e02cae798c7637026a52834625f796794",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "cc45cafa-5254-5c23-a5f9-502c7e8c4819",
+      "provision_id": "2f0513bd-6cdf-4e72-bdc4-6bba8b51f739",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "As penas restritivas de direito são:\n\nI - prestação de serviços à comunidade;\n\nII - interdição temporária de direitos;\n\nIII - suspensão parcial ou total de atividades;\n\nIV - prestação pecuniária;\n\nV - recolhimento domiciliar.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "6179d5599c38ed53e02bc68e410d8aec52ea186b93cd68d5b9a7b608f04ce092",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "25b7a1a3-a0c9-5e9d-bc27-5baa4218de27",
+      "provision_id": "b7f40d90-1ff6-4cfb-80b9-db4177945488",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "A prestação de serviços à comunidade consiste na atribuição ao condenado de tarefas gratuitas junto a parques e jardins públicos e unidades de conservação, e, no caso de dano da coisa particular, pública ou tombada, na restauração desta, se possível.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "0ae6d1d1d07cfe8c2929036f66235a2ffdbcf70ecfc6dd12b6b0e30cf56cc2b1",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "eaa3e50b-5e53-55e9-a74b-644918c2371a",
+      "provision_id": "f5816f61-78d0-4254-b2f9-1c10def1fd9f",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "As penas de interdição temporária de direito são a proibição de o condenado contratar com o Poder Público, de receber incentivos fiscais ou quaisquer outros benefícios, bem como de participar de licitações, pelo prazo de cinco anos, no caso de crimes dolosos, e de três anos, no de crimes culposos.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "00dd888d7d9d2e4ca4d3efb97616f71fee8623c66e4bf1d94226906f89bc7ff5",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "7afe3439-b6c1-5dcc-9b8c-4a2e43d76910",
+      "provision_id": "31b6e592-9acb-46ed-9935-ed61a81224db",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "A suspensão de atividades será aplicada quando estas não estiverem obedecendo às prescrições legais.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "34f3895fd1df54bf8bbd21208e76d0859c6a9876e89035ebc4e810265efe87fc",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "901a0ec2-d972-5824-ab12-6d41f7f85f30",
+      "provision_id": "7c06c7f2-18b7-4330-bb1b-48c898aae877",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "A prestação pecuniária consiste no pagamento em dinheiro à vítima ou à entidade pública ou privada com fim social, de importância, fixada pelo juiz, não inferior a um salário mínimo nem superior a trezentos e sessenta salários mínimos. O valor pago será deduzido do montante de eventual reparação civil a que for condenado o infrator.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "6cb9bdef309cbf8cb02bf839651b868798be73cbb9536f7f64f85914fd2d8411",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "cdad0891-12f1-595a-899b-761b43a78cd6",
+      "provision_id": "02a0c793-511c-4ba7-b7cc-44ab91bfad52",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "O recolhimento domiciliar baseia-se na autodisciplina e senso de responsabilidade do condenado, que deverá, sem vigilância, trabalhar, freqüentar curso ou exercer atividade autorizada, permanecendo recolhido nos dias e horários de folga em residência ou em qualquer local destinado a sua moradia habitual, conforme estabelecido na sentença condenatória.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "ba2c0fdaaaf73c9503c89affb8baef6d6b88c4aeca7fd114e2707a811f9ab824",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "dc8d4165-9f91-5d8a-9862-029a1f2bbb27",
+      "provision_id": "dcc6cd40-3039-4cf2-a811-b7d00da2aa22",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "São circunstâncias que atenuam a pena:\n\nI - baixo grau de instrução ou escolaridade do agente;\n\nII - arrependimento do infrator, manifestado pela espontânea reparação do dano, ou limitação significativa da degradação ambiental causada;\n\nIII - comunicação prévia pelo agente do perigo iminente de degradação ambiental;\n\nIV - colaboração com os agentes encarregados da vigilância e do controle ambiental.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "2b1b77547f87c24e969eedf3eb976cb2433c0cc770bbaeda0f0e4ed60d3fac0f",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "ee5e0854-cda2-5729-a491-b73101692303",
+      "provision_id": "cae7d435-0b26-4f60-bdd2-08f9778919e4",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "São circunstâncias que agravam a pena, quando não constituem ou qualificam o crime:\n\nI - reincidência nos crimes de natureza ambiental;\n\nII - ter o agente cometido a infração:\n\na) para obter vantagem pecuniária;\n\nb) coagindo outrem para a execução material da infração;\n\nc) afetando ou expondo a perigo, de maneira grave, a saúde pública ou o meio ambiente;\n\nd) concorrendo para danos à propriedade alheia;\n\ne) atingindo áreas de unidades de conservação ou áreas sujeitas, por ato do Poder Público, a regime especial de uso;\n\nf) atingindo áreas urbanas ou quaisquer assentamentos humanos;\n\ng) em período de defeso à fauna;\n\nh) em domingos ou feriados;\n\ni) à noite;\n\nj) em épocas de seca ou inundações;\n\nl) no interior do espaço territorial especialmente protegido;\n\nm) com o emprego de métodos cruéis para abate ou captura de animais;\n\nn) mediante fraude ou abuso de confiança;\n\no) mediante abuso do direito de licença, permissão ou autorização ambiental;\n\np) no interesse de pessoa jurídica mantida, total ou parcialmente, por verbas públicas ou beneficiada por incentivos fiscais;\n\nq) atingindo espécies ameaçadas, listadas em relatórios oficiais das autoridades competentes;\n\nr) facilitada por funcionário público no exercício de suas funções.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "1efbdd9cca91e151b4cc0907c39fd12f1f82bcd3c6fb19fde1f7ac5e61fadc6c",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "68e90788-58cd-5558-9e8f-24cf3171e129",
+      "provision_id": "7573cf35-e44a-4c09-be19-4ad1534ca7cc",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "Nos crimes previstos nesta Lei, a suspensão condicional da pena pode ser aplicada nos casos de condenação a pena privativa de liberdade não superior a três anos.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "3f85a5cab11710128ed679ddf9cb311eb287c9786e96c9dec22b7e176518b843",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "4fd2a520-c152-5d7e-a33d-584fa200d411",
+      "provision_id": "f9c1de2a-33f9-4269-bc40-6d664b7ba9b8",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "A verificação da reparação a que se refere o § 2º do art. 78 do Código Penal será feita mediante laudo de reparação do dano ambiental, e as condições a serem impostas pelo juiz deverão relacionar-se com a proteção ao meio ambiente.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "c56954e78a1ad83c8ba80784847f7b2e37630c386b678211d9969d0e43629356",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "42153fdd-0775-5fa5-bef1-b0b7baaee7c6",
+      "provision_id": "c2e75d91-06f7-42e1-9cc0-c57507699b66",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "A multa será calculada segundo os critérios do Código Penal; se revelar-se ineficaz, ainda que aplicada no valor máximo, poderá ser aumentada até três vezes, tendo em vista o valor da vantagem econômica auferida.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "41daab7cedae28875daa42642cafd548cfd84895bc887a78ef160a0c2e2b70cb",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "98099760-ce5b-5b98-ac6e-e4f3202bba58",
+      "provision_id": "c49683e8-f5a6-4377-a237-1d181eb035ab",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "A perícia de constatação do dano ambiental, sempre que possível, fixará o montante do prejuízo causado para efeitos de prestação de fiança e cálculo de multa.\n\nParágrafo único. A perícia produzida no inquérito civil ou no juízo cível poderá ser aproveitada no processo penal, instaurando-se o contraditório.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "29ee75887da69651b375c9467cc3d98431e190eff9c1bb11aaaa46142920839f",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "e84671aa-351e-5dbb-8881-043ecb5e5083",
+      "provision_id": "a4a38ae0-7391-49ee-8c4a-99855635164e",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "A sentença penal condenatória, sempre que possível, fixará o valor mínimo para reparação dos danos causados pela infração, considerando os prejuízos sofridos pelo ofendido ou pelo meio ambiente.\n\nParágrafo único. Transitada em julgado a sentença condenatória, a execução poderá efetuar-se pelo valor fixado nos termos do caput, sem prejuízo da liquidação para apuração do dano efetivamente sofrido.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "49cc593216809d78278f613bbb5ad684718d65a992634d76fa038b493e031f24",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "d45e8936-ed24-51c5-9d8a-f3f75dc5b59d",
+      "provision_id": "febaf6fd-c029-49f9-be99-c15d23b70861",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "As penas aplicáveis isolada, cumulativa ou alternativamente às pessoas jurídicas, de acordo com o disposto no art. 3º, são:\n\nI - multa;\n\nII - restritivas de direitos;\n\nIII - prestação de serviços à comunidade.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "114dcab1fb47680f2232d63e1852a679b560a3fe70de34d30d872668ecd7fe0e",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "195c626d-962f-57ca-94ec-bb5c71009f1b",
+      "provision_id": "c09791bc-67ed-46cb-8f91-17cd1930a73a",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "As penas restritivas de direitos da pessoa jurídica são:\n\nI - suspensão parcial ou total de atividades;\n\nII - interdição temporária de estabelecimento, obra ou atividade;\n\nIII - proibição de contratar com o Poder Público, bem como dele obter subsídios, subvenções ou doações.\n\n§ 1º A suspensão de atividades será aplicada quando estas não estiverem obedecendo às disposições legais ou regulamentares, relativas à proteção do meio ambiente.\n\n§ 2º A interdição será aplicada quando o estabelecimento, obra ou atividade estiver funcionando sem a devida autorização, ou em desacordo com a concedida, ou com violação de disposição legal ou regulamentar.\n\n§ 3º A proibição de contratar com o Poder Público e dele obter subsídios, subvenções ou doações não poderá exceder o prazo de dez anos.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "957f60eb419922664ac42918ebf0f1fbe6587a6033d10ccc46444a39344c6300",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "473f077d-97dd-586a-8f49-57e71192ce46",
+      "provision_id": "4bfda796-5d22-4ad7-bc42-62d912783d27",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "A prestação de serviços à comunidade pela pessoa jurídica consistirá em:\n\nI - custeio de programas e de projetos ambientais;\n\nII - execução de obras de recuperação de áreas degradadas;\n\nIII - manutenção de espaços públicos;\n\nIV - contribuições a entidades ambientais ou culturais públicas.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "3ff4032e15cd8383b50542fd434654fd7cff3c1aeafbeaf020e4f14bca75b1cc",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "4e1243c7-6b19-5537-97a7-b569dccec2d6",
+      "provision_id": "3e756dcf-6f4c-49f1-978b-1eae31ec3b39",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "A pessoa jurídica constituída ou utilizada, preponderantemente, com o fim de permitir, facilitar ou ocultar a prática de crime definido nesta Lei terá decretada sua liquidação forçada, seu patrimônio será considerado instrumento do crime e como tal perdido em favor do Fundo Penitenciário Nacional.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "5d93618ec376f4a8bc4e3b0c29c7ee2f5e03721854cadc8b78a4607ddb818d03",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "71b62300-2499-51b3-886c-c65a1fec892d",
+      "provision_id": "aa64fcf4-3f4b-4204-b01b-2eadef45fa73",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "Nas infrações penais previstas nesta Lei, a ação penal é pública incondicionada.\n\nParágrafo único. (VETADO)",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "0641a94c37b5516922d37f756e5dbbc013b98a3b3ae8f202cf5dd305bf923be4",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "9022d84d-9496-56f6-a351-5910307ab550",
+      "provision_id": "11ce08a2-fc90-497a-86f3-097a3db444a6",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "Nos crimes ambientais de menor potencial ofensivo, a proposta de aplicação imediata de pena restritiva de direitos ou multa, prevista no art. 76 da Lei nº 9.099, de 26 de setembro de 1995, somente poderá ser formulada desde que tenha havido a prévia composição do dano ambiental, de que trata o art. 74 da mesma lei, salvo em caso de comprovada impossibilidade.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "58896d4e29fd33d97d7240edb9ae1da8167ffb3a0717029e4195e19335c808f6",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "c46bc79c-7c18-5ff1-a1c0-09f85ecafcc7",
+      "provision_id": "344ade49-1596-4518-a981-7bed2d5f3fab",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "As disposições do art. 89 da Lei nº 9.099, de 26 de setembro de 1995, aplicam-se aos crimes de menor potencial ofensivo definidos nesta Lei, com as seguintes modificações:\n\nI - a declaração de extinção de punibilidade, de que trata o § 5° do artigo referido no caput, dependerá de laudo de constatação de reparação do dano ambiental, ressalvada a impossibilidade prevista no inciso I do § 1° do mesmo artigo;\n\nII - na hipótese de o laudo de constatação comprovar não ter sido completa a reparação, o prazo de suspensão do processo será prorrogado, até o período máximo previsto no artigo referido no caput, acrescido de mais um ano, com suspensão do prazo da prescrição;\n\nIII - no período de prorrogação, não se aplicarão as condições dos incisos II, III e IV do § 1° do artigo mencionado no caput;\n\nIV - findo o prazo de prorrogação, proceder-se-á à lavratura de novo laudo de constatação de reparação do dano ambiental, podendo, conforme seu resultado, ser novamente prorrogado o período de suspensão, até o máximo previsto no inciso II deste artigo, observado o disposto no inciso III;\n\nV - esgotado o prazo máximo de prorrogação, a declaração de extinção de punibilidade dependerá de laudo de constatação que comprove ter o acusado tomado as providências necessárias à reparação integral do dano.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "9691daefe15a1573075f32d20d2bc170e1fe8253a7fdbd694eb4724a1e3fe9f9",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "97f06e41-13ae-5ecc-b69f-7f55c2059dbc",
+      "provision_id": "47ab7ade-62b4-4582-8d88-e6dd114b7d1b",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "Matar, perseguir, caçar, apanhar, utilizar espécimes da fauna silvestre, nativos ou em rota migratória, sem a devida permissão, licença ou autorização da autoridade competente, ou em desacordo com a obtida:\n\nPena - detenção de seis meses a um ano, e multa.\n\n§ 1º Incorre nas mesmas penas:\n\nI - quem impede a procriação da fauna, sem licença, autorização ou em desacordo com a obtida;\n\nII - quem modifica, danifica ou destrói ninho, abrigo ou criadouro natural;\n\nIII - quem vende, expõe à venda, exporta ou adquire, guarda, tem em cativeiro ou depósito, utiliza ou transporta ovos, larvas ou espécimes da fauna silvestre, nativa ou em rota migratória, bem como produtos e objetos dela oriundos, provenientes de criadouros não autorizados ou sem a devida permissão, licença ou autorização da autoridade competente.\n\n§ 2º No caso de guarda doméstica de espécie silvestre não considerada ameaçada de extinção, pode o juiz, considerando as circunstâncias, deixar de aplicar a pena.\n\n§ 3° São espécimes da fauna silvestre todos aqueles pertencentes às espécies nativas, migratórias e quaisquer outras, aquáticas ou terrestres, que tenham todo ou parte de seu ciclo de vida ocorrendo dentro dos limites do território brasileiro, ou águas jurisdicionais brasileiras.\n\n§ 4º A pena é aumentada de metade, se o crime é praticado:\n\nI - contra espécie rara ou considerada ameaçada de extinção, ainda que somente no local da infração;\n\nII - em período proibido à caça;\n\nIII - durante a noite;\n\nIV - com abuso de licença;\n\nV - em unidade de conservação;\n\nVI - com emprego de métodos ou instrumentos capazes de provocar destruição em massa.\n\n§ 5º A pena é aumentada até o triplo, se o crime decorre do exercício de caça profissional.\n\n§ 6º As disposições deste artigo não se aplicam aos atos de pesca.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "ff1a7e59f93fc2793bdf7557736804679bdf99448a1d0e560418a4154f54515e",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "78b98097-06a1-5915-b295-80cc8ee5953a",
+      "provision_id": "a56a84f0-91a1-4a7d-bd4c-e1c50f8b8bb2",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "Exportar para o exterior peles e couros de anfíbios e répteis em bruto, sem a autorização da autoridade ambiental competente:\n\nPena - reclusão, de um a três anos, e multa.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "8f7f5f6a8a8d53581f8a42003d7c5a0dedf709243ceaa23f5d572f20d65e578c",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "3d769df6-c738-5fa0-95ff-ef9414407217",
+      "provision_id": "f40917b0-09c6-4ef3-815d-c7f381266eb7",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "Introduzir espécime animal no País, sem parecer técnico oficial favorável e licença expedida por autoridade competente:\n\nPena - detenção, de três meses a um ano, e multa.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "b8be98dca8b536e95bc1a616a04e58436fb2f0f0b8b49cc37203b18bad49e8ac",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "c83ea75f-8cd0-57d6-83e8-b3309dde4319",
+      "provision_id": "0defd3d7-111b-4816-98e1-ce9ad342865d",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "Provocar, pela emissão de efluentes ou carreamento de materiais, o perecimento de espécimes da fauna aquática existentes em rios, lagos, açudes, lagoas, baías ou águas jurisdicionais brasileiras:\n\nPena - detenção, de um a três anos, ou multa, ou ambas cumulativamente.\n\nParágrafo único. Incorre nas mesmas penas:\n\nI - quem causa degradação em viveiros, açudes ou estações de aqüicultura de domínio público;\n\nII - quem explora campos naturais de invertebrados aquáticos e algas, sem licença, permissão ou autorização da autoridade competente;\n\nIII - quem fundeia embarcações ou lança detritos de qualquer natureza sobre bancos de moluscos ou corais, devidamente demarcados em carta náutica.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "435749fa0c806f7051782ce8b9cd321bd29e27905ab55874cfa5a851dd6cd7f6",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "7f6bffd4-ff76-569c-a308-2bfcb9ba7930",
+      "provision_id": "21acce13-5a24-4241-af8c-15b7c562eb42",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "Pescar em período no qual a pesca seja proibida ou em lugares interditados por órgão competente:\n\nPena - detenção de um ano a três anos ou multa, ou ambas as penas cumulativamente.\n\nParágrafo único. Incorre nas mesmas penas quem:\n\nI - pesca espécies que devam ser preservadas ou espécimes com tamanhos inferiores aos permitidos;\n\nII - pesca quantidades superiores às permitidas, ou mediante a utilização de aparelhos, petrechos, técnicas e métodos não permitidos;\n\nIII - transporta, comercializa, beneficia ou industrializa espécimes provenientes da coleta, apanha e pesca proibidas.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "622ea836f5fecd06ced4861459d770f96396ac803a6f403ae5128d2cf789c05b",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "6bb81e71-6ffc-544a-9066-12519ad9f708",
+      "provision_id": "2c2794cc-fabf-4297-8283-a7b60f17ad28",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "Pescar mediante a utilização de:\n\nI - explosivos ou substâncias que, em contato com a água, produzam efeito semelhante;\n\nII - substâncias tóxicas, ou outro meio proibido pela autoridade competente:\n\nPena - reclusão de um ano a cinco anos.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "9e315e85012efc4a86ec6908c657a6fb45d3756eeb8f0fa80c9a06411d0ff9ab",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "9c77c835-e26f-5317-81c8-448326aa8742",
+      "provision_id": "011f0c5e-d763-41a7-8f5f-75b99d90ce24",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "Para os efeitos desta Lei, considera-se pesca todo ato tendente a retirar, extrair, coletar, apanhar, apreender ou capturar espécimes dos grupos dos peixes, crustáceos, moluscos e vegetais hidróbios, suscetíveis ou não de aproveitamento econômico, ressalvadas as espécies ameaçadas de extinção, constantes nas listas oficiais da fauna e da flora.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "6319b1ed00aeef6b3758dbd53e355aa9d6c837c698737d58630b172d9011226d",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "64ca0c7f-ac70-57da-ae59-bed7efc4c4a4",
+      "provision_id": "3bdffd51-16bb-47dd-b8b5-e6bf22900234",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "Não é crime o abate de animal, quando realizado:\n\nI - em estado de necessidade, para saciar a fome do agente ou de sua família;\n\nII - para proteger lavouras, pomares e rebanhos da ação predatória ou destruidora de animais, desde que legal e expressamente autorizado pela autoridade competente;\n\nIII - (VETADO)\n\nIV - por ser nocivo o animal, desde que assim caracterizado pelo órgão competente.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "004fd76e203268e5d092689c9ff46f00120e42a83436162a42fd55b70c19aab3",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "934e66a1-e20a-5a86-b738-12c11462e487",
+      "provision_id": "20748eb0-e16c-4b9a-a150-d2e8ee817c10",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "Destruir ou danificar floresta considerada de preservação permanente, mesmo que em formação, ou utilizá-la com infringência das normas de proteção:\n\nPena - detenção, de um a três anos, ou multa, ou ambas as penas cumulativamente.\n\nParágrafo único. Se o crime for culposo, a pena será reduzida à metade.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "fa32943314e892ca8cc3af97780e9069de91a9083eb18f1742b3542d6f6eaa1b",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "92aa86f8-4380-5c3b-912f-40c0dd9c3d84",
+      "provision_id": "f6d5f09b-17ff-421d-868d-51de83784f16",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "Cortar árvores em floresta considerada de preservação permanente, sem permissão da autoridade competente:\n\nPena - detenção, de um a três anos, ou multa, ou ambas as penas cumulativamente.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "e08279074c41c7ebc0a2147b3b3a62ea0efd86bfe4a698f982b29aefa425445d",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "77f700b4-ce8b-5ec1-9524-e839fafdb2ee",
+      "provision_id": "35be01a2-1e57-4963-95d5-934cb6fc913c",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "Fabricar, vender, transportar ou soltar balões que possam provocar incêndios nas florestas e demais formas de vegetação, em áreas urbanas ou qualquer tipo de assentamento humano:\n\nPena - detenção de um a três anos ou multa, ou ambas as penas cumulativamente.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "f6bae762a1ab53b59d4d765cbe4961fa630d00e41e6ced6ca860feeaa322dda9",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "09a476d5-78ff-5ed9-92ad-c978799e540d",
+      "provision_id": "570842df-28a9-4d1a-81da-68e774ef9592",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "Extrair de florestas de domínio público ou consideradas de preservação permanente, sem prévia autorização, pedra, areia, cal ou qualquer espécie de minerais:\n\nPena - detenção, de seis meses a um ano, e multa.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "7799eb1d419d0ead91c5c03e9d577fb35623694a762f7debef9941e8413df789",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "4310ef47-7efa-5fa9-b8fb-6cc18eeaeb76",
+      "provision_id": "d29522d1-00d5-4dd2-b35b-c550dd0a9588",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "Cortar ou transformar em carvão madeira de lei, assim classificada por ato do Poder Público, para fins industriais, energéticos ou para qualquer outra exploração, econômica ou não, em desacordo com as determinações legais:\n\nPena - reclusão, de um a dois anos, e multa.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "42ca6f6679c4ed6a24ed754adf9f2be40716420233db284c050f1cf1dde3a2f7",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "112f4fc6-c6d6-5729-b6d1-de783e1230d4",
+      "provision_id": "66f88bc1-4e06-4858-b9a9-2c5ddcdf6dc9",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "Receber ou adquirir, para fins comerciais ou industriais, madeira, lenha, carvão e outros produtos de origem vegetal, sem exigir a exibição de licença do vendedor, outorgada pela autoridade competente, e sem munir-se da via que deverá acompanhar o produto até final beneficiamento:\n\nPena - detenção, de seis meses a um ano, e multa.\n\nParágrafo único. Incorre nas mesmas penas quem vende, expõe à venda, tem em depósito, transporta ou guarda madeira, lenha, carvão e outros produtos de origem vegetal, sem licença válida para todo o tempo da viagem ou do armazenamento, outorgada pela autoridade competente.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "81f801d07932246645a6d78d45a1b96eb71b55df6277f817270e02de3a7bee7d",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "e25b0eaa-058c-527e-9656-900e48b41ccc",
+      "provision_id": "73fc6dda-5e21-41e8-b511-fd621a48c999",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "Impedir ou dificultar a regeneração natural de florestas e demais formas de vegetação:\n\nPena - detenção, de seis meses a um ano, e multa.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "bcc2a2ee399583ef7b53838ff3c77c1f8d66bcb4b0fe814c12e6c21279573a3b",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "b60bd05b-c1d7-5a75-b446-f7bb3803a248",
+      "provision_id": "255a1f9c-57ad-4c1a-9a7a-dcc8f01f58b7",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "Destruir ou danificar florestas nativas ou plantadas ou vegetação fixadora de dunas, protetora de mangues, objeto de especial preservação:\n\nPena - detenção, de três meses a um ano, e multa.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "2ee54cad89511740352a6c04275cc4cf2f703e48d02a6bafbb4e28eaef21c4f3",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "d3d010b3-83f0-5cd2-a104-6df15dd80947",
+      "provision_id": "a229a2a4-49f0-480b-9ed8-ea0af7b0594f",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "Comercializar motosserra ou utilizá-la em florestas e nas demais formas de vegetação, sem licença ou registro da autoridade competente:\n\nPena - detenção, de três meses a um ano, e multa.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "6715465434ec8e149ebeacf9d295512644caf92346a9496b047672cb4dd4418f",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "9ceba802-d5d7-58bf-8a1a-314cc494b470",
+      "provision_id": "fbd280a7-36f4-427a-890b-96eb6c6b24be",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "Penetrar em Unidades de Conservação conduzindo substâncias ou instrumentos próprios para caça ou para exploração de produtos ou subprodutos florestais, sem licença da autoridade competente:\n\nPena - detenção, de seis meses a um ano, e multa.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "52ef2dc57e5c07bca2911c3897a6d20e7a9bda93a620a1c13dce8c6c9af1ade2",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "1de9d74d-3f17-5574-8d22-0731cc5f56a4",
+      "provision_id": "cee54aa4-8094-4e98-949d-cddc53e1dd21",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "Nos crimes previstos nesta Seção, a pena é aumentada de um sexto a um terço se:\n\nI - do fato resulta a diminuição de águas naturais, a erosão do solo ou a modificação do regime climático;\n\nII - o crime é cometido:\n\na) no período de queda das sementes;\n\nb) no período de formação de vegetações;\n\nc) contra espécies raras ou ameaçadas de extinção, ainda que a ameaça ocorra somente no local da infração;\n\nd) em época de seca ou inundação;\n\ne) durante a noite, em domingo ou feriado.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "ff6ef313b0a544e3db96d1e9712bbdb542425f2a19d1344cc1f4fb4cebe2beb7",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "7366767f-7b45-5d3a-928e-bda1b15b8747",
+      "provision_id": "b1b5af1f-a7c1-497a-ad9b-7d1627fe7edf",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "Causar poluição de qualquer natureza em níveis tais que resultem ou possam resultar em danos à saúde humana, ou que provoquem a mortandade de animais ou a destruição significativa da flora:\n\nPena - reclusão, de um a quatro anos, e multa.\n\n§ 1º Se o crime é culposo:\n\nPena - detenção, de seis meses a um ano, e multa.\n\n§ 2º Se o crime:\n\nI - tornar uma área, urbana ou rural, imprópria para a ocupação humana;\n\nII - causar poluição atmosférica que provoque a retirada, ainda que momentânea, dos habitantes das áreas afetadas, ou que cause danos diretos à saúde da população;\n\nIII - causar poluição hídrica que torne necessária a interrupção do abastecimento público de água de uma comunidade;\n\nIV - dificultar ou impedir o uso público das praias;\n\nV - ocorrer por lançamento de resíduos sólidos, líquidos ou gasosos, ou detritos, óleos ou substâncias oleosas, em desacordo com as exigências estabelecidas em leis ou regulamentos:\n\nPena - reclusão, de um a cinco anos.\n\n§ 3º Incorre nas mesmas penas previstas no parágrafo anterior quem deixar de adotar, quando assim o exigir a autoridade competente, medidas de precaução em caso de risco de dano ambiental grave ou irreversível.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "8c238a6af4c7f19346ced6c27d715560bc5e003fa9d09bda609ca2acd4fac943",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "b63a41f7-4b39-53b4-a621-ff5c519581a6",
+      "provision_id": "d7a09b38-0c24-4ed4-942a-d2765e3ac193",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "Executar pesquisa, lavra ou extração de recursos minerais sem a competente autorização, permissão, concessão ou licença, ou em desacordo com a obtida:\n\nPena - detenção, de seis meses a um ano, e multa.\n\nParágrafo único. Nas mesmas penas incorre quem deixa de recuperar a área pesquisada ou explorada, nos termos da autorização, permissão, licença, concessão ou determinação do órgão competente.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "859fd79c3377100ba75a9e91b242f97189d301237622e9a5b7b45676738da125",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "e128dc6d-8a15-5c18-a146-bdb676112f2e",
+      "provision_id": "723e5d85-2428-46cf-9f33-9c194e03808d",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "Nos crimes dolosos previstos nesta Seção, as penas serão aumentadas:\n\nI - de um sexto a um terço, se resulta dano irreversível à flora ou ao meio ambiente em geral;\n\nII - de um terço até a metade, se resulta lesão corporal de natureza grave em outrem;\n\nIII - até o dobro, se resultar a morte de outrem.\n\nParágrafo único. As penalidades previstas neste artigo somente serão aplicadas se do fato não resultar crime mais grave.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "7a2efc86ef6e92c6636e0ce0bac7ec40754675999434a41bf0b9edcb9f5b46ed",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "249a9e1d-c5a5-5a78-88df-d812ebb007d3",
+      "provision_id": "449c6e31-9ffa-4e74-a4fe-8cc4ca8cf677",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "Disseminar doença ou praga ou espécies que possam causar dano à agricultura, à pecuária, à fauna, à flora ou aos ecossistemas:\n\nPena - reclusão, de um a quatro anos, e multa.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "18f81b7681de5d6a29d9c4c4be009aeedff86f754ecfbd7d32e62fc30df47854",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "128a2355-f44f-597f-90d1-4bf69807678f",
+      "provision_id": "88f10da9-b684-4621-97c6-061816277594",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "Destruir, inutilizar ou deteriorar:\n\nI - bem especialmente protegido por lei, ato administrativo ou decisão judicial;\n\nII - arquivo, registro, museu, biblioteca, pinacoteca, instalação científica ou similar protegido por lei, ato administrativo ou decisão judicial:\n\nPena - reclusão, de um a três anos, e multa.\n\nParágrafo único. Se o crime for culposo, a pena é de seis meses a um ano de detenção, sem prejuízo da multa.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "ee0c576cadf3d623adbad0035a8fb30ab5062cf44590a359c3520cb93f820b44",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "f6ccc964-7144-55b0-a703-07353be6dc5c",
+      "provision_id": "5a6b630f-12ad-4a43-af1a-c6d15c1eb07a",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "Alterar o aspecto ou estrutura de edificação ou local especialmente protegido por lei, ato administrativo ou decisão judicial, em razão de seu valor paisagístico, ecológico, turístico, artístico, histórico, cultural, religioso, arqueológico, etnográfico ou monumental, sem autorização da autoridade competente ou em desacordo com a concedida:\n\nPena - reclusão, de um a três anos, e multa.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "4e2a5c6481dfcac263da2a15d36863319f2d1de5a778a104211068f5967911fa",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "c144b2af-bb83-527d-9a18-b401491595b9",
+      "provision_id": "f918de1e-ba24-4f1e-9cdb-d202d8a72b6a",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "Promover construção em solo não edificável, ou no seu entorno, assim considerado em razão de seu valor paisagístico, ecológico, artístico, turístico, histórico, cultural, religioso, arqueológico, etnográfico ou monumental, sem autorização da autoridade competente ou em desacordo com a concedida:\n\nPena - detenção, de seis meses a um ano, e multa.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "690f57933ed8e4d701579ae792a9a834032dbb3e70e4a1087117078d6289d578",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "5de2567d-942a-5994-bb4d-71ab9e8c48db",
+      "provision_id": "bf6e031d-f3db-44ad-85c8-955f034e3b60",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "Fazer o funcionário público afirmação falsa ou enganosa, omitir a verdade, sonegar informações ou dados técnico-científicos em procedimentos de autorização ou de licenciamento ambiental:\n\nPena - reclusão, de um a três anos, e multa.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "22e87f33a1feb05149372b28eccb5ea2e47fe9985a61df1119b2f996ba68eb34",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "a75071b2-23ce-5b71-9cfe-a2ed7c7f8953",
+      "provision_id": "cc53471e-63b1-4360-a2bc-0342f3910536",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "Deixar, aquele que tiver o dever legal ou contratual de fazê-lo, de cumprir obrigação de relevante interesse ambiental:\n\nPena - detenção, de um a três anos, e multa.\n\nParágrafo único. Se o crime é culposo, a pena é de três meses a um ano, sem prejuízo da multa.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "e149460cc3cd8264de25a05f355e1b3640f185d1c9f763b0bf1e6344994f51a7",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "3db3c116-eb89-5355-a766-ab9dc7616d04",
+      "provision_id": "73711de1-b1d4-48a4-8c4b-0fca9bb5b9e9",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "Obstar ou dificultar a ação fiscalizadora do Poder Público no trato de questões ambientais:\n\nPena - detenção, de um a três anos, e multa.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "a537b1d50074a138fd7f7e58aeb27a376439614de341afae5ca98e65cd76812f",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "37dfb774-a009-55bc-897d-68b48745f6c5",
+      "provision_id": "d09ec264-41ab-464f-ad2e-9edcb7cc352f",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "Considera-se infração administrativa ambiental toda ação ou omissão que viole as regras jurídicas de uso, gozo, promoção, proteção e recuperação do meio ambiente.\n\n§ 1º São autoridades competentes para lavrar auto de infração ambiental e instaurar processo administrativo os funcionários de órgãos ambientais integrantes do Sistema Nacional de Meio Ambiente - SISNAMA, designados para as atividades de fiscalização, bem como os agentes das Capitanias dos Portos, do Ministério da Marinha.\n\n§ 2º Qualquer pessoa, constatando infração ambiental, poderá dirigir representação às autoridades relacionadas no parágrafo anterior, para efeito do exercício do seu poder de polícia.\n\n§ 3º A autoridade ambiental que tiver conhecimento de infração ambiental é obrigada a promover a sua apuração imediata, mediante processo administrativo próprio, sob pena de co-responsabilidade.\n\n§ 4º As infrações ambientais são apuradas em processo administrativo próprio, assegurado o direito de ampla defesa e o contraditório, observadas as disposições desta Lei.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "d79505a0c2932029045a1fad246570c4bcd70fed00a73164289aebb73d05df56",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "537680a9-2cc9-515c-93d6-054e5d895864",
+      "provision_id": "f4dd14a2-3aa1-4ed0-8dca-d1a51782a811",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "O processo administrativo para apuração de infração ambiental deve observar os seguintes prazos máximos:\n\nI - vinte dias para o infrator oferecer defesa ou impugnação contra o auto de infração, contados da data da ciência da autuação;\n\nII - trinta dias para a autoridade competente julgar o auto de infração, contados da data da sua lavratura, apresentada ou não a defesa ou impugnação;\n\nIII - vinte dias para o infrator recorrer da decisão condenatória à instância superior do Sistema Nacional do Meio Ambiente - SISNAMA, ou à Diretoria de Portos e Costas, do Ministério da Marinha, de acordo com o tipo de autuação;\n\nIV - cinco dias para o pagamento de multa, contados da data do recebimento da notificação.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "5f994a95b7ffbdad686172a08c3e52a434d692a56494c01d6cbf698d0aae930b",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "42e17bc4-52e7-5cec-8ccc-864fc10483f4",
+      "provision_id": "cd4df78b-73fe-4a2c-8229-51997c5105be",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "As infrações administrativas são punidas com as seguintes sanções, observado o disposto no art. 6º:\n\nI - advertência;\n\nII - multa simples;\n\nIII - multa diária;\n\nIV - apreensão dos animais, produtos e subprodutos da fauna e flora, instrumentos, petrechos, equipamentos ou veículos de qualquer natureza utilizados na infração;\n\nV - destruição ou inutilização do produto;\n\nVI - suspensão de venda e fabricação do produto;\n\nVII - embargo de obra ou atividade;\n\nVIII - demolição de obra;\n\nIX - suspensão parcial ou total de atividades;\n\nX - (VETADO)\n\nXI - restritiva de direitos.\n\n§ 1º Se o infrator cometer, simultaneamente, duas ou mais infrações, ser-lhe-ão aplicadas, cumulativamente, as sanções a elas cominadas.\n\n§ 2º A advertência será aplicada pela inobservância das disposições desta Lei e da legislação em vigor, ou de preceitos regulamentares, sem prejuízo das demais sanções previstas neste artigo.\n\n§ 3º A multa simples será aplicada sempre que o agente, por negligência ou dolo:\n\nI - advertido por irregularidades que tenham sido praticadas, deixar de saná-las, no prazo assinalado por órgão competente do SISNAMA ou pela Capitania dos Portos, do Ministério da Marinha;\n\nII - opuser embaraço à fiscalização dos órgãos do SISNAMA ou da Capitania dos Portos, do Ministério da Marinha.\n\n§ 4° A multa simples pode ser convertida em serviços de preservação, melhoria e recuperação da qualidade do meio ambiente.\n\n§ 5º A multa diária será aplicada sempre que o cometimento da infração se prolongar no tempo.\n\n§ 6º A apreensão e destruição referidas nos incisos IV e V do caput obedecerão ao disposto no art. 25 desta Lei.\n\n§ 7º As sanções indicadas nos incisos VI a IX do caput serão aplicadas quando o produto, a obra, a atividade ou o estabelecimento não estiverem obedecendo às prescrições legais ou regulamentares.\n\n§ 8º As sanções restritivas de direito são:\n\nI - suspensão de registro, licença ou autorização;\n\nII - cancelamento de registro, licença ou autorização;\n\nIII - perda ou restrição de incentivos e benefícios fiscais;\n\nIV - perda ou suspensão da participação em linhas de financiamento em estabelecimentos oficiais de crédito;\n\nV - proibição de contratar com a Administração Pública, pelo período de até três anos.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "bf7a421b575289f2c89c02bc2dc40dbef5e76fc283397f147afbe67a0b94304e",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "b9d578ab-2594-50b6-b870-fa769894d545",
+      "provision_id": "6e202046-4f05-4e49-9e80-c0848d3a7ac0",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "A multa terá por base a unidade, hectare, metro cúbico, quilograma ou outra medida pertinente, de acordo com o objeto jurídico lesado.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "39fe98285fea0c10283ddb7518dbc675a44660ffcbe56e04b51dc2d53745d2ad",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "2bf34d43-54f1-531e-854f-3baae2bf7ff4",
+      "provision_id": "96ececa7-3627-44fb-a950-667b98706a2c",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "O valor da multa de que trata este Capítulo será fixado no regulamento desta Lei e corrigido periodicamente, com base nos índices estabelecidos na legislação pertinente, sendo o mínimo de R$ 50,00 (cinqüenta reais) e o máximo de R$ 50.000.000,00 (cinqüenta milhões de reais).",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "0d6aa942d28be05431ffd9a662442469b709a9907372d9cf91df666f102fc908",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "02efcf4e-8693-5d3d-8fc8-e6642f6ad823",
+      "provision_id": "8273ee68-95e7-4496-ad7b-7edce8534cd2",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "O pagamento de multa imposta pelos Estados, Municípios, Distrito Federal ou Territórios substitui a multa federal na mesma hipótese de incidência.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "c6410249500eddab3efa5a618ea7d421ddfc048a43bf1bd2feae4b1db70de0a4",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "7b302e76-f8ed-50df-b3b2-c9d64d79a2ab",
+      "provision_id": "fb9f0c5b-eae8-4023-841f-7a5bc85a66f5",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "Resguardados a soberania nacional, a ordem pública e os bons costumes, o Governo brasileiro prestará, no que concerne ao meio ambiente, a necessária cooperação a outro país, sem qualquer ônus, quando solicitado para:\n\nI - produção de prova;\n\nII - exame de objetos e lugares;\n\nIII - informações sobre pessoas e coisas;\n\nIV - presença temporária da pessoa presa, cujas declarações tenham relevância para a decisão de uma causa;\n\nV - outras formas de assistência permitidas pela legislação em vigor ou pelos tratados de que o Brasil seja parte.\n\n§ 1° A solicitação de que trata este artigo será dirigida ao Ministério da Justiça, que a remeterá, quando necessário, ao órgão judiciário competente para decidir a seu respeito, ou a encaminhará à autoridade capaz de atendê-la.\n\n§ 2º A solicitação deverá conter:\n\nI - o nome e a qualificação da autoridade solicitante;\n\nII - o objeto e o motivo de sua formulação;\n\nIII - a descrição sumária do procedimento em curso no país solicitante;\n\nIV - a especificação da assistência solicitada;\n\nV - a documentação indispensável ao seu esclarecimento, quando for o caso.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "cb4bc0dff4d8034d3f4fabcf589860e2d3fdaf42fbee7aa51f759e373489a970",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "a1ae292f-2135-5d03-9f2b-42d4d9f0738e",
+      "provision_id": "737b4bac-1b10-4c33-a1de-9f107bc72561",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "Para a consecução dos fins visados nesta Lei e especialmente para a reciprocidade da cooperação internacional, deve ser mantido sistema de comunicações apto a facilitar o intercâmbio rápido e seguro de informações com órgãos de outros países.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "75a7f0c8d3de475e84dfb58cad3abffde328ec97d7072ed7ef1652773c57f3d1",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "15928632-2551-53aa-b794-c46ec2dececf",
+      "provision_id": "e0cdf6ab-54fb-40f1-95d4-71876fb43f35",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "Aplicam-se subsidiariamente a esta Lei as disposições do Código Penal e do Código de Processo Penal.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "505d107e97146dc8c2540bd12d76ff182b93ab62d39df31f8b9eb85b61a66e6e",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "6c0800f5-848e-520f-a314-b4fb0229963b",
+      "provision_id": "7f53824a-d143-4f85-9fee-edff66a3b7b9",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "O Poder Executivo regulamentará esta Lei no prazo de noventa dias a contar de sua publicação.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "19a84a9b042032fd0b166819bf6a8d5746ea5137784678b89bf7444047528f25",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    },
+    {
+      "id": "4fc7cf47-0942-51ea-af17-f479823957fc",
+      "provision_id": "eb3c1397-2caa-4f00-a1d0-d1b6276cc799",
+      "valid_from": "1998-03-30",
+      "valid_until": null,
+      "heading": null,
+      "body": "Revogam-se as disposições em contrário.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
+      "source_sha256": "d201a4dca8834777b380ba7aaa1582f6d91ea3069a61049fbaac66a857e5de10",
+      "review_evidence": "Art.81 integralmente vetado; regra subsidiária do art.1º LINDB (45 dias), publicação DOU 13/02/1998. Resultado 30/03/1998. Retificação DOU17/02/1998 corrige somente epígrafe, sem substituir corpo dos artigos; não tratada como redação legislativa nova. Comparação literal original/compilação após normalização apenas de espaços e quebras de linha; não se alteraram palavras, números, pontuação ou vetos parciais. Estado preparado para o corte candidato, sem certificação formal por edital."
+    }
+  ],
+  "scope_preparation": [
+    {
+      "article": "2",
+      "provision_key": "art-00002",
+      "provision_id": "4893d4ea-f591-40e8-ba8d-93d9e4be020e",
+      "version_id": "e29a73e4-49b2-5e4f-a30d-41092159f8e6",
+      "source_sha256": "9573439cf0e6553f63b697a54b52acaee46e6f401c2ce0850ea830df81750095",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "3",
+      "provision_key": "art-00003",
+      "provision_id": "aabcb730-6100-49f9-bd44-b2a4a2f031c0",
+      "version_id": "8792f091-cbf3-5a62-a570-73e8bd49634a",
+      "source_sha256": "82906759a2beb8b1f180c9b0e27a568cc26581a96e1732dd1be49f98ba82a257",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "4",
+      "provision_key": "art-00004",
+      "provision_id": "34f8cbe2-ce0b-4e66-82e2-fec59f01f4ad",
+      "version_id": "a005c700-1eed-5889-8b9f-b64509c8f452",
+      "source_sha256": "0be72629281d5691462e681a8448c48871d04906f2a95305a09a8e526a664030",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "6",
+      "provision_key": "art-00006",
+      "provision_id": "6f734b69-7d76-4152-a66e-504368d57482",
+      "version_id": "dae6d9fa-9f32-5f1f-9073-4c8562fc1183",
+      "source_sha256": "3d8e25b8f3fd091b8b38be5973c618bfaa09590713eef2e70c67d02d736bbe71",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "7",
+      "provision_key": "art-00007",
+      "provision_id": "d95f30ba-42c7-49bf-8a9d-e333d5ebe937",
+      "version_id": "3575cd84-fb40-5687-8ec6-fc978f1d54d9",
+      "source_sha256": "91fa9eb81924fa47189fe8503859854e02cae798c7637026a52834625f796794",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "8",
+      "provision_key": "art-00008",
+      "provision_id": "2f0513bd-6cdf-4e72-bdc4-6bba8b51f739",
+      "version_id": "cc45cafa-5254-5c23-a5f9-502c7e8c4819",
+      "source_sha256": "6179d5599c38ed53e02bc68e410d8aec52ea186b93cd68d5b9a7b608f04ce092",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "9",
+      "provision_key": "art-00009",
+      "provision_id": "b7f40d90-1ff6-4cfb-80b9-db4177945488",
+      "version_id": "25b7a1a3-a0c9-5e9d-bc27-5baa4218de27",
+      "source_sha256": "0ae6d1d1d07cfe8c2929036f66235a2ffdbcf70ecfc6dd12b6b0e30cf56cc2b1",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "10",
+      "provision_key": "art-00010",
+      "provision_id": "f5816f61-78d0-4254-b2f9-1c10def1fd9f",
+      "version_id": "eaa3e50b-5e53-55e9-a74b-644918c2371a",
+      "source_sha256": "00dd888d7d9d2e4ca4d3efb97616f71fee8623c66e4bf1d94226906f89bc7ff5",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "11",
+      "provision_key": "art-00011",
+      "provision_id": "31b6e592-9acb-46ed-9935-ed61a81224db",
+      "version_id": "7afe3439-b6c1-5dcc-9b8c-4a2e43d76910",
+      "source_sha256": "34f3895fd1df54bf8bbd21208e76d0859c6a9876e89035ebc4e810265efe87fc",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "12",
+      "provision_key": "art-00012",
+      "provision_id": "7c06c7f2-18b7-4330-bb1b-48c898aae877",
+      "version_id": "901a0ec2-d972-5824-ab12-6d41f7f85f30",
+      "source_sha256": "6cb9bdef309cbf8cb02bf839651b868798be73cbb9536f7f64f85914fd2d8411",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "13",
+      "provision_key": "art-00013",
+      "provision_id": "02a0c793-511c-4ba7-b7cc-44ab91bfad52",
+      "version_id": "cdad0891-12f1-595a-899b-761b43a78cd6",
+      "source_sha256": "ba2c0fdaaaf73c9503c89affb8baef6d6b88c4aeca7fd114e2707a811f9ab824",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "14",
+      "provision_key": "art-00014",
+      "provision_id": "dcc6cd40-3039-4cf2-a811-b7d00da2aa22",
+      "version_id": "dc8d4165-9f91-5d8a-9862-029a1f2bbb27",
+      "source_sha256": "2b1b77547f87c24e969eedf3eb976cb2433c0cc770bbaeda0f0e4ed60d3fac0f",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "15",
+      "provision_key": "art-00015",
+      "provision_id": "cae7d435-0b26-4f60-bdd2-08f9778919e4",
+      "version_id": "ee5e0854-cda2-5729-a491-b73101692303",
+      "source_sha256": "1efbdd9cca91e151b4cc0907c39fd12f1f82bcd3c6fb19fde1f7ac5e61fadc6c",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "16",
+      "provision_key": "art-00016",
+      "provision_id": "7573cf35-e44a-4c09-be19-4ad1534ca7cc",
+      "version_id": "68e90788-58cd-5558-9e8f-24cf3171e129",
+      "source_sha256": "3f85a5cab11710128ed679ddf9cb311eb287c9786e96c9dec22b7e176518b843",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "17",
+      "provision_key": "art-00017",
+      "provision_id": "f9c1de2a-33f9-4269-bc40-6d664b7ba9b8",
+      "version_id": "4fd2a520-c152-5d7e-a33d-584fa200d411",
+      "source_sha256": "c56954e78a1ad83c8ba80784847f7b2e37630c386b678211d9969d0e43629356",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "18",
+      "provision_key": "art-00018",
+      "provision_id": "c2e75d91-06f7-42e1-9cc0-c57507699b66",
+      "version_id": "42153fdd-0775-5fa5-bef1-b0b7baaee7c6",
+      "source_sha256": "41daab7cedae28875daa42642cafd548cfd84895bc887a78ef160a0c2e2b70cb",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "19",
+      "provision_key": "art-00019",
+      "provision_id": "c49683e8-f5a6-4377-a237-1d181eb035ab",
+      "version_id": "98099760-ce5b-5b98-ac6e-e4f3202bba58",
+      "source_sha256": "29ee75887da69651b375c9467cc3d98431e190eff9c1bb11aaaa46142920839f",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "20",
+      "provision_key": "art-00020",
+      "provision_id": "a4a38ae0-7391-49ee-8c4a-99855635164e",
+      "version_id": "e84671aa-351e-5dbb-8881-043ecb5e5083",
+      "source_sha256": "49cc593216809d78278f613bbb5ad684718d65a992634d76fa038b493e031f24",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "21",
+      "provision_key": "art-00021",
+      "provision_id": "febaf6fd-c029-49f9-be99-c15d23b70861",
+      "version_id": "d45e8936-ed24-51c5-9d8a-f3f75dc5b59d",
+      "source_sha256": "114dcab1fb47680f2232d63e1852a679b560a3fe70de34d30d872668ecd7fe0e",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "22",
+      "provision_key": "art-00022",
+      "provision_id": "c09791bc-67ed-46cb-8f91-17cd1930a73a",
+      "version_id": "195c626d-962f-57ca-94ec-bb5c71009f1b",
+      "source_sha256": "957f60eb419922664ac42918ebf0f1fbe6587a6033d10ccc46444a39344c6300",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "23",
+      "provision_key": "art-00023",
+      "provision_id": "4bfda796-5d22-4ad7-bc42-62d912783d27",
+      "version_id": "473f077d-97dd-586a-8f49-57e71192ce46",
+      "source_sha256": "3ff4032e15cd8383b50542fd434654fd7cff3c1aeafbeaf020e4f14bca75b1cc",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "24",
+      "provision_key": "art-00024",
+      "provision_id": "3e756dcf-6f4c-49f1-978b-1eae31ec3b39",
+      "version_id": "4e1243c7-6b19-5537-97a7-b569dccec2d6",
+      "source_sha256": "5d93618ec376f4a8bc4e3b0c29c7ee2f5e03721854cadc8b78a4607ddb818d03",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "26",
+      "provision_key": "art-00026",
+      "provision_id": "aa64fcf4-3f4b-4204-b01b-2eadef45fa73",
+      "version_id": "71b62300-2499-51b3-886c-c65a1fec892d",
+      "source_sha256": "0641a94c37b5516922d37f756e5dbbc013b98a3b3ae8f202cf5dd305bf923be4",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "27",
+      "provision_key": "art-00027",
+      "provision_id": "11ce08a2-fc90-497a-86f3-097a3db444a6",
+      "version_id": "9022d84d-9496-56f6-a351-5910307ab550",
+      "source_sha256": "58896d4e29fd33d97d7240edb9ae1da8167ffb3a0717029e4195e19335c808f6",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "28",
+      "provision_key": "art-00028",
+      "provision_id": "344ade49-1596-4518-a981-7bed2d5f3fab",
+      "version_id": "c46bc79c-7c18-5ff1-a1c0-09f85ecafcc7",
+      "source_sha256": "9691daefe15a1573075f32d20d2bc170e1fe8253a7fdbd694eb4724a1e3fe9f9",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "29",
+      "provision_key": "art-00029",
+      "provision_id": "47ab7ade-62b4-4582-8d88-e6dd114b7d1b",
+      "version_id": "97f06e41-13ae-5ecc-b69f-7f55c2059dbc",
+      "source_sha256": "ff1a7e59f93fc2793bdf7557736804679bdf99448a1d0e560418a4154f54515e",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "30",
+      "provision_key": "art-00030",
+      "provision_id": "a56a84f0-91a1-4a7d-bd4c-e1c50f8b8bb2",
+      "version_id": "78b98097-06a1-5915-b295-80cc8ee5953a",
+      "source_sha256": "8f7f5f6a8a8d53581f8a42003d7c5a0dedf709243ceaa23f5d572f20d65e578c",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "31",
+      "provision_key": "art-00031",
+      "provision_id": "f40917b0-09c6-4ef3-815d-c7f381266eb7",
+      "version_id": "3d769df6-c738-5fa0-95ff-ef9414407217",
+      "source_sha256": "b8be98dca8b536e95bc1a616a04e58436fb2f0f0b8b49cc37203b18bad49e8ac",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "33",
+      "provision_key": "art-00033",
+      "provision_id": "0defd3d7-111b-4816-98e1-ce9ad342865d",
+      "version_id": "c83ea75f-8cd0-57d6-83e8-b3309dde4319",
+      "source_sha256": "435749fa0c806f7051782ce8b9cd321bd29e27905ab55874cfa5a851dd6cd7f6",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "34",
+      "provision_key": "art-00034",
+      "provision_id": "21acce13-5a24-4241-af8c-15b7c562eb42",
+      "version_id": "7f6bffd4-ff76-569c-a308-2bfcb9ba7930",
+      "source_sha256": "622ea836f5fecd06ced4861459d770f96396ac803a6f403ae5128d2cf789c05b",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "35",
+      "provision_key": "art-00035",
+      "provision_id": "2c2794cc-fabf-4297-8283-a7b60f17ad28",
+      "version_id": "6bb81e71-6ffc-544a-9066-12519ad9f708",
+      "source_sha256": "9e315e85012efc4a86ec6908c657a6fb45d3756eeb8f0fa80c9a06411d0ff9ab",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "36",
+      "provision_key": "art-00036",
+      "provision_id": "011f0c5e-d763-41a7-8f5f-75b99d90ce24",
+      "version_id": "9c77c835-e26f-5317-81c8-448326aa8742",
+      "source_sha256": "6319b1ed00aeef6b3758dbd53e355aa9d6c837c698737d58630b172d9011226d",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "37",
+      "provision_key": "art-00037",
+      "provision_id": "3bdffd51-16bb-47dd-b8b5-e6bf22900234",
+      "version_id": "64ca0c7f-ac70-57da-ae59-bed7efc4c4a4",
+      "source_sha256": "004fd76e203268e5d092689c9ff46f00120e42a83436162a42fd55b70c19aab3",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "38",
+      "provision_key": "art-00038",
+      "provision_id": "20748eb0-e16c-4b9a-a150-d2e8ee817c10",
+      "version_id": "934e66a1-e20a-5a86-b738-12c11462e487",
+      "source_sha256": "fa32943314e892ca8cc3af97780e9069de91a9083eb18f1742b3542d6f6eaa1b",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "39",
+      "provision_key": "art-00039",
+      "provision_id": "f6d5f09b-17ff-421d-868d-51de83784f16",
+      "version_id": "92aa86f8-4380-5c3b-912f-40c0dd9c3d84",
+      "source_sha256": "e08279074c41c7ebc0a2147b3b3a62ea0efd86bfe4a698f982b29aefa425445d",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "42",
+      "provision_key": "art-00042",
+      "provision_id": "35be01a2-1e57-4963-95d5-934cb6fc913c",
+      "version_id": "77f700b4-ce8b-5ec1-9524-e839fafdb2ee",
+      "source_sha256": "f6bae762a1ab53b59d4d765cbe4961fa630d00e41e6ced6ca860feeaa322dda9",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "44",
+      "provision_key": "art-00044",
+      "provision_id": "570842df-28a9-4d1a-81da-68e774ef9592",
+      "version_id": "09a476d5-78ff-5ed9-92ad-c978799e540d",
+      "source_sha256": "7799eb1d419d0ead91c5c03e9d577fb35623694a762f7debef9941e8413df789",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "45",
+      "provision_key": "art-00045",
+      "provision_id": "d29522d1-00d5-4dd2-b35b-c550dd0a9588",
+      "version_id": "4310ef47-7efa-5fa9-b8fb-6cc18eeaeb76",
+      "source_sha256": "42ca6f6679c4ed6a24ed754adf9f2be40716420233db284c050f1cf1dde3a2f7",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "46",
+      "provision_key": "art-00046",
+      "provision_id": "66f88bc1-4e06-4858-b9a9-2c5ddcdf6dc9",
+      "version_id": "112f4fc6-c6d6-5729-b6d1-de783e1230d4",
+      "source_sha256": "81f801d07932246645a6d78d45a1b96eb71b55df6277f817270e02de3a7bee7d",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "48",
+      "provision_key": "art-00048",
+      "provision_id": "73fc6dda-5e21-41e8-b511-fd621a48c999",
+      "version_id": "e25b0eaa-058c-527e-9656-900e48b41ccc",
+      "source_sha256": "bcc2a2ee399583ef7b53838ff3c77c1f8d66bcb4b0fe814c12e6c21279573a3b",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "50",
+      "provision_key": "art-00050",
+      "provision_id": "255a1f9c-57ad-4c1a-9a7a-dcc8f01f58b7",
+      "version_id": "b60bd05b-c1d7-5a75-b446-f7bb3803a248",
+      "source_sha256": "2ee54cad89511740352a6c04275cc4cf2f703e48d02a6bafbb4e28eaef21c4f3",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "51",
+      "provision_key": "art-00051",
+      "provision_id": "a229a2a4-49f0-480b-9ed8-ea0af7b0594f",
+      "version_id": "d3d010b3-83f0-5cd2-a104-6df15dd80947",
+      "source_sha256": "6715465434ec8e149ebeacf9d295512644caf92346a9496b047672cb4dd4418f",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "52",
+      "provision_key": "art-00052",
+      "provision_id": "fbd280a7-36f4-427a-890b-96eb6c6b24be",
+      "version_id": "9ceba802-d5d7-58bf-8a1a-314cc494b470",
+      "source_sha256": "52ef2dc57e5c07bca2911c3897a6d20e7a9bda93a620a1c13dce8c6c9af1ade2",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "53",
+      "provision_key": "art-00053",
+      "provision_id": "cee54aa4-8094-4e98-949d-cddc53e1dd21",
+      "version_id": "1de9d74d-3f17-5574-8d22-0731cc5f56a4",
+      "source_sha256": "ff6ef313b0a544e3db96d1e9712bbdb542425f2a19d1344cc1f4fb4cebe2beb7",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "54",
+      "provision_key": "art-00054",
+      "provision_id": "b1b5af1f-a7c1-497a-ad9b-7d1627fe7edf",
+      "version_id": "7366767f-7b45-5d3a-928e-bda1b15b8747",
+      "source_sha256": "8c238a6af4c7f19346ced6c27d715560bc5e003fa9d09bda609ca2acd4fac943",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "55",
+      "provision_key": "art-00055",
+      "provision_id": "d7a09b38-0c24-4ed4-942a-d2765e3ac193",
+      "version_id": "b63a41f7-4b39-53b4-a621-ff5c519581a6",
+      "source_sha256": "859fd79c3377100ba75a9e91b242f97189d301237622e9a5b7b45676738da125",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "58",
+      "provision_key": "art-00058",
+      "provision_id": "723e5d85-2428-46cf-9f33-9c194e03808d",
+      "version_id": "e128dc6d-8a15-5c18-a146-bdb676112f2e",
+      "source_sha256": "7a2efc86ef6e92c6636e0ce0bac7ec40754675999434a41bf0b9edcb9f5b46ed",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "61",
+      "provision_key": "art-00061",
+      "provision_id": "449c6e31-9ffa-4e74-a4fe-8cc4ca8cf677",
+      "version_id": "249a9e1d-c5a5-5a78-88df-d812ebb007d3",
+      "source_sha256": "18f81b7681de5d6a29d9c4c4be009aeedff86f754ecfbd7d32e62fc30df47854",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "62",
+      "provision_key": "art-00062",
+      "provision_id": "88f10da9-b684-4621-97c6-061816277594",
+      "version_id": "128a2355-f44f-597f-90d1-4bf69807678f",
+      "source_sha256": "ee0c576cadf3d623adbad0035a8fb30ab5062cf44590a359c3520cb93f820b44",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "63",
+      "provision_key": "art-00063",
+      "provision_id": "5a6b630f-12ad-4a43-af1a-c6d15c1eb07a",
+      "version_id": "f6ccc964-7144-55b0-a703-07353be6dc5c",
+      "source_sha256": "4e2a5c6481dfcac263da2a15d36863319f2d1de5a778a104211068f5967911fa",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "64",
+      "provision_key": "art-00064",
+      "provision_id": "f918de1e-ba24-4f1e-9cdb-d202d8a72b6a",
+      "version_id": "c144b2af-bb83-527d-9a18-b401491595b9",
+      "source_sha256": "690f57933ed8e4d701579ae792a9a834032dbb3e70e4a1087117078d6289d578",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "66",
+      "provision_key": "art-00066",
+      "provision_id": "bf6e031d-f3db-44ad-85c8-955f034e3b60",
+      "version_id": "5de2567d-942a-5994-bb4d-71ab9e8c48db",
+      "source_sha256": "22e87f33a1feb05149372b28eccb5ea2e47fe9985a61df1119b2f996ba68eb34",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "68",
+      "provision_key": "art-00068",
+      "provision_id": "cc53471e-63b1-4360-a2bc-0342f3910536",
+      "version_id": "a75071b2-23ce-5b71-9cfe-a2ed7c7f8953",
+      "source_sha256": "e149460cc3cd8264de25a05f355e1b3640f185d1c9f763b0bf1e6344994f51a7",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "69",
+      "provision_key": "art-00069",
+      "provision_id": "73711de1-b1d4-48a4-8c4b-0fca9bb5b9e9",
+      "version_id": "3db3c116-eb89-5355-a766-ab9dc7616d04",
+      "source_sha256": "a537b1d50074a138fd7f7e58aeb27a376439614de341afae5ca98e65cd76812f",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "70",
+      "provision_key": "art-00070",
+      "provision_id": "d09ec264-41ab-464f-ad2e-9edcb7cc352f",
+      "version_id": "37dfb774-a009-55bc-897d-68b48745f6c5",
+      "source_sha256": "d79505a0c2932029045a1fad246570c4bcd70fed00a73164289aebb73d05df56",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "71",
+      "provision_key": "art-00071",
+      "provision_id": "f4dd14a2-3aa1-4ed0-8dca-d1a51782a811",
+      "version_id": "537680a9-2cc9-515c-93d6-054e5d895864",
+      "source_sha256": "5f994a95b7ffbdad686172a08c3e52a434d692a56494c01d6cbf698d0aae930b",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "72",
+      "provision_key": "art-00072",
+      "provision_id": "cd4df78b-73fe-4a2c-8229-51997c5105be",
+      "version_id": "42e17bc4-52e7-5cec-8ccc-864fc10483f4",
+      "source_sha256": "bf7a421b575289f2c89c02bc2dc40dbef5e76fc283397f147afbe67a0b94304e",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "74",
+      "provision_key": "art-00074",
+      "provision_id": "6e202046-4f05-4e49-9e80-c0848d3a7ac0",
+      "version_id": "b9d578ab-2594-50b6-b870-fa769894d545",
+      "source_sha256": "39fe98285fea0c10283ddb7518dbc675a44660ffcbe56e04b51dc2d53745d2ad",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "75",
+      "provision_key": "art-00075",
+      "provision_id": "96ececa7-3627-44fb-a950-667b98706a2c",
+      "version_id": "2bf34d43-54f1-531e-854f-3baae2bf7ff4",
+      "source_sha256": "0d6aa942d28be05431ffd9a662442469b709a9907372d9cf91df666f102fc908",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "76",
+      "provision_key": "art-00076",
+      "provision_id": "8273ee68-95e7-4496-ad7b-7edce8534cd2",
+      "version_id": "02efcf4e-8693-5d3d-8fc8-e6642f6ad823",
+      "source_sha256": "c6410249500eddab3efa5a618ea7d421ddfc048a43bf1bd2feae4b1db70de0a4",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "77",
+      "provision_key": "art-00077",
+      "provision_id": "fb9f0c5b-eae8-4023-841f-7a5bc85a66f5",
+      "version_id": "7b302e76-f8ed-50df-b3b2-c9d64d79a2ab",
+      "source_sha256": "cb4bc0dff4d8034d3f4fabcf589860e2d3fdaf42fbee7aa51f759e373489a970",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "78",
+      "provision_key": "art-00078",
+      "provision_id": "737b4bac-1b10-4c33-a1de-9f107bc72561",
+      "version_id": "a1ae292f-2135-5d03-9f2b-42d4d9f0738e",
+      "source_sha256": "75a7f0c8d3de475e84dfb58cad3abffde328ec97d7072ed7ef1652773c57f3d1",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "79",
+      "provision_key": "art-00079",
+      "provision_id": "e0cdf6ab-54fb-40f1-95d4-71876fb43f35",
+      "version_id": "15928632-2551-53aa-b794-c46ec2dececf",
+      "source_sha256": "505d107e97146dc8c2540bd12d76ff182b93ab62d39df31f8b9eb85b61a66e6e",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "80",
+      "provision_key": "art-00080",
+      "provision_id": "7f53824a-d143-4f85-9fee-edff66a3b7b9",
+      "version_id": "6c0800f5-848e-520f-a314-b4fb0229963b",
+      "source_sha256": "19a84a9b042032fd0b166819bf6a8d5746ea5137784678b89bf7444047528f25",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    },
+    {
+      "article": "82",
+      "provision_key": "art-00082",
+      "provision_id": "eb3c1397-2caa-4f00-a1d0-d1b6276cc799",
+      "version_id": "4fc7cf47-0942-51ea-af17-f479823957fc",
+      "source_sha256": "d201a4dca8834777b380ba7aaa1582f6d91ea3069a61049fbaac66a857e5de10",
+      "status": "prepared_official_text",
+      "original_matches_compilation": true
+    }
+  ],
+  "not_prepared": [
+    {
+      "provision_key": "art-00001",
+      "provision_id": "6e2ee060-6af7-4850-8691-39d124518aac",
+      "status": "not_enacted_veto"
+    },
+    {
+      "provision_key": "art-00005",
+      "provision_id": "184104f5-5567-445c-a2fd-d45959b8c275",
+      "status": "not_enacted_veto"
+    },
+    {
+      "provision_key": "art-00025",
+      "provision_id": "7f1cf2cd-8e1d-4e2e-a7c4-1457d48f86ea",
+      "status": "pending_amendment_or_source_difference_review"
+    },
+    {
+      "provision_key": "art-00032",
+      "provision_id": "5ee68978-7791-4df7-8501-160bd5285f8d",
+      "status": "pending_amendment_or_source_difference_review"
+    },
+    {
+      "provision_key": "art-00038-a",
+      "provision_id": "e377e436-88af-4ac4-88ff-b80870991a1a",
+      "status": "pending_amendment_or_source_difference_review"
+    },
+    {
+      "provision_key": "art-00040",
+      "provision_id": "cd6c33ae-5670-49c6-a021-966b7704975f",
+      "status": "pending_amendment_or_source_difference_review"
+    },
+    {
+      "provision_key": "art-00040-a",
+      "provision_id": "d6a664ce-2835-4857-b99d-3cb68f0cffce",
+      "status": "pending_amendment_or_source_difference_review"
+    },
+    {
+      "provision_key": "art-00041",
+      "provision_id": "ee153652-0914-44d3-9db8-43720e0858c4",
+      "status": "pending_amendment_or_source_difference_review"
+    },
+    {
+      "provision_key": "art-00043",
+      "provision_id": "5f1953b7-2cd3-4db8-b3e1-ac31b632463c",
+      "status": "not_enacted_veto"
+    },
+    {
+      "provision_key": "art-00047",
+      "provision_id": "aa90c96f-0f1d-41c0-8d4a-9e49b862760b",
+      "status": "not_enacted_veto"
+    },
+    {
+      "provision_key": "art-00049",
+      "provision_id": "a1fda68d-63fe-430e-b0cc-75c4da95f454",
+      "status": "pending_amendment_or_source_difference_review"
+    },
+    {
+      "provision_key": "art-00050-a",
+      "provision_id": "036eed53-91f3-4e94-8892-c30c349f8fcf",
+      "status": "pending_amendment_or_source_difference_review"
+    },
+    {
+      "provision_key": "art-00056",
+      "provision_id": "24790568-e90a-4625-b047-b863c7db1f2a",
+      "status": "pending_amendment_or_source_difference_review"
+    },
+    {
+      "provision_key": "art-00057",
+      "provision_id": "3fe6e9fe-158b-4fa4-b721-f2969d4200bb",
+      "status": "not_enacted_veto"
+    },
+    {
+      "provision_key": "art-00059",
+      "provision_id": "9c1a7cc1-7089-4991-ada0-8d95ec5995ca",
+      "status": "not_enacted_veto"
+    },
+    {
+      "provision_key": "art-00060",
+      "provision_id": "cbbde0a7-8103-4c62-ab99-aa493e1935d0",
+      "status": "pending_amendment_or_source_difference_review"
+    },
+    {
+      "provision_key": "art-00065",
+      "provision_id": "2a990dac-3752-486f-9673-7fb6d435476c",
+      "status": "pending_amendment_or_source_difference_review"
+    },
+    {
+      "provision_key": "art-00067",
+      "provision_id": "85b0c4c9-1bca-4fa6-9c58-1baef536c69f",
+      "status": "pending_amendment_or_source_difference_review"
+    },
+    {
+      "provision_key": "art-00069-a",
+      "provision_id": "20e7c2a0-1e85-4f7d-a313-c07bd0d87ebe",
+      "status": "pending_amendment_or_source_difference_review"
+    },
+    {
+      "provision_key": "art-00073",
+      "provision_id": "4381fc38-84c0-4c5e-9131-5abd31509766",
+      "status": "pending_amendment_or_source_difference_review"
+    },
+    {
+      "provision_key": "art-00079-a",
+      "provision_id": "e070fb66-9a49-47fb-bc20-d42cb649dff7",
+      "status": "pending_amendment_or_source_difference_review"
+    },
+    {
+      "provision_key": "art-00081",
+      "provision_id": "d6699cf3-4a64-4d5a-8393-4db0358869fb",
+      "status": "not_enacted_veto"
+    }
+  ],
+  "preparation_limits": "Redações literais comparadas entre publicação original e compilação oficial. Não certifica todo o histórico intermediário, interpretação jurisprudencial, cadeia do edital ou todas as normas correlatas. Nenhuma redação alterada foi inferida.",
+  "original_archive": {
+    "path": "l9605-fonte-original-20261123.txt",
+    "sha256": "76dff244f87517b8a24a453182cb3a6a8c51cc7f99c73fd06e2e3ce5d5e4a980"
+  },
+  "compilada_archive": {
+    "path": "l9605-fonte-compilada-20261123.txt",
+    "sha256": "54c14bac6f3d01c36794b542d407af6f544fbdf87aaf6d92c98cae4b6ec9d335"
+  },
+  "prepared_devices": 65,
+  "identified_slots": 87
+}

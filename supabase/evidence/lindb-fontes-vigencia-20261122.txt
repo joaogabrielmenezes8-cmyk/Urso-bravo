@@ -1,0 +1,1058 @@
+# Capturas textuais oficiais — LINDB — 22/11/2026
+
+Não são imagens do DOU. Mantêm metadados das páginas consultadas e não selam editais.
+
+## resume:lindb-finalsource
+Legislação Federal - Senado Federal (https://legis.senado.gov.br/norma/529744)
+【turn293768051view0】 [wordlim: 200] Crawled: 2 days ago; Content type: text/html; Source: open({"ref_id":"https://legis.senado.gov.br/norma/529744","lineno":null}); Total lines: 229
+L0: # 【0†Atividade Legislativa】
+L1: 
+L2: [Input]
+L3: 
+L4: [Input: Buscar]
+L5: 
+L6:   * 【1†Plenário†www25.senado.leg.br】
+L7: 
+L8: 【2†Sessão Plenária†www25.senado.leg.br】 【3†Ordem do Dia†legis.senado.leg.br】 【4†Diários†legis.senado.leg.br】 【5†Pronunciamentos†www25.senado.leg.br】 【6†Questões de Ordem†www25.senado.leg.br】
+L9: 
+L10:   * 【7†Informações Legislativas†www25.senado.leg.br】
+L11: 【8†Relatórios Mensais†www25.senado.leg.br】 【9†Relatórios da Presidência†www25.senado.leg.br】 【10†Estatísticas†www9.senado.leg.br】 【11†Enfrentamento ao Coronavírus†www25.senado.leg.br】 【12†Atendimento ao Usuário†www12.senado.leg.br】
+L12: 
+L13:   * 【13†Legislação†www25.senado.leg.br】
+L14: 
+L15: 【14†Constituição Federal†www25.senado.leg.br】 【15†Legislação Federal†www25.senado.leg.br】 【16†Regimento Interno†www25.senado.leg.br】
+L16: 
+L17:   * 【17†Mais†www25.senado.leg.br】
+L18: 【18†Autoridades†www25.senado.leg.br】 【19†Simplificou†www25.senado.leg.br】 【20†Perguntas Frequentes†www12.senado.leg.br】 【21†Entenda a Atividade Legislativa†www.senado.leg.br】
+L19: #### Decreto-Lei nº 4.657 de 04/09/1942
+L20: #### Decreto-Lei nº 4.657 de 04/09/1942
+L21: Ementa  | Lei de introdução ao Código Civil Brasileiro.
+L22: Apelido  | Lei de Introdução às Normas do Direito Brasileiro (1942) (LINDB) , Lei de Introdução ao Código Civil (1942) (LICC)
+L23: Publicação do Texto Principal  |
+L24: [ Publicação Original ]  | [Diário Oficial da União de 04/09/1942] (p. 1, col. 1)  【22†(Ver texto no Sigen)】
+L25: [ Retificação ]  | [Diário Oficial da União de 08/10/1942] (p. 15009, col. 1)
+L26:  | [Diário Oficial da União de 17/06/1943] (p. 1, col. 1)
+L27: [ Compilação Monovigente na CD ]  |  【23†(Ver texto no Sigen)】
+L28: Catálogo  | LEI DE INTRODUÇÃO , CODIGO CIVIL .
+L29: Indexação  | 【24†Clique para exibir...】 LEI DE INTRODUÇÃO , CODIGO CIVIL , BRASIL .
+L30: Normas posteriores  | 【25†Normas que alteraram ou sejam relacionadas com a presente norma...】 【26†Decreto-Lei nº 4.707 de 17/09/1942】 Declaração de Regulamentação Permanente de Norma   Publicação Original [Diário Oficial da União de 18/09/1942] (p. 14084, col. 1) 【27†Lei nº 3.238 de 01/08/1957】 Declaração de Alteração Permanente   Publicação Original [Diário Oficial da União de 03/08/1957] (p. 19021, col.
+L31: 2) 【28†Decreto-Lei nº 333 de 12/10/1967】 Declaração de Alteração Permanente   Publicação Original [Diário Oficial da União de 13/10/1967] (p. 10384, col. 2) 【29†Lei nº 6.515 de 26/12/1977】 Declaração de Alteração Permanente   Publicação Original [Diário Oficial da União de 27/12/1977] (p. 17953, col. 1) 【30†Lei nº 9.047 de 18/05/1995】 Declaração de Alteração Permanente   【31†Publicação Original [Diário Oficial da União de 19/05/1995] (p. 7125, col.
+L32: 2)†pesquisa.in.gov.br】 【32†Lei nº 12.036 de 01/10/2009】 Declaração de Alteração Permanente   【33†Publicação Original [Diário Oficial da União de 02/10/2009] (p. 1, col. 1)†pesquisa.in.gov.br】
+L33:   * Art. 1, § 2 - Revogação
+L34:   * Art. 7, § 6 - Alteração
+L35:   * Art. 15, Parágrafo Único - Revogação
+L36: 【34†Lei nº 12.376 de 30/12/2010】 Declaração de Alteração Permanente   【35†Publicação Original [Diário Oficial da União de 31/12/2010] (p. 2, col. 3)†pesquisa.in.gov.br】 【36†Lei nº 12.874 de 29/10/2013】 Declaração de Alteração Permanente   【37†Publicação Original [Diário Oficial da União de 30/10/2013] (p. 1, col. 1)†pesquisa.in.gov.br】
+L37:   * Art. 18, § 1 - Acréscimo
+L38:   * Art. 18, § 2 - Acréscimo
+L39: 【38†Lei nº 13.655 de 25/04/2018】 Declaração de Alteração Permanente   【39†Publicação Original [Diário Oficial da União de 26/04/2018] (p. 1, col. 1)†pesquisa.in.gov.br】
+L40:   * Art. 20, caput - Acréscimo
+L41:   * Art. 20, Parágrafo Único - Acréscimo
+L42:   * Art. 21, caput - Acréscimo
+L43:   * Art. 21, Parágrafo Único - Acréscimo
+L44:   * Art. 22, caput - Acréscimo
+L45:   * Art. 22, § 1 - Acréscimo
+L46:   * Art. 22, § 2 - Acréscimo
+L47:   * Art. 22, § 3 - Acréscimo
+L48:   * Art. 23, caput - Acréscimo
+L49:   * Art. 23, Parágrafo Único - Acréscimo Vetado
+L50:   * Art. 24, caput - Acréscimo
+L51:   * Art. 24, Parágrafo Único - Acréscimo
+L52:   * Art. 25, caput - Acréscimo Vetado
+L53:   * Art. 25, § 1 - Acréscimo Vetado
+L54:   * Art. 25, § 2 - Acréscimo Vetado
+L55:   * Art. 25, § 3 - Acréscimo Vetado
+L56:   * Art. 26, caput - Acréscimo
+L57:   * Art. 26, § 1 - Acréscimo
+L58:   * Art. 26, § 1, Inciso 2 - Acréscimo Vetado
+L59:   * Art. 26, § 2 - Acréscimo Vetado
+L60:   * Art. 27, caput - Acréscimo
+L61:   * Art. 27, § 1 - Acréscimo
+L62:   * Art. 27, § 2 - Acréscimo
+L63:   * Art. 28, caput - Acréscimo
+L64:   * Art. 28, § 1 - Acréscimo Vetado
+L65:   * Art. 28, § 2 - Acréscimo Vetado
+L66:   * Art. 28, § 3 - Acréscimo Vetado
+L67:   * Art. 29, caput - Acréscimo
+L68:   * Art. 29, § 1 - Acréscimo
+L69:   * Art. 29, § 2 - Acréscimo Vetado
+L70:   * Art. 30, caput - Acréscimo
+L71:   * Art. 30, Parágrafo Único - Acréscimo
+L72: Estas alterações entram em vigor em 26/04/2018, com exceção ao acréscimo do Art. 29, que entra em vigor em 23/10/2018. Veja também: 【40†Mensagem de Veto Parcial nº 212 de 25/04/2018】 【41†Decreto nº 9.830 de 10/06/2019】 Declaração de Regulamentação Permanente de Norma   【42†Publicação Original [Diário Oficial da União de 11/06/2019] (p. 4, col. 1)†pesquisa.in.gov.br】
+L73:   * Art. 20 - Regulamentado
+L74:   * Art. 21 - Regulamentado
+L75:   * Art. 22 - Regulamentado
+L76:   * Art. 23 - Regulamentado
+L77:   * Art. 24 - Regulamentado
+L78:   * Art. 25 - Regulamentado
+L79:   * Art. 26 - Regulamentado
+L80:   * Art. 27 - Regulamentado
+L81:   * Art. 28 - Regulamentado
+L82:   * Art. 29 - Regulamentado
+L83:   * Art. 30 - Regulamentado
+L84: 【43†Acórdão da Ação Direta de Inconstitucionalidade nº 6.421 de 08/03/2024】 Declaração de Constitucionalidade   【44†Publicação Original [Diário Oficial da União de 14/03/2024] (p. 1, col. 1)†pesquisa.in.gov.br】
+L85:   * Art. 28, caput - Dispositivo Declarado Constitucional
+L86: 【45†Acórdão da Ação Direta de Inconstitucionalidade nº 6.428 de 08/03/2024】 Declaração de Constitucionalidade   【44†Publicação Original [Diário Oficial da União de 14/03/2024] (p. 1, col. 1)†pesquisa.in.gov.br】
+L87:   * Art. 28, caput - Dispositivo Declarado Constitucional
+L88: Normas alteradas ou referenciadas  | 【46†Normas referenciadas ou que foram alteradas pela presente norma...】 【47†Decreto-Lei nº 2.848 de 07/12/1940】 Declaração de Legislação Correlata
+L89: 
+L90:   * Art. 21 - Dispositivo Correlato
+L91: Alterações ou remissões por dispositivo  | 【48†Dispositivos da presente norma que foram referenciados ou alterados...】 Art. 1, § 2 [Decreto-Lei nº 4.657 de 04/09/1942]
+L92:   * 【32†Lei nº 12.036 de 01/10/2009】 - Revogação (Declaração de Alteração Permanente)
+L93: Art. 7, § 6 [Decreto-Lei nº 4.657 de 04/09/1942]
+L94: 
+L95:   * 【32†Lei nº 12.036 de 01/10/2009】 - Alteração (Declaração de Alteração Permanente)
+L96: Art. 15, Parágrafo Único [Decreto-Lei nº 4.657 de 04/09/1942]
+L97: 
+L98:   * 【32†Lei nº 12.036 de 01/10/2009】 - Revogação (Declaração de Alteração Permanente)
+L99: Art. 18, § 1 [Decreto-Lei nº 4.657 de 04/09/1942]
+L100:   * 【36†Lei nº 12.874 de 29/10/2013】 - Acréscimo (Declaração de Alteração Permanente)
+L101: Art. 18, § 2 [Decreto-Lei nº 4.657 de 04/09/1942]
+L102: 
+L103:   * 【36†Lei nº 12.874 de 29/10/2013】 - Acréscimo (Declaração de Alteração Permanente)
+L104: Art. 20, caput [Decreto-Lei nº 4.657 de 04/09/1942]
+L105: 
+L106:   * 【38†Lei nº 13.655 de 25/04/2018】 - Acréscimo (Declaração de Alteração Permanente)
+L107: Art. 20 [Decreto-Lei nº 4.657 de 04/09/1942]
+L108:   * 【41†Decreto nº 9.830 de 10/06/2019】 - Regulamentado (Declaração de Regulamentação Permanente de Norma)
+L109: Art. 20, Parágrafo Único [Decreto-Lei nº 4.657 de 04/09/1942]
+L110: 
+L111:   * 【38†Lei nº 13.655 de 25/04/2018】 - Acréscimo (Declaração de Alteração Permanente)
+L112: Art. 21, caput [Decreto-Lei nº 4.657 de 04/09/1942]
+L113: 
+L114:   * 【38†Lei nº 13.655 de 25/04/2018】 - Acréscimo (Declaração de Alteração Permanente)
+L115: Art. 21 [Decreto-Lei nº 4.657 de 04/09/1942]
+L116:   * 【41†Decreto nº 9.830 de 10/06/2019】 - Regulamentado (Declaração de Regulamentação Permanente de Norma)
+L117: Art. 21, Parágrafo Único [Decreto-Lei nº 4.657 de 04/09/1942]
+L118: 
+L119:   * 【38†Lei nº 13.655 de 25/04/2018】 - Acréscimo (Declaração de Alteração Permanente)
+L120: Art. 22, caput [Decreto-Lei nº 4.657 de 04/09/1942]
+L121: 
+L122:   * 【38†Lei nº 13.655 de 25/04/2018】 - Acréscimo (Declaração de Alteração Permanente)
+L123: Art. 22 [Decreto-Lei nº 4.657 de 04/09/1942]
+L124:   * 【41†Decreto nº 9.830 de 10/06/2019】 - Regulamentado (Declaração de Regulamentação Permanente de Norma)
+L125: Art. 22, § 1 [Decreto-Lei nº 4.657 de 04/09/1942]
+L126: 
+L127:   * 【38†Lei nº 13.655 de 25/04/2018】 - Acréscimo (Declaração de Alteração Permanente)
+L128: Art. 22, § 2 [Decreto-Lei nº 4.657 de 04/09/1942]
+L129: 
+L130:   * 【38†Lei nº 13.655 de 25/04/2018】 - Acréscimo (Declaração de Alteração Permanente)
+L131: Art. 22, § 3 [Decreto-Lei nº 4.657 de 04/09/1942]
+L132:   * 【38†Lei nº 13.655 de 25/04/2018】 - Acréscimo (Declaração de Alteração Permanente)
+L133: Art. 23, caput [Decreto-Lei nº 4.657 de 04/09/1942]
+L134: 
+L135:   * 【38†Lei nº 13.655 de 25/04/2018】 - Acréscimo (Declaração de Alteração Permanente)
+L136: Art. 23 [Decreto-Lei nº 4.657 de 04/09/1942]
+L137: 
+L138:   * 【41†Decreto nº 9.830 de 10/06/2019】 - Regulamentado (Declaração de Regulamentação Permanente de Norma)
+L139: Art. 23, Parágrafo Único [Decreto-Lei nº 4.657 de 04/09/1942]
+L140:   * 【38†Lei nº 13.655 de 25/04/2018】 - Acréscimo Vetado (Declaração de Alteração Permanente)
+L141: Art. 24, caput [Decreto-Lei nº 4.657 de 04/09/1942]
+L142: 
+L143:   * 【38†Lei nº 13.655 de 25/04/2018】 - Acréscimo (Declaração de Alteração Permanente)
+L144: Art. 24 [Decreto-Lei nº 4.657 de 04/09/1942]
+L145: 
+L146:   * 【41†Decreto nº 9.830 de 10/06/2019】 - Regulamentado (Declaração de Regulamentação Permanente de Norma)
+L147: Art. 24, Parágrafo Único [Decreto-Lei nº 4.657 de 04/09/1942]
+L148:   * 【38†Lei nº 13.655 de 25/04/2018】 - Acréscimo (Declaração de Alteração Permanente)
+L149: Art. 25, caput [Decreto-Lei nº 4.657 de 04/09/1942]
+L150: 
+L151:   * 【38†Lei nº 13.655 de 25/04/2018】 - Acréscimo Vetado (Declaração de Alteração Permanente)
+L152: Art. 25 [Decreto-Lei nº 4.657 de 04/09/1942]
+L153: 
+L154:   * 【41†Decreto nº 9.830 de 10/06/2019】 - Regulamentado (Declaração de Regulamentação Permanente de Norma)
+L155: Art. 25, § 1 [Decreto-Lei nº 4.657 de 04/09/1942]
+L156:   * 【38†Lei nº 13.655 de 25/04/2018】 - Acréscimo Vetado (Declaração de Alteração Permanente)
+L157: Art. 25, § 2 [Decreto-Lei nº 4.657 de 04/09/1942]
+L158: 
+L159:   * 【38†Lei nº 13.655 de 25/04/2018】 - Acréscimo Vetado (Declaração de Alteração Permanente)
+L160: Art. 25, § 3 [Decreto-Lei nº 4.657 de 04/09/1942]
+L161: 
+L162:   * 【38†Lei nº 13.655 de 25/04/2018】 - Acréscimo Vetado (Declaração de Alteração Permanente)
+L163: Art. 26, caput [Decreto-Lei nº 4.657 de 04/09/1942]
+L164:   * 【38†Lei nº 13.655 de 25/04/2018】 - Acréscimo (Declaração de Alteração Permanente)
+L165: Art. 26 [Decreto-Lei nº 4.657 de 04/09/1942]
+L166: 
+L167:   * 【41†Decreto nº 9.830 de 10/06/2019】 - Regulamentado (Declaração de Regulamentação Permanente de Norma)
+L168: Art. 26, § 1 [Decreto-Lei nº 4.657 de 04/09/1942]
+L169: 
+L170:   * 【38†Lei nº 13.655 de 25/04/2018】 - Acréscimo (Declaração de Alteração Permanente)
+L171: Art. 26, § 1, Inciso 2 [Decreto-Lei nº 4.657 de 04/09/1942]
+L172:   * 【38†Lei nº 13.655 de 25/04/2018】 - Acréscimo Vetado (Declaração de Alteração Permanente)
+L173: Art. 26, § 2 [Decreto-Lei nº 4.657 de 04/09/1942]
+L174: 
+L175:   * 【38†Lei nº 13.655 de 25/04/2018】 - Acréscimo Vetado (Declaração de Alteração Permanente)
+L176: Art. 27, caput [Decreto-Lei nº 4.657 de 04/09/1942]
+L177: 
+L178:   * 【38†Lei nº 13.655 de 25/04/2018】 - Acréscimo (Declaração de Alteração Permanente)
+L179: Art. 27 [Decreto-Lei nº 4.657 de 04/09/1942]
+L180:   * 【41†Decreto nº 9.830 de 10/06/2019】 - Regulamentado (Declaração de Regulamentação Permanente de Norma)
+L181: Art. 27, § 1 [Decreto-Lei nº 4.657 de 04/09/1942]
+L182: 
+L183:   * 【38†Lei nº 13.655 de 25/04/2018】 - Acréscimo (Declaração de Alteração Permanente)
+L184: Art. 27, § 2 [Decreto-Lei nº 4.657 de 04/09/1942]
+L185: 
+L186:   * 【38†Lei nº 13.655 de 25/04/2018】 - Acréscimo (Declaração de Alteração Permanente)
+L187: Art. 28, caput [Decreto-Lei nº 4.657 de 04/09/1942]
+L188:   * 【38†Lei nº 13.655 de 25/04/2018】 - Acréscimo (Declaração de Alteração Permanente)
+L189:   * 【45†Acórdão da Ação Direta de Inconstitucionalidade nº 6.428 de 08/03/2024】 - Dispositivo Declarado Constitucional (Declaração de Constitucionalidade)
+L190:   * 【43†Acórdão da Ação Direta de Inconstitucionalidade nº 6.421 de 08/03/2024】 - Dispositivo Declarado Constitucional (Declaração de Constitucionalidade)
+L191: Art. 28 [Decreto-Lei nº 4.657 de 04/09/1942]
+L192:   * 【41†Decreto nº 9.830 de 10/06/2019】 - Regulamentado (Declaração de Regulamentação Permanente de Norma)
+L193: Art. 28, § 1 [Decreto-Lei nº 4.657 de 04/09/1942]
+L194: 
+L195:   * 【38†Lei nº 13.655 de 25/04/2018】 - Acréscimo Vetado (Declaração de Alteração Permanente)
+L196: Art. 28, § 2 [Decreto-Lei nº 4.657 de 04/09/1942]
+L197: 
+L198:   * 【38†Lei nº 13.655 de 25/04/2018】 - Acréscimo Vetado (Declaração de Alteração Permanente)
+L199: Art. 28, § 3 [Decreto-Lei nº 4.657 de 04/09/1942]
+L200:   * 【38†Lei nº 13.655 de 25/04/2018】 - Acréscimo Vetado (Declaração de Alteração Permanente)
+L201: Art. 29, caput [Decreto-Lei nº 4.657 de 04/09/1942]
+L202: 
+L203:   * 【38†Lei nº 13.655 de 25/04/2018】 - Acréscimo (Declaração de Alteração Permanente)
+L204: Art. 29 [Decreto-Lei nº 4.657 de 04/09/1942]
+L205: 
+L206:   * 【41†Decreto nº 9.830 de 10/06/2019】 - Regulamentado (Declaração de Regulamentação Permanente de Norma)
+L207: Art. 29, § 1 [Decreto-Lei nº 4.657 de 04/09/1942]
+L208:   * 【38†Lei nº 13.655 de 25/04/2018】 - Acréscimo (Declaração de Alteração Permanente)
+L209: Art. 29, § 2 [Decreto-Lei nº 4.657 de 04/09/1942]
+L210: 
+L211:   * 【38†Lei nº 13.655 de 25/04/2018】 - Acréscimo Vetado (Declaração de Alteração Permanente)
+L212: Art. 30, caput [Decreto-Lei nº 4.657 de 04/09/1942]
+L213: 
+L214:   * 【38†Lei nº 13.655 de 25/04/2018】 - Acréscimo (Declaração de Alteração Permanente)
+L215: Art. 30 [Decreto-Lei nº 4.657 de 04/09/1942]
+L216:   * 【41†Decreto nº 9.830 de 10/06/2019】 - Regulamentado (Declaração de Regulamentação Permanente de Norma)
+L217: Art. 30, Parágrafo Único [Decreto-Lei nº 4.657 de 04/09/1942]
+L218: 
+L219:   * 【38†Lei nº 13.655 de 25/04/2018】 - Acréscimo (Declaração de Alteração Permanente)
+L220: 
+L221: 【49†ENGLISH†www12.senado.leg.br】【50†ESPAÑOL†www12.senado.leg.br】【51†FRANÇAIS†www12.senado.leg.br】
+L222: 
+L223: 【52†Intranet†intranet.senado.leg.br】
+L224: 【53†Servidor efetivo†www12.senado.leg.br】【53†Servidor comissionado†www12.senado.leg.br】【53†Servidor aposentado†www12.senado.leg.br】【53†Pensionista†www12.senado.leg.br】
+L225: 
+L226: 【54†Fale com o Senado†www12.senado.leg.br】
+L227: 
+L228: Senado Federal - Praça dos Três Poderes - Brasília DF - CEP 70165-900 | Telefone: 0800 0 61 2211
+
+--------------------------------------------------------------------------------
+Portal da Câmara dos Deputados (https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-4657-4-setembro-1942-414605-norma-pe.html)
+【turn293768051view1】 [wordlim: 200] Crawled: yesterday; Content type: text/html; Source: open({"ref_id":"turn399954031view0","lineno":null}); Total lines: 73
+L0:   * 【0†Ir ao conteúdo】
+L1:   * 【1†Ir à navegação principal】
+L2: 
+L3: 【2†Página inicial】
+L4: 
+L5:   * 【3†Image: Ativar VLibras†www.camara.leg.br】
+L6:   * 【4†Acessibilidade】
+L7:   * 【5†Fale Conosco†www.camara.leg.br】
+L8: 
+L9:   * 【6†Congresso†www.congressonacional.leg.br】
+L10:   * 【7†Senado†www.senado.leg.br】
+L11: 
+L12: PT
+L13: 
+L14:   * 【8†English EN】
+L15:   * 【9†Español ES】
+L16: 
+L17: 【10†iframe†www.googletagmanager.com】
+L18: 
+L19: ## Legislação Informatizada - Dados da Norma
+L20: 
+L21: # DECRETO-LEI Nº 4.657, DE 4 DE SETEMBRO DE 1942
+L22: # Lei de Introdução às Normas do Direito Brasileiro (1942)
+L23: 
+L24: EMENTA: Lei de introdução ao Código Civil Brasileiro.
+L25: 
+L26: 【11†Texto Atualizado (HTML)】     【12†Formato doc】     【13†Formato pdf】
+L27: 
+L28: 【14†Texto - Publicação Original】
+L29: 
+L30:   * Diário Oficial da União - Seção 1 - 9/9/1942, Página 13635 (Publicação Original)
+L31: 【15†Texto - Retificação】
+L32: 
+L33:   * Diário Oficial da União - Seção 1 - 8/10/1942, Página 15009 (Retificação)
+L34: 【16†Texto - Retificação】
+L35:   * Diário Oficial da União - Seção 1 - 17/6/1943, Página 9393 (Retificação)
+L36: 
+L37: Observação: De Acordo com o Decreto-Lei nº 4707/1942, este Decreto-Lei entrará em vigor no dia 24/10/1942. Vide ADIs nºs 6.421 e 6.428/2020.
+L38: 
+L39: Origem: Poder Executivo
+L40: 
+L41: Situação: Não consta revogação expressa
+L42: 
+L43: Vide Norma(s):
+L44:   * 【17†Decreto nº 9830 de 10 de Junho de 2019 (Poder Executivo) - (Regulamentação). Art. 20 ao 30 .】
+L45:   * 【18†Lei Ordinária nº 13655 de 25 de Abril de 2018 (Poder Legislativo) - (Acréscimo de Artigo). Art. 20, "caput", Parágrafo único ; Art. 21, "caput", Parágrafo único ; Art. 22, "caput", §§ 1º, 2º, 3º ; Art. 23, "caput" ; Art. 24, "caput", Parágrafo único ; Art. 26, "caput", § 1º, incisos I, III, IV ; Art. 27, "caput", §§ 1º, 2º ; Art. 28, "caput" ; Art. 29, "caput", § 1º ; Art. 30, "caput", Parágrafo único .】
+L46:   * 【19†Lei Ordinária nº 12874 de 29 de Outubro de 2013 (Poder Legislativo) - (Acréscimo de Parágrafo). Art. 18, §§ 1º, 2º .】
+L47:   * 【20†Lei Ordinária nº 12376 de 30 de Dezembro de 2010 (Poder Legislativo) - (Alteração). Ementa .】
+L48:   * 【21†Lei Ordinária nº 12036 de 1º de Outubro de 2009 (Poder Legislativo) - (Alteração). Art. 7º, § 6º .】
+L49:   * 【21†Lei Ordinária nº 12036 de 1º de Outubro de 2009 (Poder Legislativo) - (Revogação Parcial). Art. 1º, § 2º ; Art. 15, Parágrafo único .】
+L50:   * 【22†Decreto nº 3441 de 26 de Abril de 2000 (Poder Executivo) - (Aplicação). Art. 11.】
+L51:   * 【23†Lei Ordinária nº 9047 de 18 de Maio de 1995 (Poder Legislativo) - (Alteração). Art.10, § 1º.】
+L52:   * 【24†Lei Ordinária nº 6515 de 26 de Dezembro de 1977 (Poder Legislativo) - (Alteração). Art.7º, §§ 5º e 6º;.】
+L53:   * 【25†Lei Ordinária nº 5338 de 16 de Outubro de 1967 (Poder Legislativo) - (Revogação Parcial). Art. 1º, § 1º .】
+L54:   * 【26†Decreto-Lei nº 333 de 12 de Outubro de 1967 (Poder Executivo) - (Alteração). Art.1º, § 1º.】
+L55:   * 【27†Lei Ordinária nº 4966 de 9 de Maio de 1966 (Poder Legislativo) - (Revogação Parcial). Art.1º, § 1º.】
+L56:   * 【28†Lei Ordinária nº 4820 de 29 de Outubro de 1965 (Poder Legislativo) - (Alteração). Art.1º, § 1º.】
+L57:   * 【29†Lei Ordinária nº 4331 de 1º de Junho de 1964 (Poder Legislativo) - (Norma Complementar). Art.11, parágrafo 3º.】
+L58:   * 【30†Lei Ordinária nº 3244 de 14 de Agosto de 1957 (Poder Legislativo) - (Revogação Condicionada). Art. 1º, §1º.】
+L59:   * 【31†Lei Ordinária nº 3238 de 1º de Agosto de 1957 (Poder Legislativo) - (Acréscimo de Artigo). Art. 19.】
+L60:   * 【31†Lei Ordinária nº 3238 de 1º de Agosto de 1957 (Poder Legislativo) - (Alteração). Art. 6º; Art. 7º, § 2º; Art. 18.】
+L61:   * 【32†Lei Ordinária nº 3187 de 28 de Junho de 1957 (Poder Legislativo) - (Revogação Parcial). Art. 1º, § 1º .】
+
+--------------------------------------------------------------------------------
+Internal Error ()
+【turn293768051view2】 [wordlim: 200] Source: open({"ref_id":"turn109492563search0","lineno":null}); 
+Failed to fetch https://www2.camara.leg.br/legin/fed/lei/2009/lei-12036-1-outubro-2009-591434-publicacaooriginal-116515-pl.html: (429) Too Many Requests
+
+## resume:lindb-retif1942
+Portal da Câmara dos Deputados (https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-4657-4-setembro-1942-414605-retificacao-68799-pe.html)
+【turn559848141view0】 [wordlim: 200] Crawled: yesterday; Content type: text/html; Source: click({"ref_id":"turn293768051view1","id":15}); Total lines: 57
+L0:   * 【0†Ir ao conteúdo】
+L1:   * 【1†Ir à navegação principal】
+L2: 
+L3: 【2†Página inicial】
+L4: 
+L5:   * 【3†Image: Ativar VLibras†www.camara.leg.br】
+L6:   * 【4†Acessibilidade】
+L7:   * 【5†Fale Conosco†www.camara.leg.br】
+L8: 
+L9:   * 【6†Congresso†www.congressonacional.leg.br】
+L10:   * 【7†Senado†www.senado.leg.br】
+L11: 
+L12: PT
+L13: 
+L14:   * 【8†English EN】
+L15:   * 【9†Español ES】
+L16: 
+L17: 【10†iframe†www.googletagmanager.com】
+L18: ## Legislação Informatizada - DECRETO-LEI Nº 4.657, DE 4 DE SETEMBRO DE 1942 - Retificação
+L19: 
+L20: Veja também:
+L21: 
+L22:   * 【11†Texto Atualizado (HTML)】  (【12†formato doc】)   (【13†formato pdf】)
+L23:   * 【14†Publicação Original】
+L24:   * 【15†Retificação】
+L25:   * 【16†Dados da Norma】
+L26: # DECRETO-LEI Nº 4.657, DE 4 DE SETEMBRO DE 1942
+L27: 
+L28: Lei de introdução ao Código Civil Brasileiro.
+L29: 
+L30: (Publicado no Diário Oficial de 9 de setembro de 1942)
+L31: 
+L32: RETIFICAÇÃO
+L33: 
+L34: Na referenda,
+L35: ONDE SE LÊ:
+L36: Alexandre Mascondes Filho
+L37: Oswaldo Aranha
+L38: LEIA-SE:
+L39: GETÚLIO VARGAS
+L40: Alexandre Marcondes Filho
+L41: A. de Souza Costa
+L42: Eurico G. Dutra
+L43: Henrique A. Guilhem
+L44: João Mendonça Lima
+L45: Oswaldo Aranha
+L46: Apolonio  Salles
+L47: Gustavo Capanema
+L48: J. P. Salgado Filho
+L49: Este texto não substitui o original publicado no Diário Oficial da União - Seção 1 de 08/10/1942
+L50: 
+L51: Publicação:
+L52: 
+L53:   * Diário Oficial da União - Seção 1 - 8/10/1942, Página 15009 (Retificação)
+L54: ##### Carregando
+L55: 
+L56: Por favor, aguarde.
+
+
+## resume:lindb-lastclauses
+Portal da Câmara dos Deputados (https://www2.camara.leg.br/legin/fed/lei/2009/lei-12036-1-outubro-2009-591434-publicacaooriginal-116515-pl.html)
+【turn109492563search0】 [wordlim: 200] Published: 17.2 years ago; Crawled: last month; ## Legislação Informatizada - LEI Nº 12.036, DE 1º DE OUTUBRO DE 2009 - Publicação Original ...      Art. 2º O § 6º do art. 7º do Decreto-Lei nº 4.657, de 4 de setembro de 1942, passa a vigorar com a seguinte redação: ... § 6º O divórcio realizado no estrangeiro, se um ou ambos os cônjuges forem brasileiros, só será reconhecido no Brasil depois de 1 (um) ano da data da sentença, salvo se houver sido antecedida de separação judicial por igual prazo, caso em que a homologação produzirá efeito imediato, obedecidas as condições estabelecidas para a eficácia das sentenças estrangeiras no país. ...      Art. 3º Esta Lei entra em vigor na data de sua publicação.
+
+## Legislação Informatizada - LEI Nº 12.036, DE 1º DE OUTUBRO DE 2009 - Publicação Original
+
+# LEI Nº 12.036, DE 1º DE OUTUBRO DE 2009
+
+Altera o Decreto-Lei nº 4.657, de 4 de setembro de 1942 - Lei de Introdução ao Código Civil Brasileiro, para adequá-lo à Constituição Federal em vigor.
+
+     O VICE-PRESIDENTE DA REPÚBLICA, no exercício do cargo de PRESIDENTE DA REPÚBLICA
+     Faço saber que o Congresso Nacional decreta e eu sanciono a seguinteLei:
+     Art. 1º Esta Lei altera o Decreto-Lei nº 4.657, de 4 de setembro de 1942 - Lei de Introdução ao Código Civil Brasileiro, para adequá-lo à Constituição Federal em vigor.
+     Art. 2º O § 6º do art. 7º do Decreto-Lei nº 4.657, de 4 de setembro de 1942, passa a vigorar com a seguinte redação:
+"Art. 7º ....................................................................................
+................................................................................................
+§ 6º O divórcio realizado no estrangeiro, se um ou ambos os cônjuges forem brasileiros, só será reconhecido no Brasil depois de 1 (um) ano da data da sentença, salvo se houver sido antecedida de separação judicial por igual prazo, caso em que a homologação produzirá efeito imediato, obedecidas as condições estabelecidas para a eficácia das sentenças estrangeiras no país. O Superior Tribunal de Justiça, na forma de seu regimento interno, poderá reexaminar, a requerimento do interessado, decisões já proferidas em pedidos de homologação de sentenças estrangeiras de divórcio de brasileiros, a fim de que passem a produzir todos os efeitos legais.
+..............................................................................................." (NR)
+
+     Art. 3º Esta Lei entra em vigor na data de sua publicação.
+     Art. 4º Revogam-se o § 2º do art. 1º e o parágrafo único do art. 15 do Decreto-Lei nº 4.657, de 4 de setembro de 1942.
+
+     Brasília, 1º de outubro de 2009; 188º da Independência e 121º da República.
+
+JOSÉ ALENCAR GOMES DA SILVA
+Luiz Paulo Teles Ferreira Barreto
+
+Este texto não substitui o original publicado no Diário Oficial da União - Seção 1 de 02/10/2009
+
+Publicação:
+
+  * Diário Oficial da União - Seção 1 - 2/10/2009, Página 1 (Publicação Original)
+--------------------------------------------------------------------------------
+STJ - Clipping de Legislação (https://www.stj.jus.br/webstj/Institucional/Biblioteca/Clipping/2Imprimir2.asp?seq_edicao=1939&seq_materia=14762)
+【turn109492563search1】 [wordlim: 200] Published: 17.2 years ago; Crawled: 2 months ago; LEI Nº 12.036, DE 1º DE OUTUBRO DE 2009 ... Art. 2º O § 6º do art. 7º do Decreto-Lei nº 4.657, de 4 de setembro de 1942, passa a vigorar com a seguinte redação: ... § 6º O divórcio realizado no estrangeiro, se um ou ambos os cônjuges forem brasileiros, só será reconhecido no Brasil depois de 1 (um) ano da data da sentença, salvo se houver sido antecedida de separação judicial por igual prazo, caso em que a homologação produzirá efeito imediato, obedecidas as condições estabelecidas para a eficácia das sentenças estrangeiras no país. ... Art. 3º Esta Lei entra em vigor na data de sua publicação.
+
+## Clipping de Legislação
+
+02/10/2009
+
+Órgão:  | Presidência da República  | Fonte:  | DO 02/10/2009 - p. 1 - Seção I
+ 
+
+TEXTO INTEGRAL
+
+PRESIDÊNCIA DA REPÚBLICA
+LEI Nº 12.036, DE 1º DE OUTUBRO DE 2009
+Altera o Decreto-Lei nº 4.657, de 4 de setembro de 1942 - Lei de Introdução ao Código Civil Brasileiro, para adequá-lo à Constituição Federal em vigor.
+O VICE-PRESIDENTE DA REPÚBLICA, no exercício do cargo de PRESIDENTE DA REPÚBLICA
+Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:
+Art. 1º Esta Lei altera o Decreto-Lei nº 4.657, de 4 de setembro de 1942 - Lei de Introdução ao Código Civil Brasileiro, para adequá-lo à Constituição Federal em vigor.
+Art. 2º O § 6º do art. 7º do Decreto-Lei nº 4.657, de 4 de setembro de 1942, passa a vigorar com a seguinte redação:
+"Art. 7º ............................................................................................................
+.........................................................................................................................
+--------------------------------------------------------------------------------
+Art. 3 da Lei 12036/09 | Jusbrasil (https://www.jusbrasil.com.br/topicos/23472404/art-3-da-lei-n-12036-de-01-de-outubro-de-2009)
+【turn109492563search2】 [wordlim: 200] Published: 17.2 years ago; Crawled: 3 months ago; 4.657, de 4 de setembro de 1942 – Lei de Introdução ao Código Civil Brasileiro, para adequá-lo à Constituição Federal em vigor.
+
+Art. 3 º Esta Lei entra em vigor na data de sua publicação.
+
+# Art. 3º da Lei nº 12.036, de 01 de outubro de 2009
+
+[Input]Texto compilado
+
+Extraído em 16/08/2026 dePlanalto
+
+Mostrar mais detalhes
+
+###### Art. 3º da Lei nº 12.036, de 01 de outubro de 2009
+
+[Input]Texto compilado
+
+4.657, de 4 de setembro de 1942 – Lei de Introdução ao Código Civil Brasileiro, para adequá-lo à Constituição Federal em vigor.
+
+Art. 3 º Esta Lei entra em vigor na data de sua publicação.
+
+Acessar legislação completa
+--------------------------------------------------------------------------------
+D12036 (https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/d12036.htm)
+【turn109492563search3】 [wordlim: 200] Published: 2.5 years ago; Crawled: last month; > DECRETO N� 12.036, DE 28 DE MAIO DE 2024
+
+Vig�ncia  | Altera o Decreto n� 11.798, de 28 de novembro de 2023, que aprova a Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comiss�o e das Fun��es de Confian�a do Minist�rio da Sa�de, e remaneja e transforma cargos em comiss�o e fun��es de confian�a. ... 6�  Este Decreto entra em vigor vinte e um dias ap�s a data de sua publica��o.
+> DECRETO N� 12.036, DE 28 DE MAIO DE 2024
+
+Vig�ncia  | Altera o Decreto n� 11.798, de 28 de novembro de 2023, que aprova a Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comiss�o e das Fun��es de Confian�a do Minist�rio da Sa�de, e remaneja e transforma cargos em comiss�o e fun��es de confian�a.
+
+O PRESIDENTE DA REP�BLICA, no uso da atribui��o que lhe confere o art. 84, caput, inciso VI, al�nea �a�, da Constitui��o, 
+
+DECRETA: 
+
+Art. 1�  Ficam remanejados, na forma do Anexo I, os seguintes Cargos Comissionados Executivos - CCE e Fun��es Comissionadas Executivas - FCE:
+
+I - do Minist�rio da Sa�de para a Secretaria de Gest�o e Inova��o do Minist�rio da Gest�o e da Inova��o em Servi�os P�blicos:
+
+a) seis CCE 1.13;
+
+b) um CCE 2.13;
+
+c) um CCE 2.10;
+
+d) dois CCE 3.16;
+
+e) um CCE 3.05;
+
+f) uma FCE 1.12;
+
+g) seis FCE 1.05;
+
+h) uma FCE 1.04;
+
+i) uma FCE 3.16;
+
+j) tr�s FCE 4.10;
+
+k) uma FCE 4.08;
+
+l) duas FCE 4.07;
+
+m) tr�s FCE 4.05;
+
+n) quatro FCE 4.04; e
+
+o) dezessete FCE 4.03; e
+
+II - da Secretaria de Gest�o e Inova��o do Minist�rio da Gest�o e da Inova��o em Servi�os P�blicos para o Minist�rio da Sa�de:
+
+a) quatro CCE 1.16;
+
+b) dois CCE 1.15;
+
+c) um CCE 1.11;
+
+d) um CCE 3.15;
+
+e) um CCE 3.14;
+
+f) um CCE 3.13;
+
+g) tr�s FCE 1.16;
+
+h) uma FCE 1.15;
+
+i) uma FCE 1.14;
+
+j) onze FCE 1.13;
+
+k) cinco FCE 1.11;
+
+l) doze FCE 1.10;
+
+m) seis FCE 1.09;
+
+n) uma FCE 1.07;
+
+o) uma FCE 1.06;
+
+p) quatro FCE 1.03;
+
+q) uma FCE 1.02;
+
+r) seis FCE 2.13;
+
+s) duas FCE 2.10;
+
+t) uma FCE 2.09;
+
+u) duas FCE 3.15;
+
+v) duas FCE 3.13;
+
+w) tr�s FCE 3.10;
+
+x) uma FCE 3.09;
+
+y) duas FCE 4.11;
+
+z) tr�s FCE 4.09;
+
+aa) tr�s FCE 4.06;
+
+ab) uma FCE 4.02; e
+
+ac) tr�s FCE 4.01.
+
+Art. 2�  Ficam transformados CCE e FCE, nos termos do disposto no art. 7� da Lei n� 14.204, de 16 de setembro de 2021, na forma do Anexo II.
+
+Art. 3�  O Anexo I ao Decreto n� 11.798, de 28 de novembro de 2023, passa a vigorar com as seguintes altera��es:
+
+> > �Art. 2�  .......................................................................................................
+>> 
+>> .....................................................................................................................
+>> 
+>> II - ................................................................................................................
+>> 
+>> .....................................................................................................................
+>> 
+>> e) .................................................................................................................
+>> 
+>> 1. Departamento de Aten��o Prim�ria � Sa�de Ind�gena;
+>> 
+>> 2. Departamento de Projetos e Determinantes Ambientais da Sa�de Ind�gena; e
+>> 
+>> 3. Departamento de Gest�o da Sa�de Ind�gena;
+>> 
+>> ...........................................................................................................� (NR)
+>> ~~ �Art. 25.  ..................................................................................................... ~~     (Revogado pelo Decreto n� 12.489, de 2025)    Vig�ncia
+>> 
+>> .....................................................................................................................
+>> 
+>> IV - realizar a gest�o de informa��es estrat�gicas para o desenvolvimento da aten��o prim�ria � sa�de nas localidades com dificuldade de provimento m�dico e alta vulnerabilidade, a partir da coleta, do processamento, do tratamento, do monitoramento e da avalia��o de dados prim�rios e secund�rios disponibilizados por instrumentos de registro, sistemas de informa��o em sa�de e outras bases de dados estrat�gicos �s finalidades da Ag�ncia Brasileira de Apoio � Gest�o do SUS;
+>> 
+>> ...........................................................................................................� (NR)
+>> 
+>> �Art. 39.  .....................................................................................................
+>> 
+>> .....................................................................................................................
+>> 
+>> ~~ XV - acompanhar e participar de f�runs e de outros espa�os institucionais de debate de pol�ticas remunerat�rias do trabalho na sa�de.� (NR)~~      (Revogado pelo Decreto n� 12.489, de 2025)    Vig�ncia
+>> 
+>> �Art. 51.  ......................................................................................................
+>> 
+>> .....................................................................................................................
+>> 
+>> VII - planejar e coordenar a��es destinadas � promo��o da sa�de e da seguran�a dos trabalhadores da sa�de;
+>> 
+>> VIII - estabelecer redes colaborativas para a gest�o do trabalho na sa�de nas inst�ncias estadual, distrital e municipal do SUS; e
+>> 
+>> IX - acompanhar as pol�ticas remunerat�rias relacionadas ao trabalho na sa�de.� (NR)
+>> 
+>> ~~ ~~ �Art. 55.  ......................................................................................................      ~~   ~~  (Revogado pelo Decreto n� 12.708, de 2025)    Vig�ncia
+>> 
+>> ~~ I -~~ ~~ coordenar a Pol�tica de Dados Abertos no �mbito do Minist�rio; ~~
+>> 
+>> .....................................................................................................................
+>> 
+>> IX - apoiar o desenvolvimento de metodologias, estrat�gias, instrumentos avaliativos, indicadores e par�metros da Rede Interagencial de Informa��es de Interesse para a Sa�de, no �mbito do Minist�rio.� (NR)
+
+~~ Art. 4�  O ~~ ~~ Anexo II ao Decreto n� 11.798, de 2023, passa a vigorar na forma do Anexo III a este Decreto.~~         (Revogado pelo Decreto n� 12.489, de 2025)    Vig�ncia
+
+Art. 5�  Ficam revogados os seguintes dispositivos do Anexo I ao Decreto n� 11.798, de 2023:
+
+I - o inciso X do caput do art. 39;
+
+II - os incisos VII e IX do caput do art. 40; e
+
+II - os incisos II, III, VI, XI e XII do caput do art. 47.
+
+Art. 6�  Este Decreto entra em vigor vinte e um dias ap�s a data de sua publica��o.
+
+Bras�lia, 28 de maio de 2024; 203� da Independ�ncia e 136� da Rep�blica.
+
+LUIZ IN�CIO LULA DA SILVA
+
+Esther Dweck
+
+N�sia Ver�nica Trindade Lima
+
+Este texto n�o substitui o publicado no DOU de 29.5.2024
+--------------------------------------------------------------------------------
+Legislação Federal - Senado Federal (https://legis.senado.gov.br/norma/529744)
+【turn109492563search4】 [wordlim: 200] Published: 84.3 years ago; Crawled: today; LEI DE INTRODUÇÃO , CODIGO CIVIL , BRASIL . ... 2) Lei nº 12.036 de 01/10/2009 Declaração de Alteração Permanente   Publicação Original [Diário Oficial da União de 02/10/2009] (p. 1, col. ... Estas alterações entram em vigor em 26/04/2018, com exceção ao acréscimo do Art. 29, que entra em vigor em 23/10/2018.
+
+--------------------------------------------------------------------------------
+Artigo 3 - Lei nº 12.036 / 2009 (https://modeloinicial.com.br/lei/L-12036-2009/lei-12036/art-3)
+【turn109492563search5】 [wordlim: 200] Published: 17.2 years ago; Crawled: 6 months ago; ALTERA O DECRETO-LEI N° 4.657, DE 4 DE SETEMBRO DE 1942 - LEI DE INTRODUÇÃO AO CÓDIGO CIVIL BRASILEIRO, PARA ADEQUÁ-LO À CONSTITUIÇÃO FEDERAL EM VIGOR. ... # Artigo 3 - Lei nº 12.036 / 2009 ... O VICE-PRESIDENTE DA REPÚBLICA, no exercício do cargo de PRESIDENTE DA REPÚBLICA Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:
+Lei nº 12.036
+
+* * *
+
+SITUAÇÃO
+
+Não consta revogação expressa VIGENTE
+
+DATA
+
+01/10/2009
+
+EMENTA
+
+ALTERA O DECRETO-LEI N° 4.657, DE 4 DE SETEMBRO DE 1942 - LEI DE INTRODUÇÃO AO CÓDIGO CIVIL BRASILEIRO, PARA ADEQUÁ-LO À CONSTITUIÇÃO FEDERAL EM VIGOR.
+
+REFERENDA
+
+Justiça (MJ)
+
+ASSUNTO
+
+ALTERAÇÃO, DISPOSITIVOS, LEI DE INTRODUÇÃO, CODIGO CIVIL, CORRELAÇÃO, PRAZO, RECONHECIMENTO, EXECUÇÃO, DIVORCIO, EXTERIOR, PAIS ESTRANGEIRO.
+
+CHEFE DE GOVERNO
+
+Luiz Inácio Lula da Silva
+
+# Artigo 3 - Lei nº 12.036 / 2009
+
+VER EMENTA
+
+ALTERA O DECRETO-LEI N° 4.657, DE 4 DE SETEMBRO DE 1942 - LEI DE INTRODUÇÃO AO CÓDIGO CIVIL BRASILEIRO, PARA ADEQUÁ-LO À CONSTITUIÇÃO FEDERAL EM VIGOR.
+
+E-BOOK
+
+ 
+
+TÍTULOS RELACIONADOS:
+
+O VICE-PRESIDENTE DA REPÚBLICA, no exercício do cargo de PRESIDENTE DA REPÚBLICA Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:
+
+Arts. 1 ... 2 ocultos » exibir Artigos
+
+Art. 3º Esta Lei entra em vigor na data de sua publicação.
+--------------------------------------------------------------------------------
+LEI Nº 12.036, DE 1º DE OUTUBRO DE 2009 (https://anvisalegis.datalegis.net/action/ActionDatalegis.php?acao=detalharAto&cod_menu=9882&cod_modulo=310&desItem=&desItemFim=&nomeTitulo=codigos&numeroAto=00012036&orgao=NI&seqAto=000&tipo=LEI&valorAno=2009)
+【turn109492563search6】 [wordlim: 200] Published: 17.2 years ago; Crawled: last month; LEI Nº 12.036, DE 1º DE OUTUBRO DE 2009 ... Art. 2º O § 6º do art. 7º do Decreto-Lei nº 4.657, de 4 de setembro de 1942, passaa vigorar com a seguinte redação: ... § 6º O divórcio realizado no estrangeiro, se um ou ambos os cônjuges forembrasileiros, só será reconhecido no Brasil depois de 1 (um) ano da data da sentença,salvo se houver sido antecedida de separação judicial por igual prazo, caso em que ahomologação produzirá efeito imediato, obedecidas as condições estabelecidas para aeficácia das sentenças estrangeiras no país. ... Art. 3º Esta Lei entra em vigor na data de sua publicação.
+LEI Nº 12.036, DE 1º DE OUTUBRO DE 2009
+
+Altera o Decreto-Lei nº 4.657, de 4 de setembro de 1942 - Lei de Introdução aoCódigo Civil Brasileiro, para adequá-lo à Constituição Federal em vigor.
+
+O VICE-PRESIDENTE DA REPÚBLICA, no exercício do cargo de PRESIDENTE DA REPÚBLICA
+
+Faço saber que o Congresso Nacional decreta e eu sanciono a seguinteLei:
+
+Art. 1º Esta Lei altera o Decreto-Lei nº 4.657, de 4 de setembro de 1942 - Lei deIntrodução ao Código Civil Brasileiro, para adequá-lo à Constituição Federal emvigor.
+
+Art. 2º O § 6º do art. 7º do Decreto-Lei nº 4.657, de 4 de setembro de 1942, passaa vigorar com a seguinte redação:
+
+"Art. 7º....................................................................................
+
+.........................................................................................................
+
+§ 6º O divórcio realizado no estrangeiro, se um ou ambos os cônjuges forembrasileiros, só será reconhecido no Brasil depois de 1 (um) ano da data da sentença,salvo se houver sido antecedida de separação judicial por igual prazo, caso em que ahomologação produzirá efeito imediato, obedecidas as condições estabelecidas para aeficácia das sentenças estrangeiras no país. O Superior Tribunal de Justiça, na formade seu regimento interno, poderá reexaminar, a requerimento do interessado, decisões jáproferidas em pedidos de homologação de sentenças estrangeiras de divórcio debrasileiros, a fim de que passem a produzir todos os efeitos legais.
+
+..............................................................................................."(NR)
+
+Art. 3º Esta Lei entra em vigor na data de sua publicação.
+
+Art. 4º Revogam-se o § 2º do art. 1º e o parágrafo único do art. 15 doDecreto-Lei nº 4.657, de 4 de setembro de 1942.
+
+Brasília, 1º de outubro de 2009; 188º da Independência e 121º da República.
+
+JOSÉ ALENCAR GOMES DA SILVA
+
+Luiz Paulo Teles Ferreira Barreto
+
+PUB D.O.U., 02/10/2009 - Seção 1
+
+Este texto não substitui a Publicação Oficial.
+--------------------------------------------------------------------------------
+Portal da Câmara dos Deputados (https://www2.camara.leg.br/legin/fed/lei/1995/lei-9047-18-maio-1995-349831-publicacaooriginal-1-pl.html)
+【turn109492563view0】 [wordlim: 200] Crawled: 2 weeks ago; Content type: text/html; Source: click({"ref_id":"turn261403271view2","id":11}); Total lines: 46
+L0:   * 【0†Ir ao conteúdo】
+L1:   * 【1†Ir à navegação principal】
+L2: 
+L3: 【2†Página inicial】
+L4: 
+L5:   * 【3†Image: Ativar VLibras†www.camara.leg.br】
+L6:   * 【4†Acessibilidade】
+L7:   * 【5†Fale Conosco†www.camara.leg.br】
+L8: 
+L9:   * 【6†Congresso†www.congressonacional.leg.br】
+L10:   * 【7†Senado†www.senado.leg.br】
+L11: 
+L12: PT
+L13: 
+L14:   * 【8†English EN】
+L15:   * 【9†Español ES】
+L16: 
+L17: ## Legislação Informatizada - LEI Nº 9.047, DE 18 DE MAIO DE 1995 - Publicação Original
+L18: 
+L19: Veja também:
+L20: 
+L21:   * 【10†Proposição Originária†www.camara.gov.br】
+L22:   * 【11†Dados da Norma】
+L23: # LEI Nº 9.047, DE 18 DE MAIO DE 1995
+L24: 
+L25: Altera a redação do § 1º do art. 10 do Decreto-Lei nº 4.657, de 1942 - Lei de Introdução ao Código Civil, que dispõe sobre a sucessão de bens de estrangeiros situados no Brasil.
+L26:      O PRESIDENTE DA REPÚBLICA
+L27:      Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte lei:
+L28:      Art. 1º O § 1º do art. 10 do Decreto-Lei nº 4.657, de 4 de setembro de 1942 - Lei de Introdução ao Código Civil, passa a vigorar com a seguinte redação:
+L29: "§ 1º A sucessão de bens de estrangeiros, situados no País, será regulada pela lei brasileira em benefício do cônjuge ou dos filhos brasileiros, ou de quem os represente, sempre que não lhes seja mais favorável a lei pessoal do de cujus ."
+L30:      Art. 2º Esta Lei entra em vigor na data de sua publicação.
+L31: 
+L32:      Brasília, 18 de maio de 1995; 174º da Independência e 107º da República.
+L33: 
+L34: FERNANDO HENRIQUE CARDOSO
+L35: Nelson A. Jobim
+L36: 
+L37: Este texto não substitui o original publicado no Diário Oficial da União - Seção 1 de 19/05/1995
+L38: 
+L39: Publicação:
+L40: 
+L41:   * Diário Oficial da União - Seção 1 - 19/5/1995, Página 7125 (Publicação Original)
+L42:   * Coleção de Leis do Brasil - 1995, Página 1813 Vol. 5 (Publicação Original)
+L43: ##### Carregando
+L44: 
+L45: Por favor, aguarde.
+
+
+## resume:lindb-pending-dates
+Internal Error ()
+【turn261403271view0】 [wordlim: 200] Source: open({"ref_id":"https://www2.camara.leg.br/legin/fed/lei/2009/lei-12036-1-outubro-2009-591434-publicacaooriginal-116515-pl.html","lineno":null}); 
+Failed to fetch https://www2.camara.leg.br/legin/fed/lei/2009/lei-12036-1-outubro-2009-591434-publicacaooriginal-116515-pl.html: (429) Too Many Requests
+--------------------------------------------------------------------------------
+Portal da Câmara dos Deputados (https://www2.camara.leg.br/legin/fed/lei/2013/lei-12874-29-outubro-2013-777329-publicacaooriginal-141603-pl.html)
+【turn261403271view1】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www2.camara.leg.br/legin/fed/lei/2013/lei-12874-29-outubro-2013-777329-publicacaooriginal-141603-pl.html","lineno":null}); Total lines: 50
+L0:   * 【0†Ir ao conteúdo】
+L1:   * 【1†Ir à navegação principal】
+L2: 
+L3: 【2†Página inicial】
+L4: 
+L5:   * 【3†Image: Ativar VLibras†www.camara.leg.br】
+L6:   * 【4†Acessibilidade】
+L7:   * 【5†Fale Conosco†www.camara.leg.br】
+L8: 
+L9:   * 【6†Congresso†www.congressonacional.leg.br】
+L10:   * 【7†Senado†www.senado.leg.br】
+L11: 
+L12: PT
+L13: 
+L14:   * 【8†English EN】
+L15:   * 【9†Español ES】
+L16: 
+L17: 【10†iframe†www.googletagmanager.com】
+L18: ## Legislação Informatizada - LEI Nº 12.874, DE 29 DE OUTUBRO DE 2013 - Publicação Original
+L19: 
+L20: Veja também:
+L21: 
+L22:   * 【11†Proposição Originária†www.camara.gov.br】
+L23:   * 【12†Dados da Norma】
+L24: # LEI Nº 12.874, DE 29 DE OUTUBRO DE 2013
+L25: 
+L26: Altera o art. 18 do Decreto-Lei nº 4.657, de 4 de setembro de 1942, para possibilitar às autoridades consulares brasileiras celebrarem a separação e o divórcio consensuais de brasileiros no exterior.
+L27:      A PRESIDENTA DA REPÚBLICA
+L28:      Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:
+L29:      Art. 1º Esta Lei dispõe sobre a possibilidade de as autoridades consulares brasileiras celebrarem a separação consensual e o divórcio consensual de brasileiros no exterior, nas hipóteses que especifica.
+L30:      Art. 2º O art. 18 do Decreto-Lei nº 4.657, de 4 de setembro de 1942, passa a vigorar acrescido dos seguintes §§ 1º e 2º:
+L31: "Art. 18. .................................................................................
+L32: § 1º As autoridades consulares brasileiras também poderão celebrar a separação consensual e o divórcio consensual de brasileiros, não havendo filhos menores ou incapazes do casal e observados os requisitos legais quanto aos prazos, devendo constar da respectiva escritura pública as disposições relativas à descrição e à partilha dos bens comuns e à pensão alimentícia e, ainda, ao acordo quanto à retomada pelo cônjuge de seu nome de solteiro ou à manutenção do nome adotado quando se deu o casamento.
+L33: § 2º É indispensável a assistência de advogado, devidamente constituído, que se dará mediante a subscrição de petição, juntamente com ambas as partes, ou com apenas uma delas, caso a outra constitua advogado próprio, não se fazendo necessário que a assinatura do advogado conste da escritura pública." (NR)
+L34:      Art. 3º Esta Lei entra em vigor após decorridos 120 (cento e vinte) dias de sua publicação oficial.
+L35: 
+L36:      Brasília, 29 de outubro de 2013; 192º da Independência e 125º da República.
+L37: 
+L38: DILMA ROUSSEFF
+L39: José Eduardo Cardozo
+L40: Luiz Alberto Figueiredo Machado
+L41: 
+L42: Este texto não substitui o original publicado no Diário Oficial da União - Seção 1 de 30/10/2013
+L43: 
+L44: Publicação:
+L45: 
+L46:   * Diário Oficial da União - Seção 1 - 30/10/2013, Página 1 (Publicação Original)
+L47: ##### Carregando
+L48: 
+L49: Por favor, aguarde.
+
+--------------------------------------------------------------------------------
+Portal da Câmara dos Deputados (https://www2.camara.leg.br/legin/fed/lei/1995/lei-9047-18-maio-1995-349831-norma-pl.html)
+【turn261403271view2】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www2.camara.leg.br/legin/fed/lei/1995/lei-9047-18-maio-1995-349831-norma-pl.html","lineno":null}); Total lines: 43
+L0:   * 【0†Ir ao conteúdo】
+L1:   * 【1†Ir à navegação principal】
+L2: 
+L3: 【2†Página inicial】
+L4: 
+L5:   * 【3†Image: Ativar VLibras†www.camara.leg.br】
+L6:   * 【4†Acessibilidade】
+L7:   * 【5†Fale Conosco†www.camara.leg.br】
+L8: 
+L9:   * 【6†Congresso†www.congressonacional.leg.br】
+L10:   * 【7†Senado†www.senado.leg.br】
+L11: 
+L12: PT
+L13: 
+L14:   * 【8†English EN】
+L15:   * 【9†Español ES】
+L16: 
+L17: 【10†iframe†www.googletagmanager.com】
+L18: 
+L19: ## Legislação Informatizada - Dados da Norma
+L20: # LEI Nº 9.047, DE 18 DE MAIO DE 1995
+L21: 
+L22: EMENTA: Altera a redação do § 1º do art. 10 do Decreto-Lei nº 4.657, de 1942 - Lei de Introdução ao Código Civil, que dispõe sobre a sucessão de bens de estrangeiros situados no Brasil.
+L23: 
+L24: 【11†Texto - Publicação Original】
+L25: 
+L26:   * Diário Oficial da União - Seção 1 - 19/5/1995, Página 7125 (Publicação Original)
+L27:   * Coleção de Leis do Brasil - 1995, Página 1813 Vol. 5 (Publicação Original)
+L28: 
+L29: Proposição Originária:
+L30: 
+L31: 【12†PL 255/1991†www.camara.gov.br】
+L32: 
+L33: Origem: Poder Legislativo
+L34: Situação: Não consta revogação expressa
+L35: 
+L36: Indexação
+L37: 
+L38: BENS - Estrangeiro - Território nacional - Sucessão - Normas - Alteração
+L39: LEI DE INTRODUÇÃO ÀS NORMAS DO DIREITO BRASILEIRO
+L40: ##### Carregando
+L41: 
+L42: Por favor, aguarde.
+
+
+## resume:lindb-effective
+Acesso Negado! (https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12874.htm)
+【turn293514867view0】 [wordlim: 200] Crawled: yesterday; Content type: text/html; Source: open({"ref_id":"https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12874.htm","lineno":null}); Total lines: 6
+L0: 【0†Image: Brastra.gif (4376 bytes)】
+L1: Esta requisição foi bloqueada.
+L2: Em caso de dúvida, por favor envie o código 4781090291771659936 no assunto da mensagem para o endereço eletrônico bloqueio.de.aplicacoes@presidencia.gov.br.
+L3: Solicitações não relacionadas a este alerta de bloqueio não serão tratadas por meio deste canal.
+L4: Diretoria de Tecnologia da Presidência da República.
+L5: [Go Back]
+
+--------------------------------------------------------------------------------
+Acesso Negado! (https://www.planalto.gov.br/ccivil_03/leis/l9047.htm)
+【turn293514867view1】 [wordlim: 200] Crawled: last week; Content type: text/html; Source: open({"ref_id":"https://www.planalto.gov.br/ccivil_03/leis/l9047.htm","lineno":null}); Total lines: 6
+L0: 【0†Image: Brastra.gif (4376 bytes)】
+L1: Esta requisição foi bloqueada.
+L2: Em caso de dúvida, por favor envie o código 13376840597341490416 no assunto da mensagem para o endereço eletrônico bloqueio.de.aplicacoes@presidencia.gov.br.
+L3: Solicitações não relacionadas a este alerta de bloqueio não serão tratadas por meio deste canal.
+L4: Diretoria de Tecnologia da Presidência da República.
+L5: [Go Back]
+
+--------------------------------------------------------------------------------
+Internal Error ()
+【turn293514867view2】 [wordlim: 200] Source: click({"ref_id":"turn570592588view0","id":10}); 
+Failed to fetch https://www2.camara.leg.br/legin/fed/lei/2009/lei-12036-1-outubro-2009-591434-publicacaooriginal-116515-pl.html: (429) Too Many Requests
+--------------------------------------------------------------------------------
+Portal da Câmara dos Deputados (https://www2.camara.leg.br/legin/fed/lei/1950-1959/lei-3238-1-agosto-1957-354576-publicacaooriginal-1-pl.html)
+【turn293514867view3】 [wordlim: 200] Crawled: last week; Content type: text/html; Source: click({"ref_id":"turn570592588view1","id":10}); Total lines: 56
+L0:   * 【0†Ir ao conteúdo】
+L1:   * 【1†Ir à navegação principal】
+L2: 
+L3: 【2†Página inicial】
+L4: 
+L5:   * 【3†Image: Ativar VLibras†www.camara.leg.br】
+L6:   * 【4†Acessibilidade】
+L7:   * 【5†Fale Conosco†www.camara.leg.br】
+L8: 
+L9:   * 【6†Congresso†www.congressonacional.leg.br】
+L10:   * 【7†Senado†www.senado.leg.br】
+L11: 
+L12: PT
+L13: 
+L14:   * 【8†English EN】
+L15:   * 【9†Español ES】
+L16: 
+L17: 【10†iframe†www.googletagmanager.com】
+L18: ## Legislação Informatizada - LEI Nº 3.238, DE 1º DE AGOSTO DE 1957 - Publicação Original
+L19: 
+L20: Veja também:
+L21: 
+L22:   * 【11†Proposição Originária†www.camara.gov.br】
+L23:   * 【12†Dados da Norma】
+L24: # LEI Nº 3.238, DE 1º DE AGOSTO DE 1957
+L25: 
+L26: Altera disposições da Lei de Introdução ao Código Civil.
+L27: O PRESIDENTE DA REPÚBLICA,
+L28: Faço saber que o CONGRESSO NACIONAL decreta e eu sanciono, a seguinte Lei:
+L29:      Art. 1º O art. 6º, da Lei de Introdução ao Código Civil (Decreto-lei nº 4.657, de 4 de setembro de 1942), passa a ter a seguinte redação:
+L30: "Art. 6º A Lei em vigor terá efeito imediato e geral, respeitados o ato jurídico perfeito, o direito adquirido e a coisa julgada.
+L31: § 1º Reputa-se ato jurídico perfeito o já consumado segundo a lei vigente ao tempo em que se efetuou.
+L32: § 2º Consideram-se adquiridos assim os direitos que o seu titular, ou alguém por êle, possa exercer, como aquêles cujo comêço do exercício tenha têrmo pré-fixo, ou condição pré-estabelecida inalterável, a arbítrio de outrem.
+L33: § 3º Chama-se coisa julgada ou caso julgado a decisão judicial de que já não caiba recurso."     Art. 2º O § 2º do art. 7º da Lei de Introdução ao Código Civil (Decreto-lei nº 4.657, de 4 de setembro de 1942) passa a vigorar com a seguinte redação:
+L34: "Art. 7º..............................................................................................
+L35: ..........................................................................................................
+L36: § 2º O casamento de estrangeiros poderá celebrar-se perante autoridades diplomáticas ou consulares do país de ambos os nubentes."     Art. 3º O art. 18 da Lei de Introdução ao Código Civil (Decreto-lei nº 4.657, de 4 de setembro de 1942), passa a ter a seguinte redação:
+L37: "Art. 18. Tratando-se de brasileiros, são competentes as autoridades consulares brasileiras para lhes celebrar o casamento e os mais atos de Registro Civil e de tabelionato, inclusive o registro de nascimento e de óbito dos filhos de brasileiro ou brasileira nascido no país da sede do Consulado."     Art. 4º É acrescentado à Lei de Introdução ao Código Civil (Decreto-lei nº 4.657, de 4 de setembro de 1942), o seguinte artigo:
+L38: "Art. 19. Reputam-se válidos todos os atos indicados no artigo anterior e celebrados pelos cônsules brasileiros na vigência do Decreto-lei nº 4.657, de 4 de setembro de 1942, desde que satisfaçam todos os requisitos legais.
+L39: Parágrafo único. No caso em que a celebração dêsses atos tiver sido recusada pelas autoridades consulares, com fundamento no artigo 18 do mesmo Decreto-lei, ao interessado é facultado renovar o pedido dentro em 90 (noventa) dias contados da data da publicação desta lei."
+L40:      Art. 5º Revogam-se as disposições em contrário.
+L41: 
+L42: Rio de Janeiro, em 1 de agôsto de 1957; 136º da Independência e 69º da República.
+L43: 
+L44: JUSCELINO KUBITSCHEK
+L45: Nereu Ramos
+L46: 
+L47: Este texto não substitui o original publicado no Diário Oficial da União - Seção 1 de 03/08/1957
+L48: 
+L49: Publicação:
+L50: 
+L51:   * Diário Oficial da União - Seção 1 - 3/8/1957, Página 19021 (Publicação Original)
+L52:   * Coleção de Leis do Brasil - 1957, Página 49 Vol. 5 (Publicação Original)
+L53: ##### Carregando
+L54: 
+L55: Por favor, aguarde.
+
+
+## resume:lindb-amendments
+Portal da Câmara dos Deputados (https://www2.camara.leg.br/legin/fed/lei/2009/lei-12036-1-outubro-2009-591434-norma-pl.html)
+【turn570592588view0】 [wordlim: 200] Crawled: 3 weeks ago; Content type: text/html; Source: click({"ref_id":"turn258562009view0","id":3}); Total lines: 40
+L0:   * 【0†Ir ao conteúdo】
+L1:   * 【1†Ir à navegação principal】
+L2: 
+L3: 【2†Página inicial】
+L4: 
+L5:   * 【3†Image: Ativar VLibras†www.camara.leg.br】
+L6:   * 【4†Acessibilidade】
+L7:   * 【5†Fale Conosco†www.camara.leg.br】
+L8: 
+L9:   * 【6†Congresso†www.congressonacional.leg.br】
+L10:   * 【7†Senado†www.senado.leg.br】
+L11: 
+L12: PT
+L13: 
+L14:   * 【8†English EN】
+L15:   * 【9†Español ES】
+L16: 
+L17: ## Legislação Informatizada - Dados da Norma
+L18: # LEI Nº 12.036, DE 1º DE OUTUBRO DE 2009
+L19: 
+L20: EMENTA: Altera o Decreto-Lei nº 4.657, de 4 de setembro de 1942 - Lei de Introdução ao Código Civil Brasileiro, para adequá-lo à Constituição Federal em vigor.
+L21: 
+L22: 【10†Texto - Publicação Original】
+L23: 
+L24:   * Diário Oficial da União - Seção 1 - 2/10/2009, Página 1 (Publicação Original)
+L25: 
+L26: Proposição Originária:
+L27: 
+L28: 【11†PL 4681/2004†www.camara.gov.br】
+L29: 
+L30: Origem: Poder Legislativo
+L31: 
+L32: Situação: Não consta revogação expressa
+L33: 
+L34: Indexação
+L35: DIVÓRCIO - Cônjuge - Brasileiro - Reconhecimento - Brasil - Sentença judicial - Data - Prazo - Separação judicial - Homologação - Efeito - Sentença estrangeira - País estrangeiro - Realização - Superior Tribunal de Justiça (STJ) - Reexame
+L36: LEI DE INTRODUÇÃO ÀS NORMAS DO DIREITO BRASILEIRO (1942) - alteração
+L37: ##### Carregando
+L38: 
+L39: Por favor, aguarde.
+
+--------------------------------------------------------------------------------
+Portal da Câmara dos Deputados (https://www2.camara.leg.br/legin/fed/lei/1950-1959/lei-3238-1-agosto-1957-354576-norma-pl.html)
+【turn570592588view1】 [wordlim: 200] Crawled: 2 weeks ago; Content type: text/html; Source: click({"ref_id":"turn258562009view0","id":4}); Total lines: 43
+L0:   * 【0†Ir ao conteúdo】
+L1:   * 【1†Ir à navegação principal】
+L2: 
+L3: 【2†Página inicial】
+L4: 
+L5:   * 【3†Image: Ativar VLibras†www.camara.leg.br】
+L6:   * 【4†Acessibilidade】
+L7:   * 【5†Fale Conosco†www.camara.leg.br】
+L8: 
+L9:   * 【6†Congresso†www.congressonacional.leg.br】
+L10:   * 【7†Senado†www.senado.leg.br】
+L11: 
+L12: PT
+L13: 
+L14:   * 【8†English EN】
+L15:   * 【9†Español ES】
+L16: 
+L17: ## Legislação Informatizada - Dados da Norma
+L18: # LEI Nº 3.238, DE 1º DE AGOSTO DE 1957
+L19: 
+L20: EMENTA: Altera disposições da Lei de Introdução ao Código Civil.
+L21: 
+L22: 【10†Texto - Publicação Original】
+L23: 
+L24:   * Diário Oficial da União - Seção 1 - 3/8/1957, Página 19021 (Publicação Original)
+L25:   * Coleção de Leis do Brasil - 1957, Página 49 Vol. 5 (Publicação Original)
+L26: 
+L27: Proposição Originária:
+L28: 
+L29: 【11†PL 158/1948 CCJ†www.camara.gov.br】
+L30: 
+L31: Origem: Poder Legislativo
+L32: 
+L33: Situação: Não consta revogação expressa
+L34: 
+L35: Indexação
+L36: CÓDIGO CIVIL - Lei de introdução - Alteração
+L37: CASAMENTO - Estrangeiro - Normas
+L38: DEFINIÇÃO - Ato jurídico - Direito adquirido - Coisa julgada
+L39: COMPETÊNCIA - Autoridade - Consulado - Brasil - Exterior
+L40: ##### Carregando
+L41: 
+L42: Por favor, aguarde.
+
+--------------------------------------------------------------------------------
+Internal Error ()
+【turn570592588view2】 [wordlim: 200] Source: click({"ref_id":"turn258562009view0","id":7}); 
+Failed to fetch https://www2.camara.leg.br/legin/fed/lei/1995/lei-9047-18-maio-1995-349831-norma-pl.html: (429) Too Many Requests
+--------------------------------------------------------------------------------
+Internal Error ()
+【turn570592588view3】 [wordlim: 200] Source: click({"ref_id":"turn258562009view0","id":9}); 
+Failed to fetch https://www2.camara.leg.br/legin/fed/lei/2013/lei-12874-29-outubro-2013-777329-publicacaooriginal-141603-pl.html: (429) Too Many Requests
+

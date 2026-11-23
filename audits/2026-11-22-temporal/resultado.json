@@ -1,0 +1,101 @@
+{
+  "executed_on": "2026-11-22",
+  "environment": "PostgreSQL 18.6 em memória via @electric-sql/pglite 0.5.16",
+  "production_writes": false,
+  "tests": [
+    {
+      "command": "PGLITE_MODULE=... node supabase/tests/legal_version_annotations_local.mjs",
+      "result": "PASS",
+      "checks": "CRUD histórico, âncora Unicode/trecho repetido, imutabilidade da versão/dono, RLS, notas antigas preservadas, replay da migration"
+    },
+    {
+      "command": "PGLITE_MODULE=... node supabase/tests/cadh_evidence_local.mjs",
+      "result": "PASS",
+      "checks": "82 hashes;81 versões;164 vínculos em2editais sintéticos;retry exato;art31pendente;art60semcabeçalho"
+    },
+    {
+      "command": "PGLITE_MODULE=... node supabase/tests/lindb_evidence_local.mjs",
+      "result": "PASS",
+      "checks": "30 hashes;29 versões;60 vínculos;retry;revogações parciais;veto distinto;rejeição durante vacatioart29"
+    },
+    {
+      "command": "PGLITE_MODULE=... node supabase/tests/cf88_evidence_local.mjs",
+      "result": "PASS",
+      "checks": "23 hashes/estados;21artigos;42vínculos;art37histórico distinto;2027não antecipado"
+    },
+    {
+      "command": "PGLITE_MODULE=... node supabase/tests/p0_acervo_homologation_local.mjs",
+      "result": "PASS",
+      "checks": "5migrações2vezes;3suítesSQL;238estados;2293vínculos;escopoCFSDcorrigido;questãooficial/simulado/contextotutor;RLS/anotações/legado"
+    },
+    {
+      "command": "vitest run --config vitest.focused.config.ts (checkout local de verificação)",
+      "result": "PASS",
+      "files": 2,
+      "tests": 7,
+      "checks": "seleção exata, CRUD/comentários, erro visível e isolamento ao trocar versão/usuário"
+    },
+    {
+      "command": "tsc -p tsconfig.focused.json (checkout local de verificação)",
+      "result": "PASS"
+    },
+    {
+      "command": "git apply --check integracao/leitor-vade-mecum-temporal.patch contra fontes originais reais",
+      "result": "PASS"
+    },
+    {
+      "command": "PGLITE_MODULE=... node supabase/tests/l9455_evidence_local.mjs",
+      "result": "PASS",
+      "checks": "5 hashes/estados, 4 artigos, 8 vínculos/retry, inciso III separado em 21/05/2026"
+    },
+    {
+      "command": "PGLITE_MODULE=... node supabase/tests/l13431_evidence_local.mjs",
+      "result": "PASS",
+      "checks": "30 hashes/estados, 29 artigos, 58 vínculos/retry; vacatio, hierarquia, regra revogadora, sem artigo ECA espúrio"
+    },
+    {
+      "command": "PGLITE_MODULE=... node supabase/tests/l13869_evidence_local.mjs",
+      "result": "PASS",
+      "checks": "46 hashes,40 versões,92 vínculos/retry,6vetos,pena art13/heading15A, flags de revisão e rejeição de15Aantes da vigência"
+    }
+  ],
+  "limits": [
+    "Não são testes de produção nem login real",
+    "Tutor: mesmo contexto RPC verificado; não houve chamada real ao modelo de IA",
+    "Não se repetiram as256verificações/11integrações anteriores",
+    "Os novos testes React usam Supabase simulado; RLS e ingestão testados separadamente no PostgreSQL",
+    "Nova edição de marcações está no patch do PR, não aplicada ao rascunho Lovable; editor bloqueado pela política de acesso do navegador",
+    "Nenhum novo build/preview integral do aplicativo validado em22/11"
+  ],
+  "coverage": {
+    "CFSD_2025": {
+      "catalog_article_slots": 163,
+      "prepared": 161,
+      "prepared_percent": 98.773,
+      "certified_for_notice": 0,
+      "certified_percent": 0
+    },
+    "CFO_2027": {
+      "identified_explicit_catalog_article_slots": 2130,
+      "prepared": 234,
+      "prepared_percent": 10.9859,
+      "certified_for_notice": 0,
+      "certified_percent": 0,
+      "whole_syllabus_mapping_complete": false,
+      "effective_date_review_required": 12
+    }
+  },
+  "remaining_material": [
+    "CADHart31: conflito entre fontes oficiais69/70 versus76/77",
+    "Datas de eficácia CF16/142 derivadas de princípio constitucional e explicitamente sujeitas a revisão material",
+    "LINDB25vetado: ausência de redação normativa não é lacuna nem revogação",
+    "Originais/cadeia de editais não comprovados; falta selo de ambas as revisões",
+    "CFO:1888slots do recorte explícito sem versão, além de mapeamento temático ainda incompleto",
+    "Aplicação do novo patch no código operacional/preview e homologação autenticada ainda pendentes",
+    "Lei13.869: dez datas de eficácia derivadas das partes promulgadas27/09/2019 exigem revisão material; retificação adicional da mensagem de veto159057 não recuperada"
+  ],
+  "prepared_total": {
+    "textual_states": 238,
+    "distinct_provisions": 234
+  }
+}

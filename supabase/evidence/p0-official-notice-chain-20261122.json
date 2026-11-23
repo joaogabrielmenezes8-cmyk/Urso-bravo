@@ -1,0 +1,124 @@
+{
+  "reviewed_on": "2026-11-22",
+  "production_writes": false,
+  "official_chain_complete": false,
+  "official_access_attempts": [
+    {
+      "url": "https://inscricaocrs.policiamilitar.mg.gov.br/#/publicacao/search",
+      "result": "timeout during official portal retrieval",
+      "date": "2026-11-22"
+    },
+    {
+      "url": "https://www.jornalminasgerais.mg.gov.br/Autenticidade",
+      "result": "timeout during official authenticity portal retrieval",
+      "date": "2026-11-22"
+    },
+    {
+      "url": "https://policiamilitar.mg.gov.br/conteudoportal/sites/concurso/030920260905177550.pdf",
+      "result": "400 Timeout fetching",
+      "date": "2026-11-22"
+    },
+    {
+      "url": "https://intranet.policiamilitar.mg.gov.br/conteudoportal/sites/concurso/090520242041069440.pdf",
+      "result": "502 Bad Gateway",
+      "date": "2026-11-22"
+    }
+  ],
+  "notices": [
+    {
+      "code": "CFO_2027",
+      "clause": "7.8.1",
+      "rule": "redação legislativa na publicação do edital",
+      "header_on": "2026-09-02",
+      "cutoff_candidate": "2026-09-03",
+      "diary_extract_on": "2026-09-04",
+      "cutoff_confirmed": false,
+      "documents": [
+        {
+          "kind": "edital copy",
+          "url": "https://dhg1h5j42swfq.cloudfront.net/2026/09/03102826/pm-mg-2027-cleaned.pdf",
+          "hosting": "mirror",
+          "official_original_retrieved": false,
+          "official_pdf_sha256": null
+        },
+        {
+          "kind": "diary extract reproduction",
+          "url": "https://www.escavador.com/diarios/10798470/DOEMG/diario-do-executivo/2026-09-04?page=40",
+          "hosting": "third-party diary reproduction",
+          "reported_full_crs_publication_on": "2026-09-03",
+          "official_original_retrieved": false,
+          "official_pdf_sha256": null
+        },
+        {
+          "kind": "official edital URL located, contents unavailable",
+          "url": "https://policiamilitar.mg.gov.br/conteudoportal/sites/concurso/030920260905177550.pdf",
+          "discovered_from": "https://rumoaocargo.com/edital/pmmg-cfo-2027/",
+          "official_original_retrieved": false,
+          "official_pdf_sha256": null
+        }
+      ],
+      "missing": [
+        "PDF original do edital obtido diretamente do CRS e prova verificável de sua publicação integral",
+        "Relação oficial exaustiva das retificações/erratas, inclusive prova de inexistência de atos adicionais"
+      ]
+    },
+    {
+      "code": "CFSD_2025",
+      "clause": "7.6.1",
+      "rule": "redação legislativa na publicação do edital",
+      "header_on": "2024-05-09",
+      "cutoff_candidate": "2024-05-09",
+      "cutoff_confirmed": false,
+      "documents": [
+        {
+          "kind": "edital consolidated copy",
+          "url": "https://dhg1h5j42swfq.cloudfront.net/2024/05/09193423/090520241910444160.pdf",
+          "hosting": "mirror",
+          "official_original_retrieved": false,
+          "official_pdf_sha256": null
+        },
+        {
+          "kind": "Errata 01",
+          "document_on": "2024-06-19",
+          "subject": "coleta de amostra no exame toxicológico",
+          "url": "https://dhg1h5j42swfq.cloudfront.net/2024/05/09193423/090520241910444160.pdf",
+          "locator": "página 5 da cópia consolidada de 93 páginas",
+          "official_original_retrieved": false,
+          "official_pdf_sha256": null
+        },
+        {
+          "kind": "Retificação 01",
+          "document_on": "2024-07-31",
+          "subject": "vagas",
+          "url": "https://folhadesabara.com.br/envios/2024/08/01/fb7f32f6f9bc8ed29658ec45ca111a291a127637.pdf",
+          "hosting": "mirror",
+          "official_original_retrieved": false,
+          "official_pdf_sha256": null
+        },
+        {
+          "kind": "Retificação 02",
+          "document_on": "2024-08-30",
+          "subject": "calendário",
+          "url": "https://arquivos.qconcursos.com/regulamento/arquivo/79967/pm_mg_2025_soldado_edital_n_10-edital.pdf",
+          "hosting": "mirror",
+          "official_original_retrieved": false,
+          "official_pdf_sha256": null
+        },
+        {
+          "kind": "official edital URL cited by third party, contents unavailable",
+          "url": "https://intranet.policiamilitar.mg.gov.br/conteudoportal/sites/concurso/090520242041069440.pdf",
+          "official_original_retrieved": false,
+          "official_pdf_sha256": null
+        }
+      ],
+      "missing": [
+        "Publicação integral original do edital no CRS com prova verificável da data",
+        "Originais oficiais da Errata01 e das Retificações01/02",
+        "Lista oficial exaustiva de retificações/erratas posteriores"
+      ],
+      "diary_date_reported_by_later_act_copy": "2024-05-11",
+      "diary_date_evidence_status": "secondary copy of later CRS act cites Minas Gerais92/2024; original diary not retrieved; do not substitute for proof of full CRS publication"
+    }
+  ],
+  "legal_dates_policy": "Data de assinatura/cabeçalho, publicação e vigência são campos distintos. As datas candidatas não geram selo nem payload de produção. Hashes de PDFs originais não recuperados permanecem nulos; hashes de redações legais ficam nos bundles próprios."
+}

@@ -1,0 +1,18 @@
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import {buildManifest} from '../../scripts/notice-certification-readiness.mjs';
+const coverage=JSON.parse(readFileSync(new URL('../evidence/p0-device-coverage-20261122.json',import.meta.url)));
+const actual=buildManifest(coverage,'CFSD_2025');
+assert.equal(actual.identified_slots,163);assert.equal(actual.prepared_texts,161);
+assert.equal(actual.classified_slots,163);assert.equal(actual.certification_ready,false);
+assert.equal(actual.certified_percent,0);
+assert.equal(actual.devices.filter(d=>d.outcome==='veto_no_enacted_text').length,1);
+assert.equal(actual.devices.find(d=>d.document_code==='CADH'&&d.provision_key==='art-00031').outcome,'documentary_conflict');
+const mutate=fn=>{const c=structuredClone(coverage);fn(c.notices[0]);return c;};
+assert.throws(()=>buildManifest(mutate(n=>n.scope.push(n.scope[0])),'CFSD_2025'),/Duplicate/);
+assert.throws(()=>buildManifest(mutate(n=>n.scope.pop()),'CFSD_2025'),/Incomplete device/);
+assert.throws(()=>buildManifest(mutate(n=>n.scope[0].version_id=null),'CFSD_2025'),/mismatch/);
+assert.throws(()=>buildManifest(mutate(n=>n.scope[0].certified_for_notice=true),'CFSD_2025'),/cannot promote/);
+assert.throws(()=>buildManifest(coverage,'CFO_2027'),/Incomplete scope/);
+assert.deepEqual(buildManifest(coverage,'CFSD_2025'),actual);
+console.log('PASS: CFSD 163 classified /161 texts; veto/conflict distinct; cutoff, dates and chain block seal; duplicate, omission and false certification rejected; deterministic replay');

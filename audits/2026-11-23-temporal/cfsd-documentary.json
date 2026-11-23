@@ -1,0 +1,37 @@
+{
+  "reviewed_on": "2026-11-23",
+  "base_head": "f30178d56771b39735422276ba697ab552af3055",
+  "notice_code": "CFSD_2025",
+  "classified_devices": 163,
+  "prepared_texts": 161,
+  "certified_for_notice": 0,
+  "certified_percent": 0,
+  "new_prepared_devices": 0,
+  "primary_evidence": "Official Itamaraty DOU facsimile archived; page15564 visually confirms69/70",
+  "resolved_documentary_questions": [
+    "CADH31 discrepancy exists in printed promulgation, not only OCR/catalog transcription",
+    "Errata01 locator corrected to Qconcursos compilation page5; CloudFront base has88pages",
+    "Retif01 inspected5.1/5.2; Retif02 AnexoA; dates classified as document/signature dates, not publication",
+    "161 immutable versions fit both examined date hypotheses; no current-text fallback"
+  ],
+  "remaining_blockers": [
+    "official_cutoff_unconfirmed",
+    "official_rectification_chain_incomplete",
+    "CADH31_single_reading_unresolved",
+    "CF16_and_CF142_exact_effective_start_review"
+  ],
+  "tests": [
+    {
+      "file": "cfsd_documentary_assessment_local.mjs",
+      "result": "PASS"
+    },
+    {
+      "file": "notice_certification_readiness_local.mjs",
+      "result": "PASS"
+    }
+  ],
+  "general_suites_repeated": false,
+  "production_writes": false,
+  "merge": false,
+  "deploy": false
+}

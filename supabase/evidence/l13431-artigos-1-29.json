@@ -1,0 +1,722 @@
+{
+  "document_code": "L13431",
+  "reviewed_on": "2026-11-22",
+  "source_url": "https://www2.camara.leg.br/legin/fed/lei/2017/lei-13431-4-abril-2017-784569-normaatualizada-pl.html",
+  "source_extract": "l13431-artigos-1-29.txt",
+  "source_artifact_format": "UTF-8 LF: Art.N. [início,fim ou aberto) newline corpo newline; linha vazia entre estados",
+  "publication_metadata_url": "https://www2.camara.leg.br/legin/fed/lei/2017/lei-13431-4-abril-2017-784569-norma-pl.html",
+  "effective_date_confirmation_url": "https://legis.senado.leg.br/norma/17674073",
+  "amending_source_url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/l14344.htm",
+  "versions": [
+    {
+      "id": "26e93705-b2bb-519e-a698-bd82ee327ef8",
+      "provision_id": "72fd5b2a-51c3-4f39-8a36-f7b9c76804e7",
+      "valid_from": "2018-04-05",
+      "valid_until": null,
+      "heading": null,
+      "body": "Esta Lei normatiza e organiza o sistema de garantia de direitos da criança e do adolescente vítima ou testemunha de violência, cria mecanismos para prevenir e coibir a violência, nos termos do art. 227 da Constituição Federal, da Convenção sobre os Direitos da Criança e seus protocolos adicionais, da Resolução nº 20/2005 do Conselho Econômico e Social das Nações Unidas e de outros diplomas internacionais, e estabelece medidas de assistência e proteção à criança e ao adolescente em situação de violência.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/2017/lei-13431-4-abril-2017-784569-normaatualizada-pl.html",
+      "source_sha256": "fdfc0aa842ca3f201c5a823b4620a0d43aff13257379c255db89338f5b33a26f",
+      "review_evidence": "Texto literal da compilação Câmara,22/11/2026. Vigência inicial05/04/2018, conforme art29(um ano da publicação05/04/2017) e registro explícito Senado17674073. Títulos/capítulos excluídos do corpo e preservados como estrutura; citação do art208doECA no art25não cria dispositivo paralelo. Art28éregra revogadora,não artigo revogado. Sem selo de edital ou certificação jurisprudencial."
+    },
+    {
+      "id": "29bb4df5-b9ea-5d81-ae36-28f7f60cf35c",
+      "provision_id": "3e776b2a-a239-4ba7-9732-9ce439cf4dfc",
+      "valid_from": "2018-04-05",
+      "valid_until": null,
+      "heading": null,
+      "body": "A criança e o adolescente gozam dos direitos fundamentais inerentes à pessoa humana, sendo-lhes asseguradas a proteção integral e as oportunidades e facilidades para viver sem violência e preservar sua saúde física e mental e seu desenvolvimento moral, intelectual e social, e gozam de direitos específicos à sua condição de vítima ou testemunha.\nParágrafo único. A União, os Estados, o Distrito Federal e os Municípios desenvolverão políticas integradas e coordenadas que visem a garantir os direitos humanos da criança e do adolescente no âmbito das relações domésticas, familiares e sociais, para resguardá-los de toda forma de negligência, discriminação, exploração, violência, abuso, crueldade e opressão.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/2017/lei-13431-4-abril-2017-784569-normaatualizada-pl.html",
+      "source_sha256": "e68d67c53b6e4b6036d4c2db14f2de2870b06194dc0c7c5201b4b25feede893e",
+      "review_evidence": "Texto literal da compilação Câmara,22/11/2026. Vigência inicial05/04/2018, conforme art29(um ano da publicação05/04/2017) e registro explícito Senado17674073. Títulos/capítulos excluídos do corpo e preservados como estrutura; citação do art208doECA no art25não cria dispositivo paralelo. Art28éregra revogadora,não artigo revogado. Sem selo de edital ou certificação jurisprudencial."
+    },
+    {
+      "id": "6c25299c-5b3c-52f1-a79f-d395915b4ed8",
+      "provision_id": "015ee203-a10f-4f5b-9d33-0c81a8dc2428",
+      "valid_from": "2018-04-05",
+      "valid_until": null,
+      "heading": null,
+      "body": "Na aplicação e interpretação desta Lei, serão considerados os fins sociais a que ela se destina e, especialmente, as condições peculiares da criança e do adolescente como pessoas em desenvolvimento, às quais o Estado, a família e a sociedade devem assegurar a fruição dos direitos fundamentais com absoluta prioridade.\nParágrafo único. A aplicação desta Lei é facultativa para as vítimas e testemunhas de violência entre 18 (dezoito) e 21 (vinte e um) anos, conforme disposto no parágrafo único do art. 2º da Lei nº 8.069, de 13 de julho de 1990 (Estatuto da Criança e do Adolescente).",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/2017/lei-13431-4-abril-2017-784569-normaatualizada-pl.html",
+      "source_sha256": "e1494c3f96e39998da43f9011eb68a8245cbb0dffcb9f798155091f3708522a4",
+      "review_evidence": "Texto literal da compilação Câmara,22/11/2026. Vigência inicial05/04/2018, conforme art29(um ano da publicação05/04/2017) e registro explícito Senado17674073. Títulos/capítulos excluídos do corpo e preservados como estrutura; citação do art208doECA no art25não cria dispositivo paralelo. Art28éregra revogadora,não artigo revogado. Sem selo de edital ou certificação jurisprudencial."
+    },
+    {
+      "id": "a9e3c636-6e91-5e1c-8573-9cf030008213",
+      "provision_id": "ffe0f419-c731-4d50-ae34-703bc668832c",
+      "valid_from": "2018-04-05",
+      "valid_until": "2022-07-09",
+      "heading": null,
+      "body": "Para os efeitos desta Lei, sem prejuízo da tipificação das condutas criminosas, são formas de violência:\nI - violência física, entendida como a ação infligida à criança ou ao adolescente que ofenda sua integridade ou saúde corporal ou que lhe cause sofrimento físico;\n\nII - violência psicológica:\na) qualquer conduta de discriminação, depreciação ou desrespeito em relação à criança ou ao adolescente mediante ameaça, constrangimento, humilhação, manipulação, isolamento, agressão verbal e xingamento, ridicularização, indiferença, exploração ou intimidação sistemática (bullying) que possa comprometer seu desenvolvimento psíquico ou emocional;\nb) o ato de alienação parental, assim entendido como a interferência na formação psicológica da criança ou do adolescente, promovida ou induzida por um dos genitores, pelos avós ou por quem os tenha sob sua autoridade, guarda ou vigilância, que leve ao repúdio de genitor ou que cause prejuízo ao estabelecimento ou à manutenção de vínculo com este;\nc) qualquer conduta que exponha a criança ou o adolescente, direta ou indiretamente, a crime violento contra membro de sua família ou de sua rede de apoio, independentemente do ambiente em que cometido, particularmente quando isto a torna testemunha;\nIII - violência sexual, entendida como qualquer conduta que constranja a criança ou o adolescente a praticar ou presenciar conjunção carnal ou qualquer outro ato libidinoso, inclusive exposição do corpo em foto ou vídeo por meio eletrônico ou não, que compreenda:\na) abuso sexual, entendido como toda ação que se utiliza da criança ou do adolescente para fins sexuais, seja conjunção carnal ou outro ato libidinoso, realizado de modo presencial ou por meio eletrônico, para estimulação sexual do agente ou de terceiro;\nb) exploração sexual comercial, entendida como o uso da criança ou do adolescente em atividade sexual em troca de remuneração ou qualquer outra forma de compensação, de forma independente ou sob patrocínio, apoio ou incentivo de terceiro, seja de modo presencial ou por meio eletrônico;\nc) tráfico de pessoas, entendido como o recrutamento, o transporte, a transferência, o alojamento ou o acolhimento da criança ou do adolescente, dentro do território nacional ou para o estrangeiro, com o fim de exploração sexual, mediante ameaça, uso de força ou outra forma de coação, rapto, fraude, engano, abuso de autoridade, aproveitamento de situação de vulnerabilidade ou entrega ou aceitação de pagamento, entre os casos previstos na legislação;\nIV - violência institucional, entendida como a praticada por instituição pública ou conveniada, inclusive quando gerar revitimização.\n\n\n\n§ 1º Para os efeitos desta Lei, a criança e o adolescente serão ouvidos sobre a situação de violência por meio de escuta especializada e depoimento especial.\n\n§ 2º Os órgãos de saúde, assistência social, educação, segurança pública e justiça adotarão os procedimentos necessários por ocasião da revelação espontânea da violência.\n§ 3º Na hipótese de revelação espontânea da violência, a criança e o adolescente serão chamados a confirmar os fatos na forma especificada no § 1º deste artigo, salvo em caso de intervenções de saúde.\n\n§ 4º O não cumprimento do disposto nesta Lei implicará a aplicação das sanções previstas na Lei nº 8.069, de 13 de julho de 1990 (Estatuto da Criança e do Adolescente).",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/2017/lei-13431-4-abril-2017-784569-normaatualizada-pl.html",
+      "source_sha256": "e4157c17e3fdcfd620cb40d8a6c7037d56a9be35d05a0a8cd658fd26200be728",
+      "review_evidence": "Texto literal da compilação Câmara,22/11/2026. Vigência inicial05/04/2018, conforme art29(um ano da publicação05/04/2017) e registro explícito Senado17674073. Art4: incisoVdo caput acrescido pela Lei14.344/2022,art28; publicação25/05/2022+45dias(art34), vigência09/07/2022. Estado anterior retira somente o acréscimo. IncisoVposicionado antes§1 conforme hierarquia do caput, sem alterar palavras; a Câmara o exibe após§4. Títulos/capítulos excluídos do corpo e preservados como estrutura; citação do art208doECA no art25não cria dispositivo paralelo. Art28éregra revogadora,não artigo revogado. Sem selo de edital ou certificação jurisprudencial."
+    },
+    {
+      "id": "b2b3573c-df83-59e3-9321-aaf87b0a8ae3",
+      "provision_id": "ffe0f419-c731-4d50-ae34-703bc668832c",
+      "valid_from": "2022-07-09",
+      "valid_until": null,
+      "heading": null,
+      "body": "Para os efeitos desta Lei, sem prejuízo da tipificação das condutas criminosas, são formas de violência:\nI - violência física, entendida como a ação infligida à criança ou ao adolescente que ofenda sua integridade ou saúde corporal ou que lhe cause sofrimento físico;\n\nII - violência psicológica:\na) qualquer conduta de discriminação, depreciação ou desrespeito em relação à criança ou ao adolescente mediante ameaça, constrangimento, humilhação, manipulação, isolamento, agressão verbal e xingamento, ridicularização, indiferença, exploração ou intimidação sistemática (bullying) que possa comprometer seu desenvolvimento psíquico ou emocional;\nb) o ato de alienação parental, assim entendido como a interferência na formação psicológica da criança ou do adolescente, promovida ou induzida por um dos genitores, pelos avós ou por quem os tenha sob sua autoridade, guarda ou vigilância, que leve ao repúdio de genitor ou que cause prejuízo ao estabelecimento ou à manutenção de vínculo com este;\nc) qualquer conduta que exponha a criança ou o adolescente, direta ou indiretamente, a crime violento contra membro de sua família ou de sua rede de apoio, independentemente do ambiente em que cometido, particularmente quando isto a torna testemunha;\nIII - violência sexual, entendida como qualquer conduta que constranja a criança ou o adolescente a praticar ou presenciar conjunção carnal ou qualquer outro ato libidinoso, inclusive exposição do corpo em foto ou vídeo por meio eletrônico ou não, que compreenda:\na) abuso sexual, entendido como toda ação que se utiliza da criança ou do adolescente para fins sexuais, seja conjunção carnal ou outro ato libidinoso, realizado de modo presencial ou por meio eletrônico, para estimulação sexual do agente ou de terceiro;\nb) exploração sexual comercial, entendida como o uso da criança ou do adolescente em atividade sexual em troca de remuneração ou qualquer outra forma de compensação, de forma independente ou sob patrocínio, apoio ou incentivo de terceiro, seja de modo presencial ou por meio eletrônico;\nc) tráfico de pessoas, entendido como o recrutamento, o transporte, a transferência, o alojamento ou o acolhimento da criança ou do adolescente, dentro do território nacional ou para o estrangeiro, com o fim de exploração sexual, mediante ameaça, uso de força ou outra forma de coação, rapto, fraude, engano, abuso de autoridade, aproveitamento de situação de vulnerabilidade ou entrega ou aceitação de pagamento, entre os casos previstos na legislação;\nIV - violência institucional, entendida como a praticada por instituição pública ou conveniada, inclusive quando gerar revitimização.\n\nV - violência patrimonial, entendida como qualquer conduta que configure retenção, subtração, destruição parcial ou total de seus documentos pessoais, bens, valores e direitos ou recursos econômicos, incluídos os destinados a satisfazer suas necessidades, desde que a medida não se enquadre como educacional.\n\n§ 1º Para os efeitos desta Lei, a criança e o adolescente serão ouvidos sobre a situação de violência por meio de escuta especializada e depoimento especial.\n\n§ 2º Os órgãos de saúde, assistência social, educação, segurança pública e justiça adotarão os procedimentos necessários por ocasião da revelação espontânea da violência.\n§ 3º Na hipótese de revelação espontânea da violência, a criança e o adolescente serão chamados a confirmar os fatos na forma especificada no § 1º deste artigo, salvo em caso de intervenções de saúde.\n\n§ 4º O não cumprimento do disposto nesta Lei implicará a aplicação das sanções previstas na Lei nº 8.069, de 13 de julho de 1990 (Estatuto da Criança e do Adolescente).",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/2017/lei-13431-4-abril-2017-784569-normaatualizada-pl.html",
+      "source_sha256": "3f9f9f31da2c145ddfab705bafdf14276417ba30f5a1bbcf1c3776d8efe07230",
+      "review_evidence": "Texto literal da compilação Câmara,22/11/2026. Vigência inicial05/04/2018, conforme art29(um ano da publicação05/04/2017) e registro explícito Senado17674073. Art4: incisoVdo caput acrescido pela Lei14.344/2022,art28; publicação25/05/2022+45dias(art34), vigência09/07/2022. Estado anterior retira somente o acréscimo. IncisoVposicionado antes§1 conforme hierarquia do caput, sem alterar palavras; a Câmara o exibe após§4. Títulos/capítulos excluídos do corpo e preservados como estrutura; citação do art208doECA no art25não cria dispositivo paralelo. Art28éregra revogadora,não artigo revogado. Sem selo de edital ou certificação jurisprudencial."
+    },
+    {
+      "id": "84f6d488-7768-5b17-ba25-843c97797e98",
+      "provision_id": "b1f741bb-6344-4226-b6fe-b4dbc18eb6cb",
+      "valid_from": "2018-04-05",
+      "valid_until": null,
+      "heading": null,
+      "body": "A aplicação desta Lei, sem prejuízo dos princípios estabelecidos nas demais normas nacionais e internacionais de proteção dos direitos da criança e do adolescente, terá como base, entre outros, os direitos e garantias fundamentais da criança e do adolescente a:\n\nI - receber prioridade absoluta e ter considerada a condição peculiar de pessoa em desenvolvimento;\n\nII - receber tratamento digno e abrangente;\nIII - ter a intimidade e as condições pessoais protegidas quando vítima ou testemunha de violência;\n\nIV - ser protegido contra qualquer tipo de discriminação, independentemente de classe, sexo, raça, etnia, renda, cultura, nível educacional, idade, religião, nacionalidade, procedência regional, regularidade migratória, deficiência ou qualquer outra condição sua, de seus pais ou de seus representantes legais;\nV - receber informação adequada à sua etapa de desenvolvimento sobre direitos, inclusive sociais, serviços disponíveis, representação jurídica, medidas de proteção, reparação de danos e qualquer procedimento a que seja submetido;\n\nVI - ser ouvido e expressar seus desejos e opiniões, assim como permanecer em silêncio;\nVII - receber assistência qualificada jurídica e psicossocial especializada, que facilite a sua participação e o resguarde contra comportamento inadequado adotado pelos demais órgãos atuantes no processo;\n\nVIII - ser resguardado e protegido de sofrimento, com direito a apoio, planejamento de sua participação, prioridade na tramitação do processo, celeridade processual, idoneidade do atendimento e limitação das intervenções;\nIX - ser ouvido em horário que lhe for mais adequado e conveniente, sempre que possível;\n\nX - ter segurança, com avaliação contínua sobre possibilidades de intimidação, ameaça e outras formas de violência;\n\nXI - ser assistido por profissional capacitado e conhecer os profissionais que participam dos procedimentos de escuta especializada e depoimento especial;\n\nXII - ser reparado quando seus direitos forem violados;\n\nXIII - conviver em família e em comunidade;\nXIV - ter as informações prestadas tratadas confidencialmente, sendo vedada a utilização ou o repasse a terceiro das declarações feitas pela criança e pelo adolescente vítima, salvo para os fins de assistência à saúde e de persecução penal;\n\nXV - prestar declarações em formato adaptado à criança e ao adolescente com deficiência ou em idioma diverso do português.\nParágrafo único. O planejamento referido no inciso VIII, no caso de depoimento especial, será realizado entre os profissionais especializados e o juízo.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/2017/lei-13431-4-abril-2017-784569-normaatualizada-pl.html",
+      "source_sha256": "552f99445ce2f2044a619473d1c4414c31c6ae5d21c24c6786ac578313e40db0",
+      "review_evidence": "Texto literal da compilação Câmara,22/11/2026. Vigência inicial05/04/2018, conforme art29(um ano da publicação05/04/2017) e registro explícito Senado17674073. Títulos/capítulos excluídos do corpo e preservados como estrutura; citação do art208doECA no art25não cria dispositivo paralelo. Art28éregra revogadora,não artigo revogado. Sem selo de edital ou certificação jurisprudencial."
+    },
+    {
+      "id": "0d033a6a-3101-5033-8535-b7422cb28134",
+      "provision_id": "44bf7197-3862-4dee-9044-12610e69f2f9",
+      "valid_from": "2018-04-05",
+      "valid_until": null,
+      "heading": null,
+      "body": "A criança e o adolescente vítima ou testemunha de violência têm direito a pleitear, por meio de seu representante legal, medidas protetivas contra o autor da violência.\nParágrafo único. Os casos omissos nesta Lei serão interpretados à luz do disposto na Lei nº 8.069, de 13 de julho de 1990 (Estatuto da Criança e do Adolescente), na Lei nº 11.340, de 7 de agosto de 2006 (Lei Maria da Penha), e em normas conexas.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/2017/lei-13431-4-abril-2017-784569-normaatualizada-pl.html",
+      "source_sha256": "ab5dff529e1fa1f7a2d22f2f41c3880e94fa68e1fb2915b9323640717cda0a1d",
+      "review_evidence": "Texto literal da compilação Câmara,22/11/2026. Vigência inicial05/04/2018, conforme art29(um ano da publicação05/04/2017) e registro explícito Senado17674073. Títulos/capítulos excluídos do corpo e preservados como estrutura; citação do art208doECA no art25não cria dispositivo paralelo. Art28éregra revogadora,não artigo revogado. Sem selo de edital ou certificação jurisprudencial."
+    },
+    {
+      "id": "3b667fc3-def9-5fa6-9f4f-12e979a0e480",
+      "provision_id": "8efc882b-cc91-4680-b3b3-d54a62c79caf",
+      "valid_from": "2018-04-05",
+      "valid_until": null,
+      "heading": null,
+      "body": "Escuta especializada é o procedimento de entrevista sobre situação de violência com criança ou adolescente perante órgão da rede de proteção, limitado o relato estritamente ao necessário para o cumprimento de sua finalidade.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/2017/lei-13431-4-abril-2017-784569-normaatualizada-pl.html",
+      "source_sha256": "98e98b835871cb7a45ef13cff6835bc34d1c704fa60a8e8ea708b3e5541db0bd",
+      "review_evidence": "Texto literal da compilação Câmara,22/11/2026. Vigência inicial05/04/2018, conforme art29(um ano da publicação05/04/2017) e registro explícito Senado17674073. Títulos/capítulos excluídos do corpo e preservados como estrutura; citação do art208doECA no art25não cria dispositivo paralelo. Art28éregra revogadora,não artigo revogado. Sem selo de edital ou certificação jurisprudencial."
+    },
+    {
+      "id": "329a8561-eecb-58ba-8370-ae778d47da13",
+      "provision_id": "e77214ea-7e93-48a6-a357-180b55a152d1",
+      "valid_from": "2018-04-05",
+      "valid_until": null,
+      "heading": null,
+      "body": "Depoimento especial é o procedimento de oitiva de criança ou adolescente vítima ou testemunha de violência perante autoridade policial ou judiciária.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/2017/lei-13431-4-abril-2017-784569-normaatualizada-pl.html",
+      "source_sha256": "39acb65bf1237df3dc1f130ba7c0a502161b6f5942eb1bd63c24d95f95415435",
+      "review_evidence": "Texto literal da compilação Câmara,22/11/2026. Vigência inicial05/04/2018, conforme art29(um ano da publicação05/04/2017) e registro explícito Senado17674073. Títulos/capítulos excluídos do corpo e preservados como estrutura; citação do art208doECA no art25não cria dispositivo paralelo. Art28éregra revogadora,não artigo revogado. Sem selo de edital ou certificação jurisprudencial."
+    },
+    {
+      "id": "00629bb1-9cdf-57ff-baa4-d9156dbb78d9",
+      "provision_id": "d8e4746d-f17e-4209-b4d3-5a7ae7261421",
+      "valid_from": "2018-04-05",
+      "valid_until": null,
+      "heading": null,
+      "body": "A criança ou o adolescente será resguardado de qualquer contato, ainda que visual, com o suposto autor ou acusado, ou com outra pessoa que represente ameaça, coação ou constrangimento.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/2017/lei-13431-4-abril-2017-784569-normaatualizada-pl.html",
+      "source_sha256": "48a49ea44299850eb5570eaf09cc1a4a29d25e2caed957ad059d6cf1aed905be",
+      "review_evidence": "Texto literal da compilação Câmara,22/11/2026. Vigência inicial05/04/2018, conforme art29(um ano da publicação05/04/2017) e registro explícito Senado17674073. Títulos/capítulos excluídos do corpo e preservados como estrutura; citação do art208doECA no art25não cria dispositivo paralelo. Art28éregra revogadora,não artigo revogado. Sem selo de edital ou certificação jurisprudencial."
+    },
+    {
+      "id": "103eca54-357a-51cd-b1af-14f94cca6a94",
+      "provision_id": "c4533feb-f28e-4097-975b-1382b6090d08",
+      "valid_from": "2018-04-05",
+      "valid_until": null,
+      "heading": null,
+      "body": "A escuta especializada e o depoimento especial serão realizados em local apropriado e acolhedor, com infraestrutura e espaço físico que garantam a privacidade da criança ou do adolescente vítima ou testemunha de violência.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/2017/lei-13431-4-abril-2017-784569-normaatualizada-pl.html",
+      "source_sha256": "91e398348813d794b491502c271ca6c3d78512b7691eef67fd69b1b42db4bac8",
+      "review_evidence": "Texto literal da compilação Câmara,22/11/2026. Vigência inicial05/04/2018, conforme art29(um ano da publicação05/04/2017) e registro explícito Senado17674073. Títulos/capítulos excluídos do corpo e preservados como estrutura; citação do art208doECA no art25não cria dispositivo paralelo. Art28éregra revogadora,não artigo revogado. Sem selo de edital ou certificação jurisprudencial."
+    },
+    {
+      "id": "2205a813-37cc-55e9-a918-a5373e7cdd20",
+      "provision_id": "8e03be6d-41cb-4e02-ac52-e279d0f6cb69",
+      "valid_from": "2018-04-05",
+      "valid_until": null,
+      "heading": null,
+      "body": "O depoimento especial reger-se-á por protocolos e, sempre que possível, será realizado uma única vez, em sede de produção antecipada de prova judicial, garantida a ampla defesa do investigado.\n\n§ 1º O depoimento especial seguirá o rito cautelar de antecipação de prova:\n\nI - quando a criança ou o adolescente tiver menos de 7 (sete) anos;\n\nII - em caso de violência sexual.\n§ 2º Não será admitida a tomada de novo depoimento especial, salvo quando justificada a sua imprescindibilidade pela autoridade competente e houver a concordância da vítima ou da testemunha, ou de seu representante legal.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/2017/lei-13431-4-abril-2017-784569-normaatualizada-pl.html",
+      "source_sha256": "d20e83d1399cf52b5246a0d2bdad85b40a9137129b970643e0fd82986f9152e8",
+      "review_evidence": "Texto literal da compilação Câmara,22/11/2026. Vigência inicial05/04/2018, conforme art29(um ano da publicação05/04/2017) e registro explícito Senado17674073. Títulos/capítulos excluídos do corpo e preservados como estrutura; citação do art208doECA no art25não cria dispositivo paralelo. Art28éregra revogadora,não artigo revogado. Sem selo de edital ou certificação jurisprudencial."
+    },
+    {
+      "id": "cb374f78-1e04-5e7c-a161-0f5e4a175dc9",
+      "provision_id": "7cd61a2d-8ed2-4312-9a18-bbe492a54d78",
+      "valid_from": "2018-04-05",
+      "valid_until": null,
+      "heading": null,
+      "body": "O depoimento especial será colhido conforme o seguinte procedimento:\nI - os profissionais especializados esclarecerão a criança ou o adolescente sobre a tomada do depoimento especial, informando-lhe os seus direitos e os procedimentos a serem adotados e planejando sua participação, sendo vedada a leitura da denúncia ou de outras peças processuais;\n\nII - é assegurada à criança ou ao adolescente a livre narrativa sobre a situação de violência, podendo o profissional especializado intervir quando necessário, utilizando técnicas que permitam a elucidação dos fatos;\nIII - no curso do processo judicial, o depoimento especial será transmitido em tempo real para a sala de audiência, preservado o sigilo;\n\nIV - findo o procedimento previsto no inciso II deste artigo, o juiz, após consultar o Ministério Público, o defensor e os assistentes técnicos, avaliará a pertinência de perguntas complementares, organizadas em bloco;\n\nV - o profissional especializado poderá adaptar as perguntas à linguagem de melhor compreensão da criança ou do adolescente;\nVI - o depoimento especial será gravado em áudio e vídeo.\n\n§ 1º À vítima ou testemunha de violência é garantido o direito de prestar depoimento diretamente ao juiz, se assim o entender.\n\n§ 2º O juiz tomará todas as medidas apropriadas para a preservação da intimidade e da privacidade da vítima ou testemunha.\n§ 3º O profissional especializado comunicará ao juiz se verificar que a presença, na sala de audiência, do autor da violência pode prejudicar o depoimento especial ou colocar o depoente em situação de risco, caso em que, fazendo constar em termo, será autorizado o afastamento do imputado.\n\n§ 4º Nas hipóteses em que houver risco à vida ou à integridade física da vítima ou testemunha, o juiz tomará as medidas de proteção cabíveis, inclusive a restrição do disposto nos incisos III e VI deste artigo.\n§ 5º As condições de preservação e de segurança da mídia relativa ao depoimento da criança ou do adolescente serão objeto de regulamentação, de forma a garantir o direito à intimidade e à privacidade da vítima ou testemunha.\n\n§ 6º O depoimento especial tramitará em segredo de justiça.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/2017/lei-13431-4-abril-2017-784569-normaatualizada-pl.html",
+      "source_sha256": "c1fb0056b818661ecc8d6ec89f0be6441faa606db5e1ccdd432d6dc5db2a3801",
+      "review_evidence": "Texto literal da compilação Câmara,22/11/2026. Vigência inicial05/04/2018, conforme art29(um ano da publicação05/04/2017) e registro explícito Senado17674073. Títulos/capítulos excluídos do corpo e preservados como estrutura; citação do art208doECA no art25não cria dispositivo paralelo. Art28éregra revogadora,não artigo revogado. Sem selo de edital ou certificação jurisprudencial."
+    },
+    {
+      "id": "98783cd7-b2c0-5609-8588-ef826164e574",
+      "provision_id": "e3c31e69-b0af-4940-8a95-29bd6d5aa02e",
+      "valid_from": "2018-04-05",
+      "valid_until": null,
+      "heading": null,
+      "body": "Qualquer pessoa que tenha conhecimento ou presencie ação ou omissão, praticada em local público ou privado, que constitua violência contra criança ou adolescente tem o dever de comunicar o fato imediatamente ao serviço de recebimento e monitoramento de denúncias, ao conselho tutelar ou à autoridade policial, os quais, por sua vez, cientificarão imediatamente o Ministério Público.\nParágrafo único. A União, os Estados, o Distrito Federal e os Municípios poderão promover, periodicamente, campanhas de conscientização da sociedade, promovendo a identificação das violações de direitos e garantias de crianças e adolescentes e a divulgação dos serviços de proteção e dos fluxos de atendimento, como forma de evitar a violência institucional.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/2017/lei-13431-4-abril-2017-784569-normaatualizada-pl.html",
+      "source_sha256": "9c6e00dc31072b63ee0fddd6494da5aeb88bfb6f8f07daf380cdee11d4dbbe09",
+      "review_evidence": "Texto literal da compilação Câmara,22/11/2026. Vigência inicial05/04/2018, conforme art29(um ano da publicação05/04/2017) e registro explícito Senado17674073. Títulos/capítulos excluídos do corpo e preservados como estrutura; citação do art208doECA no art25não cria dispositivo paralelo. Art28éregra revogadora,não artigo revogado. Sem selo de edital ou certificação jurisprudencial."
+    },
+    {
+      "id": "30ac5fb9-ea65-5612-aa5a-8bc9e2b2887f",
+      "provision_id": "f816337f-adea-450f-86e9-0d0af18e0aae",
+      "valid_from": "2018-04-05",
+      "valid_until": null,
+      "heading": null,
+      "body": "As políticas implementadas nos sistemas de justiça, segurança pública, assistência social, educação e saúde deverão adotar ações articuladas, coordenadas e efetivas voltadas ao acolhimento e ao atendimento integral às vítimas de violência.\n\n§ 1º As ações de que trata o caput observarão as seguintes diretrizes:\n\nI - abrangência e integralidade, devendo comportar avaliação e atenção de todas as necessidades da vítima decorrentes da ofensa sofrida;\nII - capacitação interdisciplinar continuada, preferencialmente conjunta, dos profissionais;\n\nIII - estabelecimento de mecanismos de informação, referência, contrarreferência e monitoramento;\n\nIV - planejamento coordenado do atendimento e do acompanhamento, respeitadas as especificidades da vítima ou testemunha e de suas famílias;\n\nV - celeridade do atendimento, que deve ser realizado imediatamente - ou tão logo quanto possível - após a revelação da violência;\nVI - priorização do atendimento em razão da idade ou de eventual prejuízo ao desenvolvimento psicossocial, garantida a intervenção preventiva;\n\nVII - mínima intervenção dos profissionais envolvidos; e\n\nVIII - monitoramento e avaliação periódica das políticas de atendimento.\n\n§ 2º Nos casos de violência sexual, cabe ao responsável da rede de proteção garantir a urgência e a celeridade necessárias ao atendimento de saúde e à produção probatória, preservada a confidencialidade.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/2017/lei-13431-4-abril-2017-784569-normaatualizada-pl.html",
+      "source_sha256": "494b1f78864036bc28e3c8f2bb4344c0c807f79150f5b18ba79c67b9b430ac3f",
+      "review_evidence": "Texto literal da compilação Câmara,22/11/2026. Vigência inicial05/04/2018, conforme art29(um ano da publicação05/04/2017) e registro explícito Senado17674073. Títulos/capítulos excluídos do corpo e preservados como estrutura; citação do art208doECA no art25não cria dispositivo paralelo. Art28éregra revogadora,não artigo revogado. Sem selo de edital ou certificação jurisprudencial."
+    },
+    {
+      "id": "94276bac-f2c0-5058-9186-1152cb5d42f4",
+      "provision_id": "48783a23-37c8-4b8b-af59-c5dfc4edc2d5",
+      "valid_from": "2018-04-05",
+      "valid_until": null,
+      "heading": null,
+      "body": "A União, os Estados, o Distrito Federal e os Municípios poderão criar serviços de atendimento, de ouvidoria ou de resposta, pelos meios de comunicação disponíveis, integrados às redes de proteção, para receber denúncias de violações de direitos de crianças e adolescentes.\n\nParágrafo único. As denúncias recebidas serão encaminhadas:\n\nI - à autoridade policial do local dos fatos, para apuração;\n\nII - ao conselho tutelar, para aplicação de medidas de proteção; e\nIII - ao Ministério Público, nos casos que forem de sua atribuição específica.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/2017/lei-13431-4-abril-2017-784569-normaatualizada-pl.html",
+      "source_sha256": "e3476e075872231e870ff504e71a442ded7e8265ea789dba98b4c3e7ecc6fe51",
+      "review_evidence": "Texto literal da compilação Câmara,22/11/2026. Vigência inicial05/04/2018, conforme art29(um ano da publicação05/04/2017) e registro explícito Senado17674073. Títulos/capítulos excluídos do corpo e preservados como estrutura; citação do art208doECA no art25não cria dispositivo paralelo. Art28éregra revogadora,não artigo revogado. Sem selo de edital ou certificação jurisprudencial."
+    },
+    {
+      "id": "d3718e4b-ba8b-5bb0-8ab4-8f909b4a448e",
+      "provision_id": "c76e96f0-6bcd-494f-a29e-bf2dea4b4449",
+      "valid_from": "2018-04-05",
+      "valid_until": null,
+      "heading": null,
+      "body": "O poder público poderá criar programas, serviços ou equipamentos que proporcionem atenção e atendimento integral e interinstitucional às crianças e adolescentes vítimas ou testemunhas de violência, compostos por equipes multidisciplinares especializadas.\nParágrafo único. Os programas, serviços ou equipamentos públicos poderão contar com delegacias especializadas, serviços de saúde, perícia médico-legal, serviços socioassistenciais, varas especializadas, Ministério Público e Defensoria Pública, entre outros possíveis de integração, e deverão estabelecer parcerias em caso de indisponibilidade de serviços de atendimento.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/2017/lei-13431-4-abril-2017-784569-normaatualizada-pl.html",
+      "source_sha256": "f0604369ade0da5de5c62b2ec4c0a8f75f3d0b8eed46e467499c2ea369f1d99c",
+      "review_evidence": "Texto literal da compilação Câmara,22/11/2026. Vigência inicial05/04/2018, conforme art29(um ano da publicação05/04/2017) e registro explícito Senado17674073. Títulos/capítulos excluídos do corpo e preservados como estrutura; citação do art208doECA no art25não cria dispositivo paralelo. Art28éregra revogadora,não artigo revogado. Sem selo de edital ou certificação jurisprudencial."
+    },
+    {
+      "id": "9cc7b24d-898c-50cd-8f70-d2005d03ffef",
+      "provision_id": "a75e7efd-172f-4b59-ad45-524757bb3dd9",
+      "valid_from": "2018-04-05",
+      "valid_until": null,
+      "heading": null,
+      "body": "A União, os Estados, o Distrito Federal e os Municípios poderão criar, no âmbito do Sistema Único de Saúde (SUS), serviços para atenção integral à criança e ao adolescente em situação de violência, de forma a garantir o atendimento acolhedor.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/2017/lei-13431-4-abril-2017-784569-normaatualizada-pl.html",
+      "source_sha256": "ff03e16586d4871ca9499fb148b80d2273ea9e2a12c0e9b90cbc59eeaff0a335",
+      "review_evidence": "Texto literal da compilação Câmara,22/11/2026. Vigência inicial05/04/2018, conforme art29(um ano da publicação05/04/2017) e registro explícito Senado17674073. Títulos/capítulos excluídos do corpo e preservados como estrutura; citação do art208doECA no art25não cria dispositivo paralelo. Art28éregra revogadora,não artigo revogado. Sem selo de edital ou certificação jurisprudencial."
+    },
+    {
+      "id": "f19639c9-a537-5998-b721-27a6280d44f4",
+      "provision_id": "402221d4-5c9a-4841-a36d-80dcff293cbe",
+      "valid_from": "2018-04-05",
+      "valid_until": null,
+      "heading": null,
+      "body": "A coleta, guarda provisória e preservação de material com vestígios de violência serão realizadas pelo Instituto Médico Legal (IML) ou por serviço credenciado do sistema de saúde mais próximo, que entregará o material para perícia imediata, observado o disposto no art. 5º desta Lei.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/2017/lei-13431-4-abril-2017-784569-normaatualizada-pl.html",
+      "source_sha256": "4ed8be7ca36da2253c7a176aff040dfb1c205c8b5f57f79d926dc5955f446b40",
+      "review_evidence": "Texto literal da compilação Câmara,22/11/2026. Vigência inicial05/04/2018, conforme art29(um ano da publicação05/04/2017) e registro explícito Senado17674073. Títulos/capítulos excluídos do corpo e preservados como estrutura; citação do art208doECA no art25não cria dispositivo paralelo. Art28éregra revogadora,não artigo revogado. Sem selo de edital ou certificação jurisprudencial."
+    },
+    {
+      "id": "309d4136-d239-5531-8c48-3726468fa4ce",
+      "provision_id": "43612882-1926-452d-a7f4-c1f6c2569785",
+      "valid_from": "2018-04-05",
+      "valid_until": null,
+      "heading": null,
+      "body": "A União, os Estados, o Distrito Federal e os Municípios poderão estabelecer, no âmbito do Sistema Único de Assistência Social (Suas), os seguintes procedimentos:\nI - elaboração de plano individual e familiar de atendimento, valorizando a participação da criança e do adolescente e, sempre que possível, a preservação dos vínculos familiares;\n\nII - atenção à vulnerabilidade indireta dos demais membros da família decorrente da situação de violência, e solicitação, quando necessário, aos órgãos competentes, de inclusão da vítima ou testemunha e de suas famílias nas políticas, programas e serviços existentes;\nIII - avaliação e atenção às situações de intimidação, ameaça, constrangimento ou discriminação decorrentes da vitimização, inclusive durante o trâmite do processo judicial, as quais deverão ser comunicadas imediatamente à autoridade judicial para tomada de providências; e\nIV - representação ao Ministério Público, nos casos de falta de responsável legal com capacidade protetiva em razão da situação de violência, para colocação da criança ou do adolescente sob os cuidados da família extensa, de família substituta ou de serviço de acolhimento familiar ou, em sua falta, institucional.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/2017/lei-13431-4-abril-2017-784569-normaatualizada-pl.html",
+      "source_sha256": "b6eb2728f36a09bd559cd0f0e9a2eabb3657835a08364a860eb8d765d293ce0e",
+      "review_evidence": "Texto literal da compilação Câmara,22/11/2026. Vigência inicial05/04/2018, conforme art29(um ano da publicação05/04/2017) e registro explícito Senado17674073. Títulos/capítulos excluídos do corpo e preservados como estrutura; citação do art208doECA no art25não cria dispositivo paralelo. Art28éregra revogadora,não artigo revogado. Sem selo de edital ou certificação jurisprudencial."
+    },
+    {
+      "id": "1fbdc287-ae0a-5b9a-b25b-ea4fdaa7e565",
+      "provision_id": "fb4fd080-725d-4cc2-b703-3188365120f0",
+      "valid_from": "2018-04-05",
+      "valid_until": null,
+      "heading": null,
+      "body": "O poder público poderá criar delegacias especializadas no atendimento de crianças e adolescentes vítimas de violência.\n§ 1º Na elaboração de suas propostas orçamentárias, as unidades da Federação alocarão recursos para manutenção de equipes multidisciplinares destinadas a assessorar as delegacias especializadas.\n\n§ 2º Até a criação do órgão previsto no caput deste artigo, a vítima será encaminhada prioritariamente a delegacia especializada em temas de direitos humanos.\n\n§ 3º A tomada de depoimento especial da criança ou do adolescente vítima ou testemunha de violência observará o disposto no art. 14 desta Lei.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/2017/lei-13431-4-abril-2017-784569-normaatualizada-pl.html",
+      "source_sha256": "f9f9051e5ffe24320a0d4ac900016fccf5f84713bbf90911aba68089919610c0",
+      "review_evidence": "Texto literal da compilação Câmara,22/11/2026. Vigência inicial05/04/2018, conforme art29(um ano da publicação05/04/2017) e registro explícito Senado17674073. Títulos/capítulos excluídos do corpo e preservados como estrutura; citação do art208doECA no art25não cria dispositivo paralelo. Art28éregra revogadora,não artigo revogado. Sem selo de edital ou certificação jurisprudencial."
+    },
+    {
+      "id": "2a82fc3c-0117-5e6b-be9d-0b53822efbc0",
+      "provision_id": "0000c09d-d884-4cf3-aa6a-2d8bc20f1384",
+      "valid_from": "2018-04-05",
+      "valid_until": null,
+      "heading": null,
+      "body": "Constatado que a criança ou o adolescente está em risco, a autoridade policial requisitará à autoridade judicial responsável, em qualquer momento dos procedimentos de investigação e responsabilização dos suspeitos, as medidas de proteção pertinentes, entre as quais:\n\nI - evitar o contato direto da criança ou do adolescente vítima ou testemunha de violência com o suposto autor da violência;\nII - solicitar o afastamento cautelar do investigado da residência ou local de convivência, em se tratando de pessoa que tenha contato com a criança ou o adolescente;\n\nIII - requerer a prisão preventiva do investigado, quando houver suficientes indícios de ameaça à criança ou adolescente vítima ou testemunha de violência;\n\nIV - solicitar aos órgãos socioassistenciais a inclusão da vítima e de sua família nos atendimentos a que têm direito;\nV - requerer a inclusão da criança ou do adolescente em programa de proteção a vítimas ou testemunhas ameaçadas; e\n\nVI - representar ao Ministério Público para que proponha ação cautelar de antecipação de prova, resguardados os pressupostos legais e as garantias previstas no art. 5º desta Lei, sempre que a demora possa causar prejuízo ao desenvolvimento da criança ou do adolescente.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/2017/lei-13431-4-abril-2017-784569-normaatualizada-pl.html",
+      "source_sha256": "ca1e3d661bdebe7768c1d51be9509ba7d2fa6f4d70a8f5957adec6b07890f899",
+      "review_evidence": "Texto literal da compilação Câmara,22/11/2026. Vigência inicial05/04/2018, conforme art29(um ano da publicação05/04/2017) e registro explícito Senado17674073. Títulos/capítulos excluídos do corpo e preservados como estrutura; citação do art208doECA no art25não cria dispositivo paralelo. Art28éregra revogadora,não artigo revogado. Sem selo de edital ou certificação jurisprudencial."
+    },
+    {
+      "id": "e34374b9-38e3-5489-a10d-ee62de044b47",
+      "provision_id": "f793c410-2d9c-4777-9580-ce843132a975",
+      "valid_from": "2018-04-05",
+      "valid_until": null,
+      "heading": null,
+      "body": "Os órgãos policiais envolvidos envidarão esforços investigativos para que o depoimento especial não seja o único meio de prova para o julgamento do réu.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/2017/lei-13431-4-abril-2017-784569-normaatualizada-pl.html",
+      "source_sha256": "177f0f532c43af9ab5249648326cbad754717959bdcf70cc7b2c3ef485ba00f0",
+      "review_evidence": "Texto literal da compilação Câmara,22/11/2026. Vigência inicial05/04/2018, conforme art29(um ano da publicação05/04/2017) e registro explícito Senado17674073. Títulos/capítulos excluídos do corpo e preservados como estrutura; citação do art208doECA no art25não cria dispositivo paralelo. Art28éregra revogadora,não artigo revogado. Sem selo de edital ou certificação jurisprudencial."
+    },
+    {
+      "id": "54a51285-8bd5-5cd2-8eb8-e375997a8b90",
+      "provision_id": "874497dc-a6f0-44e2-9e01-01eb46d50c1b",
+      "valid_from": "2018-04-05",
+      "valid_until": null,
+      "heading": null,
+      "body": "Os órgãos responsáveis pela organização judiciária poderão criar juizados ou varas especializadas em crimes contra a criança e o adolescente.\nParágrafo único. Até a implementação do disposto no caput deste artigo, o julgamento e a execução das causas decorrentes das práticas de violência ficarão, preferencialmente, a cargo dos juizados ou varas especializadas em violência doméstica e temas afins.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/2017/lei-13431-4-abril-2017-784569-normaatualizada-pl.html",
+      "source_sha256": "75a404daa5f461ed4c9906199750721094d3aa75c9bb217a4d7cc0d1b1f46ebf",
+      "review_evidence": "Texto literal da compilação Câmara,22/11/2026. Vigência inicial05/04/2018, conforme art29(um ano da publicação05/04/2017) e registro explícito Senado17674073. Títulos/capítulos excluídos do corpo e preservados como estrutura; citação do art208doECA no art25não cria dispositivo paralelo. Art28éregra revogadora,não artigo revogado. Sem selo de edital ou certificação jurisprudencial."
+    },
+    {
+      "id": "53b500a9-bcec-551c-b155-f5e0ac2201bb",
+      "provision_id": "571d8789-3969-4ed3-a179-233d5dc21eae",
+      "valid_from": "2018-04-05",
+      "valid_until": null,
+      "heading": null,
+      "body": "Violar sigilo processual, permitindo que depoimento de criança ou adolescente seja assistido por pessoa estranha ao processo, sem autorização judicial e sem o consentimento do depoente ou de seu representante legal.\n\nPena - reclusão, de 1 (um) a 4 (quatro) anos, e multa.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/2017/lei-13431-4-abril-2017-784569-normaatualizada-pl.html",
+      "source_sha256": "4963c4f3fc18645e910d61cc5aa56e9731004f0c10ed50096594ae204493cbf2",
+      "review_evidence": "Texto literal da compilação Câmara,22/11/2026. Vigência inicial05/04/2018, conforme art29(um ano da publicação05/04/2017) e registro explícito Senado17674073. Títulos/capítulos excluídos do corpo e preservados como estrutura; citação do art208doECA no art25não cria dispositivo paralelo. Art28éregra revogadora,não artigo revogado. Sem selo de edital ou certificação jurisprudencial."
+    },
+    {
+      "id": "25914b19-c21b-5fe0-91a0-f53e872d9f7d",
+      "provision_id": "e0310708-f34d-47d7-a056-54755eb5fb4f",
+      "valid_from": "2018-04-05",
+      "valid_until": null,
+      "heading": null,
+      "body": "O art. 208 da Lei nº 8.069, de 13 de julho de 1990 (Estatuto da Criança e do Adolescente), passa a vigorar acrescido do seguinte inciso XI:\n\"Art. 208. ................................................................................\n\n..................................................................................................\n\nXI - de políticas e programas integrados de atendimento à criança e ao adolescente vítima ou testemunha de violência.\n\n...............................................................................................\" (NR)",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/2017/lei-13431-4-abril-2017-784569-normaatualizada-pl.html",
+      "source_sha256": "237c64015474fbe16c40f43bee02fdbf7100a9e90435efa1820fbceef1141919",
+      "review_evidence": "Texto literal da compilação Câmara,22/11/2026. Vigência inicial05/04/2018, conforme art29(um ano da publicação05/04/2017) e registro explícito Senado17674073. Títulos/capítulos excluídos do corpo e preservados como estrutura; citação do art208doECA no art25não cria dispositivo paralelo. Art28éregra revogadora,não artigo revogado. Sem selo de edital ou certificação jurisprudencial."
+    },
+    {
+      "id": "1520cbad-6151-524a-be02-bb9320b6415d",
+      "provision_id": "adc1cfd1-2ef9-4ebf-bfab-ed6a28e74afc",
+      "valid_from": "2018-04-05",
+      "valid_until": null,
+      "heading": null,
+      "body": "Cabe ao poder público, no prazo máximo de 60 (sessenta) dias contado da entrada em vigor desta Lei, emanar atos normativos necessários à sua efetividade.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/2017/lei-13431-4-abril-2017-784569-normaatualizada-pl.html",
+      "source_sha256": "d46f7f341de7b64069c6a20700f255b6ca834b07a65b826fea93183b6b6615da",
+      "review_evidence": "Texto literal da compilação Câmara,22/11/2026. Vigência inicial05/04/2018, conforme art29(um ano da publicação05/04/2017) e registro explícito Senado17674073. Títulos/capítulos excluídos do corpo e preservados como estrutura; citação do art208doECA no art25não cria dispositivo paralelo. Art28éregra revogadora,não artigo revogado. Sem selo de edital ou certificação jurisprudencial."
+    },
+    {
+      "id": "8b658f29-747e-552c-a890-09cc7652818c",
+      "provision_id": "75d9c636-bf72-4864-bed2-035678ca65e8",
+      "valid_from": "2018-04-05",
+      "valid_until": null,
+      "heading": null,
+      "body": "Cabe aos Estados, ao Distrito Federal e aos Municípios, no prazo máximo de 180 (cento e oitenta) dias contado da entrada em vigor desta Lei, estabelecer normas sobre o sistema de garantia de direitos da criança e do adolescente vítima ou testemunha de violência, no âmbito das respectivas competências.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/2017/lei-13431-4-abril-2017-784569-normaatualizada-pl.html",
+      "source_sha256": "d92eb0478e7861f702f64aa9f2b174ac79042fb2809f5a97715ac6838a1f3196",
+      "review_evidence": "Texto literal da compilação Câmara,22/11/2026. Vigência inicial05/04/2018, conforme art29(um ano da publicação05/04/2017) e registro explícito Senado17674073. Títulos/capítulos excluídos do corpo e preservados como estrutura; citação do art208doECA no art25não cria dispositivo paralelo. Art28éregra revogadora,não artigo revogado. Sem selo de edital ou certificação jurisprudencial."
+    },
+    {
+      "id": "bf5c9c6e-9e05-56c3-9818-7352718159e0",
+      "provision_id": "9b52e77b-168c-46c3-a800-eedd1e52e277",
+      "valid_from": "2018-04-05",
+      "valid_until": null,
+      "heading": null,
+      "body": "Revoga-se o art. 248 da Lei nº 8.069, de 13 de julho de 1990 (Estatuto da Criança e do Adolescente).",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/2017/lei-13431-4-abril-2017-784569-normaatualizada-pl.html",
+      "source_sha256": "aeec1ca9980bd9d688c171909191f4386a07a5ce1c7a9bf521dbd76cad94b21c",
+      "review_evidence": "Texto literal da compilação Câmara,22/11/2026. Vigência inicial05/04/2018, conforme art29(um ano da publicação05/04/2017) e registro explícito Senado17674073. Títulos/capítulos excluídos do corpo e preservados como estrutura; citação do art208doECA no art25não cria dispositivo paralelo. Art28éregra revogadora,não artigo revogado. Sem selo de edital ou certificação jurisprudencial."
+    },
+    {
+      "id": "5d715b14-8324-5824-bcf6-eb8aaa45d478",
+      "provision_id": "0b838e58-aac7-4858-ac07-0ee37701fc1f",
+      "valid_from": "2018-04-05",
+      "valid_until": null,
+      "heading": null,
+      "body": "Esta Lei entra em vigor após decorrido 1 (um) ano de sua publicação oficial.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/legin/fed/lei/2017/lei-13431-4-abril-2017-784569-normaatualizada-pl.html",
+      "source_sha256": "139f0a855fc4c86b52a168b8de2e5a596d5e5ed73f50db8caf2c7adb0e0fd403",
+      "review_evidence": "Texto literal da compilação Câmara,22/11/2026. Vigência inicial05/04/2018, conforme art29(um ano da publicação05/04/2017) e registro explícito Senado17674073. Títulos/capítulos excluídos do corpo e preservados como estrutura; citação do art208doECA no art25não cria dispositivo paralelo. Art28éregra revogadora,não artigo revogado. Sem selo de edital ou certificação jurisprudencial."
+    }
+  ],
+  "scope_preparation": [
+    {
+      "article": 1,
+      "provision_id": "72fd5b2a-51c3-4f39-8a36-f7b9c76804e7",
+      "version_id": "26e93705-b2bb-519e-a698-bd82ee327ef8",
+      "valid_from": "2018-04-05",
+      "valid_until": null,
+      "source_sha256": "fdfc0aa842ca3f201c5a823b4620a0d43aff13257379c255db89338f5b33a26f",
+      "status": "prepared_official_text"
+    },
+    {
+      "article": 2,
+      "provision_id": "3e776b2a-a239-4ba7-9732-9ce439cf4dfc",
+      "version_id": "29bb4df5-b9ea-5d81-ae36-28f7f60cf35c",
+      "valid_from": "2018-04-05",
+      "valid_until": null,
+      "source_sha256": "e68d67c53b6e4b6036d4c2db14f2de2870b06194dc0c7c5201b4b25feede893e",
+      "status": "prepared_official_text"
+    },
+    {
+      "article": 3,
+      "provision_id": "015ee203-a10f-4f5b-9d33-0c81a8dc2428",
+      "version_id": "6c25299c-5b3c-52f1-a79f-d395915b4ed8",
+      "valid_from": "2018-04-05",
+      "valid_until": null,
+      "source_sha256": "e1494c3f96e39998da43f9011eb68a8245cbb0dffcb9f798155091f3708522a4",
+      "status": "prepared_official_text"
+    },
+    {
+      "article": 4,
+      "provision_id": "ffe0f419-c731-4d50-ae34-703bc668832c",
+      "version_id": "a9e3c636-6e91-5e1c-8573-9cf030008213",
+      "valid_from": "2018-04-05",
+      "valid_until": "2022-07-09",
+      "source_sha256": "e4157c17e3fdcfd620cb40d8a6c7037d56a9be35d05a0a8cd658fd26200be728",
+      "status": "prepared_official_text"
+    },
+    {
+      "article": 4,
+      "provision_id": "ffe0f419-c731-4d50-ae34-703bc668832c",
+      "version_id": "b2b3573c-df83-59e3-9321-aaf87b0a8ae3",
+      "valid_from": "2022-07-09",
+      "valid_until": null,
+      "source_sha256": "3f9f9f31da2c145ddfab705bafdf14276417ba30f5a1bbcf1c3776d8efe07230",
+      "status": "prepared_official_text"
+    },
+    {
+      "article": 5,
+      "provision_id": "b1f741bb-6344-4226-b6fe-b4dbc18eb6cb",
+      "version_id": "84f6d488-7768-5b17-ba25-843c97797e98",
+      "valid_from": "2018-04-05",
+      "valid_until": null,
+      "source_sha256": "552f99445ce2f2044a619473d1c4414c31c6ae5d21c24c6786ac578313e40db0",
+      "status": "prepared_official_text"
+    },
+    {
+      "article": 6,
+      "provision_id": "44bf7197-3862-4dee-9044-12610e69f2f9",
+      "version_id": "0d033a6a-3101-5033-8535-b7422cb28134",
+      "valid_from": "2018-04-05",
+      "valid_until": null,
+      "source_sha256": "ab5dff529e1fa1f7a2d22f2f41c3880e94fa68e1fb2915b9323640717cda0a1d",
+      "status": "prepared_official_text"
+    },
+    {
+      "article": 7,
+      "provision_id": "8efc882b-cc91-4680-b3b3-d54a62c79caf",
+      "version_id": "3b667fc3-def9-5fa6-9f4f-12e979a0e480",
+      "valid_from": "2018-04-05",
+      "valid_until": null,
+      "source_sha256": "98e98b835871cb7a45ef13cff6835bc34d1c704fa60a8e8ea708b3e5541db0bd",
+      "status": "prepared_official_text"
+    },
+    {
+      "article": 8,
+      "provision_id": "e77214ea-7e93-48a6-a357-180b55a152d1",
+      "version_id": "329a8561-eecb-58ba-8370-ae778d47da13",
+      "valid_from": "2018-04-05",
+      "valid_until": null,
+      "source_sha256": "39acb65bf1237df3dc1f130ba7c0a502161b6f5942eb1bd63c24d95f95415435",
+      "status": "prepared_official_text"
+    },
+    {
+      "article": 9,
+      "provision_id": "d8e4746d-f17e-4209-b4d3-5a7ae7261421",
+      "version_id": "00629bb1-9cdf-57ff-baa4-d9156dbb78d9",
+      "valid_from": "2018-04-05",
+      "valid_until": null,
+      "source_sha256": "48a49ea44299850eb5570eaf09cc1a4a29d25e2caed957ad059d6cf1aed905be",
+      "status": "prepared_official_text"
+    },
+    {
+      "article": 10,
+      "provision_id": "c4533feb-f28e-4097-975b-1382b6090d08",
+      "version_id": "103eca54-357a-51cd-b1af-14f94cca6a94",
+      "valid_from": "2018-04-05",
+      "valid_until": null,
+      "source_sha256": "91e398348813d794b491502c271ca6c3d78512b7691eef67fd69b1b42db4bac8",
+      "status": "prepared_official_text"
+    },
+    {
+      "article": 11,
+      "provision_id": "8e03be6d-41cb-4e02-ac52-e279d0f6cb69",
+      "version_id": "2205a813-37cc-55e9-a918-a5373e7cdd20",
+      "valid_from": "2018-04-05",
+      "valid_until": null,
+      "source_sha256": "d20e83d1399cf52b5246a0d2bdad85b40a9137129b970643e0fd82986f9152e8",
+      "status": "prepared_official_text"
+    },
+    {
+      "article": 12,
+      "provision_id": "7cd61a2d-8ed2-4312-9a18-bbe492a54d78",
+      "version_id": "cb374f78-1e04-5e7c-a161-0f5e4a175dc9",
+      "valid_from": "2018-04-05",
+      "valid_until": null,
+      "source_sha256": "c1fb0056b818661ecc8d6ec89f0be6441faa606db5e1ccdd432d6dc5db2a3801",
+      "status": "prepared_official_text"
+    },
+    {
+      "article": 13,
+      "provision_id": "e3c31e69-b0af-4940-8a95-29bd6d5aa02e",
+      "version_id": "98783cd7-b2c0-5609-8588-ef826164e574",
+      "valid_from": "2018-04-05",
+      "valid_until": null,
+      "source_sha256": "9c6e00dc31072b63ee0fddd6494da5aeb88bfb6f8f07daf380cdee11d4dbbe09",
+      "status": "prepared_official_text"
+    },
+    {
+      "article": 14,
+      "provision_id": "f816337f-adea-450f-86e9-0d0af18e0aae",
+      "version_id": "30ac5fb9-ea65-5612-aa5a-8bc9e2b2887f",
+      "valid_from": "2018-04-05",
+      "valid_until": null,
+      "source_sha256": "494b1f78864036bc28e3c8f2bb4344c0c807f79150f5b18ba79c67b9b430ac3f",
+      "status": "prepared_official_text"
+    },
+    {
+      "article": 15,
+      "provision_id": "48783a23-37c8-4b8b-af59-c5dfc4edc2d5",
+      "version_id": "94276bac-f2c0-5058-9186-1152cb5d42f4",
+      "valid_from": "2018-04-05",
+      "valid_until": null,
+      "source_sha256": "e3476e075872231e870ff504e71a442ded7e8265ea789dba98b4c3e7ecc6fe51",
+      "status": "prepared_official_text"
+    },
+    {
+      "article": 16,
+      "provision_id": "c76e96f0-6bcd-494f-a29e-bf2dea4b4449",
+      "version_id": "d3718e4b-ba8b-5bb0-8ab4-8f909b4a448e",
+      "valid_from": "2018-04-05",
+      "valid_until": null,
+      "source_sha256": "f0604369ade0da5de5c62b2ec4c0a8f75f3d0b8eed46e467499c2ea369f1d99c",
+      "status": "prepared_official_text"
+    },
+    {
+      "article": 17,
+      "provision_id": "a75e7efd-172f-4b59-ad45-524757bb3dd9",
+      "version_id": "9cc7b24d-898c-50cd-8f70-d2005d03ffef",
+      "valid_from": "2018-04-05",
+      "valid_until": null,
+      "source_sha256": "ff03e16586d4871ca9499fb148b80d2273ea9e2a12c0e9b90cbc59eeaff0a335",
+      "status": "prepared_official_text"
+    },
+    {
+      "article": 18,
+      "provision_id": "402221d4-5c9a-4841-a36d-80dcff293cbe",
+      "version_id": "f19639c9-a537-5998-b721-27a6280d44f4",
+      "valid_from": "2018-04-05",
+      "valid_until": null,
+      "source_sha256": "4ed8be7ca36da2253c7a176aff040dfb1c205c8b5f57f79d926dc5955f446b40",
+      "status": "prepared_official_text"
+    },
+    {
+      "article": 19,
+      "provision_id": "43612882-1926-452d-a7f4-c1f6c2569785",
+      "version_id": "309d4136-d239-5531-8c48-3726468fa4ce",
+      "valid_from": "2018-04-05",
+      "valid_until": null,
+      "source_sha256": "b6eb2728f36a09bd559cd0f0e9a2eabb3657835a08364a860eb8d765d293ce0e",
+      "status": "prepared_official_text"
+    },
+    {
+      "article": 20,
+      "provision_id": "fb4fd080-725d-4cc2-b703-3188365120f0",
+      "version_id": "1fbdc287-ae0a-5b9a-b25b-ea4fdaa7e565",
+      "valid_from": "2018-04-05",
+      "valid_until": null,
+      "source_sha256": "f9f9051e5ffe24320a0d4ac900016fccf5f84713bbf90911aba68089919610c0",
+      "status": "prepared_official_text"
+    },
+    {
+      "article": 21,
+      "provision_id": "0000c09d-d884-4cf3-aa6a-2d8bc20f1384",
+      "version_id": "2a82fc3c-0117-5e6b-be9d-0b53822efbc0",
+      "valid_from": "2018-04-05",
+      "valid_until": null,
+      "source_sha256": "ca1e3d661bdebe7768c1d51be9509ba7d2fa6f4d70a8f5957adec6b07890f899",
+      "status": "prepared_official_text"
+    },
+    {
+      "article": 22,
+      "provision_id": "f793c410-2d9c-4777-9580-ce843132a975",
+      "version_id": "e34374b9-38e3-5489-a10d-ee62de044b47",
+      "valid_from": "2018-04-05",
+      "valid_until": null,
+      "source_sha256": "177f0f532c43af9ab5249648326cbad754717959bdcf70cc7b2c3ef485ba00f0",
+      "status": "prepared_official_text"
+    },
+    {
+      "article": 23,
+      "provision_id": "874497dc-a6f0-44e2-9e01-01eb46d50c1b",
+      "version_id": "54a51285-8bd5-5cd2-8eb8-e375997a8b90",
+      "valid_from": "2018-04-05",
+      "valid_until": null,
+      "source_sha256": "75a404daa5f461ed4c9906199750721094d3aa75c9bb217a4d7cc0d1b1f46ebf",
+      "status": "prepared_official_text"
+    },
+    {
+      "article": 24,
+      "provision_id": "571d8789-3969-4ed3-a179-233d5dc21eae",
+      "version_id": "53b500a9-bcec-551c-b155-f5e0ac2201bb",
+      "valid_from": "2018-04-05",
+      "valid_until": null,
+      "source_sha256": "4963c4f3fc18645e910d61cc5aa56e9731004f0c10ed50096594ae204493cbf2",
+      "status": "prepared_official_text"
+    },
+    {
+      "article": 25,
+      "provision_id": "e0310708-f34d-47d7-a056-54755eb5fb4f",
+      "version_id": "25914b19-c21b-5fe0-91a0-f53e872d9f7d",
+      "valid_from": "2018-04-05",
+      "valid_until": null,
+      "source_sha256": "237c64015474fbe16c40f43bee02fdbf7100a9e90435efa1820fbceef1141919",
+      "status": "prepared_official_text"
+    },
+    {
+      "article": 26,
+      "provision_id": "adc1cfd1-2ef9-4ebf-bfab-ed6a28e74afc",
+      "version_id": "1520cbad-6151-524a-be02-bb9320b6415d",
+      "valid_from": "2018-04-05",
+      "valid_until": null,
+      "source_sha256": "d46f7f341de7b64069c6a20700f255b6ca834b07a65b826fea93183b6b6615da",
+      "status": "prepared_official_text"
+    },
+    {
+      "article": 27,
+      "provision_id": "75d9c636-bf72-4864-bed2-035678ca65e8",
+      "version_id": "8b658f29-747e-552c-a890-09cc7652818c",
+      "valid_from": "2018-04-05",
+      "valid_until": null,
+      "source_sha256": "d92eb0478e7861f702f64aa9f2b174ac79042fb2809f5a97715ac6838a1f3196",
+      "status": "prepared_official_text"
+    },
+    {
+      "article": 28,
+      "provision_id": "9b52e77b-168c-46c3-a800-eedd1e52e277",
+      "version_id": "bf5c9c6e-9e05-56c3-9818-7352718159e0",
+      "valid_from": "2018-04-05",
+      "valid_until": null,
+      "source_sha256": "aeec1ca9980bd9d688c171909191f4386a07a5ce1c7a9bf521dbd76cad94b21c",
+      "status": "prepared_official_text"
+    },
+    {
+      "article": 29,
+      "provision_id": "0b838e58-aac7-4858-ac07-0ee37701fc1f",
+      "version_id": "5d715b14-8324-5824-bcf6-eb8aaa45d478",
+      "valid_from": "2018-04-05",
+      "valid_until": null,
+      "source_sha256": "139f0a855fc4c86b52a168b8de2e5a596d5e5ed73f50db8caf2c7adb0e0fd403",
+      "status": "prepared_official_text"
+    }
+  ],
+  "notice_certification": false,
+  "applicable_edital_items": {
+    "CFO_2027": "9.12"
+  },
+  "normalization": [
+    "Remove somente navegação/notas editoriais e headings do corpo",
+    "Quebra de linha art.227 unida como espaço",
+    "Art4incisoVmovido para posição do caput; não mudança legislativa"
+  ],
+  "source_variance_note": "Notícias não normativas mencionam04/04/2018; adotada05/04/2018pela publicação oficial/art29e indicação explícita Senado. Senado indexa incorretamente como§5o acréscimo2022; texto da lei/Câmara/Planalto confirma incisoVdo caput.",
+  "document_structure": [
+    {
+      "kind": "title",
+      "label": "I",
+      "title": "DISPOSIÇÕES GERAIS",
+      "starts_at_article": 1
+    },
+    {
+      "kind": "title",
+      "label": "II",
+      "title": "DOS DIREITOS E GARANTIAS",
+      "starts_at_article": 5
+    },
+    {
+      "kind": "title",
+      "label": "III",
+      "title": "DA ESCUTA ESPECIALIZADA E DO DEPOIMENTO ESPECIAL",
+      "starts_at_article": 7
+    },
+    {
+      "kind": "title",
+      "label": "IV",
+      "title": "DA INTEGRAÇÃO DAS POLÍTICAS DE ATENDIMENTO",
+      "starts_at_article": 13
+    },
+    {
+      "kind": "chapter",
+      "label": "I",
+      "title": "DISPOSIÇÕES GERAIS",
+      "starts_at_article": 13
+    },
+    {
+      "kind": "chapter",
+      "label": "II",
+      "title": "DA SAÚDE",
+      "starts_at_article": 17
+    },
+    {
+      "kind": "chapter",
+      "label": "III",
+      "title": "DA ASSISTÊNCIA SOCIAL",
+      "starts_at_article": 19
+    },
+    {
+      "kind": "chapter",
+      "label": "IV",
+      "title": "DA SEGURANÇA PÚBLICA",
+      "starts_at_article": 20
+    },
+    {
+      "kind": "chapter",
+      "label": "V",
+      "title": "DA JUSTIÇA",
+      "starts_at_article": 23
+    },
+    {
+      "kind": "title",
+      "label": "V",
+      "title": "DOS CRIMES",
+      "starts_at_article": 24
+    },
+    {
+      "kind": "title",
+      "label": "VI",
+      "title": "DISPOSIÇÕES FINAIS E TRANSITÓRIAS",
+      "starts_at_article": 25
+    }
+  ]
+}
