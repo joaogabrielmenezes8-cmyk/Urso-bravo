@@ -1335,8 +1335,8 @@
     {
       "notice_code": "CFO_2027",
       "identified_catalog_article_slots": 2130,
-      "prepared_versions": 237,
-      "prepared_percent": 11.1268,
+      "prepared_versions": 243,
+      "prepared_percent": 11.4085,
       "certified_versions": 0,
       "certified_percent": 0,
       "scope_identification_complete": false,
@@ -3304,26 +3304,74 @@
           "version_id": "9881e3c5-88f8-51a2-8269-3e363dd3944b",
           "preparation_status": "prepared_official_text",
           "certified_for_notice": false
+        },
+        {
+          "document_code": "CF88",
+          "provision_id": "aa93ed4f-4687-4d61-af7a-ac23ef9d6d77",
+          "provision_key": "art-00044",
+          "version_id": "716cb904-777e-53cb-abfe-72bacc6667d3",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CF88",
+          "provision_id": "67fe7451-7663-4bfb-8b88-057b18f5e33c",
+          "provision_key": "art-00045",
+          "version_id": "407da415-f350-50d9-93e8-057bfbf8aca7",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CF88",
+          "provision_id": "eaa98fce-fe02-4eda-b87e-ded6c51a4be0",
+          "provision_key": "art-00046",
+          "version_id": "78efb787-2976-5de5-bb2b-71a8afc6fb94",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CF88",
+          "provision_id": "c1d2fdc5-3fab-418f-bf4d-7ce816608ab6",
+          "provision_key": "art-00047",
+          "version_id": "6421c1a6-13a5-5e79-9589-89ebcf213317",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CF88",
+          "provision_id": "6ebb6d28-9da9-4893-a917-8ee2f8b5e4e0",
+          "provision_key": "art-00054",
+          "version_id": "8e104204-6763-5343-9d71-02318bd13373",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
+        },
+        {
+          "document_code": "CF88",
+          "provision_id": "4a62b207-8ae0-4af4-a72e-f94b294f5454",
+          "provision_key": "art-00056",
+          "version_id": "3f079929-aa88-5ba2-aa71-563d343d3ce3",
+          "preparation_status": "prepared_official_text",
+          "certified_for_notice": false
         }
       ],
       "effective_date_review_required": 12,
       "counts_by_preparation_status": {
-        "prepared_official_text": 225,
+        "prepared_official_text": 231,
         "pending_official_source_conflict_69_70_vs_76_77": 1,
         "prepared_effective_date_requires_review": 12,
         "not_enacted_veto": 7,
-        "pending_historical_evidence": 1885
+        "pending_historical_evidence": 1879
       },
       "catalog_scope_file": "p0-cfo-explicit-catalog.tsv",
       "default_unlisted_status": "pending_historical_evidence"
     }
   ],
   "incremental_batch": {
-    "additional_prepared_devices": 3,
+    "additional_prepared_devices": 9,
     "previous_prepared_devices": 234,
-    "current_prepared_devices": 237,
-    "pending_historical_evidence": 1885,
-    "total_prepared_textual_states": 241,
+    "current_prepared_devices": 243,
+    "pending_historical_evidence": 1879,
+    "total_prepared_textual_states": 247,
     "scope": "CFO explicit diplomas only; thematic program denominator remains incomplete"
   }
 }
