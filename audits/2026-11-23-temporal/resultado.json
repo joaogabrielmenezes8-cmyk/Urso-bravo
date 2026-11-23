@@ -1,0 +1,32 @@
+{
+  "run_on": "2026-11-23",
+  "production_writes": false,
+  "environment": "Disposable PGlite PostgreSQL; synthetic notice identities and authentication claims",
+  "tests": [
+    {
+      "file": "supabase/tests/notice_certification_readiness_local.mjs",
+      "result": "PASS",
+      "checks": "163 classified;161 prepared; veto/conflict separated; missing cutoff/chain/date/conflict blocks certification; duplicates/omission/false promotion rejected"
+    },
+    {
+      "file": "supabase/tests/cf88_organizacao_local.mjs",
+      "result": "PASS",
+      "checks": "3 hashes, stable versions, idempotent ingest, temporal resolver"
+    },
+    {
+      "file": "supabase/tests/cf88_legislativo_local.mjs",
+      "result": "PASS",
+      "checks": "6 hashes, stable versions, idempotent ingest, temporal resolver"
+    },
+    {
+      "file": "supabase/tests/p0_acervo_homologation_local.mjs",
+      "result": "PASS",
+      "checks": "5 migrations twice;3 SQL regressions;247 states;2293 scope links; reader/question/mock/tutor RPC; annotation RLS/legacy"
+    }
+  ],
+  "authenticated_browser_e2e": false,
+  "real_ai_call": false,
+  "operational_preview_updated": false,
+  "formal_notice_certification_percent": 0,
+  "unresolved_effective_date_reviews": 12
+}
