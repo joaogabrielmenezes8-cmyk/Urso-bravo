@@ -1,0 +1,71 @@
+{
+  "document_code": "CF88",
+  "reviewed_on": "2026-11-23",
+  "source_url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988/arquivos/ConstituicaoTextoAtualizado_EC%20141.html",
+  "source_extract": "cf88-organizacao-original-20261123.txt",
+  "notice_certification": false,
+  "versions": [
+    {
+      "id": "9ee50146-5271-5510-9d58-ea6e88de9142",
+      "provision_id": "641528f1-6367-4468-9f11-94d436ba4932",
+      "valid_from": "1988-10-05",
+      "valid_until": null,
+      "heading": null,
+      "body": "É vedado à União, aos Estados, ao Distrito Federal e aos Municípios:\n\nI - estabelecer cultos religiosos ou igrejas, subvencioná-los, embaraçar-lhes o funcionamento ou manter com eles ou seus representantes relações de dependência ou aliança, ressalvada, na forma da lei, a colaboração de interesse público;\n\nII - recusar fé aos documentos públicos;\n\nIII - criar distinções entre brasileiros ou preferências entre si.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988/arquivos/ConstituicaoTextoAtualizado_EC%20141.html",
+      "source_sha256": "c0cf6a3f29bd8304adad81d9ddcdc7514eb1868203f823c4ce95a58802b292f8",
+      "review_evidence": "Compilação oficial Câmara EC141/2026, artigos originais sem anotação de emenda; início constitucional 05/10/1988. Preparação literal, sem certificação por edital ou jurisprudencial."
+    },
+    {
+      "id": "898cb4a1-706e-50a9-9041-62c68734a977",
+      "provision_id": "ff61aae9-3dd5-4f85-880d-5ed6ef6a2d77",
+      "valid_from": "1988-10-05",
+      "valid_until": null,
+      "heading": null,
+      "body": "Incluem-se entre os bens dos Estados:\n\nI - as águas superficiais ou subterrâneas, fluentes, emergentes e em depósito, ressalvadas, neste caso, na forma da lei, as decorrentes de obras da União;\nII - as áreas, nas ilhas oceânicas e costeiras, que estiverem no seu domínio, excluídas aquelas sob domínio da União, Municípios ou terceiros;\n\nIII - as ilhas fluviais e lacustres não pertencentes à União;\n\nIV - as terras devolutas não compreendidas entre as da União.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988/arquivos/ConstituicaoTextoAtualizado_EC%20141.html",
+      "source_sha256": "aaaef74400efaa46608539807803d5036543aa6e7580a73a63d8bf5b9e594e63",
+      "review_evidence": "Compilação oficial Câmara EC141/2026, artigos originais sem anotação de emenda; início constitucional 05/10/1988. Preparação literal, sem certificação por edital ou jurisprudencial."
+    },
+    {
+      "id": "9881e3c5-88f8-51a2-8269-3e363dd3944b",
+      "provision_id": "d2a584c9-636a-4ffa-ac30-64b0720254dc",
+      "valid_from": "1988-10-05",
+      "valid_until": null,
+      "heading": null,
+      "body": "A lei disporá sobre a organização administrativa e judiciária dos Territórios.\n\n§ 1º Os Territórios poderão ser divididos em Municípios, aos quais se aplicará, no que couber, o disposto no Capítulo IV deste Título.\n§ 2º As contas do Governo do Território serão submetidas ao Congresso Nacional, com parecer prévio do Tribunal de Contas da União.\n\n§ 3º Nos Territórios Federais com mais de cem mil habitantes, além do Governador, nomeado na forma desta Constituição, haverá órgãos judiciários de primeira e segunda instâncias, membros do Ministério Público e defensores públicos federais; a lei disporá sobre as eleições para a Câmara Territorial e sua competência deliberativa.",
+      "revoked": false,
+      "source_url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988/arquivos/ConstituicaoTextoAtualizado_EC%20141.html",
+      "source_sha256": "352af507fb4f953735e752ab680e221fa0516c611d2e5cc7a0cfe444516191b3",
+      "review_evidence": "Compilação oficial Câmara EC141/2026, artigos originais sem anotação de emenda; início constitucional 05/10/1988. Preparação literal, sem certificação por edital ou jurisprudencial."
+    }
+  ],
+  "scope_preparation": [
+    {
+      "article": 19,
+      "provision_key": "art-00019",
+      "provision_id": "641528f1-6367-4468-9f11-94d436ba4932",
+      "version_id": "9ee50146-5271-5510-9d58-ea6e88de9142",
+      "source_sha256": "c0cf6a3f29bd8304adad81d9ddcdc7514eb1868203f823c4ce95a58802b292f8",
+      "status": "prepared_official_literal_original"
+    },
+    {
+      "article": 26,
+      "provision_key": "art-00026",
+      "provision_id": "ff61aae9-3dd5-4f85-880d-5ed6ef6a2d77",
+      "version_id": "898cb4a1-706e-50a9-9041-62c68734a977",
+      "source_sha256": "aaaef74400efaa46608539807803d5036543aa6e7580a73a63d8bf5b9e594e63",
+      "status": "prepared_official_literal_original"
+    },
+    {
+      "article": 33,
+      "provision_key": "art-00033",
+      "provision_id": "d2a584c9-636a-4ffa-ac30-64b0720254dc",
+      "version_id": "9881e3c5-88f8-51a2-8269-3e363dd3944b",
+      "source_sha256": "352af507fb4f953735e752ab680e221fa0516c611d2e5cc7a0cfe444516191b3",
+      "status": "prepared_official_literal_original"
+    }
+  ]
+}
