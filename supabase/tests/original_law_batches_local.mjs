@@ -13,9 +13,10 @@ for(const b of bundles){
  for(const a of [b.original_archive,b.compilada_archive])assert.equal(hash(read('evidence/'+a.path)),a.sha256);
  const source=read('evidence/'+b.original_archive.path);
  const articles=new Map(source.trimEnd().split(/\n\n(?=Art\. \d)/).map(t=>{const m=t.match(/^Art\. (\d+(?:-[A-Z])?)\.\n([\s\S]*)$/);assert.ok(m);return [m[1],m[2]];}));
+ const compiled=new Map(read('evidence/'+b.compilada_archive.path).trimEnd().split(/\n\n(?=Art\. \d)/).map(t=>{const m=t.match(/^Art\. (\d+(?:-[A-Z])?)\.\n([\s\S]*)$/);assert.ok(m);return [m[1],m[2]];}));
  const extracts=[];
  for(const [i,v]of b.versions.entries()){
-  const s=b.scope_preparation[i];assert.equal(norm(v.body),norm(articles.get(s.article)));
+  const s=b.scope_preparation[i];assert.equal(norm(v.body),norm(articles.get(s.article)));assert.equal(norm(v.body),norm(compiled.get(s.article))); 
   assert.equal(v.provision_id,s.provision_id);assert.equal(v.id,s.version_id);
   assert.equal(v.source_sha256,hash(`Art. ${s.article}.\n${v.body}\n`));
   assert.equal(s.original_matches_compilation,true);assert.equal(v.revoked,false);
@@ -39,8 +40,11 @@ try{
  const scope=all.map(v=>({revision_id:rev.id,provision_id:v.provision_id,version_id:v.id,syllabus_locator:'QA explicit diploma scope; no certification'}));
  for(let i=0;i<2;i++)await db.query('select public.ingest_notice_legal_revision($1::jsonb,$2::jsonb,$3::jsonb)',[JSON.stringify(rev),JSON.stringify(all),JSON.stringify(scope)]);
  assert.equal((await db.query('select count(*)::int n from public.legal_provision_versions')).rows[0].n,146);
- const early={...rev,id:'c0000000-0000-4000-8000-000000000001',notice_id:'10000000-0000-0000-0000-000000000001',cutoff_on:'1995-11-25'};
- await assert.rejects(db.query('select public.ingest_notice_legal_revision($1::jsonb,$2::jsonb,$3::jsonb)',[JSON.stringify(early),'[]',JSON.stringify([{...scope[0],revision_id:early.id}])]));
+ for(const bundle of bundles){
+  const target=bundle.versions[0];
+  const early={...rev,id:'c0000000-0000-4000-8000-000000000001',notice_id:'10000000-0000-0000-0000-000000000001',cutoff_on:bundle.document_code==='L9099'?'1995-11-25':'1998-03-29'};
+  await assert.rejects(db.query('select public.ingest_notice_legal_revision($1::jsonb,$2::jsonb,$3::jsonb)',[JSON.stringify(early),'[]',JSON.stringify([{revision_id:early.id,provision_id:target.provision_id,version_id:target.id,syllabus_locator:'QA vacatio'}])]));
+ }
  await db.exec("set role authenticated;set test.premium='yes';set test.admin='no';");
  for(const v of all)assert.equal((await db.query('select status from public.resolve_notice_legal_provision($1,$2)',[rev.notice_id,v.provision_id])).rows[0].status,'available');
  console.log('PASS: 146 complete article bodies match original; 146 hashes;8 vetoes excluded; art85 pending; stable scope IDs; exact retry; 146 temporal resolutions; vacatio rejected before start');
