@@ -1,0 +1,1656 @@
+{
+  "notice_code": "CFO_2027",
+  "reviewed_on": "2026-11-23",
+  "notice_source_url": "https://dhg1h5j42swfq.cloudfront.net/2026/09/03102826/pm-mg-2027-cleaned.pdf",
+  "notice_source_kind": "third_party_mirror_of_notice_not_direct_official_capture",
+  "notice_pdf_sha256": "fc28c8ed1f383235bacbc94203cc040f442a865f52b6d5fa22cefdce6b528090",
+  "official_source_attempt": {
+    "url": "https://policiamilitar.mg.gov.br/conteudoportal/sites/concurso/030920260905177550.pdf",
+    "result": "HTTP 503 on 2026-11-23"
+  },
+  "annex_legal_topic_inventory_complete_for_captured_pdf": true,
+  "identified_topic_count": 163,
+  "mapping_exhaustive": false,
+  "cutoff_confirmed": false,
+  "certified": false,
+  "included_in_coverage_denominator": false,
+  "denominator_retained": 2130,
+  "candidate_distinct_devices": 1129,
+  "candidate_links": 2029,
+  "candidate_by_document": {
+    "CP": 360,
+    "CPP": 335,
+    "CC": 350,
+    "CPC": 84
+  },
+  "links_file": "cfo2027-thematic-candidate-links-20261123.tsv",
+  "links_sha256": "0ab2520e707f0d7ec1baf78111e04ba8524714a5f43652e159e4c54a02040465",
+  "source_extract": "cfo2027-anexo-b-juridico-20261123.txt",
+  "source_extract_sha256": "8234fb9e4090f4371552027eb89d3ddc64211d8ae552d759a963594ad0244884",
+  "limitations": [
+    "Faixas editoriais relacionam temas com capítulos dos códigos; não são limites de artigos expressos pelo edital.",
+    "Doutrina, jurisprudência e normas correlatas permanecem abertos; não declarar todo programa mapeado.",
+    "Candidatos vinculados a IDs canônicos via SELECT somente leitura em 23/11/2026; existência no catálogo não comprova vigência histórica.",
+    "A inclusão de um candidato não prepara texto nem certifica dispositivo.",
+    "A união temática permanece fora do denominador até validação material e confirmação da fonte oficial do edital."
+  ],
+  "code_structure_sources": [
+    {
+      "code": "CP",
+      "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html",
+      "raw_sha256": "57547f371c5dd6e609f453397d2098e3930876b03f7233096b0dff907832b3e4",
+      "structure_extract": "cp-estrutura-oficial-20261123.txt",
+      "structure_sha256": "a35ffe1f38ada584485ff99ca3aa8dbb03abeeb49e51f4f003727debe2100bed"
+    },
+    {
+      "code": "CPP",
+      "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
+      "raw_sha256": "e6e68e8afc1da9aeac8970fb106d7d49e88eec11d67db3b704c8c6db65c2fe0f",
+      "structure_extract": "cpp-estrutura-oficial-20261123.txt",
+      "structure_sha256": "d8ee1fb3cb3a93c353377d2e1d61f47b09524514dfac4b2cac81886b107d296b"
+    },
+    {
+      "code": "CC",
+      "url": "https://www2.camara.leg.br/legin/fed/lei/2002/lei-10406-10-janeiro-2002-432893-normaatualizada-pl.html",
+      "raw_sha256": "6ed7c19586b21355e998746a0620cea5c2f3e6a24036d7f3743b7d30330e5d90",
+      "structure_extract": "cc-estrutura-oficial-20261123.txt",
+      "structure_sha256": "ce8739fc91228243fd0d82e41539815181c02fc2b2e7250f0cbea40e4049b89b"
+    },
+    {
+      "code": "CPC",
+      "url": "https://www2.camara.leg.br/legin/fed/lei/2015/lei-13105-16-marco-2015-780273-normaatualizada-pl.html",
+      "raw_sha256": "0d7f8c9a0f67734cc047c3bea8bfabd57a7823f361d774041e11815822722821",
+      "structure_extract": "cpc-estrutura-oficial-20261123.txt",
+      "structure_sha256": "dc8588cf86ad0cc6f6b170bc810af5750bb1a828f77e89432259db9e250c78f8"
+    }
+  ],
+  "topics": [
+    {
+      "item": "4",
+      "text": "DIREITO CONSTITUCIONAL",
+      "pdf_page": 96,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "4.1",
+      "text": "Direito Constitucional: conceito, objeto, natureza, fontes formais e interpretação constitucional.",
+      "pdf_page": 96,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "4.2",
+      "text": "Classificações das Constituições.",
+      "pdf_page": 96,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "4.3",
+      "text": "Normas constitucionais: eficácia e aplicabilidade; normas programáticas.",
+      "pdf_page": 96,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "4.4",
+      "text": "Poder constituinte:",
+      "pdf_page": 97,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "4.4.1",
+      "text": "Originário e Derivado.",
+      "pdf_page": 97,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "4.4.2",
+      "text": "Reforma constitucional: emendas à Constituição, limites formais, materiais e temporais; revisão constitucional.",
+      "pdf_page": 97,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "4.5",
+      "text": "Controle de constitucionalidade:",
+      "pdf_page": 97,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "4.5.1",
+      "text": "Teoria da inconstitucionalidade.",
+      "pdf_page": 97,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "4.5.2",
+      "text": "Sistema de controle de constitucionalidade.",
+      "pdf_page": 97,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "4.6",
+      "text": "Princípios, Direitos e Garantias Fundamentais:",
+      "pdf_page": 97,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "4.6.1",
+      "text": "Fundamentos, objetivos e princípios das relações internacionais.",
+      "pdf_page": 97,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "4.6.2",
+      "text": "Direitos e Deveres individuais e coletivos.",
+      "pdf_page": 97,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "4.6.3",
+      "text": "Remédios constitucionais.",
+      "pdf_page": 97,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "4.6.4",
+      "text": "Direitos Sociais, nacionalidade, cidadania e direitos políticos.",
+      "pdf_page": 97,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "4.7",
+      "text": "Organização do Estado e Administração Pública:",
+      "pdf_page": 97,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "4.7.1",
+      "text": "Organização Político-Administrativa.",
+      "pdf_page": 97,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "4.7.2",
+      "text": "Administração Pública.",
+      "pdf_page": 97,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "4.8",
+      "text": "Organização dos Poderes:",
+      "pdf_page": 97,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "4.8.1",
+      "text": "Poder Legislativo.",
+      "pdf_page": 97,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "4.8.2",
+      "text": "Processo Legislativo.",
+      "pdf_page": 97,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "4.8.3",
+      "text": "Poder Executivo.",
+      "pdf_page": 97,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "4.8.4",
+      "text": "Poder Judiciário.",
+      "pdf_page": 97,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "4.8.5",
+      "text": "Funções essenciais à Justiça.",
+      "pdf_page": 97,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "4.9",
+      "text": "Defesa do Estado e das instituições democráticas: Estado de Defesa, Estado de Sítio, Forças Armadas e Segurança Pública.",
+      "pdf_page": 97,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "4.10",
+      "text": "Constituição da República Federativa do Brasil, de 05/10/1988.",
+      "pdf_page": 97,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "4.11",
+      "text": "Constituição do Estado de Minas Gerais, de 21/09/1989.",
+      "pdf_page": 97,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "5",
+      "text": "DIREITO PENAL",
+      "pdf_page": 98,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "5.1",
+      "text": "Princípios constitucionais do Direito Penal.",
+      "pdf_page": 98,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "5.2",
+      "text": "Aplicação da Lei Penal.",
+      "pdf_page": 98,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "5.2",
+      "ranges": [
+        {
+          "document_code": "CP",
+          "from": 1,
+          "through": 12
+        }
+      ]
+    },
+    {
+      "item": "5.3",
+      "text": "Interpretação e Integração da lei penal.",
+      "pdf_page": 98,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "5.3",
+      "ranges": [
+        {
+          "document_code": "CP",
+          "from": 1,
+          "through": 12
+        }
+      ]
+    },
+    {
+      "item": "5.4",
+      "text": "Conceito de Crime e Estrutura Tripartite:",
+      "pdf_page": 98,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "5.4",
+      "ranges": [
+        {
+          "document_code": "CP",
+          "from": 13,
+          "through": 19
+        }
+      ]
+    },
+    {
+      "item": "5.4.1",
+      "text": "Fato típico: conduta, resultado, nexo causal, imputação objetiva e excludentes de tipicidade.",
+      "pdf_page": 98,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "5.4.1",
+      "ranges": [
+        {
+          "document_code": "CP",
+          "from": 13,
+          "through": 13
+        }
+      ]
+    },
+    {
+      "item": "5.4.2",
+      "text": "Formas do Crime: consumação, tentativa, desistência voluntária, arrependimento eficaz, arrependimento posterior e crime impossível.",
+      "pdf_page": 98,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "5.4.2",
+      "ranges": [
+        {
+          "document_code": "CP",
+          "from": 14,
+          "through": 17
+        }
+      ]
+    },
+    {
+      "item": "5.4.3",
+      "text": "Elementos subjetivos: dolo e culpa.",
+      "pdf_page": 98,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "5.4.3",
+      "ranges": [
+        {
+          "document_code": "CP",
+          "from": 18,
+          "through": 19
+        }
+      ]
+    },
+    {
+      "item": "5.5",
+      "text": "Ilicitude e excludentes de ilicitude.",
+      "pdf_page": 98,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "5.5",
+      "ranges": [
+        {
+          "document_code": "CP",
+          "from": 23,
+          "through": 25
+        }
+      ]
+    },
+    {
+      "item": "5.6",
+      "text": "Culpabilidade e excludentes de culpabilidade.",
+      "pdf_page": 98,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "5.6",
+      "ranges": [
+        {
+          "document_code": "CP",
+          "from": 21,
+          "through": 22
+        },
+        {
+          "document_code": "CP",
+          "from": 26,
+          "through": 28
+        }
+      ]
+    },
+    {
+      "item": "5.7",
+      "text": "Teoria do erro no Direito Penal.",
+      "pdf_page": 98,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "5.7",
+      "ranges": [
+        {
+          "document_code": "CP",
+          "from": 20,
+          "through": 22
+        }
+      ]
+    },
+    {
+      "item": "5.8",
+      "text": "Sujeitos da infração penal.",
+      "pdf_page": 98,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "5.9",
+      "text": "Concurso de Pessoas.",
+      "pdf_page": 98,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "5.9",
+      "ranges": [
+        {
+          "document_code": "CP",
+          "from": 29,
+          "through": 31
+        }
+      ]
+    },
+    {
+      "item": "5.10",
+      "text": "Punibilidade e extinção da punibilidade.",
+      "pdf_page": 98,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "5.10",
+      "ranges": [
+        {
+          "document_code": "CP",
+          "from": 107,
+          "through": 120
+        }
+      ]
+    },
+    {
+      "item": "5.11",
+      "text": "Penas: espécies, aplicação, dosimetria e regimes de cumprimento de penas.",
+      "pdf_page": 98,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "5.11",
+      "ranges": [
+        {
+          "document_code": "CP",
+          "from": 32,
+          "through": 95
+        }
+      ]
+    },
+    {
+      "item": "5.12",
+      "text": "Concurso de crimes.",
+      "pdf_page": 98,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "5.12",
+      "ranges": [
+        {
+          "document_code": "CP",
+          "from": 69,
+          "through": 76
+        }
+      ]
+    },
+    {
+      "item": "5.13",
+      "text": "Efeitos da condenação e reabilitação.",
+      "pdf_page": 98,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "5.13",
+      "ranges": [
+        {
+          "document_code": "CP",
+          "from": 91,
+          "through": 95
+        }
+      ]
+    },
+    {
+      "item": "5.14",
+      "text": "Crimes contra a pessoa.",
+      "pdf_page": 98,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "5.14",
+      "ranges": [
+        {
+          "document_code": "CP",
+          "from": 121,
+          "through": 154
+        }
+      ]
+    },
+    {
+      "item": "5.15",
+      "text": "Crimes contra o patrimônio.",
+      "pdf_page": 98,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "5.15",
+      "ranges": [
+        {
+          "document_code": "CP",
+          "from": 155,
+          "through": 183
+        }
+      ]
+    },
+    {
+      "item": "5.16",
+      "text": "Crimes contra a dignidade sexual.",
+      "pdf_page": 98,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "5.16",
+      "ranges": [
+        {
+          "document_code": "CP",
+          "from": 213,
+          "through": 234
+        }
+      ]
+    },
+    {
+      "item": "5.17",
+      "text": "Crimes contra a incolumidade pública.",
+      "pdf_page": 98,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "5.17",
+      "ranges": [
+        {
+          "document_code": "CP",
+          "from": 250,
+          "through": 285
+        }
+      ]
+    },
+    {
+      "item": "5.18",
+      "text": "Crimes contra a fé pública.",
+      "pdf_page": 98,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "5.18",
+      "ranges": [
+        {
+          "document_code": "CP",
+          "from": 289,
+          "through": 311
+        }
+      ]
+    },
+    {
+      "item": "5.19",
+      "text": "Crimes contra a Administração Pública.",
+      "pdf_page": 98,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "5.19",
+      "ranges": [
+        {
+          "document_code": "CP",
+          "from": 312,
+          "through": 359
+        }
+      ]
+    },
+    {
+      "item": "6",
+      "text": "DIREITO PROCESSUAL PENAL",
+      "pdf_page": 99,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "6.1",
+      "text": "Princípios fundamentais do processo penal.",
+      "pdf_page": 99,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "6.2",
+      "text": "Juiz das Garantias.",
+      "pdf_page": 99,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "6.2",
+      "ranges": [
+        {
+          "document_code": "CPP",
+          "from": 3,
+          "through": 3
+        }
+      ]
+    },
+    {
+      "item": "6.3",
+      "text": "Inquérito Policial.",
+      "pdf_page": 99,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "6.3",
+      "ranges": [
+        {
+          "document_code": "CPP",
+          "from": 4,
+          "through": 23
+        }
+      ]
+    },
+    {
+      "item": "6.4",
+      "text": "Acordo de não persecução penal.",
+      "pdf_page": 99,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "6.4",
+      "ranges": [
+        {
+          "document_code": "CPP",
+          "from": 28,
+          "through": 28
+        }
+      ]
+    },
+    {
+      "item": "6.5",
+      "text": "Ação penal.",
+      "pdf_page": 99,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "6.5",
+      "ranges": [
+        {
+          "document_code": "CPP",
+          "from": 24,
+          "through": 62
+        }
+      ]
+    },
+    {
+      "item": "6.6",
+      "text": "Jurisdição e Competência.",
+      "pdf_page": 99,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "6.6",
+      "ranges": [
+        {
+          "document_code": "CPP",
+          "from": 69,
+          "through": 91
+        }
+      ]
+    },
+    {
+      "item": "6.7",
+      "text": "Sujeitos do Processo Penal.",
+      "pdf_page": 99,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "6.7",
+      "ranges": [
+        {
+          "document_code": "CPP",
+          "from": 251,
+          "through": 281
+        }
+      ]
+    },
+    {
+      "item": "6.8",
+      "text": "Prisões Cautelares.",
+      "pdf_page": 99,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "6.8",
+      "ranges": [
+        {
+          "document_code": "CPP",
+          "from": 282,
+          "through": 350
+        }
+      ]
+    },
+    {
+      "item": "6.9",
+      "text": "Medidas Cautelares diversas da prisão e liberdade provisória.",
+      "pdf_page": 99,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "6.9",
+      "ranges": [
+        {
+          "document_code": "CPP",
+          "from": 282,
+          "through": 350
+        }
+      ]
+    },
+    {
+      "item": "6.10",
+      "text": "Teoria geral da prova.",
+      "pdf_page": 99,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "6.10",
+      "ranges": [
+        {
+          "document_code": "CPP",
+          "from": 155,
+          "through": 250
+        }
+      ]
+    },
+    {
+      "item": "6.11",
+      "text": "Cadeia de custódia da prova.",
+      "pdf_page": 99,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "6.11",
+      "ranges": [
+        {
+          "document_code": "CPP",
+          "from": 158,
+          "through": 158
+        }
+      ]
+    },
+    {
+      "item": "6.12",
+      "text": "Meios de Prova e de obtenção da Prova.",
+      "pdf_page": 99,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "6.12",
+      "ranges": [
+        {
+          "document_code": "CPP",
+          "from": 155,
+          "through": 250
+        }
+      ]
+    },
+    {
+      "item": "6.13",
+      "text": "Nulidades no processo penal.",
+      "pdf_page": 99,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "6.13",
+      "ranges": [
+        {
+          "document_code": "CPP",
+          "from": 563,
+          "through": 573
+        }
+      ]
+    },
+    {
+      "item": "6.14",
+      "text": "Habeas Corpus.",
+      "pdf_page": 99,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "6.14",
+      "ranges": [
+        {
+          "document_code": "CPP",
+          "from": 647,
+          "through": 667
+        }
+      ]
+    },
+    {
+      "item": "7",
+      "text": "DIREITO ADMINISTRATIVO",
+      "pdf_page": 99,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "7.1",
+      "text": "Estado, Governo e Administração Pública: conceitos, elementos, poderes, natureza jurídica, fins e estrutura.",
+      "pdf_page": 99,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "7.2",
+      "text": "Direito Administrativo: conceito, objeto, fontes e regime jurídico-administrativo.",
+      "pdf_page": 99,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "7.3",
+      "text": "Princípios do Direito Administrativo.",
+      "pdf_page": 99,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "7.4",
+      "text": "Organização administrativa:",
+      "pdf_page": 99,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "7.4.1",
+      "text": "Centralização, descentralização, concentração e desconcentração.",
+      "pdf_page": 99,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "7.4.2",
+      "text": "Administração direta.",
+      "pdf_page": 99,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "7.4.3",
+      "text": "Administração indireta.",
+      "pdf_page": 99,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "7.5",
+      "text": "Agentes públicos:",
+      "pdf_page": 100,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "7.5.1",
+      "text": "Espécies e classificação.",
+      "pdf_page": 100,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "7.5.2",
+      "text": "Cargo, emprego, função pública, provimento, vacância e acumulação de cargos.",
+      "pdf_page": 100,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "7.5.3",
+      "text": "Direitos, deveres, prerrogativas e responsabilidade civil, penal e administrativa.",
+      "pdf_page": 100,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "7.6",
+      "text": "Poderes administrativos:",
+      "pdf_page": 100,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "7.6.1",
+      "text": "Poder vinculado e discricionário.",
+      "pdf_page": 100,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "7.6.2",
+      "text": "Poder hierárquico, disciplinar e regulamentar/normativo.",
+      "pdf_page": 100,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "7.6.3",
+      "text": "Poder de polícia.",
+      "pdf_page": 100,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "7.6.4",
+      "text": "Uso e abuso de poder.",
+      "pdf_page": 100,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "7.7",
+      "text": "Atos administrativos:",
+      "pdf_page": 100,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "7.7.1",
+      "text": "Conceitos, requisitos/elementos de validade.",
+      "pdf_page": 100,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "7.7.2",
+      "text": "Atributos do Ato.",
+      "pdf_page": 100,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "7.7.3",
+      "text": "Classificação, espécies e exteriorização dos Atos.",
+      "pdf_page": 100,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "7.7.4",
+      "text": "Invalidação e Sanatória do Ato.",
+      "pdf_page": 100,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "7.8",
+      "text": "Serviços públicos:",
+      "pdf_page": 100,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "7.8.1",
+      "text": "Conceito, classificação, princípios do serviço adequado, regulamentação e controle.",
+      "pdf_page": 100,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "7.8.2",
+      "text": "Formas de prestação e delegação: concessão, permissão, autorização de serviços públicos e parcerias público-privadas.",
+      "pdf_page": 100,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "7.9",
+      "text": "Intervenção do Estado na propriedade privada:",
+      "pdf_page": 100,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "7.9.1",
+      "text": "Desapropriação, servidão administrativa, tombamento, ocupação temporária e limitação administrativa.",
+      "pdf_page": 100,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "7.9.2",
+      "text": "Requisição administrativa.",
+      "pdf_page": 100,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "7.10",
+      "text": "Controle da Administração Pública:",
+      "pdf_page": 100,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "7.10.1",
+      "text": "Controle administrativo: recursos administrativos e poder de autotutela.",
+      "pdf_page": 100,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "7.10.2",
+      "text": "Controle legislativo: controle financeiro/orçamentário e atuação do Tribunal de Contas.",
+      "pdf_page": 100,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "7.10.3",
+      "text": "Controle judicial: limites do controle de legalidade sobre atos discricionários e ações constitucionais.",
+      "pdf_page": 101,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "7.11",
+      "text": "Responsabilidade Civil do Estado:",
+      "pdf_page": 101,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "7.11.1",
+      "text": "Evolução histórica e Teoria do Risco Administrativo.",
+      "pdf_page": 101,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "7.11.2",
+      "text": "Requisitos: conduta estatal, dano e nexo de causalidade.",
+      "pdf_page": 101,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "7.11.3",
+      "text": "Responsabilidade por omissão estatal.",
+      "pdf_page": 101,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "7.11.4",
+      "text": "Causas excludentes e atenuantes de responsabilidade.",
+      "pdf_page": 101,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "7.11.5",
+      "text": "Ação regressiva.",
+      "pdf_page": 101,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "7.12",
+      "text": "Lei Federal nº 8.429, de 02/06/1992 – Lei de Improbidade Administrativa.",
+      "pdf_page": 101,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "7.13",
+      "text": "Lei Federal nº 13.019, de 31/07/2014 – Marco Regulatório das Organizações da Sociedade Civil.",
+      "pdf_page": 101,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "7.14",
+      "text": "Lei Federal nº 13.709, de 14/08/2018 – Lei Geral de Proteção de Dados Pessoais (LGPD).",
+      "pdf_page": 101,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "7.15",
+      "text": "Lei Federal nº 14.133, de 01/04/2021 – Lei de Licitações e Contratos Administrativos.",
+      "pdf_page": 101,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "7.16",
+      "text": "Decreto Estadual nº 45.969, de 24/05/2012 – Lei de Acesso à Informação em Minas Gerais.",
+      "pdf_page": 101,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "8",
+      "text": "DIREITO CIVIL E DIREITO PROCESSUAL CIVIL",
+      "pdf_page": 101,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "8.1",
+      "text": "Pessoas naturais:",
+      "pdf_page": 101,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "8.1",
+      "ranges": [
+        {
+          "document_code": "CC",
+          "from": 1,
+          "through": 39
+        }
+      ]
+    },
+    {
+      "item": "8.1.1",
+      "text": "Personalidade e capacidade.",
+      "pdf_page": 101,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "8.1",
+      "ranges": [
+        {
+          "document_code": "CC",
+          "from": 1,
+          "through": 39
+        }
+      ]
+    },
+    {
+      "item": "8.1.2",
+      "text": "Teoria das incapacidades.",
+      "pdf_page": 101,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "8.1",
+      "ranges": [
+        {
+          "document_code": "CC",
+          "from": 1,
+          "through": 39
+        }
+      ]
+    },
+    {
+      "item": "8.1.3",
+      "text": "Direitos de personalidade.",
+      "pdf_page": 101,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "8.1",
+      "ranges": [
+        {
+          "document_code": "CC",
+          "from": 1,
+          "through": 39
+        }
+      ]
+    },
+    {
+      "item": "8.2",
+      "text": "Pessoas jurídicas:",
+      "pdf_page": 101,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "8.2",
+      "ranges": [
+        {
+          "document_code": "CC",
+          "from": 40,
+          "through": 69
+        }
+      ]
+    },
+    {
+      "item": "8.2.1",
+      "text": "Classificação, constituição e extinção.",
+      "pdf_page": 101,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "8.2",
+      "ranges": [
+        {
+          "document_code": "CC",
+          "from": 40,
+          "through": 69
+        }
+      ]
+    },
+    {
+      "item": "8.2.2",
+      "text": "Desconsideração da personalidade jurídica.",
+      "pdf_page": 101,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "8.2",
+      "ranges": [
+        {
+          "document_code": "CC",
+          "from": 40,
+          "through": 69
+        }
+      ]
+    },
+    {
+      "item": "8.3",
+      "text": "Bens:",
+      "pdf_page": 101,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "8.3",
+      "ranges": [
+        {
+          "document_code": "CC",
+          "from": 79,
+          "through": 103
+        }
+      ]
+    },
+    {
+      "item": "8.3.1",
+      "text": "Classificação.",
+      "pdf_page": 101,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "8.3",
+      "ranges": [
+        {
+          "document_code": "CC",
+          "from": 79,
+          "through": 103
+        }
+      ]
+    },
+    {
+      "item": "8.3.2",
+      "text": "Bens públicos e a impenhorabilidade/imprescritibilidade.",
+      "pdf_page": 102,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "8.3",
+      "ranges": [
+        {
+          "document_code": "CC",
+          "from": 79,
+          "through": 103
+        }
+      ]
+    },
+    {
+      "item": "8.4",
+      "text": "Fatos jurídicos, negócios e atos ilícitos:",
+      "pdf_page": 102,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "8.4",
+      "ranges": [
+        {
+          "document_code": "CC",
+          "from": 104,
+          "through": 211
+        }
+      ]
+    },
+    {
+      "item": "8.4.1",
+      "text": "Requisitos de validade do negócio jurídico e representação.",
+      "pdf_page": 102,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "8.4.1",
+      "ranges": [
+        {
+          "document_code": "CC",
+          "from": 104,
+          "through": 120
+        }
+      ]
+    },
+    {
+      "item": "8.4.2",
+      "text": "Defeitos do negócio jurídico.",
+      "pdf_page": 102,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "8.4.2",
+      "ranges": [
+        {
+          "document_code": "CC",
+          "from": 138,
+          "through": 165
+        }
+      ]
+    },
+    {
+      "item": "8.4.3",
+      "text": "Invalidez do negócio jurídico.",
+      "pdf_page": 102,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "8.4.3",
+      "ranges": [
+        {
+          "document_code": "CC",
+          "from": 166,
+          "through": 184
+        }
+      ]
+    },
+    {
+      "item": "8.4.4",
+      "text": "Atos ilícitos.",
+      "pdf_page": 102,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "8.4.4",
+      "ranges": [
+        {
+          "document_code": "CC",
+          "from": 186,
+          "through": 188
+        }
+      ]
+    },
+    {
+      "item": "8.4.5",
+      "text": "Prescrição e decadência.",
+      "pdf_page": 102,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "8.4.5",
+      "ranges": [
+        {
+          "document_code": "CC",
+          "from": 189,
+          "through": 211
+        }
+      ]
+    },
+    {
+      "item": "8.5",
+      "text": "Direito das coisas - Posse:",
+      "pdf_page": 102,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "8.5",
+      "ranges": [
+        {
+          "document_code": "CC",
+          "from": 1196,
+          "through": 1224
+        }
+      ]
+    },
+    {
+      "item": "8.5.1",
+      "text": "Conceito, teoria e classificações.",
+      "pdf_page": 102,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "8.5",
+      "ranges": [
+        {
+          "document_code": "CC",
+          "from": 1196,
+          "through": 1224
+        }
+      ]
+    },
+    {
+      "item": "8.5.2",
+      "text": "Aquisição, perda e efeitos da posse.",
+      "pdf_page": 102,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "8.5",
+      "ranges": [
+        {
+          "document_code": "CC",
+          "from": 1196,
+          "through": 1224
+        }
+      ]
+    },
+    {
+      "item": "8.5.3",
+      "text": "Proteção possessória.",
+      "pdf_page": 102,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "8.5",
+      "ranges": [
+        {
+          "document_code": "CC",
+          "from": 1196,
+          "through": 1224
+        }
+      ]
+    },
+    {
+      "item": "8.6",
+      "text": "Direito das coisas - Propriedade:",
+      "pdf_page": 102,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "8.6",
+      "ranges": [
+        {
+          "document_code": "CC",
+          "from": 1228,
+          "through": 1313
+        }
+      ]
+    },
+    {
+      "item": "8.6.1",
+      "text": "Função social da propriedade e direitos/deveres do proprietário.",
+      "pdf_page": 102,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "8.6.1",
+      "ranges": [
+        {
+          "document_code": "CC",
+          "from": 1228,
+          "through": 1237
+        }
+      ]
+    },
+    {
+      "item": "8.6.2",
+      "text": "Aquisição da propriedade imóvel: usucapião, registro de título e acessão.",
+      "pdf_page": 102,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "8.6.2",
+      "ranges": [
+        {
+          "document_code": "CC",
+          "from": 1238,
+          "through": 1259
+        }
+      ]
+    },
+    {
+      "item": "8.6.3",
+      "text": "Aquisição da propriedade móvel: usucapião, tradição e especificação.",
+      "pdf_page": 102,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "8.6.3",
+      "ranges": [
+        {
+          "document_code": "CC",
+          "from": 1260,
+          "through": 1274
+        }
+      ]
+    },
+    {
+      "item": "8.6.4",
+      "text": "Perda da propriedade e direitos de vizinhança.",
+      "pdf_page": 102,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "8.6.4",
+      "ranges": [
+        {
+          "document_code": "CC",
+          "from": 1275,
+          "through": 1313
+        }
+      ]
+    },
+    {
+      "item": "8.7",
+      "text": "Responsabilidade civil:",
+      "pdf_page": 102,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "8.7",
+      "ranges": [
+        {
+          "document_code": "CC",
+          "from": 186,
+          "through": 188
+        },
+        {
+          "document_code": "CC",
+          "from": 927,
+          "through": 954
+        }
+      ]
+    },
+    {
+      "item": "8.7.1",
+      "text": "Responsabilidade objetiva e subjetiva.",
+      "pdf_page": 102,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "8.7",
+      "ranges": [
+        {
+          "document_code": "CC",
+          "from": 186,
+          "through": 188
+        },
+        {
+          "document_code": "CC",
+          "from": 927,
+          "through": 954
+        }
+      ]
+    },
+    {
+      "item": "8.7.2",
+      "text": "Elementos constitutivos: conduta, dano e nexo causal (e suas excludentes: caso fortuito, força maior e culpa exclusiva da vítima).",
+      "pdf_page": 102,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "8.7",
+      "ranges": [
+        {
+          "document_code": "CC",
+          "from": 186,
+          "through": 188
+        },
+        {
+          "document_code": "CC",
+          "from": 927,
+          "through": 954
+        }
+      ]
+    },
+    {
+      "item": "8.7.3",
+      "text": "Responsabilidade por ato de terceiro, por fato do animal e do produto/coisa.",
+      "pdf_page": 102,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "8.7",
+      "ranges": [
+        {
+          "document_code": "CC",
+          "from": 186,
+          "through": 188
+        },
+        {
+          "document_code": "CC",
+          "from": 927,
+          "through": 954
+        }
+      ]
+    },
+    {
+      "item": "8.8",
+      "text": "Normas fundamentais do Processo Civil:",
+      "pdf_page": 102,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "8.8",
+      "ranges": [
+        {
+          "document_code": "CPC",
+          "from": 1,
+          "through": 15
+        }
+      ]
+    },
+    {
+      "item": "8.8.1",
+      "text": "Princípios constitucionais do processo.",
+      "pdf_page": 102,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "8.8",
+      "ranges": [
+        {
+          "document_code": "CPC",
+          "from": 1,
+          "through": 15
+        }
+      ]
+    },
+    {
+      "item": "8.8.2",
+      "text": "Aplicação subsidiária e supletiva do Código de Processo Civil ao processo administrativo e criminal.",
+      "pdf_page": 102,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "8.8",
+      "ranges": [
+        {
+          "document_code": "CPC",
+          "from": 1,
+          "through": 15
+        }
+      ]
+    },
+    {
+      "item": "8.9",
+      "text": "Jurisdição: conceito, características e equivalentes jurisdicionais.",
+      "pdf_page": 103,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "8.9",
+      "ranges": [
+        {
+          "document_code": "CPC",
+          "from": 16,
+          "through": 16
+        }
+      ]
+    },
+    {
+      "item": "8.10",
+      "text": "Ação: elementos da ação e condições da ação.",
+      "pdf_page": 103,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "8.10",
+      "ranges": [
+        {
+          "document_code": "CPC",
+          "from": 17,
+          "through": 20
+        }
+      ]
+    },
+    {
+      "item": "8.11",
+      "text": "Limites da jurisdição nacional e cooperação internacional.",
+      "pdf_page": 103,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "8.11",
+      "ranges": [
+        {
+          "document_code": "CPC",
+          "from": 21,
+          "through": 41
+        }
+      ]
+    },
+    {
+      "item": "8.12",
+      "text": "Sujeitos do processo:",
+      "pdf_page": 103,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "8.12",
+      "ranges": [
+        {
+          "document_code": "CPC",
+          "from": 70,
+          "through": 112
+        }
+      ]
+    },
+    {
+      "item": "8.12.1",
+      "text": "Capacidade processual.",
+      "pdf_page": 103,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "8.12.1",
+      "ranges": [
+        {
+          "document_code": "CPC",
+          "from": 70,
+          "through": 76
+        }
+      ]
+    },
+    {
+      "item": "8.12.2",
+      "text": "Deveres das partes e procuradores.",
+      "pdf_page": 103,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "8.12.2",
+      "ranges": [
+        {
+          "document_code": "CPC",
+          "from": 77,
+          "through": 78
+        }
+      ]
+    },
+    {
+      "item": "8.12.3",
+      "text": "Responsabilidade por dano processual.",
+      "pdf_page": 103,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "8.12.3",
+      "ranges": [
+        {
+          "document_code": "CPC",
+          "from": 79,
+          "through": 81
+        }
+      ]
+    },
+    {
+      "item": "8.12.4",
+      "text": "Decreto-lei nº 4.657, de 04/09/1942 – Lei de Introdução às normas do Direito Brasileiro.",
+      "pdf_page": 103,
+      "correspondence_status": "editorial_candidate_requires_material_review",
+      "mapping_anchor": "8.12",
+      "ranges": [
+        {
+          "document_code": "CPC",
+          "from": 70,
+          "through": 112
+        }
+      ]
+    },
+    {
+      "item": "9",
+      "text": "LEGISLAÇÃO EXTRAVAGANTE E DIREITOS HUMANOS",
+      "pdf_page": 103,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "9.1",
+      "text": "Declaração Universal dos Direitos Humanos – Adotada pela Assembleia Geral das Nações Unidas em 10/12/1948.",
+      "pdf_page": 103,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "9.2",
+      "text": "Convenção Americana sobre Direitos Humanos – (Pacto de San José da Costa Rica), assinada em 22/11/1969.",
+      "pdf_page": 103,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "9.3",
+      "text": "Lei Federal nº 8.069, de 13/07/1990 – Estatuto da Criança e do Adolescente.",
+      "pdf_page": 103,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "9.4",
+      "text": "Lei Federal nº 8.072, de 25/07/1990 – Lei dos Crimes Hediondos.",
+      "pdf_page": 103,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "9.5",
+      "text": "Lei Federal nº 9.099, de 26/09/1995 – Juizados Especiais Cíveis e Criminais.",
+      "pdf_page": 103,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "9.6",
+      "text": "Lei Federal nº 9.455, de 07/04/1997 – Lei dos Crimes de Tortura.",
+      "pdf_page": 103,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "9.7",
+      "text": "Lei Federal nº 9.605, de 12/02/1998 – Lei dos Crimes Ambientais.",
+      "pdf_page": 103,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "9.8",
+      "text": "Lei Federal nº 10.741, de 01/10/2003 – Estatuto da Pessoa Idosa.",
+      "pdf_page": 103,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "9.9",
+      "text": "Lei Federal nº 10.826, de 22/12/2003 – Estatuto do Desarmamento.",
+      "pdf_page": 103,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "9.10",
+      "text": "Lei Federal nº 11.340, de 07/08/2006 – Lei Maria da Penha.",
+      "pdf_page": 103,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "9.11",
+      "text": "Lei Federal nº 11.343, de 23/08/2006 – Lei de Drogas.",
+      "pdf_page": 103,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "9.12",
+      "text": "Lei Federal nº 13.431, de 04/04/2017 – Lei da Escuta Especializada e Depoimento Especial.",
+      "pdf_page": 103,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    },
+    {
+      "item": "9.13",
+      "text": "Lei Federal nº 13.869, de 05/09/2019 – Lei de Abuso de Autoridade.",
+      "pdf_page": 103,
+      "correspondence_status": "express_diploma_already_cataloged_or_open_doctrinal_topic"
+    }
+  ]
+}
