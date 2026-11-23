@@ -439,7 +439,17 @@
         "Brazilian_promulgation_transcription": "arts. 69 e 70",
         "brazilian_source_url": "https://www2.camara.leg.br/legin/fed/decret/1992/decreto-678-6-novembro-1992-449028-publicacaooriginal-1-pe.html",
         "reason": "Divergência numérica em fontes oficiais. Sem ato de alteração/retificação localizado; não selecionar silenciosamente uma redação como histórica brasileira."
-      }
+      },
+      "follow_up_reviews": [
+        {
+          "reviewed_on": "2026-11-23",
+          "classification": "confirmed_official_documentary_cross_reference_conflict",
+          "evidence": "cfsd-20261123/cadh31-source-variants.json",
+          "finding": "Fac-símile DOU09/11/1992 p15564, obtido no Itamaraty e conferido visualmente, contém69/70. Não é apenas OCR nem transcrição do catálogo. Leitura OEA arquivada76/77 preservada. Sem retificação oficial localizada, tradução de origem comprovada ou alteração normativa cronológica demonstrada.",
+          "prepared_version_id": null,
+          "certified_for_notice": false
+        }
+      ]
     },
     {
       "article": 36,

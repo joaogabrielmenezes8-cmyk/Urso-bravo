@@ -1,0 +1,169 @@
+{
+  "notice_code": "CFSD_2025",
+  "reviewed_on": "2026-11-23",
+  "official_chain_complete": false,
+  "header_on": "2024-05-09",
+  "cutoff_candidate": "2024-05-09",
+  "cutoff_confirmed": false,
+  "official_full_publication_on": null,
+  "diary_publication_reported_by_later_secondary_act": "2024-05-11",
+  "diary_date_is_not_full_crs_publication_proof": true,
+  "rule": {
+    "clause": "7.6.1",
+    "text": "Todo o conteúdo previsto no programa de matérias, ANEXO “B”, será exigido com as devidas atualizações, ou seja, com todas as alterações que modificaram ou venham a modificar as normas relacionadas, até a data de publicação deste edital, sendo de inteira responsabilidade do candidato acompanhar, para atualização nas fontes de consultas.",
+    "source_url": "https://dhg1h5j42swfq.cloudfront.net/2024/05/09193423/090520241910444160.pdf",
+    "pdf_page": 19,
+    "extract_path": "cfsd-20261123/clause-7-6-1.txt",
+    "extract_sha256": "f269005de5ea36d1c7b7c4b62594ccfe43e0421b421a84443c3466f2ef33dd87",
+    "interpretation": "Refere-se à publicação do edital, não assinatura nem data de retificação. Não foi localizada mudança dessa cláusula nos três atos inspecionados; cadeia não exaustiva."
+  },
+  "retrieved_documents": [
+    {
+      "url": "https://dhg1h5j42swfq.cloudfront.net/2024/05/09193423/090520241910444160.pdf",
+      "retrieved_on": "2026-11-23",
+      "raw_sha256": "7408a2e2a282fd00b58cafdb02f1ff901c4fc2cb2db6b6036c4b435a34797044",
+      "raw_bytes": 1600724,
+      "confidence": "third_party_hosted_document_not_authenticated",
+      "document_on": null,
+      "official_publication_on": null,
+      "pages": 88,
+      "official_pdf_sha256": null
+    },
+    {
+      "url": "https://arquivos.qconcursos.com/regulamento/arquivo/79967/pm_mg_2025_soldado_edital_n_10-edital.pdf",
+      "retrieved_on": "2026-11-23",
+      "raw_sha256": "b29fd944e3113a8be83ff3526157484e609b3eba3d1c0fcc090bce307c10d619",
+      "raw_bytes": 2674728,
+      "confidence": "third_party_hosted_document_not_authenticated",
+      "document_on": null,
+      "official_publication_on": null,
+      "pages": 93,
+      "official_pdf_sha256": null
+    },
+    {
+      "url": "https://folhadesabara.com.br/envios/2024/08/01/fb7f32f6f9bc8ed29658ec45ca111a291a127637.pdf",
+      "retrieved_on": "2026-11-23",
+      "raw_sha256": "64ab3306b6b3a696c479eaca4c899891d1ef2226602e480c6acb1a3e41c1366d",
+      "raw_bytes": 49269,
+      "confidence": "third_party_hosted_document_not_authenticated",
+      "document_on": null,
+      "official_publication_on": null,
+      "pages": 2,
+      "official_pdf_sha256": null
+    },
+    {
+      "url": "https://dhg1h5j42swfq.cloudfront.net/2024/09/02084532/300820241048412380.pdf",
+      "retrieved_on": "2026-11-23",
+      "raw_sha256": "35dcd1427207ad802cdd78e21dae70b0a5a4b1827a41271473d9e3491f78aeb0",
+      "raw_bytes": 241152,
+      "confidence": "third_party_hosted_document_not_authenticated",
+      "document_on": null,
+      "official_publication_on": null,
+      "pages": 2,
+      "official_pdf_sha256": null
+    }
+  ],
+  "acts_inspected": [
+    {
+      "kind": "Errata01",
+      "document_on": "2024-06-19",
+      "publication_on": null,
+      "source_url": "https://arquivos.qconcursos.com/regulamento/arquivo/79967/pm_mg_2025_soldado_edital_n_10-edital.pdf",
+      "pdf_pages": [
+        5
+      ],
+      "affected_items": [
+        "7.34.11.2"
+      ],
+      "changes_7_6_1_or_annexB_in_inspected_text": false,
+      "extract_path": "cfsd-20261123/errata01.txt",
+      "extract_sha256": "42a222594c6fad8730d2547280d96e38b4e019fc82865bea7d8dd033743bbb80",
+      "confidence": "mirror_document_contents_observed_publication_authenticity_unconfirmed",
+      "literal_document_number_variance": "Cabeçalho10/2024; corpo1/2024; ambos referem9maio2024 e CFSd2025. Não corrigido no extrato.",
+      "signature_claim": {
+        "signed_on": "2024-06-19T10:39:59",
+        "verification_url": "https://intranet.policiamilitar.mg.gov.br/lite/assinador/web/validar",
+        "code": "183E40F9A5348",
+        "verified": false,
+        "retrieval_result": "HTTP503"
+      }
+    },
+    {
+      "kind": "Retificacao01",
+      "document_on": "2024-07-31",
+      "publication_on": null,
+      "source_url": "https://arquivos.qconcursos.com/regulamento/arquivo/79967/pm_mg_2025_soldado_edital_n_10-edital.pdf",
+      "pdf_pages": [
+        3,
+        4
+      ],
+      "affected_items": [
+        "5.1",
+        "5.2",
+        "regional_vacancies"
+      ],
+      "changes_7_6_1_or_annexB_in_inspected_text": false,
+      "extract_path": "cfsd-20261123/retificacao01.txt",
+      "extract_sha256": "5cf21d6ff6023e12f77d60729cfbcb333cf5410ace51d089f9f0ef711c4ebc18",
+      "confidence": "mirror_document_contents_observed_publication_authenticity_unconfirmed"
+    },
+    {
+      "kind": "Retificacao02",
+      "document_on": "2024-08-30",
+      "publication_on": null,
+      "source_url": "https://arquivos.qconcursos.com/regulamento/arquivo/79967/pm_mg_2025_soldado_edital_n_10-edital.pdf",
+      "pdf_pages": [
+        1,
+        2
+      ],
+      "affected_items": [
+        "AnexoA_calendar"
+      ],
+      "changes_7_6_1_or_annexB_in_inspected_text": false,
+      "extract_path": "cfsd-20261123/retificacao02.txt",
+      "extract_sha256": "4e0f5c31762d292b67c313d56fc8be60fd6bf0908392afd2166f8da4cebb0b09",
+      "confidence": "mirror_document_contents_observed_publication_authenticity_unconfirmed"
+    }
+  ],
+  "corrections_to_prior_ledger": [
+    {
+      "prior": "p0-official-notice-chain-20261122.json",
+      "correction": "Errata01 p5 pertence ao PDF Qconcursos de93p. O CloudFront de88p não contém essa errata. Retif01 p3-4 eRetif02 p1-2 são posições na compilação, não datas de publicação."
+    }
+  ],
+  "official_attempts": [
+    {
+      "url": "https://intranet.policiamilitar.mg.gov.br/conteudoportal/sites/concurso/090520242041069440.pdf",
+      "result": "HTTP503 Service Unavailable",
+      "on": "2026-11-23"
+    },
+    {
+      "url": "https://inscricaocrs.policiamilitar.mg.gov.br/",
+      "result": "HTTP503 Service Unavailable",
+      "on": "2026-11-23"
+    },
+    {
+      "url": "https://www.jornalminasgerais.mg.gov.br/",
+      "result": "HTTP503 Service Unavailable",
+      "on": "2026-11-23"
+    },
+    {
+      "url": "https://intranet.policiamilitar.mg.gov.br/lite/assinador/web/validar",
+      "result": "HTTP503 Service Unavailable",
+      "on": "2026-11-23"
+    }
+  ],
+  "missing": [
+    {
+      "id": "official_original_publication",
+      "required": "Captura/autenticação oficial do edital e prova da data da publicação integral no CRS."
+    },
+    {
+      "id": "official_retification_chain",
+      "required": "Originais/autenticações dos atos inspecionados e índice oficial completo; buscas não provam inexistência de atos adicionais."
+    }
+  ],
+  "certified_for_notice": false,
+  "base_edital_text_identical_in_both_mirrors": false,
+  "base_comparison_method": "Whitespace-normalized extracted text of88base pages vs pages6-93; not signature verification."
+}
