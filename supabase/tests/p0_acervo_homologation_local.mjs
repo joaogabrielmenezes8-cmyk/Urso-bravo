@@ -5,9 +5,9 @@ const {PGlite}=await import(process.env.PGLITE_MODULE||'@electric-sql/pglite');
 const read=p=>readFileSync(new URL('../'+p,import.meta.url),'utf8');
 const json=p=>JSON.parse(read('evidence/'+p+'.json'));
 const coverage=json('p0-device-coverage-20261123');
-const names=['dudh-artigos-1-30','cadh-artigos-1-82','lindb-artigos-1-19','lindb-2018-artigos-20-30','cf88-original-9-artigos','cf88-emendas-9-artigos','cf88-sem-clausula-2-artigos','cf88-artigo-37-versoes','l9455-artigos-1-4','l13431-artigos-1-29','l13869-artigos-1-45','cf88-organizacao-original-20261123','cf88-legislativo-original-20261123'];
+const names=['dudh-artigos-1-30','cadh-artigos-1-82','lindb-artigos-1-19','lindb-2018-artigos-20-30','cf88-original-9-artigos','cf88-emendas-9-artigos','cf88-sem-clausula-2-artigos','cf88-artigo-37-versoes','l9455-artigos-1-4','l13431-artigos-1-29','l13869-artigos-1-45','cf88-organizacao-original-20261123','cf88-legislativo-original-20261123','l9099-originais-20261123','l9605-originais-20261123'];
 const versions=names.flatMap(n=>json(n).versions),byId=new Map(versions.map(v=>[v.id,v]));
-assert.equal(versions.length,247);assert.equal(byId.size,247);
+assert.equal(versions.length,393);assert.equal(byId.size,393);
 const catalog=read('evidence/p0-cfo-explicit-catalog.tsv').trim().split('\n').slice(1).map(l=>{const [document_code,provision_key,provision_id]=l.split('\t');return{document_code,provision_key,provision_id};});
 assert.equal(catalog.length,2130);assert.equal(new Set(catalog.map(r=>r.provision_id)).size,2130);
 const scopes=coverage.notices.map(n=>{
@@ -52,6 +52,6 @@ try{
  await db.exec("set test.uid='70000000-0000-0000-0000-000000000002';");assert.equal((await db.query('select * from public.student_legal_version_annotations')).rows.length,0);
  await db.exec("set test.premium='no';");assert.notEqual((await question('80000000-0000-0000-0000-000000000001')).status,'available');
  await db.exec('reset role');assert.equal((await db.query('select body from public.student_study_annotations')).rows[0].body,'legacy preserved');
- const counts=(await db.query('select (select count(*) from public.legal_provision_versions)::int v,(select count(*) from public.notice_legal_scope)::int s')).rows[0];assert.deepEqual(counts,{v:247,s:2293});
- console.log('PASS: five migrations twice; 3 SQL regressions; 247 text states; 2293 scope links; idempotence; real art37 reader/question/mock/tutor context; pending CADH31; version notes/RLS/legacy; corrected CFSD scope');
+ const counts=(await db.query('select (select count(*) from public.legal_provision_versions)::int v,(select count(*) from public.notice_legal_scope)::int s')).rows[0];assert.deepEqual(counts,{v:393,s:2293});
+ console.log('PASS: five migrations twice; 3 SQL regressions; 393 text states; 2293 scope links; idempotence; real art37 reader/question/mock/tutor context; pending CADH31; version notes/RLS/legacy; corrected CFSD scope');
 }finally{await db.close();}
